@@ -1,0 +1,2620 @@
+<lootcontainers>
+	<lootplaceholders>
+		<placeholder name="lootForestHelper">
+			<block name="cntTrashPile01" prob="0.1" />
+			<block name="cntTrashPile02" prob="0.1" />
+			<block name="cntTrashPile03" prob="0.1" />
+			<block name="cntTrashPile04" prob="0.1" />
+			<block name="cntTrashPile05" prob="0.1" />
+			<block name="cntTrashPile06" prob="0.1" />
+			<block name="cntTrashPile07" prob="0.1" />
+			<block name="cntTrashPile08" prob="0.1" />
+			<block name="cntTrashPile09" prob="0.1" />
+			<block name="cntTreeStump" prob="0.1" />
+			<block name="cntBackpack01" prob="0.03" />
+			<block name="cntBackpack02" prob="0.03" />
+			<block name="cntBackpack03" prob="0.03" />
+			<block name="cntDuffle01" prob="0.03" />
+			<block name="cntSportsBag01" prob="0.03" />
+			<block name="cntSportsBag02" prob="0.03" />
+			<block name="cntPurse01" prob="0.03" />
+		</placeholder>
+		<placeholder name="lootWastelandHelper">
+			<block name="cntTrashPile01" prob="0.1" />
+			<block name="cntTrashPile02" prob="0.1" />
+			<block name="cntTrashPile03" prob="0.1" />
+			<block name="cntTrashPile04" prob="0.1" />
+			<block name="cntTrashPile05" prob="0.1" />
+			<block name="cntTrashPile06" prob="0.1" />
+			<block name="cntTrashPile07" prob="0.1" />
+			<block name="cntTrashPile08" prob="0.1" />
+			<block name="cntTrashPile09" prob="0.05" />
+			<block name="cntBackpack01" prob="0.03" />
+			<block name="cntBackpack02" prob="0.03" />
+			<block name="cntBackpack03" prob="0.03" />
+			<block name="cntDuffle01" prob="0.03" />
+			<block name="cntSportsBag01" prob="0.03" />
+			<block name="cntSportsBag02" prob="0.03" />
+			<block name="cntPurse01" prob="0.03" />
+			<block name="cntDeskSafe" prob="0.03" />
+		</placeholder>
+		<placeholder name="lootDesertHelper">
+			<block name="cntTrashPile01" prob="0.1" />
+			<block name="cntTrashPile02" prob="0.1" />
+			<block name="cntTrashPile03" prob="0.1" />
+			<block name="cntTrashPile04" prob="0.1" />
+			<block name="cntTrashPile05" prob="0.1" />
+			<block name="cntTrashPile06" prob="0.1" />
+			<block name="cntTrashPile07" prob="0.1" />
+			<block name="cntTrashPile08" prob="0.1" />
+			<block name="cntTrashPile09" prob="0.1" />
+			<block name="cntBackpack01" prob="0.03" />
+			<block name="cntBackpack02" prob="0.03" />
+			<block name="cntBackpack03" prob="0.03" />
+			<block name="cntDuffle01" prob="0.03" />
+			<block name="cntSportsBag01" prob="0.03" />
+			<block name="cntSportsBag02" prob="0.03" />
+			<block name="cntPurse01" prob="0.03" />
+		</placeholder>
+		<placeholder name="lootBurntForestHelper">
+			<block name="cntTrashPile01" prob="0.1" />
+			<block name="cntTrashPile02" prob="0.1" />
+			<block name="cntTrashPile03" prob="0.1" />
+			<block name="cntTrashPile04" prob="0.1" />
+			<block name="cntTrashPile05" prob="0.1" />
+			<block name="cntTrashPile06" prob="0.1" />
+			<block name="cntTrashPile07" prob="0.1" />
+			<block name="cntTrashPile08" prob="0.1" />
+			<block name="cntTrashPile09" prob="0.1" />
+		</placeholder>
+		<placeholder name="lootPlainsHelper">
+			<block name="cntTrashPile01" prob="0.1" />
+			<block name="cntTrashPile02" prob="0.1" />
+			<block name="cntTrashPile03" prob="0.1" />
+			<block name="cntTrashPile04" prob="0.1" />
+			<block name="cntTrashPile05" prob="0.1" />
+			<block name="cntTrashPile06" prob="0.1" />
+			<block name="cntTrashPile07" prob="0.1" />
+			<block name="cntTrashPile08" prob="0.1" />
+			<block name="cntTrashPile09" prob="0.1" />
+			<block name="cntBackpack01" prob="0.03" />
+			<block name="cntBackpack02" prob="0.03" />
+			<block name="cntBackpack03" prob="0.03" />
+			<block name="cntDuffle01" prob="0.03" />
+			<block name="cntSportsBag01" prob="0.03" />
+			<block name="cntSportsBag02" prob="0.03" />
+			<block name="cntPurse01" prob="0.03" />
+		</placeholder>
+		<placeholder name="lootHouseHelper">
+			<block name="cntTrashPile01" />
+			<block name="cntTrashPile02" />
+			<block name="cntTrashPile03" />
+			<block name="cntTrashPile04" />
+			<block name="cntTrashPile05" />
+			<block name="cntTrashPile06" />
+			<block name="cntTrashPile07" />
+			<block name="cntTrashPile08" />
+			<block name="cntTrashPile09" />
+			<block name="cntChest01" />
+			<block name="cntCardboardBox" />
+			<block name="cntBin" />
+			<block name="cntSuitcase" />
+			<block name="cntBackpack01" />
+			<block name="cntBackpack02" />
+			<block name="cntBackpack03" />
+			<block name="cntDuffle01" />
+			<block name="cntSportsBag01" />
+			<block name="cntSportsBag02" />
+			<block name="cntPurse01" />
+		</placeholder>
+		<placeholder name="lootStreetHelper">
+			<block name="cntTrashPile01" />
+			<block name="cntTrashPile02" />
+			<block name="cntTrashPile03" />
+			<block name="cntTrashPile04" />
+			<block name="cntTrashPile05" />
+			<block name="cntTrashPile06" />
+			<block name="cntTrashPile07" />
+			<block name="cntTrashPile08" />
+			<block name="cntTrashPile09" />
+			<block name="cntShoppingCart" prob="0.05" />
+			<block name="shoppingCartEmpty" prob="0.05" />
+			<block name="cntBackpack01" prob="0.05" />
+			<block name="cntBackpack02" prob="0.05" />
+			<block name="cntBackpack03" prob="0.05" />
+			<block name="cntDuffle01" prob="0.05" />
+			<block name="cntSportsBag01" prob="0.05" />
+			<block name="cntSportsBag02" prob="0.05" />
+			<block name="cntPurse01" prob="0.05" />
+			<block name="truckMilitary" prob="0.009" />
+			<block name="truckMedic" prob="0.009" />
+			<block name="M1A1" prob="0.02" />
+			<block name="TanksM" prob="0.02" />
+			<block name="T-90" prob="0.02" />
+			<block name="MotorbikeDown" prob="0.02" />
+			<block name="MotorbikeUpStandUp" prob="0.02" />
+			<block name="MotorbikeUpStandDown" prob="0.02" />
+			<block name="HarleyDown" prob="0.02" />
+			<block name="HarleyUp" prob="0.02" />
+			<block name="oldSedan" prob="0.02" />
+			<block name="oldPickup" prob="0.02" />
+			<block name="oldStationWagon" prob="0.02" />
+			<block name="oldPoliceCar" prob="0.02" />
+			<block name="oldGazZ52" prob="0.02" />
+		</placeholder>
+		<placeholder name="lootYardHelper">
+			<block name="cntTrashPile07" prob="0.5" />
+			<block name="cntCardboardBox" prob="0.2" />
+			<block name="cntBackpack01" prob="0.03" />
+			<block name="cntBackpack02" prob="0.03" />
+			<block name="cntBackpack03" prob="0.03" />
+			<block name="cntDuffle01" prob="0.03" />
+			<block name="cntSportsBag01" prob="0.03" />
+			<block name="cntSportsBag02" prob="0.03" />
+			<block name="cntPurse01" prob="0.03" />
+			<block name="lemonTree" prob="0.05" />
+			<block name="orangeTree" prob="0.05" />
+			<block name="pearTree" prob="0.05" />
+			<block name="cherryTree" prob="0.05" />
+			<block name="appleTree" prob="0.05" />
+			<block name="bananaPalm" prob="0.05" />
+			<block name="tomatoPlant" prob="0.02" />
+			<block name="strawberryPlant" prob="0.02" />
+			<block name="garlicPlant" prob="0.02" />
+			<block name="onionPlant" prob="0.02" />
+			<block name="paprikaPlant" prob="0.02" />
+			<block name="eggPlant" prob="0.02" />
+			<block name="gasTankEmpty" prob="0.02" />
+		</placeholder>
+		<placeholder name="randomCarsHelper">
+			<block name="cntCar03SedanDamage2" prob="0.5" />
+			<block name="cntCar03SedanDamage1" prob="0.1" />
+			<block name="cntCar03SedanDamage0" prob="0.05" />
+		</placeholder>
+		<placeholder name="lootGarageHelper">
+			<block name="cntGarageStorage" prob="0.2" />
+			<block name="cntTrashPile02" prob="0.5" />
+			<block name="cntCardboardBox" prob="0.2" />
+			<block name="cntBackpack01" prob="0.03" />
+			<block name="cntBackpack02" prob="0.03" />
+			<block name="cntBackpack03" prob="0.03" />
+			<block name="cntDuffle01" prob="0.03" />
+			<block name="cntSportsBag01" prob="0.03" />
+			<block name="cntSportsBag02" prob="0.03" />
+			<block name="cntPurse01" prob="0.03" />
+			<block name="smallGenerator" prob="0.04" />
+			<block name="gasTank" prob="0.05" />
+		</placeholder>
+		<placeholder name="lootRad">
+			<block name="ammobag" prob="0.07" />
+			<block name="ammobag1" prob="0.06" />
+			<block name="nuke" prob="0.05" />
+			<block name="exoBag" prob="0.05" />
+			<block name="spiderNest" prob="0.01" />
+		</placeholder>
+		<placeholder name="lootMPHelper"></placeholder>
+		<placeholder name="lootStoneHelper">
+			<block name="stone" prob="80" />
+			<block name="ironOre" prob="12" />
+			<block name="coalOre" prob="2.5" />
+			<block name="potassiumNitrate" prob="2.5" />
+			<block name="leadOre" prob="2.5" />
+			<block name="silverOre" prob="0.5" />
+		</placeholder>
+		<placeholder name="lootToolsAndForgeHelper">
+			<block name="cntShippingCrateWorkingStiffs" prob="30" />
+			<block name="cntGarageStorage" prob="30" />
+			<block name="cntCollapsedGeneratorbank" prob="20" />
+			<block name="forge" prob="30" />
+			<block name="cntCollapsedForge" prob="30" />
+		</placeholder>
+		<placeholder name="lootStoreCratesHelper">
+			<block name="cntShippingCrateShamway" prob="30" />
+			<block name="cntShippingCrateShotgunMessiah" prob="30" />
+			<block name="cntShippingCrateWorkingStiffs" prob="30" />
+		</placeholder>
+		<placeholder name="lootWorkstationsHelper">
+			<block name="forge" prob="30" />
+			<block name="workbench" prob="30" />
+			<block name="chemistryStation" prob="20" />
+			<block name="cementMixer" prob="20" />
+		</placeholder>
+		<placeholder name="lootWorkstationsBustedHelper">
+			<block name="forge" prob="1" />
+			<block name="cntCollapsedForge" prob="10" />
+			<block name="workbench" prob="1" />
+			<block name="cntCollapsedWorkbench" prob="10" />
+			<block name="cementMixer" prob="0.6" />
+			<block name="cntCollapsedCementMixer" prob="6" />
+			<block name="chemistryStation" prob="0.6" />
+			<block name="cntCollapsedChemistryStation" prob="6" />
+		</placeholder>
+		<placeholder name="lootForgeBustedHelper">
+			<block name="forge" prob="1" />
+			<block name="cntCollapsedForge" prob="10" />
+		</placeholder>
+		<placeholder name="lootWorkbenchBustedHelper">
+			<block name="workbench" prob="1" />
+			<block name="cntCollapsedWorkbench" prob="10" />
+		</placeholder>
+		<placeholder name="lootCementMixerBustedHelper">
+			<block name="cementMixer" prob="0.6" />
+			<block name="cntCollapsedCementMixer" prob="6" />
+		</placeholder>
+		<placeholder name="lootChemistryStationBustedHelper">
+			<block name="chemistryStation" prob="0.6" />
+			<block name="cntCollapsedChemistryStation" prob="6" />
+		</placeholder>
+		<placeholder name="lootConstructionSuppliesHelper">
+			<block name="cntLootCrateConstructionSupplies" prob="16" />
+			<block name="cementMixer" prob="0.2" />
+			<block name="cntCollapsedGeneratorbank" prob="0.25" />
+			<block name="cntCollapsedBatterybank" prob="0.1" />
+			<block name="cntLootCrateWorkingStiffs" />
+			<block name="airConditioner" />
+			<block name="cntOven" />
+			<block name="oilBarrel" />
+			<block name="cntToilet01" />
+			<block name="cntToilet02" />
+			<block name="cntToilet03" />
+			<block name="sectionalLeatherCouchSofaCorner" />
+			<block name="sectionalLeatherCouchSofaMiddle" />
+			<block name="cntGraniteSink" />
+			<block name="cntCabinet" />
+			<block name="cntCabinetTop" />
+			<block name="cntWallOven" />
+			<block name="cntFridgeTop" />
+			<block name="cntFridgeBottom" />
+			<block name="cntWashingMachine" prob="0.5" />
+			<block name="cntTrashCompactor" />
+		</placeholder>
+	</lootplaceholders>
+	<lootprobtemplates>
+		<lootprobtemplate name="baseProbTemplate">
+			<loot level="0,0.25" prob="0.25" />
+			<loot level="0.25,0.50" prob="0.5" />
+			<loot level="0.50,0.75" prob="0.75" />
+			<loot level="0.75,1" prob="1" />
+		</lootprobtemplate>
+		<lootprobtemplate name="rareBookTemplate">
+			<loot level="0.0,0.2" prob="0.2" />
+			<loot level="0.2,0.3" prob="0.3" />
+			<loot level="0.3,0.4" prob="0.4" />
+			<loot level="0.4,0.5" prob="0.5" />
+			<loot level="0.5,0.6" prob="0.6" />
+			<loot level="0.6,0.7" prob="0.7" />
+			<loot level="0.7,0.8" prob="0.8" />
+			<loot level="0.8,0.9" prob="0.9" />
+			<loot level="0.9,1.0" prob="1.0" />
+		</lootprobtemplate>
+	</lootprobtemplates>
+	<lootqualitytemplates>
+		<lootqualitytemplate name="baseTemplate">
+			<!-- REPLACE THE ENTIRE TEMPLATE -->
+			<qualitytemplate level="0,0.16" default_quality="1,100">
+				<loot quality="301,350" prob="0.01" />
+				<!-- REDUCED MAX -->
+				<loot quality="201,300" prob="0.05" />
+				<loot quality="101,200" prob="0.15" />
+				<loot quality="1,100" prob="1" />
+			</qualitytemplate>
+			<qualitytemplate level="0.16,0.32" default_quality="101,200">
+				<loot quality="301,375" prob="0.01" />
+				<!-- REDUCED MAX -->
+				<loot quality="201,300" prob="0.05" />
+				<loot quality="101,200" prob="0.15" />
+				<loot quality="1,200" prob="1" />
+			</qualitytemplate>
+			<qualitytemplate level="0.32,0.48" default_quality="101,250">
+				<loot quality="301,400" prob="0.01" />
+				<!-- REDUCED MAX -->
+				<loot quality="201,300" prob="0.05" />
+				<loot quality="101,200" prob="0.15" />
+				<loot quality="1,300" prob="1" />
+			</qualitytemplate>
+			<qualitytemplate level="0.48,0.64" default_quality="251,350">
+				<loot quality="426,475" prob="0.03" />
+				<!-- REDUCED MAX -->
+				<loot quality="351,425" prob=".10" />
+				<loot quality="301,350" prob="0.25" />
+				<loot quality="1,300" prob="0.75" />
+			</qualitytemplate>
+			<qualitytemplate level="0.64,0.80" default_quality="350,450">
+				<loot quality="501,500" prob="0.05" />
+				<!-- REDUCED MAX -->
+				<loot quality="401,500" prob="0.25" />
+				<loot quality="301,350" prob="0.25" />
+				<loot quality="1,300" prob="0.5" />
+			</qualitytemplate>
+			<qualitytemplate level="0.80,1" default_quality="450,550">
+				<loot quality="501,550" prob="0.10" />
+				<!-- REDUCED MAX -->
+				<loot quality="401,500" prob=".25" />
+				<loot quality="301,400" prob="0.25" />
+				<loot quality="1,300" prob="0.4" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+		<lootqualitytemplate name="radLootTemplate">
+			<qualitytemplate level="0,1" default_quality="400,560">
+				<loot quality="450,560" prob="0.10" />
+				<loot quality="400,449" prob=".25" />
+				<loot quality="350,399" prob="0.25" />
+				<loot quality="300,349" prob="0.4" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+	</lootqualitytemplates>
+	<lootqualitytemplates>
+		<lootqualitytemplate name="treasureTemplate">
+			<qualitytemplate level="0,0.16" default_quality="1,100">
+				<loot quality="301,600" prob="0.015" />
+				<loot quality="201,300" prob="0.075" />
+				<loot quality="101,200" prob="0.22" />
+				<loot quality="1,100" prob="1" />
+			</qualitytemplate>
+			<qualitytemplate level="0.16,0.32" default_quality="101,200">
+				<loot quality="301,600" prob="0.021" />
+				<loot quality="201,300" prob="0.09" />
+				<loot quality="101,200" prob="0.25" />
+				<loot quality="1,200" prob="1" />
+			</qualitytemplate>
+			<qualitytemplate level="0.32,0.48" default_quality="201,300">
+				<loot quality="301,600" prob="0.03" />
+				<loot quality="201,300" prob="0.12" />
+				<loot quality="101,200" prob="0.30" />
+				<loot quality="1,300" prob="1" />
+			</qualitytemplate>
+			<qualitytemplate level="0.48,0.64" default_quality="301,400">
+				<loot quality="501,600" prob="0.045" />
+				<loot quality="401,500" prob="0.15" />
+				<loot quality="301,400" prob="0.37" />
+				<loot quality="1,300" prob="0.75" />
+			</qualitytemplate>
+			<qualitytemplate level="0.64,0.80" default_quality="401,500">
+				<loot quality="501,600" prob="0.075" />
+				<loot quality="401,500" prob="0.25" />
+				<loot quality="301,400" prob="0.37" />
+				<loot quality="1,300" prob="0.5" />
+			</qualitytemplate>
+			<qualitytemplate level="0.80,1" default_quality="501,600">
+				<loot quality="501,600" prob="0.15" />
+				<loot quality="401,500" prob="0.37" />
+				<loot quality="301,400" prob="0.37" />
+				<loot quality="1,300" prob="0.4" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+	</lootqualitytemplates>
+	<lootqualitytemplates>
+		<lootqualitytemplate name="weaponPartsTemplate">
+			<qualitytemplate level="0,1" default_quality="498,499">
+				<loot quality="580,590" prob="1" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+	</lootqualitytemplates>
+	<lootgroup name="empty" />
+	<lootgroup name="exoAmmo">
+		<item name="mrlRocket" count="1,10" />
+		<item name="556mmBullet" count="20,150" />
+		<item name="compressedFuel" count="5,20" />
+		<item name="powerCore" count="1" prob="0.1" />
+	</lootgroup>
+	<lootgroup name="exoGuns">
+		<item name="flameThrower" />
+		<item name="minigun" />
+		<item name="multiRocketLauncher" />
+	</lootgroup>
+	<lootgroup name="exoGunParts">
+		<item name="flameThrower_receiver" />
+		<item name="flameThrower_barrel" />
+		<item name="flameThrower_parts" />
+		<item name="flameThrower_stock" />
+		<item name="minigun_barrel" />
+		<item name="minigun_receiver" />
+		<item name="minigun_parts" />
+		<item name="minigun_stock" />
+		<item name="multiRocketLauncherReceiver" />
+	</lootgroup>
+	<lootgroup name="exoArmor">
+		<item name="exoGloves" prob="0.08" />
+		<item name="exoHelmet" prob="0.08" />
+		<item name="exoBoots" prob="0.08" />
+		<item name="exoLegArmor" prob="0.08" />
+		<item name="exoChestArmor" prob="0.08" />
+	</lootgroup>
+	<lootgroup name="specialGuns">
+		<item name="gunAK47" prob="0.09" />
+		<item name="ACW" prob="0.08" />
+		<item name="HK416" prob="0.07" />
+		<item name="Ump" prob="0.06" />
+		<item name="MTAR" prob="0.05" />
+		<item name="mg4" prob="0.04" />
+		<item name="desertEagle" prob="0.04" />
+	</lootgroup>
+	<lootgroup name="magnum+ammo" count="all">
+		<item name="44MagBullet" count="1,6" />
+		<item name="gun44Magnum" count="1" />
+	</lootgroup>
+	<lootgroup name="desertEagle+ammo" count="all">
+		<item name="44MagBullet" count="1,20" />
+		<item name="desertEagle" count="1" />
+	</lootgroup>
+	<lootgroup name="mp7kit" count="all">
+		<item name="44MagBullet" count="1,6" />
+		<item name="MP7" count="1" />
+		<item name="SilencerMP7" count="1" />
+	</lootgroup>
+	<lootgroup name="mauser+ammo" count="all">
+		<item name="762mmBullet" count="1,6" />
+		<item name="MauserK98" count="1" />
+	</lootgroup>
+	<lootgroup name="revolver+ammo" count="all">
+		<item name="9mmBullet" count="1,6" />
+		<item name="gunRevolver" count="1" prob="0.2" />
+	</lootgroup>
+	<lootgroup name="AmmoBoxes">
+		<item name="762mmBullet" count="30,60" prob="0.09" />
+		<item name="762mmBulletPL" count="1,30" prob="0.04" />
+		<item name="44MagBullet" count="10,25" prob="0.07" />
+		<item name="9mmBullet" count="15,40" prob="0.09" />
+		<item name="blunderbussAmmo" count="15,40" prob="0.09" />
+		<item name="50cal" count="10,20" prob="0.05" />
+		<item name="shotgunShell" count="10,20" prob="0.05" />
+		<item name="shotgunSlug" count="10,20" prob="0.05" />
+		<item name="10mmBullet" count="15,40" prob="0.1" />
+	</lootgroup>
+	<lootgroup name="steelJunk">
+		<item name="steelHinge" />
+		<item name="steelSpoon" />
+		<item name="steelBracelet" />
+		<item name="steelDogBowl" />
+		<item name="steelButterKnife" />
+		<item name="steelSpoon" />
+		<item name="steelFork" />
+	</lootgroup>
+	<lootgroup name="rubberJunk">
+		<item name="rubberDoll" />
+		<item name="rubberDuck" />
+		<item name="rubberChicken" />
+		<item name="rubberBands" />
+		<item name="rubberOldRainBoot" />
+	</lootgroup>
+	<lootgroup name="mechanicalJunk">
+		<item name="mechanicalKeyPad" />
+		<item name="mechanicalOldWatch" />
+		<item name="mechanicalTypeWriter" />
+	</lootgroup>
+	<lootgroup name="electricJunk">
+		<item name="electricShaver" />
+		<item name="electricToyMotor" />
+		<item name="electricToaster" />
+		<item name="electricVibrator" />
+		<item name="electricBlender" />
+	</lootgroup>
+	<lootgroup name="plasticJunk">
+		<item name="plasticCds" />
+		<item name="plasticSoldier" />
+		<item name="plasticLegos" />
+		<item name="plasticKite" />
+		<item name="plasticFrisbee" />
+		<item name="plasticHairBrush" />
+		<item name="plasticCondom" />
+		<item name="plasticToothBrush" />
+		<item name="plasticLighter" />
+		<item name="plasticShoppingBag" />
+	</lootgroup>
+	<lootgroup name="clothJunk">
+		<item name="clothTeddyBear" />
+		<item name="clothRags" count="1,3" />
+		<item name="clothRug" />
+		<item name="clothOldBlanket" />
+		<item name="clothOldShoe" />
+		<item name="clothChewedDogCollar" />
+	</lootgroup>
+	<lootgroup name="woodJunk">
+		<item name="woodSoldier" />
+		<item name="woodWhistle" />
+		<item name="woodSpoon" />
+		<item name="woodYoyo" />
+	</lootgroup>
+	<lootgroup name="stoneJunk">
+		<item name="stonePlate" />
+		<item name="stonePaperWeight" />
+		<item name="stoneStatue" />
+		<item name="stoneCrackedAshTray" />
+		<item name="stonePissPot" />
+	</lootgroup>
+	<lootgroup name="brassJunk">
+		<item name="brassHinge" />
+		<item name="brassMonkey" />
+		<item name="brassCowBell" />
+		<item name="trophy" />
+		<item name="candleStick" />
+		<item name="doorKnob" />
+	</lootgroup>
+	<lootgroup name="ironJunk">
+		<item name="ironSoldier" />
+		<item name="ironPaperClips" count="1,6" />
+		<item name="ironWeight" />
+		<item name="ironHinge" />
+		<item name="trophy3" />
+		<item name="ironHairSpray" />
+		<item name="ironScissors" />
+		<item name="padlock" />
+		<item name="facialPiercings" />
+		<item name="canEmpty" />
+		<item name="hubcap" />
+		<item name="candyTin" />
+	</lootgroup>
+	<lootgroup name="electronicJunk">
+		<item name="electronic3ds" />
+		<item name="electronicCellPhone" />
+		<item name="electronicClockRadio" />
+		<item name="electronicBrokenIPad" />
+		<item name="electronicBrokenIPod" />
+		<item name="electronicBrokenLapTop" />
+	</lootgroup>
+	<lootgroup name="glassJunk">
+		<item name="glassPerfume" />
+		<item name="glassCompact" />
+		<item name="glassFrame" />
+		<item name="glassEye" />
+		<item name="glassBong" />
+	</lootgroup>
+	<lootgroup name="leadJunk">
+		<item name="leadSoldier" />
+		<item name="leadMusketBalls" count="1,6" />
+		<item name="leadSolder" />
+		<item name="trophy2" />
+		<item name="fishingWeight" />
+	</lootgroup>
+	<lootgroup name="paperJunk">
+		<item name="paperPlayingCards" />
+		<item name="paperNews" />
+		<item name="paperToilet" />
+		<item name="paperGoggles" />
+		<item name="paperMatches" />
+		<item name="oldCash" />
+	</lootgroup>
+	<lootgroup name="itemJunk">
+		<item group="paperJunk" />
+		<item group="steelJunk" />
+		<item group="rubberJunk" />
+		<item group="mechanicalJunk" />
+		<item group="electricJunk" />
+		<item group="clothJunk" />
+		<item group="plasticJunk" />
+		<item group="woodJunk" />
+		<item group="stoneJunk" />
+		<item group="brassJunk" />
+		<item group="ironJunk" />
+		<item group="electronicJunk" />
+		<item group="glassJunk" />
+		<item group="leadJunk" />
+	</lootgroup>
+	<lootgroup name="junkPersonal">
+		<!-- This is good for zombie loot groups to limit items to those that reasonably might be carried.   -->
+		<item group="paperJunk" />
+		<item name="glassPerfume" />
+		<item name="glassCompact" />
+		<item name="glassEye" />
+		<item name="glassBong" />
+		<item name="electronic3ds" />
+		<item name="electronicCellPhone" />
+		<item name="electronicBrokenIPod" />
+		<item name="ironSoldier" />
+		<item name="ironPaperClips" count="1,6" />
+		<item name="ironScissors" />
+		<item name="woodSoldier" />
+		<item name="woodWhistle" />
+		<item name="woodYoyo" />
+		<item name="clothTeddyBear" />
+		<item name="clothRags" />
+		<item name="clothOldShoe" />
+		<item name="plasticSoldier" />
+		<item name="plasticLegos" />
+		<item name="plasticHairBrush" />
+		<item name="plasticCondom" />
+		<item name="plasticToothBrush" />
+		<item name="plasticLighter" />
+		<item name="plasticShoppingBag" />
+		<item name="electricVibrator" />
+		<item name="mechanicalOldWatch" />
+		<item name="rubberDoll" />
+		<item name="rubberDuck" />
+		<item name="rubberChicken" />
+		<item name="rubberBands" />
+		<item name="steelSpoon" />
+		<item name="steelBracelet" />
+		<item name="steelButterKnife" />
+		<item name="steelSpoon" />
+		<item name="steelFork" />
+	</lootgroup>
+	<lootgroup name="questChallenge" count="1">
+		<item name="qc_silenceofthelambs" count="1" />
+		<item name="qc_drunkanddisorderly" count="1" />
+		<item name="qc_nurseyoubacktohealth" count="1" />
+		<item name="qc_copanattitude" count="1" />
+		<item name="qc_dogdaysareover" count="1" />
+		<item name="qc_itsbitsyspider" count="1" />
+		<item name="qc_ladykiller" count="1" />
+		<item name="qc_maneater" count="1" />
+		<item name="qc_imalumberjackandimokay" count="1" />
+		<item name="qc_yournothingspecial" count="1" />
+		<item name="qc_killthewabbit" count="1" />
+		<item name="qc_nailsomechicks" count="1" />
+		<item name="qc_thatlldopig" count="1" />
+		<item name="qc_stagparty" count="1" />
+		<item name="qc_dontfeedthebears" count="1" />
+		<item name="qc_buythefarm" count="1" />
+		<item name="qc_junkHunt" />
+	</lootgroup>
+	<lootgroup name="treasureMaps" count="1">
+		<item name="qt_taylor" count="1" />
+		<item name="qt_nickole" count="1" />
+		<item name="qt_stephan" count="1" />
+		<item name="qt_jennifer" count="1" />
+		<item name="qt_claude" count="1" />
+		<item name="qt_sarah" count="1" />
+		<item name="qt_raphael" count="1" />
+	</lootgroup>
+	<lootgroup name="ammo" count="1,3">
+		<item name="shotgunShell" count="1,10" />
+		<item name="9mmBullet" count="1,20" prob="1.5" />
+		<item name="762mmBullet" count="1,20" />
+		<item name="44MagBullet" count="1,12" prob="0.1" />
+		<item name="steelArrow" count="5,16" />
+		<item name="10mmBullet" count="1,20" prob="1.10" />
+	</lootgroup>
+	<lootgroup name="tshirtAll">
+		<item name="tshirtBlack" />
+		<item name="tshirtBlue" />
+		<item name="tshirtBrown" />
+		<item name="tshirtGreen" />
+		<item name="tshirtRed" />
+		<item name="tshirtWhite" />
+	</lootgroup>
+	<lootgroup name="bandanaAll">
+		<item name="bandana" />
+		<item name="bandanaBlack" />
+		<item name="bandanaBlue" />
+		<item name="bandanaBrown" />
+		<item name="bandanaGreen" />
+		<item name="bandanaRed" />
+	</lootgroup>
+	<lootgroup name="suitAll">
+		<item name="suitPantsBlack" />
+		<item name="suitJacketBlack" />
+		<item name="dressShoesBlack" />
+	</lootgroup>
+	<lootgroup name="pantsAll">
+		<item name="denimPants" />
+		<item name="blackDenimPants" />
+		<item name="brownDenimPants" />
+		<item name="redDenimPants" />
+		<item name="armyPants" />
+	</lootgroup>
+	<lootgroup name="skirtsAll">
+		<item name="skirt" />
+		<item name="skirtRed" />
+		<item name="skirtBrown" />
+		<item name="skirtGreen" />
+		<item name="skirtBlue" />
+		<item name="skirtBlack" />
+	</lootgroup>
+	<lootgroup name="denimShortsPantsAll">
+		<item name="denimShortsPants" />
+		<item name="denimShortsPantsRed" />
+		<item name="denimShortsPantsBrown" />
+		<item name="denimShortsPantsGreen" />
+		<item name="denimShortsPantsBlue" />
+		<item name="denimShortsPantsBlack" />
+	</lootgroup>
+	<lootgroup name="pufferCoatAll">
+		<item name="pufferCoat" />
+		<item name="pufferCoatBlack" />
+		<item name="pufferCoatBrown" />
+		<item name="pufferCoatGreen" />
+		<item name="pufferCoatRed" />
+	</lootgroup>
+	<lootgroup name="shirtLongAll">
+		<item name="shirt" />
+		<item name="shirtBlack" />
+		<item name="shirtBlue" />
+		<item name="shirtBrown" />
+		<item name="shirtGreen" />
+		<item name="shirtRed" />
+		<item name="armyShirt" />
+	</lootgroup>
+	<lootgroup name="skullCapAll">
+		<item name="skullCap" />
+		<item name="skullCapBlack" />
+		<item name="skullCapBlue" />
+		<item name="skullCapBrown" />
+		<item name="skullCapGreen" />
+		<item name="skullCapRed" />
+	</lootgroup>
+	<lootgroup name="ballCapAll">
+		<item name="ballCap" />
+		<item name="ballCapBlack" />
+		<item name="ballCapBlue" />
+		<item name="ballCapBrown" />
+		<item name="ballCapGreen" />
+		<item name="ballCapRed" />
+	</lootgroup>
+	<lootgroup name="pressboyCapAll">
+		<item name="pressboyCapBlack" />
+		<item name="pressboyCapBlue" />
+		<item name="pressboyCapBrown" />
+		<item name="pressboyCapGreen" />
+		<item name="pressboyCapRed" />
+		<item name="pressboyCapWhite" />
+	</lootgroup>
+	<lootgroup name="sweatshirtAll">
+		<item name="sweatshirt" />
+		<item name="sweatshirtBlack" />
+		<item name="sweatshirtBlue" />
+		<item name="sweatshirtBrown" />
+		<item name="sweatshirtGreen" />
+		<item name="sweatshirtRed" />
+	</lootgroup>
+	<lootgroup name="hoodedSweatshirtAll">
+		<item name="hoodedSweatshirtBlack" />
+		<item name="hoodedSweatshirtBlue" />
+		<item name="hoodedSweatshirtBrown" />
+		<item name="hoodedSweatshirtGreen" />
+		<item name="hoodedSweatshirtRed" />
+		<item name="hoodedSweatshirtWhite" />
+	</lootgroup>
+	<lootgroup name="tankTopAll">
+		<item name="tankTopBlue" />
+		<item name="tankTopGreen" />
+		<item name="tankTopPurple" />
+		<item name="tankTopRed" />
+		<item name="tankTopWhite" />
+	</lootgroup>
+	<lootgroup name="flannelShirtAll">
+		<item name="flannelShirtBlack" />
+		<item name="flannelShirtBlue" />
+		<item name="flannelShirtBrown" />
+		<item name="flannelShirtGreen" />
+		<item name="flannelShirtRed" />
+		<item name="flannelShirtWhite" />
+	</lootgroup>
+	<lootgroup name="cowboyHatAll">
+		<item name="cowboyHat" />
+		<item name="blackCowboyHat" />
+	</lootgroup>
+	<lootgroup name="overallsAll">
+		<item name="overalls" />
+	</lootgroup>
+	<lootgroup name="hazmatGear">
+		<item name="hazmatBoots" />
+		<item name="hazmatPants" />
+		<item name="hazmatShirt" />
+		<item name="hazmatGloves" />
+		<item name="hazmatMask" />
+		<item name="militaryFiber" count="1,5" prob="2" />
+	</lootgroup>
+	<lootgroup name="banditArmor">
+		<item name="heavyBanditGloves" />
+		<item name="heavyBanditGasmask" />
+		<item name="heavyBanditBoots" />
+		<item name="heavyBanditLegArmor" />
+		<item name="heavyBanditChestArmor" />
+	</lootgroup>
+	<lootgroup name="rottenFood">
+		<item name="rottingFlesh" />
+		<item name="shamSandwich" />
+		<item name="moldyBread" />
+	</lootgroup>
+	<lootgroup name="weaponsPistol+ammo" count="all">
+		<item name="9mmBullet" count="1,10" />
+		<item name="gunPistol" count="1" />
+	</lootgroup>
+	<lootgroup name="toiletLoot" count="1">
+		<item name="bottledRiverWater" count="1,2" prob="0.55" />
+		<item name="turd" count="1,2" prob="0.3" />
+		<item group="revolver+ammo" count="1" prob="0.02" />
+	</lootgroup>
+	<lootgroup name="weaponsAnyShotguns">
+		<item name="gunSawedOffPumpShotgun" />
+		<item name="gunPumpShotgun" prob="0.25" />
+	</lootgroup>
+	<lootgroup name="weaponsAnyShotguns+ammo" count="all">
+		<item group="weaponsAnyShotguns" />
+		<item name="shotgunShell" count="1,6" />
+	</lootgroup>
+	<lootgroup name="weaponsLongShotgun+ammo" count="all">
+		<item name="gunPumpShotgun" />
+		<item name="shotgunShell" count="1,6" />
+	</lootgroup>
+	<lootgroup name="weaponsMP5+ammo" count="all">
+		<item name="gunMP5" />
+		<item name="10mmBullet" count="1,20" />
+	</lootgroup>
+	<lootgroup name="weaponsAK47+ammo" count="all">
+		<item name="gunAK47" />
+		<item name="762mmBullet" count="1,20" />
+	</lootgroup>
+	<lootgroup name="weaponsHuntingRifle+ammo" count="all">
+		<item name="gunHuntingRifle" />
+		<item name="762mmBullet" count="1,10" />
+	</lootgroup>
+	<lootgroup name="trophyGroup" count="1">
+		<item name="trophy" />
+		<item name="trophy2" />
+	</lootgroup>
+	<lootgroup name="weaponsSniperRifle+ammo" count="all">
+		<item name="gunSniperRifle" />
+		<item name="762mmBullet" count="1,10" />
+	</lootgroup>
+	<lootgroup name="browningStuff" count="1">
+		<item name="partsBrowning_stock" />
+		<item name="partsBrowning_barrel" />
+		<item name="partsBrowning_receiver" />
+		<item name="partsBrowning_parts" />
+	</lootgroup>
+	<lootgroup name="safeArmor" count="0,1">
+		<item name="gasMask" />
+	</lootgroup>
+	<lootgroup name="specialParts" count="1,2">
+		<item name="assaultRifleTriggerHousing" />
+		<item name="assaultRifleStock" />
+		<item name="assaultRifleBarrel" />
+		<item name="acw-r_parts" />
+		<item name="mtar_parts" />
+		<item name="UMP_Stock" />
+		<item name="UMP_UpperReceiver" />
+		<item name="UMP_LowerReceiver" />
+		<item name="UMP_Barrel" />
+		<item name="MG4_Stock" />
+		<item name="MG4_UpperReceiver" />
+		<item name="MG4_Barrel" />
+		<item name="MG4_LowerReceiver" />
+		<item name="HK416_Stock" />
+		<item name="HK416_UpperReceiver" />
+		<item name="HK416_LowerReceiver" />
+		<item name="HK416_Barrel" />
+		<item name="CrossbowStock" />
+		<item name="CrossbowHousing" />
+		<item name="CrossbowProjectileHolder" />
+		<item name="CrossbowParts" />
+		<item name="partsDeagle_grip" />
+		<item name="partsDeagle_receiver" />
+		<item name="partsDeagle_parts" />
+		<item name="partsDeagle_barrel" />
+	</lootgroup>
+	<lootgroup name="nuclearWasteBad" count="0,2">
+		<item name="depletedUranium" count="1,3" />
+		<item name="uranium" count="1,2" prob="0.02" />
+		<item name="ammoWorkbench" prob="0.01" />
+		<item name="nukeFlyer" />
+	</lootgroup>
+	<lootgroup name="nuclearWasteGood" count="1,3">
+		<item name="depletedUranium" count="2,4" />
+		<item name="uranium" count="2,6" prob="0.05" />
+		<item name="ammoWorkbench" prob="0.04" />
+		<item name="powerCore" prob="0.03" />
+		<item name="enrichedUranium" count="1,3" prob="0.01" />
+	</lootgroup>
+	<lootgroup name="nuclearLoot" count="all">
+		<item name="enrichedUranium" count="4,10" />
+		<item name="gasCentrifuge" />
+		<item name="nukeFlyer" />
+	</lootgroup>
+	<lootgroup name="attachments">
+		<item name="Silencer" />
+		<item name="Mag_Extended" />
+		<item name="Sight_Advanced" />
+		<item name="LaserAttachment" />
+		<item name="Sight_ACOG" />
+		<item name="Barrel_Advanced" />
+		<item name="Sight_AimPoint" />
+		<item name="Grip" />
+		<item name="Mag_ExtendedPSG" />
+		<item name="Sight_AdvancedPSG" />
+		<item name="LaserAttachmentPSG" />
+		<item name="BipodPSG" />
+		<item name="ScopePSG" />
+		<item name="Ejector_AdvancedPSG" />
+		<item name="SilencerMG" />
+		<item name="BipodMg" />
+		<item name="Sight_AdvancedMG" />
+		<item name="Sight_MagnifierMG" />
+		<item name="Barrel_AdvancedMG" />
+		<item name="PistolSilencer" />
+		<item name="AdvMagPistol" />
+	</lootgroup>
+	<lootgroup name="military">
+		<item name="smallCrossbow" prob="0.06" />
+		<item group="weaponsMP5+ammo" prob="0.05" />
+		<item group="weaponsAK47+ammo" prob="0.02" />
+		<item group="weaponsSniperRifle+ammo" prob="0.01" />
+		<item group="desertEagle+ammo" prob="0.01" />
+		<item name="50cal" count="10,20" prob="0.01" />
+	</lootgroup>
+	<lootgroup name="weaponsCompoundBowParts" loot_quality_template="treasureTemplate">
+		<item name="partsCompoundBow_body" />
+		<item name="partsCompoundBow_grip" />
+		<item name="partsCompoundBow_parts" />
+		<item name="partsCompoundBow_string" />
+	</lootgroup>
+	<lootgroup name="weaponsMagnumParts" loot_quality_template="treasureTemplate">
+		<item name="parts44Magnum_cylinder" />
+		<item name="parts44Magnum_frame" />
+		<item name="parts44Magnum_grip" />
+		<item name="parts44Magnum_parts" />
+	</lootgroup>
+	<lootgroup name="weaponsCommonParts" loot_quality_template="treasureTemplate">
+		<item name="partsPistol_barrel" />
+		<item name="partsPistol_parts" />
+		<item name="partsPistol_receiver" />
+		<item name="partsPistol_grip" />
+		<item name="partsPumpShotgun_barrel" />
+		<item name="partsPumpShotgun_parts" />
+		<item name="partsPumpShotgun_barrelShort" />
+		<item name="partsPumpShotgun_stockShort" />
+		<item name="partsPumpShotgun_stock" />
+		<item name="partsPumpShotgun_receiver" />
+		<item name="partsHuntingRifle_barrel" />
+		<item name="partsHuntingRifle_stock" />
+		<item name="partsHuntingRifle_receiver" />
+		<item name="partsHuntingRifle_parts" />
+	</lootgroup>
+	<lootgroup name="weaponsHuntingRifleParts" loot_quality_template="treasureTemplate">
+		<item name="partsHuntingRifle_barrel" />
+		<item name="partsHuntingRifle_stock" />
+		<item name="partsHuntingRifle_receiver" />
+		<item name="partsHuntingRifle_parts" />
+	</lootgroup>
+	<lootgroup name="weaponsMilitaryParts" loot_quality_template="treasureTemplate">
+		<item name="partsMP5_barrel" />
+		<item name="partsMP5_stock" />
+		<item name="partsMP5_receiver" />
+		<item name="partsMP5_parts" />
+		<item name="partsAK47_barrel" />
+		<item name="partsAK47_stock" />
+		<item name="partsAK47_receiver" />
+		<item name="partsAK47_parts" />
+		<item name="partsSniperRifle_barrel" />
+		<item name="partsSniperRifle_stock" />
+		<item name="partsSniperRifle_receiver" />
+		<item name="partsSniperRifle_parts" />
+		<item name="partsRocketLauncher_barrel" />
+		<item name="partsRocketLauncher_stock" />
+		<item name="partsRocketLauncher_receiver" />
+		<item name="partsRocketLauncher_parts" />
+		<item name="rocketLauncherSchematic" />
+	</lootgroup>
+	<lootgroup name="weaponsRocketLauncher+ammo" count="all">
+		<item name="gunRocketLauncher" />
+		<item name="rocket" count="2,6" />
+	</lootgroup>
+	<lootgroup name="weaponsBasicGuns+ammo">
+		<item group="weaponsCompoundBowParts" prob="0.05" />
+		<item group="weaponsPistol+ammo" prob="0.03" />
+		<item group="weaponsAnyShotguns+ammo" prob="0.03" />
+		<item group="weaponsHuntingRifle+ammo" prob="0.03" />
+		<item name="compoundBow" prob="0.03" />
+		<item group="revolver+ammo" count="1" prob="0.03" />
+		<item group="mauser+ammo" count="1" prob="0.02" />
+		<item group="magnum+ammo" count="1" prob="0.01" />
+	</lootgroup>
+	<lootgroup name="weaponsMelee">
+		<item name="clubWood" />
+		<item name="clubIron" />
+		<item name="clubBarbed" prob="0.2" />
+		<item name="clubSpiked" prob="0.15" />
+		<item name="huntingKnife" prob="0.2" />
+		<item name="machete" prob="0.1" />
+		<item name="salvagedSawBat" prob="0.05" />
+		<item name="bat" prob="0.15" />
+	</lootgroup>
+	<lootgroup name="weaponsCrossbow+ammo" count="all">
+		<item name="crossbow" count="1" />
+		<item name="ironCrossbowBolt" count="10,30" />
+	</lootgroup>
+	<lootgroup name="nailgunParts" count="1" loot_quality_template="treasureTemplate">
+		<item name="partsNailgun_frame" />
+		<item name="partsNailgun_receiver" />
+		<item name="partsNailgun_parts" />
+		<item name="partsNailgun_battery" />
+	</lootgroup>
+	<lootgroup name="motorToolParts" count="1" loot_quality_template="treasureTemplate">
+		<item name="partsChainsaw_blade" />
+		<item name="partsChainsaw_parts" />
+		<item name="partsAuger_blade" />
+		<item name="partsAuger_parts" />
+		<item name="partsHandlebars" />
+	</lootgroup>
+	<lootgroup name="nailgun+parts" count="1">
+		<item name="nailgun" prob="1" />
+		<item group="nailgunParts" prob="4" />
+	</lootgroup>
+	<lootgroup name="herbalRecipes" count="1">
+		<item name="herbalAntibioticsRecipe" />
+	</lootgroup>
+	<lootgroup name="gasPumps">
+		<item name="gasCan" />
+	</lootgroup>
+	<lootgroup name="commonBooks" count="1">
+		<item name="crossbowSchematic" />
+		<item name="huntingKnifeBook" />
+		<item name="leatherBootsSchematic" />
+		<item name="leatherGlovesSchematic" />
+		<item name="leatherHoodSchematic" />
+		<item name="leatherJacketSchematic" />
+		<item name="leatherPantsSchematic" />
+		<item name="scrapBootsSchematic" prob="0.7" />
+		<item name="scrapLegArmorSchematic" prob="0.7" />
+		<item name="scrapChestArmorSchematic" prob="0.7" />
+		<item name="scrapHelmetSchematic" prob="0.7" />
+		<item name="scrapGlovesSchematic" prob="0.7" />
+	</lootgroup>
+	<lootgroup name="rareBooks" count="1">
+		<item name="augerSchematic" />
+		<item name="chainsawSchematic" />
+		<item name="clubSpikedSchematic" />
+		<item name="explodingCrossbowBoltSchematic" />
+		<item name="firstAidKitSchematic" />
+		<item name="flamingArrowSchematic" />
+		<item name="gasCanSchematic" />
+		<item name="ironBootsSchematic" />
+		<item name="ironChestArmorSchematic" />
+		<item name="ironGlovesSchematic" />
+		<item name="ironHelmetSchematic" />
+		<item name="ironLegArmorSchematic" />
+		<item name="minibikesForDumbshits" />
+		<item name="rocketLauncherSchematic" />
+		<item name="shotgunSlugSchematic" />
+		<item name="sledgehammerSchematic" />
+		<item name="nailgunSchematic" />
+		<item name="compoundBowSchematic" />
+		<item group="questChallenge" count="1" />
+		<item name="powerWeaponsBook" />
+		<item name="trapsBookHunting" />
+		<item name="trapsBookPowered" />
+		<item name="powerBookSteam" />
+		<item name="powerBookGas" />
+		<item name="radbook" />
+	</lootgroup>
+	<lootgroup name="paintMagazines" count="1">
+		<item name="paintMagazineDecorations" />
+		<item name="paintMagazineFaux" />
+		<item name="paintMagazineMasonry" />
+		<item name="paintMagazineMetal" />
+		<item name="paintMagazineWallCoverings" />
+		<item name="paintMagazineWoodAndRoofing" />
+	</lootgroup>
+	<lootgroup name="books" count="1">
+		<item name="paper" count="10,25" prob="0.66" />
+		<item group="commonBooks" prob="0.33" />
+		<item group="paintMagazines" prob="0.03" />
+		<item group="rareBooks" loot_prob_template="rareBookTemplate" />
+	</lootgroup>
+	<lootgroup name="weaponsMilitaryGuns+ammo">
+		<item group="weaponsMP5+ammo" prob="0.07" />
+		<item group="weaponsAK47+ammo" prob="0.07" />
+		<item group="weaponsSniperRifle+ammo" prob="0.07" />
+		<item group="weaponsRocketLauncher+ammo" prob="0.03" />
+	</lootgroup>
+	<lootgroup name="militaryAmmo">
+		<item name="9mmBullet" count="10,40" />
+		<item name="762mmBullet" count="5,30" />
+		<item name="shotgunSlug" count="3,7" />
+		<item name="rocket" count="1,4" />
+		<item name="10mmBullet" count="10,40" />
+		<item name="50cal" count="20,50" />
+	</lootgroup>
+	<lootgroup name="treasureAmmo">
+		<item name="shotgunShell" count="80,200" />
+		<item name="9mmBullet" count="80,220" />
+		<item name="762mmBullet" count="50,140" />
+		<item name="44MagBullet" count="60,150" prob="0.5" />
+		<item name="9mmBullet" count="80,220" />
+	</lootgroup>
+	<lootgroup name="electricalDevices">
+		<item name="electricParts" count="5,10" prob="1" />
+		<item name="electronicParts" count="3,10" prob="0.5" />
+		<item name="generatorbank" count="1" prob="1" />
+		<item name="batterybank" count="1" prob="0.7" />
+		<item name="pressureplate" count="1,5" prob="1.0" />
+		<item name="wallLight01_player" count="1,6" prob="1.0" />
+		<item name="ceilingLight01_player" count="1,6" prob="1.0" />
+		<item name="ceilingLight02_player" count="1,6" prob="1.0" />
+		<item name="ceilingLight07_player" count="1,5" prob="1.0" />
+		<item name="industrialLight01_player" count="1,5" prob="1.0" />
+		<item name="porchLight01_player" count="1,6" prob="1.0" />
+		<item name="electrictimerrelay" count="1,3" prob="1.0" />
+		<item name="electricwirerelay" count="5,15" prob="1.0" />
+		<item name="motionsensor" count="1,2" prob="1.0" />
+		<item name="speaker" count="1,2" prob="1.0" />
+		<item name="switch" count="3,9" prob="1.0" />
+	</lootgroup>
+	<lootgroup name="cannedfood">
+		<item name="canBeef" />
+		<item name="canCatfood" />
+		<item name="canChicken" />
+		<item name="canChili" />
+		<item name="canDogfood" />
+		<item name="canHam" />
+		<item name="canLamb" />
+		<item name="canMiso" />
+		<item name="canPasta" />
+		<item name="canPeas" />
+		<item name="canSalmon" />
+		<item name="canSoup" />
+		<item name="canStock" />
+		<item name="canTuna" />
+		<item name="canPears" />
+		<item name="foodHoney" />
+		<item name="cornMeal" />
+	</lootgroup>
+	<lootgroup name="seeds">
+		<item name="plantedPotato1" />
+		<item name="plantedCoffee1" />
+		<item name="plantedCorn1" />
+		<item name="plantedBlueberry1" />
+		<item name="plantedCotton1" prob="0.5" />
+		<item name="plantedGoldenrod1" />
+		<item name="plantedAloe1" />
+		<item name="plantedMushroom1" />
+		<item name="plantedYucca1" />
+		<item name="plantedChrysanthemum1" prob="0.5" />
+		<item name="treePlantedMountainPine1m" prob="0.3" />
+		<item name="treePlantedMaple1m" prob="0.3" />
+		<item name="treePlantedWinterPine1m" prob="0.3" />
+		<item name="bambooSeed" />
+		<item name="appleSeed" />
+		<item name="bananaSeed" />
+		<item name="limeSeed" />
+		<item name="lemonSeed" />
+		<item name="orangeSeed" />
+		<item name="peachSeed" />
+		<item name="pearSeed" />
+		<item name="cherrySeed" />
+		<item name="tomatoSeed" />
+		<item name="paprikaSeed" />
+		<item name="strawberrySeed" />
+		<item name="carrotSeed" />
+		<item name="eggPlantSeed" />
+		<item name="garlicSeed" />
+		<item name="sugarcaneSeed" />
+		<item name="onionSeed" />
+		<item name="saladLeaves" />
+		<item name="tobaccoSeed" />
+		<item name="cannabisSeed" />
+		<item name="sunflowerSeed" />
+		<item name="wheat" />
+		<item name="cocoSeed" />
+		<item name="dateSeed" />
+		<item name="avocadoSeed" />
+	</lootgroup>
+	<lootgroup name="airdropfood">
+		<item name="canBeef" />
+		<item name="canChicken" />
+		<item name="canLamb" />
+	</lootgroup>
+	<lootgroup name="coldfood">
+		<item name="egg" count="1,2" />
+		<item name="blueberryPie" />
+		<item name="meatStew" />
+		<item name="rawMeat" count="1,2" />
+		<item name="rottingFlesh" count="1,2" />
+		<item name="corn" />
+		<item name="potato" />
+		<item name="blueberries" />
+	</lootgroup>
+	<lootgroup name="farmCrops">
+		<item name="corn" />
+		<item name="potato" />
+		<item name="blueberries" />
+		<item name="cottonPlant" />
+		<item name="coffeeBeans" />
+		<item name="goldenrodPlant" />
+	</lootgroup>
+	<lootgroup name="cupboard">
+		<item name="canEmpty" />
+		<item group="seeds" prob="0.05" />
+		<item name="bottledWater" prob="0.5" />
+		<item name="emptyJar" count="1,4" />
+		<item name="electricParts" count="1,2" prob="0.05" />
+		<item name="potassiumNitratePowder" count="2,6" prob="0.15" />
+		<item name="paint" count="5,20" prob="0.15" />
+		<item name="forkStandard" prob="0.25" />
+		<item name="steelSpoon" prob="0.25" />
+		<item name="steelBracelet" prob="0.25" />
+		<item name="steelDogBowl" prob="0.05" />
+		<item name="steelButterKnife" prob="0.25" />
+		<item name="steelSpoon" prob="0.25" />
+		<item name="steelFork" prob="0.25" />
+		<item name="rubberBands" prob="0.25" />
+		<item name="plasticLighter" prob="0.15" />
+		<item name="woodSpoon" prob="0.25" />
+		<item name="ironScissors" prob="0.15" />
+		<item name="ironPaperClips" count="1,6" prob="0.25" />
+		<item name="paperMatches" prob="0.25" />
+		<item name="paperPlayingCards" prob="0.15" />
+		<item name="electricToaster" prob="0.05" />
+		<item group="cannedfood" prob="0.1" />
+		<!-- ADDED PROBABILITY -->
+	</lootgroup>
+	<lootgroup name="rareOres">
+		<item name="silverNugget" count="1,4" />
+		<item name="goldNugget" count="1,3" prob="0.3" />
+		<item name="rawDiamond" count="1,2" prob="0.1" />
+	</lootgroup>
+	<lootgroup name="junk">
+		<item name="ironArrowHead" count="1,12" />
+		<item name="steelArrowHead" count="1,10" prob="0.05" />
+		<item name="candyTin" />
+		<item name="emptyJar" count="1" />
+		<item name="canEmpty" count="1" />
+		<item name="painkillers" />
+		<item name="paper" count="1,6" prob="0.7" />
+		<item name="oldCash" count="1,6" prob="0.3" />
+		<item name="cloth" count="1,4" />
+		<item group="trophyGroup" />
+		<item name="candleStick" />
+		<item name="glassCTRSheet" />
+		<item name="gunPowder" count="1,3" />
+		<item name="doorKnob" count="1" />
+		<item name="oil" count="2,6" />
+		<item name="shortMetalPipe" count="1" />
+		<item name="fishingWeight" count="1,3" />
+		<item name="scrapLead" count="1,10" />
+		<item name="wood" count="1,4" />
+		<item name="glue" count="1" />
+		<item name="nail" count="1,10" />
+		<item name="casinoCoin" count="1,5" />
+		<item name="bulletCasing" count="1,10" />
+		<item name="feather" count="1,3" />
+		<item name="ductTape" count="1,3" />
+		<item group="rottenFood" count="1" />
+		<item group="books" />
+		<item group="seeds" />
+		<item group="questChallenge" count="1" prob="0.11" />
+		<item group="treasureMaps" count="1" prob="0.092" />
+		<item name="femur" count="1,2" prob="0.05" />
+		<item name="scrapPlastics" count="1,2" prob="0.3" />
+		<item group="itemJunk" />
+		<item name="kennyItem" count="1" prob="0.05" />
+		<item name="ironManItem" count="1" prob="0.05" />
+		<item name="aatItem" count="1" prob="0.05" />
+		<item name="chessItem" count="1" prob="0.05" />
+		<item name="wolverineItem" count="1" prob="0.05" />
+		<item name="starvationPoster" count="1" prob="0.02" />
+	</lootgroup>
+	<lootgroup name="rareAutomotive">
+		<item name="smallEngine" />
+		<item group="motorToolParts" count="1" prob="5" />
+		<item name="minibikeWheels" />
+	</lootgroup>
+	<lootgroup name="automotive">
+		<item name="radiator" />
+		<item name="headlight" />
+		<item name="hubcap" />
+		<item name="airFilter" />
+		<item name="carBattery" />
+		<item name="oil" count="1,4" />
+		<item name="spring" count="1,4" />
+		<item group="rareAutomotive" />
+		<item name="flashlight02" prob="0.05" />
+		<item name="electricParts" count="1,3" prob="0.3" />
+		<item name="electronicParts" count="1,2" prob="0.1" />
+		<item name="mechanicalParts" count="1,3" prob="0.3" />
+		<item name="partsNailgun_battery" prob="0.1" />
+		<item name="padlock" prob="0.6" />
+		<item name="gasCan" count="10,50" />
+	</lootgroup>
+	<lootgroup name="hats">
+		<item group="cowboyHatAll" />
+		<item group="skullCapAll" />
+		<item group="ballCapAll" />
+		<item group="pressboyCapAll" />
+		<item name="clothHat" />
+		<item name="footballHelmet" />
+	</lootgroup>
+	<lootgroup name="clothes">
+		<item group="pufferCoatAll" />
+		<item group="skullCapAll" />
+		<item group="shirtLongAll" />
+		<item group="pantsAll" />
+		<item group="denimShortsPantsAll" />
+		<item group="skirtsAll" prob="0.5" />
+		<item group="tankTopAll" />
+		<item group="bandanaAll" />
+		<item group="sweatshirtAll" />
+		<item group="flannelShirtAll" />
+		<item group="hoodedSweatshirtAll" />
+		<item group="cowboyHatAll" />
+		<item group="overallsAll" />
+		<item group="tshirtAll" />
+		<item group="ballCapAll" />
+		<item group="pressboyCapAll" />
+		<item group="suitAll" prob="0.2" />
+		<item name="wornBoots" />
+		<item name="cowboyBootsBrown" />
+		<item name="cowboyBootsBlack" />
+		<item name="shades" />
+		<item name="shadesBlack" prob="0.1" />
+		<item name="nerdGlasses" />
+		<item name="aviatorGoggles" />
+		<item name="footballHelmet" />
+		<item name="leatherDuster" />
+		<item name="leatherDusterBlack" prob="0.2" />
+	</lootgroup>
+	<lootgroup name="warmClothes">
+		<item group="pufferCoatAll" />
+		<item group="skullCapAll" />
+		<item group="shirtLongAll" />
+		<item group="pantsAll" />
+		<item group="sweatshirtAll" />
+		<item group="hoodedSweatshirtAll" />
+		<item group="flannelShirtAll" />
+		<item group="overallsAll" />
+		<item name="shades" />
+		<item name="leatherDuster" />
+		<item name="leatherDusterBlack" prob="0.2" />
+	</lootgroup>
+	<lootgroup name="lightArmor">
+		<item name="clothPants" />
+		<item name="clothJacket" />
+		<item name="clothBoots" />
+		<item name="clothGloves" />
+		<item name="clothHat" />
+		<item name="animalHideBoots" />
+		<item name="animalHideLegArmor" />
+		<item name="animalHideChestArmor" />
+		<item name="animalHideHood" />
+		<item name="animalHideGloves" />
+		<item name="animalHidePoncho" />
+		<item name="leatherBoots" />
+		<item name="leatherPants" />
+		<item name="leatherJacket" />
+		<item name="leatherGloves" />
+		<item name="leatherHood" />
+		<item name="goggles" />
+	</lootgroup>
+	<lootgroup name="heavyArmor">
+		<item name="ironBoots" />
+		<item name="ironLegArmor" />
+		<item name="ironChestArmor" />
+		<item name="ironGloves" />
+		<item name="militaryHelmet" />
+		<item name="swatHelmet" />
+	</lootgroup>
+	<lootgroup name="militaryArmor">
+		<item name="militaryGloves" />
+		<item name="militaryHelmet" />
+		<item name="militaryBoots" />
+		<item name="militaryLegArmor" />
+		<item name="militaryVest" />
+		<item name="militaryFiber" count="1,5" prob="2" />
+	</lootgroup>
+	<lootgroup name="Armor">
+		<item group="clothes" />
+		<item group="lightArmor" prob="0.1" />
+		<item group="heavyArmor" prob="0.05" />
+	</lootgroup>
+	<lootgroup name="garbage">
+		<item group="junk" />
+	</lootgroup>
+	<lootgroup name="metalpipe_scrap">
+		<item name="scrapIron" count="1,30" prob="1.5" />
+		<item group="empty" />
+	</lootgroup>
+	<lootgroup name="metalpipe" count="all">
+		<item name="shortMetalPipe" />
+		<item group="metalpipe_scrap" />
+	</lootgroup>
+	<lootgroup name="rareTools" count="1">
+		<item name="chainsaw" />
+		<item name="auger" prob="0.35" />
+		<item group="motorToolParts" count="1" prob="5" />
+		<item name="sledgehammer" />
+		<item name="smallEngine" />
+		<item name="pickaxeSteel" />
+		<item name="fireaxeSteel" />
+		<item name="shovelSteel" />
+		<item name="toolAndDieSet" prob="0.09" />
+		<item group="nailgun+parts" />
+		<item name="gauge" />
+		<item name="sheave" />
+		<item name="gasMask" />
+	</lootgroup>
+	<lootgroup name="tools" count="1">
+		<item name="stoneAxe" prob="0.5" />
+		<item name="pickaxeIron" />
+		<item name="shovelIron" />
+		<item name="fireaxeIron" />
+		<item name="padlock" />
+		<item name="hoeIron" />
+		<item name="clawHammer" />
+		<item name="wrench" prob="0.7" />
+		<item name="repairKit" count="1,4" />
+		<item group="nailgun+parts" />
+		<item group="rareTools" />
+		<item name="forgedIron" count="1,4" prob="0.41" />
+		<item name="forgedSteel" count="1,4" prob="0.22" />
+		<item name="paintTool" prob="0.3" />
+		<item name="wireTool" />
+	</lootgroup>
+	<lootgroup name="workingStiffs" count="1">
+		<item name="pickaxeIron" />
+		<item name="shovelIron" />
+		<item name="fireaxeIron" />
+		<item name="hoeIron" />
+		<item name="clawHammer" />
+		<item name="wrench" prob="0.8" />
+		<item name="repairKit" count="1,4" />
+		<item name="woodFrameBlock" count="10,30" />
+		<item name="rebarFrameBlock" count="10,20" />
+		<item name="nail" count="10,40" />
+		<item name="wood" count="50,250" />
+		<item name="anvil" count="1" />
+		<item name="ironDoor1_v1" />
+		<item name="sledgehammer" />
+		<item group="nailgun+parts" />
+		<item name="toolAndDieSet" prob="0.67" />
+		<item group="rareTools" />
+		<item group="automotive" prob="2" />
+		<item name="forgedIron" count="1,4" prob="0.31" />
+		<item name="forgedSteel" count="1,4" prob="0.24" />
+		<item name="fertilizer" count="1,3" prob="0.5" />
+		<item group="electricalDevices" prob="1" />
+		<item name="mechanicalParts" count="4,10" prob="1" />
+		<item name="scrapPlastics" count="1,8" prob="0.4" />
+		<item name="paint" count="50,150" prob="0.4" />
+		<item name="paintTool" prob="0.4" />
+		<item name="wireTool" />
+		<item name="paintMagazineMasonry" prob="0.4" />
+		<item name="gauge" count="1,2" />
+		<item name="sheave" count="1,4" />
+		<item name="gasMask" prob="0.05" />
+	</lootgroup>
+	<lootgroup name="rareMedicine" count="1">
+		<item name="firstAidKit" />
+		<item name="beaker" />
+		<item name="antibiotics" />
+		<item name="bloodDrawKit" />
+		<item name="firstAidKitSchematic" />
+		<item name="surgicalCalipers" count="1" prob="0.1" />
+		<item name="medicalSet" count="1" prob="0.08" />
+		<item name="insectBiteAntidote" prob="0.2" count="1" />
+		<item name="snakeBiteAntidote" prob="0.1" count="1" />
+	</lootgroup>
+	<lootgroup name="medicine" count="1">
+		<item name="painkillers" />
+		<item name="firstAidBandage" />
+		<item name="bandage" />
+		<item name="emptyJar" />
+		<item name="bloodBag" />
+		<item name="vitamins" />
+		<item name="grainAlcohol" />
+		<item name="splint" />
+		<item group="rareMedicine" />
+		<item name="medicalScissors" count="1" />
+	</lootgroup>
+	<lootgroup name="sportingGoods" count="1">
+		<item name="flashlight02" />
+		<item name="huntingKnife" />
+		<item name="gunPowder" count="20,50" />
+		<item name="bulletCasing" count="20,50" />
+		<item name="bulletTip" count="20,50" />
+		<item name="steelArrowHead" />
+		<item name="cookingGrill" />
+		<item name="cookingPot" />
+		<item name="leather" />
+		<item name="firstAidKit" />
+		<item name="padlock" />
+		<item name="bedroll" />
+		<item group="skullCapAll" />
+		<item group="shirtLongAll" />
+		<item group="pantsAll" />
+		<item group="denimShortsPantsAll" />
+		<item group="bandanaAll" />
+		<item group="tshirtAll" />
+		<item name="goggles" />
+		<item name="shades" />
+		<item name="shadesBlack" prob="0.1" />
+		<item name="nightvisionGoggles" />
+		<item group="ballCapAll" />
+		<item name="wornBoots" />
+		<item name="footballHelmet" />
+	</lootgroup>
+	<lootgroup name="beverages" count="1">
+		<item name="emptyJar" prob="2.5" />
+		<item name="bottledWater" />
+		<item name="beer" />
+		<item name="megaCrush" prob="0.045" />
+	</lootgroup>
+	<lootgroup name="automotive+tools+junk" count="0,2">
+		<item group="junk" prob="1" />
+		<item group="automotive" prob="0.21" />
+		<item group="tools" prob="0.21" />
+	</lootgroup>
+	<lootgroup name="backpacks">
+		<item group="cupboard" />
+		<item group="weaponsMelee" prob="0.6" />
+		<item group="Armor" prob="0.5" />
+		<item name="flashlight02" prob="0.3" />
+		<item group="revolver+ammo" prob="0.02" />
+	</lootgroup>
+	<lootgroup name="airdropMedicine">
+		<item name="painkillers" count="1,3" />
+		<item name="firstAidKit" count="1,2" />
+		<item name="antibiotics" count="1,2" />
+		<item name="beaker" prob="0.4" />
+	</lootgroup>
+	<lootgroup name="lumberjacks" count="1">
+		<item name="stoneAxe" />
+		<item name="fireaxeIron" prob="2" />
+		<item group="rareTools" />
+		<item name="grainAlcohol" />
+		<item name="forgedIron" count="1,4" prob="0.01272" />
+		<item name="forgedSteel" count="1,4" prob="0.00848" />
+		<item group="weaponsCompoundBowParts" prob="0.05" />
+		<item name="compoundBow" prob="0.03" />
+		<item group="weaponsHuntingRifleParts" prob="0.01" />
+		<item group="weaponsHuntingRifle+ammo" prob="0.01" />
+		<item name="paintMagazineWoodAndRoofing" prob="0.25" />
+	</lootgroup>
+	<lootgroup name="minerLoot" count="1">
+		<item group="tools" />
+		<item name="miningHelmet" prob="0.7" />
+		<item name="dynamite" count="2,6" prob="0.2" />
+		<item group="rareOres" prob="0.1" />
+		<item name="ironFragment" count="30,150" prob="0.2" />
+		<item name="torch" prob="0.1" />
+	</lootgroup>
+	<lootgroup name="banditsGeneral" count="1">
+		<item group="banditArmor" prob="3" />
+		<item group="medicine" />
+		<item group="cannedfood" />
+		<item group="rottenFood" />
+		<item group="junk" />
+		<item name="bottledWater" count="1,3" />
+		<item group="clothes" />
+		<item name="facialPiercings" prob="0.1" />
+	</lootgroup>
+	<lootgroup name="ZombieUtilityWorker">
+		<item group="shirtLongAll" />
+		<item group="pantsAll" />
+		<item group="denimShortsPantsAll" />
+		<item group="tankTopAll" />
+		<item group="bandanaAll" />
+		<item group="tshirtAll" />
+		<item group="tools" />
+		<item name="wornBoots" />
+		<item name="shades" />
+		<item name="miningHelmet" />
+		<item name="flashlight02" prob="0.3" />
+		<item name="nail" count="10,40" prob="0.3" />
+		<item name="forgedIron" count="5,15" prob="0.25" />
+		<item name="forgedSteel" count="3,12" prob="0.2" />
+		<item name="minibikeChassis" prob="0.4" />
+		<item name="minibikeSeat" prob="0.4" />
+		<item name="minibikeHandlebars" prob="0.4" />
+	</lootgroup>
+	<lootgroup name="ZombieFootballPlayer">
+		<item name="footballHelmetZU" prob="2.5" />
+		<item name="tshirtZUWhite" prob="2.5" />
+		<item name="redDenimPants" prob="2.5" />
+		<item name="runningShoes" prob="2.5" />
+		<item name="scrapPlastics" count="1,3" />
+		<item name="painkillers" />
+		<item name="bandage" />
+		<item name="vitamins" />
+		<item group="rareMedicine" />
+		<item group="questChallenge" count="1" prob="0.073" />
+		<item group="treasureMaps" count="1" prob="0.092" />
+	</lootgroup>
+	<lootgroup name="questRad4" count="all">
+		<item name="skull2" count="1" prob="1" />
+		<!-- <item name="qc_Refinery" count="1" prob="1" /> -->
+		<item group="exoAmmo" count="1" prob="1" />
+		<item group="exoArmor" count="1" prob="1" />
+	</lootgroup>
+	<lootgroup name="questRad3" count="all">
+		<item name="skull1" count="1" prob="1" />
+		<item name="qc_MpWaste" count="1" prob="1" />
+		<item group="hazmatGear" count="1" prob="1" />
+	</lootgroup>
+	<lootgroup name="questRad2" count="all">
+		<item name="skull1" count="1" prob="1" />
+		<item name="qc_BurnedHouse1" count="1" prob="1" />
+		<item group="safeArmor" count="1" prob="1" />
+	</lootgroup>
+	<lootgroup name="questRad1" count="all">
+		<item name="skull2" count="1" prob="1" />
+		<item name="qc_BurnedHouse" count="1" prob="1" />
+		<item group="militaryArmor" count="1" prob="1" />
+	</lootgroup>
+	<lootgroup name="questRad" count="1">
+		<item group="questRad1" />
+		<item group="questRad2" />
+		<item group="questRad3" prob="0.5" />
+	</lootgroup>
+	<lootgroup name="minibikeParts">
+		<item name="minibikeChassis" />
+		<item name="minibikeSeat" />
+		<item name="minibikeHandlebars" />
+		<item name="minibikeWheels" />
+		<item name="smallEngine" />
+		<item name="carBattery" />
+		<item name="padlock" />
+	</lootgroup>
+	<lootgroup name="labEquipment">
+		<item group="books" count="1" />
+		<item group="rareBooks" count="1" prob="0.5" />
+		<item name="scrapPlastics" count="1,7" />
+		<item name="emptyJar" count="1,20" prob="2" />
+		<item name="grainAlcohol" count="5,10" />
+		<item name="vitamins" count="1,2" />
+		<item name="animalFat" count="4,10" />
+		<item name="coal" count="10,20" prob="2" />
+		<item name="potassiumNitratePowder" count="10,20" prob="2" />
+		<item name="glue" count="1,5" />
+		<item name="oilShale" count="10,30" />
+		<item name="painkillers" count="1,2" />
+		<item name="antibiotics" prob="0.5" />
+		<item name="bloodDrawKit" prob="0.15" />
+		<item name="firstAidKitSchematic" prob="0.15" />
+		<item name="beaker" prob="0.15" />
+	</lootgroup>
+	<lootcontainer id="1" count="0,2" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item group="junk" />
+		<item group="books" prob="0.1" />
+		<item name="fertilizer" count="1,3" prob="0.05" />
+		<item name="paint" count="50,150" prob="0.1" />
+		<item name="paintTool" prob="0.05" />
+		<!-- misc storage, cardboard boxes-->
+		<item group="seeds" prob="0.02" />
+	</lootcontainer>
+	<lootcontainer id="2" count="0,2" size="5,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
+		<item group="junk" />
+		<!-- garbage-->
+		<item group="seeds" prob="0.01" />
+	</lootcontainer>
+	<lootcontainer id="3" count="0,1" size="5,4" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="baseTemplate">
+		<item group="cupboard" />
+		<!-- cupboard -->
+		<item group="seeds" prob="0.02" />
+	</lootcontainer>
+	<lootcontainer id="4" count="0,1" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
+		<item group="coldfood" prob="0.5" />
+		<item name="bottledWater" count="1,2" prob="0.5" />
+		<item name="emptyJar" count="1,2" />
+		<item name="canEmpty" count="1,2" />
+		<!-- refrigerators -->
+	</lootcontainer>
+	<lootcontainer id="5" count="0,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="baseTemplate">
+		<item name="cookingPot" count="1,2" prob="1.5" />
+		<item name="cookingGrill" />
+		<item name="scrapIron" count="1,15" prob="1.5" />
+		<item name="emptyJar" count="1,2" />
+		<item name="canEmpty" count="1,2" />
+		<item name="coal" count="4,12" prob="0.5" />
+		<!-- stoves -->
+		<item name="pan" count="1" quality="1,100" prob="0.02" />
+	</lootcontainer>
+	<lootcontainer id="6" count="1,2" size="4,3" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="baseTemplate">
+		<item group="trophyGroup" />
+		<item group="ammo" />
+		<item group="books" count="1" />
+		<item name="paintMagazineWallCoverings" />
+		<item group="medicine" />
+		<item name="flashlight02" />
+		<item group="clothes" prob="20" />
+		<item group="revolver+ammo" prob="0.2" />
+		<item group="junkPersonal" prob="1" />
+		<item name="electricVibrator" prob=".2" />
+	</lootcontainer>
+	<lootcontainer id="7" count="0,2" size="5,3" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" loot_quality_template="baseTemplate">
+		<item group="medicine" />
+		<!-- medicine cabinets -->
+		<item name="glassCompact" prob=".1" />
+		<item name="ironHairSpray" prob=".1" />
+		<item name="ironScissors" prob=".1" />
+		<item name="facialPiercings" prob=".1" />
+		<item name="plasticHairBrush" prob=".1" />
+		<item name="plasticCondom" prob=".1" />
+		<item name="plasticToothBrush" prob=".1" />
+		<item name="plasticLighter" prob=".1" />
+		<item name="electricShaver" prob=".1" />
+		<item name="steelBracelet" prob=".1" />
+	</lootcontainer>
+	<lootcontainer id="8" count="0,2" size="4,3" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="baseTemplate">
+		<item name="cookingPot" count="1" />
+		<item name="emptyJar" count="1,2" />
+		<item name="canEmpty" count="1,2" />
+		<item name="coffeeBeans" count="1,4" />
+		<item name="shortMetalPipe" count="1,2" prob="1.5" />
+		<item name="wrench" count="1" />
+		<item name="scrapLead" count="1,10" />
+		<item name="potassiumNitratePowder" count="2,6" prob="0.3" />
+		<!-- kitchen sink, cupboards (lower) -->
+		<item name="clawHammer" quality="50,100" count="1" prob=".1" />
+		<item name="bucket" prob=".1" />
+		<item name="cookingGrill" prob=".1" />
+	</lootcontainer>
+	<lootcontainer id="9" count="0,2" size="5,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate">
+		<item group="backpacks" />
+		<!-- backpacks -->
+		<item group="junkPersonal" prob=".1" />
+	</lootcontainer>
+	<lootcontainer id="10" count="0" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item name="cobweb" count="1,2" />
+		<!-- empty, player crafted storage -->
+		<item name="cobweb" count="1,2" />
+	</lootcontainer>
+	<lootcontainer id="11" count="1,3" size="5,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
+		<item group="books" />
+		<item name="oldCash" count="10,35" prob="0.1" />
+		<item group="rareOres" prob="0.05" />
+		<item group="revolver+ammo" prob="0.02" count="1" />
+		<item group="weaponsBasicGuns+ammo" prob="0.001" count="1" />
+	</lootcontainer>
+	<lootcontainer id="14" count="0,2" size="4,2" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="baseTemplate">
+		<item group="books" prob="0.1" />
+		<item name="paper" count="1,10" />
+		<!-- misc metal container mailbox-->
+		<item name="paperNews" prob=".5" />
+	</lootcontainer>
+	<lootcontainer id="15" count="0,1" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="clothes" prob="1.9" />
+		<item group="rottenFood" prob="0.62" />
+		<item group="hazmatGear" count="1" prob="0.08" />
+		<item group="questChallenge" count="1" prob="0.191" />
+		<item group="treasureMaps" count="1" prob="0.161" />
+		<item name="facialPiercings" prob="0.08" />
+		<!-- generic zombie loot-->
+		<item group="junkPersonal" prob="10" />
+	</lootcontainer>
+	<lootcontainer id="16" count="0,2" size="4,3" sound_open="UseActions/open_trashcan" sound_close="UseActions/close_trashcan" loot_quality_template="baseTemplate">
+		<item group="garbage" />
+		<!-- metal garbage can-->
+	</lootcontainer>
+	<lootcontainer id="17" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
+		<item group="junk" prob="3" />
+		<item group="rottenFood" prob="1" />
+		<item name="shamSandwich" count="1,5" />
+		<item group="weaponsPistol+ammo" prob="1.1" />
+		<item group="weaponsAnyShotguns+ammo" prob="1.1" />
+		<item group="ammo" />
+		<item name="flashlight02" prob="0.5" />
+		<item name="militaryVest" prob="0.2" />
+		<item name="militaryFiber" count="1,4" prob="0.04" />
+		<!-- zombie cop-->
+	</lootcontainer>
+	<lootcontainer id="18" count="0,2" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="treasureTemplate">
+		<item group="clothes" prob="0.4" />
+		<item name="cloth" count="1,5" />
+		<!-- washing machine -->
+		<item group="clothJunk" prob=".3" />
+	</lootcontainer>
+	<lootcontainer id="19" count="1" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="baseTemplate">
+		<item group="automotive+tools+junk" />
+		<item name="miningHelmet" prob="0.035" />
+		<!-- cars-->
+		<item name="bat" prob="0.05" />
+	</lootcontainer>
+	<lootcontainer id="20" count="0,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" open_time="4" loot_quality_template="baseTemplate">
+		<item group="metalpipe" />
+		<!-- air conditioners -->
+		<item name="cobweb" count="1,2" />
+	</lootcontainer>
+	<lootcontainer id="21" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="medicine" />
+		<item name="oldCash" count="1,20" prob="0.5" />
+		<!-- lootcontainer 21 zombie nurse, small chance of dropping antivenom -->
+		<item name="insectBiteAntidote" prob="0.009" count="1" />
+		<item name="snakeBiteAntidote" prob="0.007" count="1" />
+		<item group="junkPersonal" prob="1.5" />
+	</lootcontainer>
+	<lootcontainer id="22" count="0,2" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item group="automotive" prob="1" />
+		<item name="paint" count="50,150" prob="0.01" />
+		<item name="paintTool" prob="0.005" />
+		<item name="paintMagazineMetal" prob="0.03" />
+		<item group="electricalDevices" prob="0.01" />
+		<!-- garage stuff, tools, etc -->
+		<item group="junk" prob=".25" />
+	</lootcontainer>
+	<lootcontainer id="25" count="1,3" size="4,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
+		<item name="egg" count="1" prob="0.25" />
+		<item name="feather" count="4,10" prob="0.75" />
+		<!-- birds nests-->
+		<item name="turd" prob=".05" />
+	</lootcontainer>
+	<lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
+		<item group="rareBooks" />
+		<item group="airdropMedicine" count="1,4" />
+		<item name="flashlight02" prob="0.2" />
+		<item group="mauser+ammo" prob="0.08" count="1" />
+		<item group="mp7kit" prob="0.03" count="1" />
+		<item name="donkeyItem" prob="0.005" count="1" />
+	</lootcontainer>
+	<lootcontainer id="35" count="0,2" size="4,3" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="baseTemplate">
+		<item name="scrapPlastics" count="1,6" prob="2" />
+		<item name="emptyJar" count="1,2" prob="2" />
+		<item name="canEmpty" count="1,2" prob="5" />
+		<item group="rottenFood" prob="1" />
+		<item group="sportingGoods" count="1,2" prob="5" />
+		<item name="foodHoney" />
+		<item group="medicine" />
+		<item group="seeds" prob="0.02" />
+		<item name="egg" count="1,2" prob=".5" />
+		<item name="feather" count="1,8" prob=".5" />
+		<item name="mushrooms" count="1,4" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="36" count="0,2" size="4,3" sound_open="UseActions/open_suitcase" sound_close="UseActions/close_suitcase" loot_quality_template="baseTemplate">
+		<item name="bottledWater" count="1,2" prob="0.15" />
+		<item group="cannedfood" prob="0.5" />
+		<item group="junk" />
+		<item name="flashlight02" prob="0.1" />
+		<item group="medicine" prob="0.1" />
+		<item group="weaponsMelee" prob="0.03" />
+		<item name="padlock" prob="0.5" />
+	</lootcontainer>
+	<lootcontainer id="37" count="0" size="5,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="cobweb" count="1" />
+		<!-- gore block dummy -->
+	</lootcontainer>
+	<lootcontainer id="38" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="rottenFood" prob="4" />
+		<item name="bottledWater" count="1,2" prob="1.5" />
+		<item name="shamSandwich" prob="5" />
+		<item group="cannedfood" prob="5" />
+		<item name="painkillers" prob="1" />
+		<item group="ammo" prob="1" />
+		<item group="weaponsPistol+ammo" prob="0.3" />
+		<!-- fatHawaiianZombie, fat zombie -->
+		<item group="junkPersonal" prob="3" />
+	</lootcontainer>
+	<lootcontainer id="39" count="1,3" size="4,3" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item group="militaryAmmo" prob="0.1" />
+		<item group="sportingGoods" prob="1" />
+		<item group="revolver+ammo" prob="0.02" />
+		<item group="attachments" prob="0.01" />
+		<item group="weaponsBasicGuns+ammo" prob="0.001" />
+		<item group="weaponsMilitaryGuns+ammo" prob="0.0001" />
+		<item group="specialParts" prob="0.1" />
+	</lootcontainer>
+	<lootcontainer id="40" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
+		<item group="militaryAmmo" prob="1" />
+		<item group="militaryArmor" prob="0.1" />
+		<item group="weaponsBasicGuns+ammo" prob="0.09" />
+		<item group="military" prob="0.06" />
+		<item group="attachments" prob="0.01" />
+	</lootcontainer>
+	<lootcontainer id="41" count="0" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+		<item name="cobweb" count="1,2" prob="0.01" />
+		<!-- player dropped backpacks -->
+	</lootcontainer>
+	<lootcontainer id="42" count="2,6" size="8,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
+		<item name="oldCash" count="10,45" prob="0.03" />
+		<item group="revolver+ammo" prob="0.02" count="1" />
+		<item group="attachments" prob="0.01" count="1" />
+		<item group="safeArmor" prob="0.008" count="1" />
+		<item group="weaponsBasicGuns+ammo" prob="0.008" count="1" />
+		<item name="smallCrossbow" prob="0.006" count="1" />
+		<item group="weaponsMilitaryGuns+ammo" prob="0.005" count="0,1" />
+		<item group="weaponsCommonParts" prob="0.009" count="1,2" />
+		<item group="specialParts" prob="0.007" count="0,1" />
+		<item group="weaponsMilitaryParts" prob="0.008" count="0,2" />
+	</lootcontainer>
+	<lootcontainer id="43" count="0,2" size="4,3" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="baseTemplate">
+		<item group="clothes" prob="28" />
+		<item group="hats" prob="10" />
+		<item group="ammo" prob="0.02" />
+		<item group="weaponsLongShotgun+ammo" prob="0.02" />
+		<item group="books" count="1,2" />
+		<item name="paper" count="1,2" prob="0.7" />
+		<item name="oldCash" count="1,3" prob="0.3" />
+		<item group="medicine" prob="0.05" />
+		<item group="trophyGroup" />
+		<item name="gunPowder" count="1,5" />
+		<item name="padlock" prob="0.8" />
+		<!-- lockers -->
+	</lootcontainer>
+	<lootcontainer id="44" count="0,2" size="4,3" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="baseTemplate">
+		<item group="ammo" prob="0.05" />
+		<item group="books" count="1" />
+		<item name="paper" count="5,10" />
+		<item name="paper" count="5,10" prob="0.86" />
+		<item name="oldCash" count="1,6" prob="0.3" />
+		<item name="painkillers" prob="0.05" />
+		<item group="trophyGroup" />
+		<item name="padlock" prob="0.5" />
+		<!-- file cabinet -->
+	</lootcontainer>
+	<lootcontainer id="45" count="0,3" size="4,3" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="baseTemplate">
+		<item group="cupboard" />
+		<item group="coldfood" />
+		<item group="beverages" />
+		<!-- cooler loot -->
+	</lootcontainer>
+	<lootcontainer id="46" count="0,3" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="treasureTemplate">
+		<item group="junk" prob="10" />
+		<item group="clothes" />
+		<item group="cannedfood" />
+		<item group="beverages" />
+		<!-- trash compactor -->
+	</lootcontainer>
+	<lootcontainer id="47" count="0" size="5,10" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+		<item name="cobweb" count="1,2" prob="0.01" />
+		<!-- "bag" container that gets dropped when another loot container is destroyed -->
+	</lootcontainer>
+	<lootcontainer id="48" count="0,2" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate">
+		<item group="books" prob="0.1" />
+		<item group="medicine" />
+		<item name="paper" count="2,8" prob="0.5" />
+		<item name="oldCash" count="4,13" prob="1.5" />
+		<item group="revolver+ammo" prob="0.02" />
+		<item group="junkPersonal" prob=".1" />
+	</lootcontainer>
+	<lootcontainer id="49" count="0,2" size="4,3" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="baseTemplate">
+		<item name="paper" count="2,8" prob="0.2" />
+		<item group="books" />
+		<item name="paintMagazineFaux" prob="0.05" />
+		<!-- bookcase -->
+		<item name="paperNews" prob=".1" />
+		<item name="glassFrame" prob=".2" />
+		<item name="electronicClockRadio" prob=".05" />
+		<item name="stonePaperWeight" prob=".1" />
+		<item name="stoneStatue" prob=".1" />
+	</lootcontainer>
+	<lootcontainer id="50" count="0,3" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item name="mechanicalParts" count="1,5" prob="0.1" />
+		<item name="scrapPlastics" count="1,6" prob="0.15" />
+		<item group="attachments" prob="0.09" />
+		<item group="revolver+ammo" prob="0.03" />
+		<item group="weaponsBasicGuns+ammo" prob="0.01" />
+		<item group="weaponsMilitaryGuns+ammo" prob="0.005" />
+		<item group="weaponsCommonParts" prob="0.25" count="1" />
+		<item group="weaponsHuntingRifleParts" prob="0.2" count="1" />
+		<item group="weaponsMagnumParts" prob="0.1" count="1" />
+	</lootcontainer>
+	<lootcontainer id="51" count="0,3" size="5,4" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="baseTemplate">
+		<item group="medicine" />
+		<item name="scrapPlastics" count="1,2" prob="0.15" />
+		<!-- pop n pills -->
+	</lootcontainer>
+	<lootcontainer id="52" count="0,3" size="5,4" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="baseTemplate">
+		<item group="beverages" />
+		<!-- beer cooler -->
+	</lootcontainer>
+	<lootcontainer id="53" count="0,3" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item group="workingStiffs" />
+		<!-- working stiffs -->
+	</lootcontainer>
+	<lootcontainer id="54" count="0,2" size="5,4" sound_open="UseActions/open_shopping_cart" sound_close="UseActions/close_shopping_cart" loot_quality_template="baseTemplate">
+		<item group="cupboard" />
+		<item group="beverages" />
+		<item name="scrapPlastics" count="1,2" prob="0.15" />
+		<!-- shopping cart-->
+	</lootcontainer>
+	<lootcontainer id="55" count="1,5" size="5,4" sound_open="UseActions/open_cash_register" sound_close="UseActions/close_cash_register" loot_quality_template="baseTemplate">
+		<item name="paper" count="1,3" prob="0.031" />
+		<item name="oldCash" count="3,13" prob="0.1" />
+		<item name="casinoCoin" count="1,12" />
+		<!-- cash register-->
+	</lootcontainer>
+	<lootcontainer id="56" count="1" size="6,3" sound_open="UseActions/open_apache_artifact_chest" sound_close="UseActions/close_apache_artifact_chest" loot_quality_template="baseTemplate">
+		<item name="tazasStoneaxe" count="1" />
+		<item name="casinoCoin" count="20,200" />
+		<item name="oldCash" count="12,45" prob="0.5" />
+		<!-- Apache Artifact Chest -->
+		<item group="weaponsMelee" prob=".1" />
+	</lootcontainer>
+	<lootcontainer id="57" count="1,5" size="4,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item group="minerLoot" />
+		<!-- miners chest -->
+	</lootcontainer>
+	<lootcontainer id="58" count="0,2" size="5,3" sound_open="UseActions/open_shopping_basket" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
+		<item group="cupboard" />
+		<item group="beverages" />
+		<!-- shopping basket -->
+	</lootcontainer>
+	<lootcontainer id="59" count="0,3" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item name="shamSandwich" count="1,3" />
+		<item name="canHam" count="1,2" />
+		<item group="coldfood" />
+		<item group="beverages" count="1,2" />
+		<item name="foodHoney" count="1" prob="0.1" />
+		<item name="paper" count="5,10" prob="0.4" />
+		<item name="scrapPlastics" count="1,8" prob="0.5" />
+		<!-- Shamway Cardboard Loot-->
+		<item group="seeds" count="1,5" prob=".1" />
+	</lootcontainer>
+	<lootcontainer id="60" count="0,1" size="5,3" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="baseTemplate">
+		<item group="books" />
+		<!-- Bookstore bookcase -->
+		<item name="cobweb" count="1,2" prob=".1" />
+	</lootcontainer>
+	<lootcontainer id="61" count="0,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="femur" count="1,4" prob="1" />
+		<item group="weaponsBasicGuns+ammo" prob="0.9" />
+		<item group="weaponsCompoundBowParts" prob="0.2" />
+		<item group="weaponsCommonParts" prob="0.2" />
+		<item group="weaponsMilitaryParts" prob="0.2" />
+		<item group="militaryArmor" prob="0.2" />
+		<item group="weaponsMilitaryGuns+ammo" prob="0.01" />
+		<item group="military" prob="0.02" />
+		<item group="junkPersonal" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="62" count="0" size="3,6" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
+		<!-- minibike storage -->
+	</lootcontainer>
+	<lootcontainer id="63" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item group="herbalRecipes" count="1" />
+		<item name="herbalAntibiotics" count="1,2" prob="0.5" />
+		<item group="rareOres" prob="0.05" />
+		<!-- mountain man loot -->
+		<item group="junkPersonal" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="64" count="10,80" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item group="gasPumps" count="1" />
+		<!-- gas pump loot -->
+	</lootcontainer>
+	<lootcontainer id="65" count="0,2" size="8,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="hazmatGear" count="1" />
+		<item group="rareMedicine" prob="0.2" />
+		<item name="grainAlcohol" count="1,4" prob="0.2" />
+		<item name="scrapPlastics" count="1,5" prob="0.3" />
+		<item name="paper" count="1,6" prob="0.3" />
+		<item name="cloth" count="1,4" prob="0.3" />
+		<item name="ductTape" count="1,3" prob="0.25" />
+		<item group="books" />
+		<item group="questChallenge" count="1" prob="0.09" />
+		<item group="treasureMaps" count="1" prob="0.092" />
+		<item group="weaponsPistol+ammo" prob="0.03" />
+		<!-- zombieMaleHazmat -->
+		<item group="junkPersonal" prob="3" />
+	</lootcontainer>
+	<lootcontainer id="66" count="0,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="lumberjacks" prob="0.42" />
+		<item group="warmClothes" prob="1" />
+		<item group="hazmatGear" count="1" prob="0.01" />
+		<item group="rareOres" prob="0.02" />
+		<!-- snowzombie, lumberjack zombie loot-->
+		<item group="junkPersonal" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="67" count="0,2" size="5,3" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="baseTemplate">
+		<item group="toiletLoot" count="1" />
+		<!-- toilets -->
+	</lootcontainer>
+	<lootcontainer id="68" count="0,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="baseTemplate">
+		<item group="junk" count="1" />
+		<!-- ??Junk??? -->
+	</lootcontainer>
+	<lootcontainer id="69" count="2,5" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item group="weaponsMilitaryGuns+ammo" />
+		<item group="rareBooks" />
+		<item group="airdropMedicine" />
+		<item group="herbalRecipes" />
+		<item group="questChallenge" />
+		<!-- ?????? -->
+	</lootcontainer>
+	<lootcontainer id="70" count="2,5" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="treasureTemplate">
+		<item group="treasureAmmo" />
+		<item name="casinoCoin" count="3000,8000" />
+		<item group="rareOres" count="5,11" />
+		<item name="oldCash" count="50,250" prob="0.5" />
+		<item group="weaponsBasicGuns+ammo" prob="0.09" />
+		<item group="military" prob="0.06" />
+		<item group="attachments" prob="0.01" />
+	</lootcontainer>
+	<lootcontainer id="71" count="0,3" size="7,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsGeneral" />
+		<item name="clubSpiked" count="1" prob="0.7" />
+		<!-- bandit melee -->
+	</lootcontainer>
+	<lootcontainer id="72" count="0,3" size="7,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsGeneral" />
+		<item group="weaponsPistol+ammo" count="1" prob="0.7" />
+		<!-- bandit ranged -->
+	</lootcontainer>
+	<lootcontainer id="73" count="0,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="weaponsMilitaryParts" prob="0.2" />
+		<item group="weaponsRocketLauncher+ammo" prob="0.06" />
+		<item name="rocket" count="2,6" prob="0.12" />
+		<item group="militaryArmor" prob="1" />
+		<item name="nightvisionGoggles" prob="0.3" />
+		<item group="weaponsMilitaryGuns+ammo" prob="0.3" />
+		<item group="attachments" prob="0.1" />
+		<item group="weaponsMilitaryParts" prob="0.08" />
+		<item group="specialParts" prob="0.04" />
+		<item group="junkPersonal" prob="2" />
+	</lootcontainer>
+	<lootcontainer id="74" count="0,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="ZombieUtilityWorker" />
+		<!-- zombie utility worker / construction worker loot -->
+		<item group="junkPersonal" prob="1.5" />
+	</lootcontainer>
+	<lootcontainer id="75" count="0,2" size="5,3" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="baseTemplate">
+		<item name="rottingFlesh" count="1,2" prob="2" />
+		<item name="femur" count="1,2" prob="0.5" />
+		<item group="junk" />
+		<item group="books" prob="0.1" />
+		<item name="fertilizer" count="1,3" prob="0.05" />
+		<item name="goldNugget" count="1" prob="0.05" />
+		<!-- cntMorticianDrawer -->
+	</lootcontainer>
+	<lootcontainer id="76" count="0,1" size="5,3" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
+		<item name="coal" count="2,12" prob="1" />
+		<item name="femur" count="1,2" prob="0.1" />
+		<!-- cntFurnaceDrawer -->
+	</lootcontainer>
+	<lootcontainer id="77" count="0,2" size="5,3" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="baseTemplate">
+		<item group="junk" />
+		<!-- cntGreenDrawer -->
+	</lootcontainer>
+	<lootcontainer id="78" count="0,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="ZombieFootballPlayer" />
+		<!-- ZombieFootballPlayer -->
+		<item group="junkPersonal" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="79" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="tshirtZUWhite" prob="1.5" />
+		<item name="skirtBlue" prob="1.8" />
+		<item group="skirtsAll" count="1" prob="0.2" />
+		<item name="runningShoes" prob="1.5" />
+		<item group="questChallenge" count="1" prob="0.036" />
+		<item group="treasureMaps" count="1" prob="0.031" />
+		<!-- ZombieCheerleader -->
+		<item group="junkPersonal" prob="2" />
+	</lootcontainer>
+	<lootcontainer id="80" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="hoodedSweatshirtWhite" prob="1" />
+		<item name="blackDenimPants" prob="1" />
+		<item name="runningShoes" prob="1" />
+		<item name="mechanicalParts" count="1,3" prob="1.5" />
+		<item group="questChallenge" count="1" prob="0.036" />
+		<item group="treasureMaps" count="1" prob="0.031" />
+		<!-- ZombieSkateboarder -->
+		<item group="junkPersonal" prob="2" />
+	</lootcontainer>
+	<lootcontainer id="81" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="weaponsMagnumParts" prob="1" />
+		<item group="weaponsHuntingRifleParts" prob="1.2" />
+		<item group="weaponsHuntingRifle+ammo" prob="3" />
+		<item name="dynamite" count="1,3" prob="1" />
+		<item group="cowboyHatAll" prob="1" />
+		<item group="bandanaAll" prob="1" />
+		<item name="animalHidePoncho" prob="1" />
+		<item name="denimPants" prob="1" />
+		<item name="cowboyBootsBrown" prob="1" />
+		<item name="cowboyBootsBlack" prob="1" />
+		<item name="cigar" prob="1" />
+		<item group="rareOres" prob="1" />
+		<item name="grainAlcohol" count="1,3" prob="0.7" />
+		<item group="cannedfood" count="1,2" prob="1" />
+		<item name="bottledWater" count="1,3" prob="1" />
+		<item name="oldCash" count="2,15" prob="1" />
+		<item group="treasureMaps" count="1" prob="1" />
+		<!-- zombieOldTimer / zombieCowboy -->
+		<item group="junkPersonal" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="83" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="swatHelmet" />
+		<item name="gothicPants" />
+		<item name="gothBootsBlack" />
+		<item name="shades" prob="0.1" />
+		<item name="shadesBlack" prob="0.5" />
+		<item name="beer" prob="3" />
+		<item name="grainAlcohol" />
+		<item name="oldCash" count="1,15" />
+		<item name="casinoCoin" count="1,10" />
+		<item name="antibiotics" />
+		<item name="painkillers" />
+		<item group="weaponsCommonParts" prob="0.2" />
+		<item group="weaponsPistol+ammo" prob="0.3" />
+		<item group="weaponsAnyShotguns+ammo" prob="0.3" />
+		<item group="tools" prob="0.1" />
+		<item name="clubIron" />
+		<item name="clubBarbed" prob="0.6" />
+		<item name="clubSpiked" prob="0.5" />
+		<item name="huntingKnife" />
+		<item name="machete" prob="0.8" />
+		<item name="firstAidKit" />
+		<item name="minibikeWheels" prob="0.4" />
+		<item name="minibikeChassis" prob="0.4" />
+		<item name="minibikeSeat" prob="0.4" />
+		<item name="minibikeHandlebars" prob="0.4" />
+		<item name="smallEngine" prob="0.3" />
+		<!-- ZombieBiker -->
+		<item group="junkPersonal" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="84" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="oldCash" count="4,45" prob="2" />
+		<item name="casinoCoin" count="10,30" />
+		<item name="scrapPlastics" count="2" prob="0.3" />
+		<item name="bloodDrawKit" prob="0.3" />
+		<item name="painkillers" />
+		<item name="vitamins" />
+		<item name="herbalAntibiotics" prob="0.5" />
+		<item name="feather" count="5,25" />
+		<!-- ZombieStripper -->
+		<item group="junkPersonal" prob="2" />
+	</lootcontainer>
+	<lootcontainer id="85" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="tools" prob="1" />
+		<item group="farmCrops" prob="1" />
+		<item group="seeds" prob="1" />
+		<item name="hoeIron" prob="1" />
+		<item name="shovelIron" prob="1" />
+		<item name="shovelSteel" prob="0.5" />
+		<item name="beer" prob="1" />
+		<item group="weaponsCompoundBowParts" prob="0.02" />
+		<item name="compoundBow" prob="0.04" />
+		<!-- ZombieFarmer -->
+		<item group="junkPersonal" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="86" count="0,3" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item name="paper" count="2,8" prob="0.2" />
+		<item group="books" />
+		<item name="scrapPlastics" count="1,4" prob="0.15" />
+		<!-- bookstore shipping crate -->
+	</lootcontainer>
+	<lootcontainer id="87" count="0,2" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item name="paper" count="2,8" prob="0.2" />
+		<item name="scrapPlastics" count="1,4" prob="0.15" />
+		<item name="cloth" count="1,6" />
+		<item name="leather" count="1,6" />
+		<item name="ductTape" count="1,5" prob="0.4" />
+		<item name="forgedSteel" count="3,12" prob="0.2" />
+		<item name="forgedIron" count="5,15" prob="0.25" />
+		<item name="scrapIron" count="30,70" prob="0.4" />
+		<item name="repairKit" count="2,5" />
+		<item name="mechanicalParts" count="2,8" prob="0.3" />
+		<item name="electricParts" count="2,8" prob="0.3" />
+		<item name="electronicParts" count="2,8" prob="0.3" />
+		<item name="headlight" count="1,2" prob="0.3" />
+		<item name="partsHandlebars" prob="0.3" />
+		<item name="footballHelmet" prob="0.3" />
+		<item name="clawHammer" prob="0.3" />
+		<item name="wrench" prob="0.3" />
+		<item name="toolAndDieSet" prob="0.1" />
+		<item group="minibikeParts" prob="6" />
+		<!-- car parts shipping crate -->
+	</lootcontainer>
+	<lootcontainer id="88" count="0,2" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item group="junk" prob="3" />
+		<item name="paper" count="2,4" />
+		<item name="scrapPlastics" count="1,10" />
+		<item name="ductTape" count="1,5" />
+		<item name="forgedSteel" count="3,15" prob="0.8" />
+		<item name="forgedIron" count="5,20" />
+		<item name="scrapIron" count="30,70" />
+		<item name="rebarFrameBlock" count="10,20" />
+		<item name="nail" count="50,200" />
+		<item name="wood" count="50,300" />
+		<item name="glue" count="1,2" />
+		<item name="paint" count="20,150" />
+		<item name="paintTool" />
+		<item name="wireTool" prob="0.4" />
+		<item name="clawHammer" />
+		<item name="wrench" />
+		<item name="pickaxeSteel" prob="0.4" />
+		<item name="fireaxeSteel" prob="0.4" />
+		<item name="shovelSteel" prob="0.4" />
+		<item name="sledgehammer" prob="0.4" />
+		<item group="nailgun+parts" prob="0.4" />
+		<item group="electricalDevices" prob="2" />
+		<!-- construction supplies shipping crate -->
+	</lootcontainer>
+	<lootcontainer id="89" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="suitAll" prob="2" />
+		<item name="oldCash" count="14,60" prob="2" />
+		<item name="paper" count="10,25" prob="0.66" />
+		<item group="questChallenge" count="1" prob="0.036" />
+		<item group="treasureMaps" count="1" prob="0.031" />
+		<!-- zombieBusinessMan -->
+		<item group="junkPersonal" prob="1" />
+	</lootcontainer>
+	<lootcontainer id="90" count="0" size="8,9" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="baseTemplate">
+		<item name="cobweb" count="1,2" />
+		<!-- cntGreenDrawerSecure, player crafted -->
+	</lootcontainer>
+	<lootcontainer id="91" count="0,2" size="7,4" sound_open="forge_open" sound_close="forge_close" loot_quality_template="baseTemplate">
+		<item name="scrapIron" count="20,60" prob="2" />
+		<item name="scrapBrass" count="10,30" />
+		<item name="scrapLead" count="20,60" />
+		<item name="brokenGlass" count="10,20" />
+		<item name="rockSmall" count="10,20" />
+		<item name="clayLump" count="10,20" />
+		<item name="ironFragment" count="10,20" prob="2" />
+		<item name="shortMetalPipe" count="10,20" />
+		<item name="forgedIron" count="10,20" prob="2" />
+		<item name="forgedSteel" count="5,20" />
+		<item name="anvil" count="1" />
+		<item name="nail" count="20,60" />
+		<item name="ironArrowHead" count="10,30" />
+		<item name="steelArrowHead" count="10,20" />
+		<item name="wood" count="20,80" prob="2" />
+		<item name="coal" count="10,20" />
+		<!-- cntCollapsedForge -->
+	</lootcontainer>
+	<lootcontainer id="92" count="0,2" size="7,4" sound_open="open_workbench" sound_close="close_workbench" loot_quality_template="baseTemplate">
+		<item name="scrapIron" count="10,20" />
+		<item name="brokenGlass" count="3,8" />
+		<item name="shortMetalPipe" count="5,10" />
+		<item name="forgedIron" count="5,15" prob="2" />
+		<item name="forgedSteel" count="5,10" />
+		<item name="nail" count="10,20" />
+		<item name="ironArrowHead" count="5,15" />
+		<item name="steelArrowHead" count="5,10" />
+		<item name="wood" count="10,30" prob="2" />
+		<item name="scrapPlastics" count="1,5" />
+		<item name="mechanicalParts" count="1,5" />
+		<item name="electricParts" count="1,3" prob="0.3" />
+		<item name="electronicParts" count="1,2" prob="0.1" />
+		<item name="bulletCasing" count="1,20" />
+		<item name="bulletTip" count="1,20" />
+		<item name="airFilter" count="1,3" />
+		<item name="candyTin" count="1,3" />
+		<item name="hubcap" count="1,3" />
+		<item name="cloth" count="2,7" />
+		<item name="ductTape" count="1,4" />
+		<item name="feather" count="5,12" />
+		<item name="fishingWeight" count="1,3" />
+		<item name="glue" count="1,6" />
+		<item name="oil" count="1,6" />
+		<item name="padlock" prob="0.5" />
+		<item name="spring" count="1,4" />
+		<item group="tools" count="1" />
+		<item group="rareTools" count="1" prob="0.5" />
+		<!-- cntCollapsedWorkbench -->
+	</lootcontainer>
+	<lootcontainer id="93" count="0,1" size="7,4" sound_open="cement_mixer_open" sound_close="cement_mixer_close" loot_quality_template="baseTemplate">
+		<item name="rockSmall" count="40,120" />
+		<item name="clayLump" count="40,120" />
+		<item name="rottingFlesh" count="5,12" />
+		<item name="potassiumNitratePowder" count="10,30" />
+		<item name="crushedSand" count="40,120" />
+		<item name="oilShale" count="20,120" />
+		<item name="dirtFragment" count="40,120" />
+		<item name="cement" count="40,120" />
+		<item name="concreteMix" count="20,80" />
+		<item name="cobblestones" count="40,120" />
+		<!-- cntCollapsedCementMixer -->
+	</lootcontainer>
+	<lootcontainer id="94" count="0,1" size="7,4" sound_open="chem_station_open" sound_close="chem_station_close" loot_quality_template="baseTemplate">
+		<item group="labEquipment" count="1" prob="16" />
+		<item name="wood" count="10,40" prob="2" />
+		<item name="paint" count="15,40" />
+		<item name="gunPowder" count="20,50" />
+		<item name="chrysanthemumPlant" count="5,12" />
+		<item name="cottonPlant" count="5,12" />
+		<item name="goldenrodPlant" count="5,12" />
+		<item name="cornMeal" count="5,20" />
+		<!-- cntCollapsedChemistryStation -->
+	</lootcontainer>
+	<lootcontainer id="95" count="1,2" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="treasureTemplate">
+		<item group="weaponsMilitaryGuns+ammo" prob="0.8" />
+		<item group="weaponsBasicGuns+ammo" />
+		<item name="compoundBow" prob="0.3" />
+		<item group="rareOres" count="2,5" />
+		<item group="rareBooks" count="1,2" prob="0.5" />
+		<item group="banditArmor" count="1,2" prob="0.5" />
+		<item group="heavyArmor" count="1,2" prob="0.5" />
+		<item group="militaryArmor" count="1,2" prob="0.5" />
+		<!-- cntLootCrateHero, Hero / Hidden Stash Cardboard Loot-->
+		<item group="specialParts" prob="0.02" count="1" />
+		<item group="weaponsMilitaryParts" prob="0.04" count="1" />
+	</lootcontainer>
+	<lootcontainer id="96" count="0,2" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+		<item group="labEquipment" count="1" prob="16" />
+		<item name="paper" count="5,15" />
+		<!-- cntLootCrateLabEquipment Lab equipment and medical items -->
+	</lootcontainer>
+	<lootcontainer id="97" count="0,1" size="6,1" sound_open="open_vending" sound_close="close_vending" loot_quality_template="baseTemplate">
+		<item name="scrapLead" count="1,10" prob="19" />
+		<item name="carBattery" />
+		<!-- cntCollapsedBatterybank -->
+	</lootcontainer>
+	<lootcontainer id="98" count="0,1" size="6,1" sound_open="open_vending" sound_close="close_vending" loot_quality_template="baseTemplate">
+		<item name="scrapIron" count="1,30" prob="19" />
+		<item name="smallEngine" />
+		<!-- cntCollapsedGeneratorbank -->
+	</lootcontainer>
+	<lootcontainer id="99" count="0" size="5,10" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="baseTemplate">
+		<!-- ?????? -->
+	</lootcontainer>
+	<lootcontainer id="122" count="1" size="6,3" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item name="casinoCoin" count="20,40" />
+		<item group="specialGuns" count="1" prob="0.001" />
+	</lootcontainer>
+	<lootcontainer id="123" count="1" size="6,3" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item name="casinoCoin" count="800,1200" />
+		<item name="desertEagle" count="1" prob="0.001" />
+		<item name="donkeyItem" count="1" prob="0.0005" />
+	</lootcontainer>
+	<lootcontainer id="124" count="1" size="6,3" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item name="casinoCoin" count="4500,8000" />
+		<item group="specialGuns" count="1" prob="0.08" />
+		<item name="desertEagle" count="1" prob="0.05" />
+		<item name="KSR" count="1" prob="0.03" />
+		<item name="donkeyItem" count="1" prob="0.02" />
+	</lootcontainer>
+	<lootcontainer id="125" count="1" size="6,3" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item name="casinoCoin" count="2500,5000" />
+	</lootcontainer>
+	<!-- FISHING -->
+	<lootcontainer id="100" count="0,2" size="4,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate" destroy_on_close="true">
+		<item group="junk" />
+		<item name="skull1" count="1" prob="0.01" />
+		<item name="skull2" count="1" prob="0.01" />
+		<item name="head" count="1" prob="0.01" />
+	</lootcontainer>
+	<!-- FISHING -->
+	<!-- lootcontainer 101 empty, transformers-->
+	<lootcontainer id="101" count="0" size="5,1" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest">
+		<item name="cobweb" count="1,2" />
+	</lootcontainer>
+	<!-- lootcontainer 102 empty, generators-->
+	<lootcontainer id="102" count="0" size="2,1" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler">
+		<item name="cobweb" count="1,2" />
+	</lootcontainer>
+	<!-- lootcontainer 103 FirefighterZd -->
+	<lootcontainer id="103" count="0,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="fireaxeSteel" prob="0.25" />
+		<item name="fireaxeIron" prob="0.35" />
+		<item name="miningHelmet" prob="0.13" />
+		<item group="clothes" prob="0.18" />
+		<item name="flashlight02" prob="0.14" />
+		<item name="scrapPlastics" count="1,3" prob="0.4" />
+		<item group="questChallenge" count="1" prob="0.03" />
+		<item group="treasureMaps" count="1" prob="0.04" />
+	</lootcontainer>
+	<!-- lootcontainer 104 PoliceZd -->
+	<lootcontainer id="104" count="0,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="PoliceBaton" prob="0.4" />
+		<item group="weaponsPistol+ammo" prob="0.14" />
+		<item group="weaponsAnyShotguns+ammo" prob="0.07" />
+		<item group="clothes" prob="0.18" />
+		<item name="padlock" prob="0.05" />
+		<item name="flashlight02" prob="0.14" />
+		<item group="questChallenge" count="1" prob="0.04" />
+		<item group="treasureMaps" count="1" prob="0.05" />
+	</lootcontainer>
+	<!-- lootcontainer 105 MilitaryZd -->
+	<lootcontainer id="105" count="0,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="Tomahawk" prob="0.4" />
+		<item group="militaryArmor" prob="0.15" />
+		<item group="clothes" prob="0.18" />
+		<item group="questChallenge" count="1" prob="0.05" />
+		<item group="treasureMaps" count="1" prob="0.06" />
+		<item group="specialGuns" count="1" prob="0.05" />
+		<item group="weaponsMilitaryGuns+ammo" prob="0.1" />
+	</lootcontainer>
+	<!-- lootcontainer 106 DocZd -->
+	<lootcontainer id="106" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="medicine" count="2" prob="0.3" />
+		<item group="clothes" prob="0.18" />
+		<item group="questChallenge" count="1" prob="0.06" />
+		<item group="treasureMaps" count="1" prob="0.07" />
+		<item name="RadSyringe" prob="0.4" />
+		<item name="radSyringeBook" count="1" prob="0.05" />
+		<item name="radbook" count="1" prob="0.1" />
+		<item name="potassiumIodidePills" count="1" prob="0.1" />
+		<item name="syringe" count="1" prob="0.1" />
+	</lootcontainer>
+	<!-- Rad Bosses Loot -->
+	<lootcontainer id="107" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="weaponsMilitaryGuns+ammo" prob="1" />
+		<item group="militaryArmor" prob="1" />
+		<item group="weaponsRocketLauncher+ammo" prob="0.3" />
+		<item name="nightvisionGoggles" prob="0.3" />
+		<item group="weaponsMilitaryGuns+ammo" prob="1.5" />
+		<item group="attachments" prob="2" />
+		<item group="specialGuns" prob="0.4" />
+	</lootcontainer>
+	<lootcontainer id="108" count="1" size="1,1" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="talkingHeadItem" />
+	</lootcontainer>
+	<lootgroup name="RadSuitScientists" count="all">
+		<item name="hazmatMask" count="1" prob="1" />
+		<item name="hazmatGloves" count="1" prob="1" />
+		<item name="hazmatShirt" count="1" prob="1" />
+		<item name="hazmatPants" count="1" prob="1" />
+		<item name="hazmatBoots" count="1" prob="1" />
+	</lootgroup>
+	<lootcontainer id="109" count="1" size="7,5" sound_open="UseActions/open_apache_artifact_chest" sound_close="UseActions/close_apache_artifact_chest" loot_quality_template="baseTemplate">
+		<item group="RadSuitScientists" />
+	</lootcontainer>
+	<lootcontainer id="110" count="0" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+		<item name="cobweb" count="1,2" />
+	</lootcontainer>
+	<!-- TRUCKS -->
+	<!-- MILITARY TRUCK -->
+	<lootcontainer id="111" count="1,4" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
+		<item group="militaryAmmo" prob="1" />
+		<item group="weaponsMilitaryGuns+ammo" prob="0.5" />
+		<item group="specialGuns" prob="0.4" />
+		<item group="attachments" prob="0.3" />
+		<item group="militaryArmor" prob="0.2" />
+		<item name="ammoWorkbench" prob="0.1" />
+		<item name="depletedUranium" count="2,4" prob="0.05" />
+		<item group="hazmatGear" prob="0.1" />
+	</lootcontainer>
+	<!-- SCIENCE TRUCK -->
+	<lootcontainer id="112" count="1,4" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
+		<item group="militaryAmmo" prob="1" />
+		<item name="depletedUranium" count="2,4" prob="0.8" />
+		<item name="gasCentrifuge" prob="0.65" />
+		<item name="enrichedUranium" count="4,10" prob="0.6" />
+		<item group="specialGuns" prob="0.4" />
+		<item group="attachments" prob="0.25" />
+		<item group="militaryArmor" prob="0.1" />
+		<item name="plutonium" prob="0.05" />
+		<item group="hazmatGear" prob="0.1" />
+	</lootcontainer>
+	<!-- MEDICAL TRUCK -->
+	<lootcontainer id="113" count="1,4" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
+		<item group="medicine" prob="1" />
+		<item group="rareMedicine" prob="0.5" />
+		<item name="gasCentrifuge" prob="0.3" />
+		<item group="hazmatGear" prob="0.1" />
+	</lootcontainer>
+	<!-- OLD MILITARY TRUCK (STATION POI) -->
+	<lootcontainer id="114" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
+		<item group="nuclearLoot" prob="1" />
+		<item group="hazmatGear" prob="0.1" />
+	</lootcontainer>
+	<!-- Rad Spider Nest -->
+	<lootcontainer id="115" count="1,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="nuclearWasteGood" count="1,2" prob="0.8" />
+		<item group="questRad" count="1" prob="0.5" />
+		<item name="radSpiderItem" count="1" prob="0.08" />
+	</lootcontainer>
+	<!-- TRUCKS -->
+	<!-- Rad Barrels -->
+	<lootcontainer id="116" count="0,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="nuclearWasteBad" />
+	</lootcontainer>
+	<!-- ???????? -->
+	<lootcontainer id="117" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="baseTemplate">
+		<item group="automotive+tools+junk" prob="0.4" />
+		<item name="miningHelmet" prob="0.3" />
+		<item name="partsBrowning_receiver" prob="0.1" />
+		<item name="BrowningTripodBlock" prob="0.2" />
+		<item name="ammoWorkbench" prob="0.1" />
+	</lootcontainer>
+	<!-- ???????? -->
+	<lootcontainer id="118" count="2,4" size="4,4" destroy_on_close="false" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
+		<item group="AmmoBoxes" />
+		<item name="powerCore" count="1" prob="0.01" />
+	</lootcontainer>
+	<!-- ???????? -->
+	<lootcontainer id="119" count="3,5" size="4,4" destroy_on_close="false" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="radLootTemplate">
+		<item group="AmmoBoxes" count="1,3" prob="0.8" />
+		<item name="powerCore" count="1" prob="0.02" />
+		<item group="specialParts" count="1" prob="0.9" />
+		<item name="lightsword" count="1" prob="0.01" />
+	</lootcontainer>
+	<!-- ???????? -->
+	<lootcontainer id="120" count="2,4" size="4,4" destroy_on_close="false" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="radLootTemplate">
+		<item group="nuclearWasteGood" />
+		<item group="specialParts" count="1" prob="0.6" />
+		<item name="powerCore" count="1" prob="0.02" />
+		<item group="browningStuff" count="1" prob="0.2" />
+		<item name="lightsword" count="1" prob="0.03" />
+		<item name="MilitaryScrewer" count="1" prob="0.01" />
+	</lootcontainer>
+	<!-- ???????? -->
+	<lootcontainer id="121" count="2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="radLootTemplate">
+		<item group="exoAmmo" count="1" prob="0.8" />
+		<item group="exoArmor" prob="0.4" />
+		<item group="exoGunParts" prob="0.4" />
+		<item group="exoGuns" count="1" prob="0.02" />
+	</lootcontainer>
+	<!-- remove weapon parts from loot >
+			<remove xpath="/lootcontainers/lootcontainer[@id='83']/item[@group='commonWeaponParts']" />
+			<remove xpath="/lootcontainers/lootcontainer[@id='81']/item[@group='magnumparts']" />
+			<remove xpath="/lootcontainers/lootcontainer[@id='81']/item[@group='huntingRifleParts']" />
+			<remove xpath="/lootcontainers/lootcontainer[@id='37']/item[@group='magnumparts']" />
+			<remove xpath="/lootcontainers/lootcontainer[@id='61']/item[@group='magnumparts']" /> -->
+</lootcontainers>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="Zoning" value="any"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-1"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="pine_forest,forest"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
+    <property name="TraderAreaProtect" value="20, 0, 20"/>
+    <property name="TraderAreaTeleportSize" value="33, 26, 33"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+</prefab>

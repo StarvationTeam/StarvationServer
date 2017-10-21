@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="Zoning" value="Commercial,Downtown,ResidentialOld"/>
+    <property name="RotationToFaceNorth" value="1"/>
+    <property name="StaticSpawner.Size" value="32, 2, 32"/>
+    <property name="AllowedBiomes" value="burnt_forest,radiated"/>
+    <property name="AllowedTownships" value="city,town"/>
+    <property name="TraderAreaProtect" value="20, 0, 20"/>
+    <property name="TraderAreaTeleportSize" value="33, 26, 33"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+    <property name="SleeperVolumeStart" value="-12, 0, -14"/>
+    <property name="SleeperVolumeSize" value="58, 21, 54"/>
+    <property name="SleeperVolumeGroup" value="S_LootRoom_XL"/>
+    <property name="SleeperVolumeGameStageAdjust" value=""/>
+    <property name="SleeperIsLootVolume" value="False"/>
+</prefab>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="Zoning" value="Commercial"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-1"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="StaticSpawner.Size" value="32, 2, 32"/>
+    <property name="AllowedBiomes" value="radiated"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
+    <property name="SleeperVolumeStart" value="0, 0, 0#21, 0, 5#25, 0, 17#0, 0, 7"/>
+    <property name="SleeperVolumeSize" value="38, 18, 38#17, 6, 12#13, 11, 11#10, 12, 10"/>
+    <property name="SleeperVolumeGroup" value="S_Default_L,S_Badass_S,S_Badass_S,S_BusinessMan_S"/>
+    <property name="SleeperVolumeGameStageAdjust" value="hard,hard,hard,hard"/>
+    <property name="SleeperIsLootVolume" value="False,True,True,True"/>
+</prefab>

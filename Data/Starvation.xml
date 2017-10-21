@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<ServerGroup Name="StarvationTeam" Logo="" Description="StarvationTeam">
+		<Server Name="Starvation16" Logo="">
+			<Description>Starvation for Alpha 16
+			The idea is to make a mod that tries to make things harder, more interesting, but also highly rewarding later in the game. Again, coding have been made by me, and most graphics where made by Pacco.
+			</Description>
+			<DownloadMode>Clone</DownloadMode>
+			<!-- Optional -->
+			<Address></Address>					
+			<Port></Port>	
+			<!--- end of optional -->
+			<Version>alpha16.3</Version>
+			<RSS>https://github.com/StarvationTeam/StarvationClient/commits/master.atom</RSS>
+			<ReleaseNotes>https://7daystodie.com/forums/showthread.php?49819-WIP-STARVATION-by-SDX-team</ReleaseNotes>
+			<Downloads>
+				<Download>https://github.com/StarvationTeam/StarvationClient/archive/master.zip</Download>
+			</Downloads>
+		</Server>
+	</ServerGroup>
+</Servers>

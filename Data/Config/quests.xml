@@ -1,0 +1,1314 @@
+<quests>
+	<quest id="quest_BasicSurvival1" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival1" subtitle_key="quest_BasicSurvival1_subtitle" description_key="quest_BasicSurvival1_description" icon="ui_game_symbol_map_bed" category_key="quest" difficulty="veryeasy" offer_key="quest_BasicSurvival_offer">
+		<action type="ShowTip" value="tutorialTipQuest02" />
+		<action type="TrackQuest" />
+		<objective type="FetchKeep" id="yuccaFibers" value="20" />
+		<objective type="Craft" id="bedroll" value="1" />
+		<objective type="BlockPlace" id="bedroll" value="1" />
+		<reward type="Quest" id="quest_BasicSurvival2" />
+		<reward type="Quest" id="Q_Farm_A1" />
+		<reward type="Quest" id="Q_Animals_A1" />
+		<reward type="Quest" id="Q_Husbandry" />
+		<reward type="Quest" id="Q_NailWood" />
+		<reward type="Quest" id="Q_WoodenSpear" />
+		<reward type="Quest" id="LOS" />
+	</quest>
+	<quest id="quest_BasicSurvival2" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival2" subtitle="Craft a Stone Axe" subtitle_key="quest_BasicSurvival2_subtitle" description_key="quest_BasicSurvival2_description" icon="ui_game_symbol_hammer" category_key="quest" offer_key="quest_BasicSurvival_offer">
+		<objective type="FetchKeep" id="yuccaFibers" value="2" />
+		<objective type="FetchKeep" id="wood" value="2" />
+		<objective type="FetchKeep" id="rockSmall" value="4" />
+		<objective type="Craft" id="stoneAxe" value="1" />
+		<reward type="Quest" id="quest_BasicSurvival3" />
+	</quest>
+	<quest id="quest_BasicSurvival3" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival3" subtitle_key="quest_BasicSurvival3_subtitle" description_key="quest_BasicSurvival3_description" icon="ui_game_symbol_tailoring" category_key="quest" difficulty="veryeasy">
+		<objective type="FetchKeep" id="yuccaFibers" value="35" />
+		<objective type="Craft" id="plantFiberPants" value="1" />
+		<objective type="Craft" id="plantFiberShirt" value="1" />
+		<objective type="Craft" id="plantFiberHood" value="1" />
+		<objective type="Craft" id="plantFiberShoes" value="1" />
+		<objective type="Craft" id="plantFiberGloves" value="1" />
+		<reward type="Quest" id="quest_BasicSurvival4" />
+	</quest>
+	<quest id="quest_BasicSurvival4" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival4" subtitle_key="quest_BasicSurvival4_subtitle" description_key="quest_BasicSurvival4_description" icon="ui_game_symbol_shirt" category_key="quest" difficulty="veryeasy">
+		<objective type="Wear" id="plantFiberPants" />
+		<objective type="Wear" id="plantFiberShirt" />
+		<objective type="Wear" id="plantFiberHood" />
+		<objective type="Wear" id="plantFiberShoes" />
+		<objective type="Wear" id="plantFiberGloves" />
+		<reward type="Quest" id="quest_BasicSurvival5" />
+	</quest>
+	<quest id="quest_BasicSurvival5" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival5" subtitle_key="quest_BasicSurvival5_subtitle" description_key="quest_BasicSurvival5_description" icon="ui_game_symbol_club" category_key="quest" difficulty="veryeasy">
+		<objective type="FetchKeep" id="wood" value="6" />
+		<objective type="Craft" id="clubWood" value="1" />
+		<reward type="Quest" id="quest_BasicSurvival6" />
+	</quest>
+	<quest id="quest_BasicSurvival6" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival6" subtitle_key="quest_BasicSurvival6_subtitle" description_key="quest_BasicSurvival6_description" icon="ui_game_symbol_archery" category_key="quest" difficulty="veryeasy">
+		<objective type="FetchKeep" id="wood" value="10" />
+		<objective type="FetchKeep" id="yuccaFibers" value="3" />
+		<objective type="FetchKeep" id="feather" value="2" />
+		<objective type="FetchKeep" id="rockSmall" value="2" />
+		<objective type="Craft" id="woodenBow" value="1" />
+		<objective type="Craft" id="arrow" value="2" />
+		<reward type="Quest" id="quest_BasicSurvival7" />
+	</quest>
+	<quest id="quest_BasicSurvival7" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival7" subtitle_key="quest_BasicSurvival7_subtitle" description_key="quest_BasicSurvival7_description" icon="ui_game_symbol_map_house" category_key="quest" difficulty="veryeasy">
+		<objective type="FetchKeep" id="wood" value="18" />
+		<objective type="Craft" id="woodFrameBlock" value="3" />
+		<objective type="BlockPlace" id="woodFrameBlock" value="3" />
+		<objective type="BlockUpgrade" id="woodFrameBlock" value="3" />
+		<reward type="Quest" id="quest_BasicSurvival8" />
+	</quest>
+	<quest id="quest_BasicSurvival8" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival8" subtitle_key="quest_BasicSurvival8_subtitle" description_key="quest_BasicSurvival8_description" icon="ui_game_symbol_campfire" category_key="quest" difficulty="veryeasy">
+		<objective type="FetchKeep" id="rockSmall" value="8" />
+		<objective type="Craft" id="campfire" value="1" />
+		<objective type="BlockPlace" id="campfire" value="1" />
+		<reward type="SkillPoints" value="5" />
+		<reward type="ShowTip" value="skillPointTip" stage="aftercomplete" />
+		<reward type="Quest" id="quest_whiteRiverCitizen1" stage="aftercomplete" />
+	</quest>
+	<quest id="quest_whiteRiverCitizen1" group_name_key="quest_WhiteRiverCitizen" name_key="quest_WhiteRiverCitizen1" subtitle_key="quest_WhiteRiverCitizen1_subtitle" description_key="quest_WhiteRiverCitizen1_description" icon="ui_game_symbol_map_trader" category_key="quest" difficulty="medium">
+		<objective type="Goto" id="trader" value="5" />
+		<reward type="SkillPoints" value="5" />
+	</quest>
+	<quest id="challenge_silenceofthelambs" name_key="challenge_silenceofthelambs" subtitle_key="challenge_silenceofthelambs_subtitle" description_key="challenge_silenceofthelambs_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_silenceofthelambs_offer" difficulty="insane">
+		<objective type="Time" value="1200" optional="true" />
+		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="3" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_drunkanddisorderly" name_key="challenge_drunkanddisorderly" subtitle_key="challenge_drunkanddisorderly_subtitle" description_key="challenge_drunkanddisorderly_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_drunkanddisorderly_offer" difficulty="medium">
+		<objective type="Time" value="600" optional="true" />
+		<objective type="ZombieKill" value="2" />
+		<requirement type="Holding" id="" />
+		<requirement type="Group" value="OR">
+			<requirement type="Buff" id="Drunk" />
+			<requirement type="Buff" id="SickDrunk" />
+		</requirement>
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_nurseyoubacktohealth" name_key="challenge_nurseyoubacktohealth" subtitle_key="challenge_nurseyoubacktohealth_subtitle" description_key="challenge_nurseyoubacktohealth_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_nurseyoubacktohealth_offer" difficulty="medium">
+		<objective type="Time" value="900" optional="true" />
+		<objective type="ZombieKill" id="zombieNurse,zombieNurseFeral" value="3" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_copanattitude" name_key="challenge_copanattitude" subtitle_key="challenge_copanattitude_subtitle" description_key="challenge_copanattitude_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_copanattitude_offer" difficulty="hard">
+		<objective type="Time" value="1500" optional="true" />
+		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="2" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_dogdaysareover" name_key="challenge_dogdaysareover" subtitle_key="challenge_dogdaysareover_subtitle" description_key="challenge_dogdaysareover_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_dogdaysareover_offer" difficulty="hard">
+		<objective type="Time" value="1500" optional="true" />
+		<objective type="ZombieKill" id="animalZombieDog" value="4" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_itsybitsyspider" name_key="challenge_itsybitsyspider" subtitle_key="challenge_itsybitsyspider_subtitle" description_key="challenge_itsybitsyspider_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_itsybitsyspider_offer" difficulty="medium">
+		<objective type="Time" value="900" optional="true" />
+		<objective type="ZombieKill" id="zombieSpider,zombieSpiderFeral,zombieSpiderFeralRadiated" value="3" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_ladykiller" name_key="challenge_ladykiller" subtitle_key="challenge_ladykiller_subtitle" description_key="challenge_ladykiller_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_ladykiller_offer" difficulty="medium">
+		<objective type="Time" value="900" optional="true" />
+		<objective type="ZombieKill" id="zombieArlene,zombieArleneFeral" value="1" />
+		<objective type="ZombieKill" id="zombieDarlene,zombieDarleneFeral" value="1" />
+		<objective type="ZombieKill" id="zombieMarlene,zombieMarleneFeral" value="1" />
+		<objective type="ZombieKill" id="zombieNurse,zombieNurseFeral" value="1" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_maneater" name_key="challenge_maneater" subtitle_key="challenge_maneater_subtitle" description_key="challenge_maneater_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_maneater_offer" difficulty="medium">
+		<objective type="Time" value="900" optional="true" />
+		<objective type="ZombieKill" id="zombieBoe,zombieBoeFeral" value="1" />
+		<objective type="ZombieKill" id="zombieJoe,zombieJoeFeral" value="1" />
+		<objective type="ZombieKill" id="zombieMoe,zombieMoeFeral" value="1" />
+		<objective type="ZombieKill" id="zombieYo,zombieYoFeral" value="1" />
+		<objective type="ZombieKill" id="zombieSteve,zombieSteveFeral" value="1" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_yournothingspecial" name_key="challenge_yournothingspecial" subtitle_key="challenge_yournothingspecial_subtitle" description_key="challenge_yournothingspecial_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_yournothingspecial_offer" difficulty="insane">
+		<objective type="Time" value="1800" optional="true" />
+		<objective type="ZombieKill" id="zombieSpider,zombieSpiderFeral,zombieSpiderFeralRadiated" value="1" />
+		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="1" />
+		<objective type="ZombieKill" id="zombieWightFeral,zombieWightFeralRadiated" value="1" />
+		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="1" />
+		<objective type="ZombieKill" id="zombieBurnt" value="1" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_imalumberjackandimokay" name_key="challenge_imalumberjackandimokay" subtitle_key="challenge_imalumberjackandimokay_subtitle" description_key="challenge_imalumberjackandimokay_offer" icon="ui_game_symbol_zombie" repeatable="true" category_key="challenge" offer_key="challenge_imalumberjackandimokay_offer" difficulty="hard">
+		<objective type="Time" value="900" optional="true" />
+		<objective type="ZombieKill" id="zombieSnow,zombieSnowFeral" value="3" />
+		<requirement type="Group" id="requirementGroupFireaxe" value="OR">
+			<requirement type="Holding" id="fireaxeIron" />
+			<requirement type="Holding" id="fireaxeSteel" />
+		</requirement>
+		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="1" optional="true" />
+	</quest>
+	<quest id="challenge_killthewabbit" name_key="challenge_killthewabbit" subtitle_key="challenge_killthewabbit_subtitle" description_key="challenge_killthewabbit_offer" icon="ui_game_symbol_knife" repeatable="true" category_key="challenge" offer_key="challenge_killthewabbit_offer" difficulty="medium">
+		<objective type="AnimalKill" id="animalRabbit" value="5" />
+		<requirement type="Group" id="requirementGroupShotgun" value="OR">
+			<requirement type="Holding" id="gunSawedOffPumpShotgun" />
+			<requirement type="Holding" id="gunPumpShotgun" />
+		</requirement>
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	<quest id="challenge_nailsomechicks" name_key="challenge_nailsomechicks" subtitle_key="challenge_nailsomechicks_subtitle" description_key="challenge_nailsomechicks_offer" icon="ui_game_symbol_knife" repeatable="true" category_key="challenge" offer_key="challenge_nailsomechicks_offer" difficulty="medium">
+		<objective type="AnimalKill" id="animalChicken" value="5" />
+		<requirement type="Holding" id="nailgun" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	<quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife" repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
+		<objective type="AnimalKill" id="animalBoar" value="5" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	<quest id="challenge_stagparty" name_key="challenge_stagparty" subtitle_key="challenge_stagparty_subtitle" description_key="challenge_stagparty_offer" icon="ui_game_symbol_knife" repeatable="true" category_key="challenge" offer_key="challenge_stagparty_offer" difficulty="easy">
+		<objective type="AnimalKill" id="animalStag" value="5" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	<quest id="challenge_dontfeedthebears" name_key="challenge_dontfeedthebears" subtitle_key="challenge_dontfeedthebears_subtitle" description_key="challenge_dontfeedthebears_offer" icon="ui_game_symbol_knife" repeatable="true" category_key="challenge" offer_key="challenge_dontfeedthebears_offer" difficulty="hard">
+		<objective type="AnimalKill" id="animalBear" value="3" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	<quest id="challenge_buythefarm" name_key="challenge_buythefarm" subtitle_key="challenge_buythefarm_subtitle" description_key="challenge_buythefarm_offer" icon="ui_game_symbol_knife" repeatable="true" category_key="challenge" offer_key="challenge_buythefarm_offer" difficulty="medium">
+		<objective type="AnimalKill" id="animalRabbit" value="1" />
+		<objective type="AnimalKill" id="animalChicken" value="1" />
+		<objective type="AnimalKill" id="animalBoar" value="1" />
+		<objective type="AnimalKill" id="animalStag" value="1" />
+		<objective type="AnimalKill" id="animalBear" value="1" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	<quest id="treasure_taylor" name_key="treasure_taylor" subtitle_key="treasure_taylor_subtitle" description_key="treasure_taylor_offer" icon="ui_game_symbol_treasure" repeatable="true" category_key="treasure" offer_key="treasure_taylor_offer" difficulty="medium">
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750" />
+	</quest>
+	<quest id="treasure_nickole" name_key="treasure_nickole" subtitle_key="treasure_nickole_subtitle" description_key="treasure_nickole_offer" icon="ui_game_symbol_treasure" repeatable="true" category_key="treasure" offer_key="treasure_nickole_offer" difficulty="medium">
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750" />
+	</quest>
+	<quest id="treasure_stephan" name_key="treasure_stephan" subtitle_key="treasure_stephan_subtitle" description_key="treasure_stephan_offer" icon="ui_game_symbol_treasure" repeatable="true" category_key="treasure" offer_key="treasure_stephan_offer" difficulty="medium">
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750" />
+	</quest>
+	<quest id="treasure_jennifer" name_key="treasure_jennifer" subtitle_key="treasure_jennifer_subtitle" description_key="treasure_jennifer_offer" icon="ui_game_symbol_treasure" repeatable="true" category_key="treasure" offer_key="treasure_jennifer_offer" difficulty="medium">
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750" />
+	</quest>
+	<quest id="treasure_claude" name_key="treasure_claude" subtitle_key="treasure_claude_subtitle" description_key="treasure_claude_offer" icon="ui_game_symbol_treasure" repeatable="true" category_key="treasure" offer_key="treasure_claude_offer" difficulty="medium">
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750" />
+	</quest>
+	<quest id="treasure_sarah" name_key="treasure_sarah" subtitle_key="treasure_sarah_subtitle" description_key="treasure_sarah_offer" icon="ui_game_symbol_treasure" repeatable="true" category_key="treasure" offer_key="treasure_sarah_offer" difficulty="medium">
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750" />
+	</quest>
+	<quest id="treasure_raphael" name_key="treasure_raphael" subtitle_key="treasure_raphael_subtitle" description_key="treasure_raphael_offer" icon="ui_game_symbol_treasure" repeatable="true" category_key="treasure" offer_key="treasure_raphael_offer" difficulty="medium">
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750" />
+	</quest>
+	<quest id="challenge_junkhunt1" group_name_key="Junkhunt" name_key="Scavenging for orphans" subtitle_key="Scavenging for orphans" offer_key="A little orphan girl showed up at the tradingpost and won't stop crying about her lost dolly.  Find her a doll and you will be rewarded!" description_key="Find a doll and you will be rewarded!!" icon="ui_game_symbol_rubberDoll" category_key="challenge">
+		<objective type="FetchKeep" id="rubberDoll" value="1" />
+		<reward type="Exp" value="400" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="challenge_junkhunt2" />
+	</quest>
+	<quest id="challenge_junkhunt2" group_name_key="Junkhunt" name_key="Scavenging for orphans again" subtitle_key="Scavenging for orphans again" offer_key="That girl's brother just showed up.  All he talks about is becoming a zombie killing soldier and is missing his toy soldier collection.  Collect some toy soldiers and you will be rewarded!  Are you up for this one too?" description_key="Collect some toy soldiers and you will be rewarded!" icon="ui_game_symbol_plasticSoldier" category_key="challenge">
+		<objective type="FetchKeep" id="plasticSoldier" value="1" />
+		<objective type="FetchKeep" id="woodSoldier" value="1" />
+		<objective type="FetchKeep" id="ironSoldier" value="1" />
+		<objective type="FetchKeep" id="leadSoldier" value="1" />
+		<reward type="Item" id="gunHuntingRifle" value="450" />
+		<reward type="Exp" value="800" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	<quest id="quest_nuclearPlant1" group_name="Nuclear Plant" name="Nuclear Plant" subtitle="Nuclear Plant" description="Well....\n\nYou seem to be a resourceful fella.\nI've heard that there's a active nuclear plant somewhere.\n\nHere, take this modified geiger counter, it might help you.\nI adjusted it to look for nuclear plant radiation signature.\n\nI advise you to approach with care.\n\nIf you find it, I want you to power it up and make me some plutonium...\nDon't ask me how... Just do it, and I'll make it worthwhile" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<reward type="Item" id="findPlant" />
+		<reward type="Quest" id="quest_nuclearPlant2" />
+	</quest>
+	<quest id="quest_nuclearPlant2" group_name="Nuclear Plant" name="Power it UP" subtitle="Power it UP" description="So, let's find that nuclear plant and get ourselfs some plutonium." icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="FetchKeep" id="plutonium" value="1" />
+		<reward type="Quest" id="quest_nuclearPlant3" />
+	</quest>
+	<quest id="quest_nuclearPlant3" group_name="Nuclear Plant" name="Power it UP" subtitle="Power it UP" description="Ok, I got the plutonium. Let's get back to madmole and test this thing." icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="FetchKeep" id="certificate" value="1" />
+		<reward type="Quest" id="quest_nuclearPlant5" />
+	</quest>
+	<quest id="quest_nuclearPlant4" group_name="Nuclear Plant" name="Power it UP" subtitle="Power it UP" description="Hmmm! Optimum quality!" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<reward type="Item" id="certificate" />
+	</quest>
+	<quest id="quest_nuclearPlant5" group_name="Nuclear Plant" name="Power it UP" subtitle="Power it UP" description="Perfect, so you finally got some plutonium... That's awsome man!\n\n Here, take this, make good use of it!" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<reward type="Item" id="exoHelmet" />
+	</quest>
+	<quest id="quest_repairKatana1" group_name_key="quest_repairKatana1" name="Repair My Gun 1/2" name_key="quest_repairKatana1" subtitle="Get me some stuff" description="You seem resourceful. If you could get me some leather and\nforged iron to repair my Katana, maybe we could talk...\n\nGet this stuff and come back to me!" icon="ui_game_symbol_hammer" category_key="Quest">
+		<action type="TrackQuest" />
+		<objective type="FetchKeep" id="leather" value="5" />
+		<objective type="FetchKeep" id="forgedSteel" value="2" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_repairKatana2" name="quest_repairKatana2" subtitle="Need some more help" description="This mats will certainly help me,\nbut I'm not getting out of here with so many zeds around.\n\nDo some cleaning, and I may follow you!\nI really HATE female zombies, their screams are disgusting!\n\nCome back to me when you're done!" icon="ui_game_symbol_zombie" category_key="challenge">
+		<objective type="ZombieKill" id="zombieArlene" value="1" />
+		<objective type="ZombieKill" id="zombieDarlene" value="1" />
+		<objective type="ZombieKill" id="zombieMarlene" value="1" />
+		<objective type="ZombieKill" id="zombieNurse" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_repairKatana3" name="quest_repairKatana3" subtitle="Get me some more...." description="There are still to many of those suckers running around,\nbring me a few more and I got a nice present for you" icon="ui_game_symbol_zombie" category_key="challenge">
+		<objective type="ZombieKill" id="zombieBoe" value="1" />
+		<objective type="ZombieKill" id="zombieJoe" value="1" />
+		<objective type="ZombieKill" id="zombieMoe" value="1" />
+		<objective type="ZombieKill" id="zombieYo" value="1" />
+		<reward type="Item" id="talkingHeadItem" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_militaryAid" name="Military Aid" name_key="quest_militaryAid" subtitle="I want revenge!" description="My entire unit was killed inside the radiated zone!\nI want you to kill that damn mutant bosses for me!\n\nI'll make it worth while!" icon="ui_game_symbol_zombie" category_key="challenge">
+		<objective type="ZombieKill" id="radApe" value="1" />
+		<objective type="ZombieKill" id="zombieWightFeralRadiated" value="1" />
+		<reward type="Item" id="aviatorGoggles" />
+	</quest>
+	<quest id="quest_militaryReward" name="Revenge" subtitle="I want revenge!" description="AH AH AH AH! You got them fuckers!\n\nI hope you brought me their goggles as prove!\n\nWear them for me, please! This is awsome!!" icon="ui_game_symbol_zombie" category_key="Quest">
+		<objective type="Wear" id="aviatorGoggles" />
+		<reward type="Item" id="MilitaryScrewer" />
+	</quest>
+	<!-- <quest id="quest_TheMGJunkyard" group_name="The Old Mg" name="Old MG Junkyard" subtitle="Find the Old MG" description="a way to the Junkyard with the old MG" icon="ui_game_symbol_map_trader" category_key="Quest">
+	  <objective type="Goto" id="junkyard_med_MG" value="5" />
+	  <reward type="SkillPoints" value="1" />
+	 </quest> -->
+	<quest id="quest_TheFarmer" group_name="The Farmer" name="The Farmer" subtitle="Find the Farmer" description="Where the hell is the farmer" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="Goto" id="FarmerPrefab" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_TheScientists" group_name="The Scientists" name="The Scientists" subtitle="Find the Scientists" description="Scientists, where are they hiding" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="Goto" id="ScientistShelter" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_Michone" group_name="The Katana Lady" name="The Katana Lady" subtitle="Find Michone" description="Find Michones House" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="Goto" id="abandoned_house_michone" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_Madmole" group_name="Tha Church" name="Holy Rooms" subtitle="Find Madmole" description="Find Madmoles Church" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="Goto" id="church_madmole" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_Military" group_name="Military" name="Get da Beast" subtitle="Find Trooper" description="Find Trooper" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="Goto" id="militarybarracks" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_PrepareForTheCure" group_name="The Cure" name="Is there a Cure?" subtitle="Get your Rad Suit to help us" description="You know what, take this key and get your Hazmat Suit.\n\nYou'll probably need it, if you're gonna help us.\n\nTalk to me when you have it!" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<reward type="Item" id="RadSuitKey" />
+		<reward type="Quest" id="quest_theCure" />
+	</quest>
+	<quest id="quest_theCure" group_name="The Cure" name="Is there a Cure? 1" subtitle="Wear the Hazmat" description="Wear the full hazmat suit, and talk with the doc again." icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="FetchKeep" id="hazmatMask" value="1" />
+		<objective type="FetchKeep" id="hazmatGloves" value="1" />
+		<objective type="FetchKeep" id="hazmatShirt" value="1" />
+		<objective type="FetchKeep" id="hazmatPants" value="1" />
+		<objective type="FetchKeep" id="hazmatBoots" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_theCure1" group_name="The Cure" name="Is there a Cure? 2" subtitle="Find the infected Scientist" description="We've recently sent a team to the outer radiated zones.\nWe suspected there may be something there that can help us...\nUnfortunately we lost contact with our team,\nand we fear for the worse.\nMy brother was one of the team members,\nand I was wondering if you could go look for him there.\n\nAnd... ermmm... If he's infected, please make sure you free him...\n\nOh and if he's carying any syringe,\nmake sure you bring it back with you!" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="ZombieKill" id="DocZd" value="1" />
+		<objective type="FetchKeep" id="RadSyringe" value="1" />
+		<reward type="Item" id="antibiotics" />
+	</quest>
+	<quest id="quest_theCure2" group_name="The Cure" name="Is there a Cure? 3" subtitle="One step closer" description="Well, shit... That's unfortunate about my brother.\n\nHowever the syringe you brought back\nis VERY interesting! This cures almost any disease...\nCareful though, it's quite addictive!\n\nHere, you keep that one and let me teach you\nhow to make more!\n\nBye now, i'll keep investigating a definite cure!!" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="FetchKeep" id="RadSyringe" value="1" />
+		<reward type="Item" id="radSyringeBook" />
+	</quest>
+	<quest id="quest_farmer1" group_name="Save my Ass" name="Save my Ass 1" subtitle="Seed Me" description="Hi there pilgrim!\n\nI wonder if you could help me with something!\nI've been trying to restart my farm, but I need some seeds..." icon="ui_game_symbol_map_trader" category_key="Quest">
+		<action type="TrackQuest" />
+		<objective type="FetchKeep" id="potato" value="3" />
+		<objective type="FetchKeep" id="corn" value="2" />
+		<objective type="FetchKeep" id="wheat" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_farmer2" group_name="Save my Ass" name="Save my Ass 2" subtitle="Save My Ass" description="Perfect... But this damn zeds keep destroying my plants!\n\nI'm just not strong enough... Could you help me?\nYou do this for me, and I'll get you a nice ass!\n\nAre you ready for this?" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="zombieBoe" value="1" />
+		<objective type="ZombieKill" id="zombieJoe" value="1" />
+		<reward type="Item" id="donkeyItem" />
+	</quest>
+	<quest id="quest_BurnedHouse" group_name="Rad Zone" name="Unit Outpost" subtitle="Unit Outpost" description="I have no hope of surviving... My unit was pinned out deep inside the rad zone..\nI managed to run away, but radiation is gettting to me... I feel I can't got on...\n\nAt night I hear this damn spiders lurking around, and I'm almost out of ammo..\nI made a map of our unit outpost, we left some gear behind! Maybe someone finds this, and is able to use it...\nHumanity must survive!" offer="I have no hope of surviving... My unit was pinned out deep inside the rad zone..\nI managed to run away, but radiation is gettting to me... I feel I can't got on...\n\nAt night I hear this damn spiders lurking around, and I'm almost out of ammo..\nI made a map of our unit outpost, we left some gear behind! Maybe someone finds this, and is able to use it...\nHumanity must survive!" icon="ui_game_symbol_map_trader" category_key="Quest" repeatable="true" difficulty="hard">
+		<objective type="Goto" id="HouseBurntRadiated" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_BurnedHouse1" group_name="Rad Zone" name="Mario Diary" subtitle="Mario Diary" description="I fell my mind decaying... I thought I could come here and salvage some good loot, but this damn radiation is just too much...\n\nI'm starting to forget simple things. This map is a reminder of my hidden stach...\n\nBe careful, i had to run when they came! Those monsters...\nI think i lost them, but I can't be sure anymore..." offer="I fell my mind decaying... I thought I could come here and salvage some good loot, but this damn radiation is just too much...\n\nI'm starting to forget simple things. This map is a reminder of my hidden stach...\n\nBe careful, i had to run when they came! Those monsters...\nI think i lost them, but I can't be sure anymore..." icon="ui_game_symbol_map_trader" category_key="Quest" repeatable="true" difficulty="hard">
+		<objective type="Goto" id="HouseBurntRadiated1" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_MpWaste" group_name="Rad Zone" name="Military Stach" subtitle="Military Stach" description="Finally a break through! Last night I followed some military crew, and I managed to find out their gear stach!\nI'm making this map for future reference. There was a big gunfight and I still can't believe my eyes.\nWhat I saw was... Unbelievable... Monsters, they were monsters... But i need to get that gear, it's our only ho..." offer="Finally a break through! Last night I followed some military crew, and I managed to find out their gear stach!\nI'm making this map for future reference. There was a big gunfight and I still can't believe my eyes.\nWhat I saw was... Unbelievable... Monsters, they were monsters... But i need to get that gear, it's our only ho..." icon="ui_game_symbol_map_trader" category_key="Quest" repeatable="true" difficulty="hard">
+		<objective type="Goto" id="MpWasteRadiated" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_RadGarage" group_name="Burnt Garage" name="garageburnt1" subtitle="garageburnt1" description="go and find a garageburnt1" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="Goto" id="garageburnt1" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_MeetPacco" group_name="Meet Pacco" name="Master Armorsmith 1/2" subtitle="Master Armorsmith" description="Hello there.\nI am Pacco, and you wont find a better armorsmith anywhere!\n\nMaybe you can make me some errands and who knows...\nI may have a nice present for you..\n\nCheck your log for more information, please.\n\n\nNOTE FROM THE TEAM\n\nThis quest line was made in loving memory of our good friend René,\naka Pacco.\n\nMay he rest in peace" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="quest_getReward" group_name="Meet Pacco" name="Master Armorsmith 2/2" subtitle="Master Armorsmith" description="Perfect.\nAs promissed, here's your reward!\n\n\nNOTE FROM THE TEAM\n\nPacco was one of the first SDX modders\nand the first person to inject weapons\nand custom entities in the game." icon="ui_game_symbol_map_trader" category_key="Quest">
+		<reward type="Item" id="desertEagle" value="700" />
+	</quest>
+	<quest id="pacco_game_room0" group_name="Game Room" name="Game Room 1/2" subtitle="My Game Room" description="Actually, there's something else\nthat might interest you.\n\nI have a game room downstairs, with some nice prizes\nI'm a big collector.\nLet me unlock some receipts for you, check your log for the next step.\n\n\nNOTE FROM THE TEAM\n\nPacco was the creator of the mod HeadBanger's For Life\nand one of the creators of Starvation" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<reward type="Recipe" id="toyBoxAction" />
+		<reward type="Recipe" id="toyBoxFun" />
+		<reward type="Quest" id="pacco_game_room1" />
+	</quest>
+	<quest id="pacco_game_room1" group_name="Game Room" name="Game Room 2/3" subtitle="My Game Room" description="I want you to make me a these two toy packages\nand i'll let you get in there.\nCome and see me when you're done." icon="ui_game_symbol_map_trader" category_key="Quest">
+		<objective type="Craft" id="toyBoxAction" value="1" />
+		<objective type="Craft" id="toyBoxFun" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="pacco_game_room" group_name="Game Room" name="Game Room 3/3" subtitle="My Game Room" description="Perfect, I see you finally got it.\n\nYou can now enter my game room at any time\nGood luck!\n\n\nI hope this helped you to know a little bit\nabout Pacco.\nHe was a great modder\n\nAnd a great man!" icon="ui_game_symbol_map_trader" category_key="Quest">
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<!-- <quest id="quest_Refinery" group_name="The Refinery" name="The Refinery" subtitle="The Refinery" description="Despair! I despair! My familly, my friends... They need me!\nWe thought we were safe. We hoped... We thought we could survive through this...\nBut then they came. Worst then monsters! Those bandits came for our fuel!\nI wonder if there's still someone alive, but I'm too weak..I'm out of power for my exoskeleton and I'm too weak to try..." offer="Despair! I despair! My familly, my friends... They need me!\nWe thought we were safe. We hoped... We thought we could survive through this...\nBut then they came. Worst then monsters! Those bandits came for our fuel!\nI wonder if there's still someone alive, but I'm too weak..I'm out of power for my exoskeleton and I'm too weak to try..." icon="ui_game_symbol_map_trader" category_key="Quest"  difficulty="hard">
+		<objective type="Goto" id="utility_refinery_01" value="10" />
+		<reward type="SkillPoints" value="1" />
+	</quest> -->
+	<!--Husbandry-->
+	<quest id="Q_Husbandry" group_name="Husbandry" name="Husbandry Basics 1/4" subtitle="Make a whip" description="you could use the whip to tame wild animals" offer="Husbandry - How to tame wild animals" icon="ui_game_symbol_husbandry" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="leather" value="2" />
+		<objective type="FetchKeep" id="wood" value="15" />
+		<objective type="Craft" id="whip" value="1" />
+		<reward type="Quest" id="Q_Husbandry2" />
+	</quest>
+	<quest id="Q_Husbandry2" group_name="Husbandry" name="Husbandry Basics 2/4" subtitle="Tame a Pig" description="You can capture animals in the wild,  by using a taming tool - the whip\nTaming success is based on your husbandry skill.\nIf you fail a taming action,  you will hurt the animal. If you fail enough times,  you will KILL the animal." icon="ui_game_symbol_husbandry" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="pigFemaleItem" value="1" />
+		<requirement type="Holding" id="whip" />
+		<reward type="Quest" id="Q_Husbandry3" />
+	</quest>
+	<quest id="Q_Husbandry3" group_name="Husbandry" name="Husbandry Basics 3/4" subtitle="The trough" description="Build a corral out of fences or something similar\nand place a trough there for your animal" icon="ui_game_symbol_husbandry" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="wood" value="50" />
+		<objective type="FetchKeep" id="forgedIron" value="10" />
+		<objective type="Craft" id="trough" value="1" />
+		<reward type="Quest" id="Q_Husbandry4" />
+	</quest>
+	<quest id="Q_Husbandry4" group_name="Husbandry" name="Husbandry Basics 4/4" subtitle="Animal Feed" description="Find some hay bales and craft an Animal Feed.\nPut it in the trough. Now place your animal in the stable\n\nif you put a male and a female there, they will start breeding." icon="ui_game_symbol_husbandry" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="BlockPlace" id="trough" value="1" />
+		<objective type="Craft" id="AnimalFeed" value="100" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="Q_Husbandry5" />
+	</quest>
+	<quest id="Q_Husbandry5" group_name="Husbandry" name="Husbandry in Action 1/7" subtitle="Wood Bucket" description="It is time to collect some turd from your animals.\nYou need a wood bucket to do this.\n\nCraft one." icon="ui_game_symbol_q_husbandry_2" repeatable="false" category_key="Quest" difficulty="medium">
+		<objective type="FetchKeep" id="wood" value="20" />
+		<objective type="FetchKeep" id="forgedIron" value="5" />
+		<objective type="Craft" id="bucketWood" value="1" />
+		<reward type="Quest" id="Q_Husbandry6" />
+	</quest>
+	<quest id="Q_Husbandry6" group_name="Husbandry" name="Husbandry in Action 2/7" subtitle="Collect Turd" description="Collect turd from your pigs.\nHit the pig holding a wood bucket in your hands.\nBut beware, hitting too much will kill your livestock." icon="ui_game_symbol_q_husbandry_2" repeatable="false" category_key="Quest" difficulty="medium">
+		<objective type="FetchKeep" id="turd" value="1" />
+		<requirement type="Holding" id="bucketWood" />
+		<reward type="Quest" id="Q_Husbandry7" />
+	</quest>
+	<quest id="Q_Husbandry7" group_name="Husbandry" name="Husbandry in Action 3/7" subtitle="Tame a Cow" description="Ok, we know how to tame pigs and collect the turd, which surely useful in some situations...\nBut there are animals that has far more valuable output...\n\nLets find a source of the fresh milk. Yes, I definitely mean a cow." icon="ui_game_symbol_q_husbandry_2" repeatable="false" category_key="Quest" difficulty="medium">
+		<objective type="FetchKeep" id="cowItem" value="1" />
+		<requirement type="Holding" id="whip" />
+		<reward type="Quest" id="Q_Husbandry8" />
+	</quest>
+	<quest id="Q_Husbandry8" group_name="Husbandry" name="Husbandry in Action 4/7" subtitle="Milk a cow" description="Now place your cow at the corral and harvest some milk using a bucket wood.\nYou know how to do that, and about the need for being careful of course." icon="ui_game_symbol_q_husbandry_2" repeatable="false" category_key="Quest" difficulty="medium">
+		<objective type="FetchKeep" id="milk" value="1" />
+		<requirement type="Holding" id="bucketWood" />
+		<reward type="Quest" id="Q_Husbandry9" />
+	</quest>
+	<quest id="Q_Husbandry9" group_name="Husbandry" name="Husbandry in Action 5/7" subtitle="Tame a Sheep" description="Lets find a sheep and tame it using a whip." icon="ui_game_symbol_q_husbandry_2" repeatable="false" category_key="Quest" difficulty="medium">
+		<objective type="FetchKeep" id="sheepItem" value="1" />
+		<requirement type="Holding" id="whip" />
+		<reward type="Quest" id="Q_Husbandry10" />
+	</quest>
+	<quest id="Q_Husbandry10" group_name="Husbandry" name="Husbandry in Action 6/7" subtitle="Shears" description="Sheeps are sooo fluffy...\nWe can use it, lets craft a shears." icon="ui_game_symbol_q_husbandry_2" repeatable="false" category_key="Quest" difficulty="medium">
+		<objective type="FetchKeep" id="forgedIron" value="2" />
+		<objective type="FetchKeep" id="ductTape" value="3" />
+		<objective type="Craft" id="scissor" value="1" />
+		<reward type="Quest" id="Q_Husbandry11" />
+	</quest>
+	<quest id="Q_Husbandry11" group_name="Husbandry" name="Husbandry in Action 7/7" subtitle="Wool Collector" description="Lets shear our sheep.\n\nTip: Again, you need to be very carefull, overdoing while harvesting would kill your poor animals." icon="ui_game_symbol_q_husbandry_2" repeatable="false" category_key="Quest" difficulty="medium">
+		<objective type="FetchKeep" id="cloth" value="1" />
+		<requirement type="Holding" id="scissor" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	<!-- Fishing -->
+	<quest id="Q_Fishing" group_name="Fishing" name="Fishing 1/5" subtitle="Make a hook" description="How to build a hook" offer="first steps in fishing" icon="ui_game_symbol_fishing" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="scrapLead" value="4" />
+		<objective type="Craft" id="hook" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="Q_Fishing2" group_name="Fishing" name="Fishing 2/5" subtitle="Make a Cane" description="How to build a cane" icon="ui_game_symbol_fishing" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="bambooPole" value="4" />
+		<objective type="FetchKeep" id="hook" value="1" />
+		<objective type="FetchKeep" id="ductTape" value="1" />
+		<objective type="FetchKeep" id="glue" value="1" />
+		<objective type="Craft" id="cane" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="Q_Fishing3" group_name="Fishing" name="Fishing 3/5" subtitle="The bait for the cane - earthworms" description="Dig the dirt to find earthworms." icon="ui_game_symbol_fishing" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="earthworm" value="5" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="Q_Fishing4" group_name="Fishing" name="Fishing 4/5" subtitle="Crafting lures" description="How to craft lures" icon="ui_game_symbol_fishing" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="moldyBread" value="1" />
+		<objective type="FetchKeep" id="bottledWater" value="1" />
+		<objective type="FetchKeep" id="paper" value="2" />
+		<objective type="Craft" id="fishingLure1" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="Q_Fishing5" group_name="Fishing" name="Fishing 5/5" subtitle="Now get some fishes" description="Equip your cane, and target a natural body of water\n\nNow bait the cane with the R Key, when you get a fish poke the cane will start moving and you'll hear a splash sound.\nReact quickly by pressing the left mouse button\n\nIf you catch something, you then have some seconds to grab the loot by pressing the right mouse button." icon="ui_game_symbol_fishing" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="fish" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<!-- Weapons-->
+	<quest id="Q_NailWood" name="Nailed Wood" subtitle="Simple, but effective" description="Find some Wood and nails\n\nto craft a nailed wood" offer="simple....but effective" icon="ui_game_symbol_club" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="wood" value="5" />
+		<objective type="FetchKeep" id="nail" value="1" />
+		<objective type="Craft" id="nailwood" value="1" />
+		<reward type="Quest" id="Q_NailedBat" />
+		<reward type="Quest" id="Q_ChainNLocks" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="Q_ChainNLocks" name="Chain'N'Locks " subtitle="Chain'N'Locks" description="Find some Wood, forged Iron, and two Locks\n\nto craft a Chain'N'Lock" offer="a Chain, Locks and a piece of wood....sounds interesting" icon="ui_game_symbol_club" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="wood" value="4" />
+		<objective type="FetchKeep" id="forgedIron" value="4" />
+		<objective type="FetchKeep" id="padlock" value="2" />
+		<objective type="Craft" id="chainNlocks" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="Q_WoodenSpear" name="Wooden Spear" subtitle="Your first simple Spear" description="Find some Wood.\n\nand craft your Spear" offer="I´m sure you want it...." icon="ui_game_symbol_knife" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="wood" value="8" />
+		<objective type="Craft" id="woodenSpear" value="1" />
+		<reward type="Quest" id="Q_HuntingKnifeSpear" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="Q_HuntingKnifeSpear" name="Hunting Knife Spear" subtitle="An advanced Spear" description="Find some Yucca Fibers and an Hunting Knife\n\nand 'assemble' it to your wooden Spear" offer="I´m sure you want it...." icon="ui_game_symbol_knife" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="woodenSpear" value="1" />
+		<objective type="FetchKeep" id="yuccaFibers" value="10" />
+		<objective type="FetchKeep" id="huntingKnife" value="1" />
+		<objective type="Craft" id="huntingKnifeSpear" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="Q_NailedBat" name="Nailed Bat" subtitle="What a Weapon" description="Find a Baseball Bat\n\nand some Nails" offer="You will love it...." icon="ui_game_symbol_club" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="bat" value="1" />
+		<objective type="FetchKeep" id="nail" value="25" />
+		<objective type="Craft" id="nailedBat" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<!-- Wilderness chain -->
+	<quest id="LOS" group_name="Wildlife Trial" name="Spider Infestation 1/3" subtitle="Lord of the Spiders" description="Go out and murder 5 small spiders.\n\nDon't let them bite you..." offer="Just click accept...if you are quick enough." icon="ui_game_symbol_q_spider" repeatable="false" category_key="challenge" difficulty="medium">
+		<objective type="AnimalKill" id="spiderSmall" value="5" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="KOS" />
+	</quest>
+	<quest id="KOS" group_name="Wildlife Trial" name="Spider Infestation 2/3" subtitle="King of the Spiders" description="Time to push them back.\nGo out and murder 5 big spiders.\n\nAgain, don't let them bite you..." offer="Just click accept...if you are hard enough." icon="ui_game_symbol_q_spider" repeatable="false" category_key="challenge" difficulty="medium">
+		<objective type="AnimalKill" id="spider" value="5" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="Quest" id="EOS" />
+	</quest>
+	<quest id="EOS" group_name="Wildlife Trial" name="Spider Infestation 3/3" subtitle="Emperor of the Spiders" description="It is time to finish off those mutants.\nGo out and raze 3 spider nests. Gather web cobs collected as an evidence.\n\nBe careful, there are many of them..." offer="Just click accept...if you are hard enough." icon="ui_game_symbol_q_spider" repeatable="false" category_key="challenge" difficulty="hard">
+		<objective type="BlockPickup" id="cobweb" value="3" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Quest" id="GW1" />
+	</quest>
+	<quest id="GW1" group_name="Wildlife Trial" name="Gone Wild 1/2" subtitle="Show'em who is the boss" description="It is time to show who is at the top of the food chain.\n\nHunt down deadliest predators in the world." icon="ui_game_symbol_q_beast" repeatable="false" category_key="challenge" offer="No. Way. Back." difficulty="hard">
+		<objective type="AnimalKill" id="animalBear" value="1" />
+		<objective type="AnimalKill" id="rhino" value="1" />
+		<objective type="AnimalKill" id="crocodile" value="1" />
+		<objective type="AnimalKill" id="cougar" value="1" />
+		<objective type="AnimalKill" id="hyena" value="1" />
+		<objective type="AnimalKill" id="hyena1" value="1" />
+		<objective type="AnimalKill" id="tiger" value="1" />
+		<objective type="AnimalKill" id="tigerBrown" value="1" />
+		<reward type="SkillPoints" value="5" />
+		<reward type="Quest" id="GW2" />
+	</quest>
+	<quest id="GW2" group_name="Wildlife Trial" name="Gone Wild 2/2" subtitle="Show'em who is the boss" description="Now you know there are special 'Boss' predators, and you cannot ignore them anymore.\n\nYou need a new carpet anyway." icon="ui_game_symbol_q_beast" repeatable="false" category_key="challenge" offer="WAAAAAGHHHH!!!" difficulty="hard">
+		<objective type="AnimalKill" id="dogAlbino" value="1" />
+		<objective type="AnimalKill" id="cougarAlbino" value="1" />
+		<objective type="AnimalKill" id="hyenaBoss" value="1" />
+		<objective type="AnimalKill" id="tigerAlbino" value="1" />
+		<reward type="SkillPoints" value="10" />
+	</quest>
+	<!-- Weaponry quests -->
+	<quest id="Q_WAR" group_name="Archery Training" name="Archery Training 1/5" subtitle="Novice Archer" description="It seems I am doing well with bows and crossbows.\n\nNeed to train more if I want to become a master." icon="ui_game_symbol_archery" repeatable="false" category_key="challenge" offer="Arrow rain begins." difficulty="easy">
+		<objective type="ZombieKill" value="10" />
+		<requirement type="Group" id="requirementGroupArchery" value="OR">
+			<requirement type="Holding" id="woodenBow" />
+			<requirement type="Holding" id="crossbow" />
+			<!-- <requirement type="Holding" id="compoundBow" /> -->
+			<requirement type="Holding" id="smallCrossbow" />
+		</requirement>
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="Q_WAR2" />
+	</quest>
+	<quest id="Q_WAR2" group_name="Archery Training" name="Archery Training 2/5" subtitle="Student Archer" description="Need to train even more if I want to achieve something." icon="ui_game_symbol_archery" repeatable="false" category_key="challenge" offer="Arrow rain begins." difficulty="medium">
+		<objective type="ZombieKill" value="50" />
+		<requirement type="Group" id="requirementGroupArchery" value="OR">
+			<requirement type="Holding" id="woodenBow" />
+			<requirement type="Holding" id="crossbow" />
+			<!-- <requirement type="Holding" id="compoundBow" /> -->
+			<requirement type="Holding" id="smallCrossbow" />
+		</requirement>
+		<reward type="SkillPoints" value="3" />
+		<reward type="Quest" id="Q_WAR3" />
+	</quest>
+	<quest id="Q_WAR3" group_name="Archery Training" name="Archery Training 3/5" subtitle="Veteran Archer" description="Cant stop my hands now. Stretch, release, stretch, release!!" icon="ui_game_symbol_archery" repeatable="false" category_key="challenge" offer="Arrow rain begins." difficulty="medium">
+		<objective type="ZombieKill" value="250" />
+		<requirement type="Group" id="requirementGroupArchery" value="OR">
+			<requirement type="Holding" id="woodenBow" />
+			<requirement type="Holding" id="crossbow" />
+			<!-- <requirement type="Holding" id="compoundBow" /> -->
+			<requirement type="Holding" id="smallCrossbow" />
+		</requirement>
+		<reward type="SkillPoints" value="5" />
+		<reward type="Quest" id="Q_WAR4" />
+	</quest>
+	<quest id="Q_WAR4" group_name="Archery Training" name="Archery Training 4/5" subtitle="Elite Archer" description="Headshots are not enough..." icon="ui_game_symbol_archery" repeatable="false" category_key="challenge" offer="Arrow rain begins." difficulty="hard">
+		<objective type="AnimalKill" id="animalZombieBear" value="5" />
+		<objective type="AnimalKill" id="animalRabbit" value="10" />
+		<objective type="AnimalKill" id="animalChicken" value="10" />
+		<!-- <objective type="ZombieKill" id="Hornet" value="10" /> -->
+		<objective type="AnimalKill" id="Snake" value="10" />
+		<objective type="ZombieKill" id="animalZombieDog" value="20" />
+		<requirement type="Group" id="requirementGroupArchery" value="OR">
+			<requirement type="Holding" id="woodenBow" />
+			<requirement type="Holding" id="crossbow" />
+			<!-- <requirement type="Holding" id="compoundBow" /> -->
+			<requirement type="Holding" id="smallCrossbow" />
+		</requirement>
+		<reward type="SkillPoints" value="10" />
+		<reward type="Recipe" id="explodingCrossbowBolt" />
+		<reward type="Quest" id="Q_WAR5" />
+	</quest>
+	<quest id="Q_WAR5" group_name="Archery Training" name="Archery Training 5/5" subtitle="Freaking Legolas" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_archery" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
+		<objective type="ZombieKill" id="fatzombiecop" value="20" />
+		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="FirefighterZd" value="5" />
+		<objective type="ZombieKill" id="PoliceZd" value="5" />
+		<objective type="ZombieKill" id="MilitaryZd" value="5" />
+		<objective type="ZombieKill" id="DocZd" value="3" />
+		<objective type="ZombieKill" id="GirlZd" value="3" />
+		<objective type="ZombieKill" id="BikiniZd" value="3" />
+		<requirement type="Group" id="requirementGroupArchery" value="OR">
+			<requirement type="Holding" id="woodenBow" />
+			<requirement type="Holding" id="crossbow" />
+			<!-- <requirement type="Holding" id="compoundBow" /> -->
+			<requirement type="Holding" id="smallCrossbow" />
+		</requirement>
+		<reward type="SkillPoints" value="20" />
+		<reward type="Item" id="smallCrossbow" value="500" />
+		<reward type="Item" id="Q_FinalExam" />
+	</quest>
+	<quest id="Q_WBL" group_name="Blunt Weapons Training" name="Blunt Weapons 1/5" subtitle="Footman" description="It seems I am doing well with blunt weapons.\n\nNeed to train more if I want to become a master." icon="ui_game_symbol_club" repeatable="false" category_key="challenge" offer="Smash.Kill.Destroy." difficulty="easy">
+		<objective type="ZombieKill" value="10" />
+		<requirement type="Group" id="requirementGroupBluntWeapons" value="OR">
+			<requirement type="Holding" id="clubWood" />
+			<requirement type="Holding" id="clubIron" />
+			<requirement type="Holding" id="clubBarbed" />
+			<requirement type="Holding" id="clubSpiked" />
+			<requirement type="Holding" id="sledgehammer" />
+			<requirement type="Holding" id="bat" />
+			<requirement type="Holding" id="nailedBat" />
+			<requirement type="Holding" id="electricBat" />
+			<requirement type="Holding" id="electricSpear" />
+			<requirement type="Holding" id="chainNlocks" />
+			<requirement type="Holding" id="pan" />
+			<requirement type="Holding" id="PoliceBaton" />
+			<requirement type="Holding" id="smithHammer" />
+		</requirement>
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="Q_WBL2" />
+	</quest>
+	<quest id="Q_WBL2" group_name="Blunt Weapons Training" name="Blunt Weapons 2/5" subtitle="Clubswinger" description="Need to train even more if I want to achieve something." icon="ui_game_symbol_club" repeatable="false" category_key="challenge" offer="Smash.Kill.Destroy." difficulty="medium">
+		<objective type="ZombieKill" value="50" />
+		<requirement type="Group" id="requirementGroupBluntWeapons" value="OR">
+			<requirement type="Holding" id="clubWood" />
+			<requirement type="Holding" id="clubIron" />
+			<requirement type="Holding" id="clubBarbed" />
+			<requirement type="Holding" id="clubSpiked" />
+			<requirement type="Holding" id="sledgehammer" />
+			<requirement type="Holding" id="bat" />
+			<requirement type="Holding" id="nailedBat" />
+			<requirement type="Holding" id="electricBat" />
+			<requirement type="Holding" id="electricSpear" />
+			<requirement type="Holding" id="chainNlocks" />
+			<requirement type="Holding" id="pan" />
+			<requirement type="Holding" id="PoliceBaton" />
+			<requirement type="Holding" id="smithHammer" />
+		</requirement>
+		<reward type="SkillPoints" value="3" />
+		<reward type="Quest" id="Q_WBL3" />
+	</quest>
+	<quest id="Q_WBL3" group_name="Blunt Weapons Training" name="Blunt Weapons 3/5" subtitle="Maceman" description="Smash that skulls!!" icon="ui_game_symbol_club" repeatable="false" category_key="challenge" offer="Smash.Kill.Destroy." difficulty="medium">
+		<objective type="ZombieKill" value="250" />
+		<requirement type="Group" id="requirementGroupBluntWeapons" value="OR">
+			<requirement type="Holding" id="clubWood" />
+			<requirement type="Holding" id="clubIron" />
+			<requirement type="Holding" id="clubBarbed" />
+			<requirement type="Holding" id="clubSpiked" />
+			<requirement type="Holding" id="sledgehammer" />
+			<requirement type="Holding" id="bat" />
+			<requirement type="Holding" id="nailedBat" />
+			<requirement type="Holding" id="electricBat" />
+			<requirement type="Holding" id="electricSpear" />
+			<requirement type="Holding" id="chainNlocks" />
+			<requirement type="Holding" id="pan" />
+			<requirement type="Holding" id="PoliceBaton" />
+			<requirement type="Holding" id="smithHammer" />
+		</requirement>
+		<reward type="SkillPoints" value="5" />
+		<reward type="Quest" id="Q_WBL4" />
+	</quest>
+	<quest id="Q_WBL4" group_name="Blunt Weapons Training" name="Blunt Weapons 4/5" subtitle="WarHammer Master" description="Its time to make some mashed animals!" icon="ui_game_symbol_club" repeatable="false" category_key="challenge" offer="Smash.Kill.Destroy." difficulty="hard">
+		<objective type="AnimalKill" id="animalZombieBear" value="5" />
+		<objective type="AnimalKill" id="animalRabbit" value="10" />
+		<objective type="AnimalKill" id="animalChicken" value="10" />
+		<!-- <objective type="ZombieKill" id="Hornet" value="10" /> -->
+		<objective type="AnimalKill" id="Snake" value="10" />
+		<objective type="ZombieKill" id="animalZombieDog" value="20" />
+		<requirement type="Group" id="requirementGroupBluntWeapons" value="OR">
+			<requirement type="Holding" id="clubWood" />
+			<requirement type="Holding" id="clubIron" />
+			<requirement type="Holding" id="clubBarbed" />
+			<requirement type="Holding" id="clubSpiked" />
+			<requirement type="Holding" id="sledgehammer" />
+			<requirement type="Holding" id="bat" />
+			<requirement type="Holding" id="nailedBat" />
+			<requirement type="Holding" id="electricBat" />
+			<requirement type="Holding" id="electricSpear" />
+			<requirement type="Holding" id="chainNlocks" />
+			<requirement type="Holding" id="pan" />
+			<requirement type="Holding" id="PoliceBaton" />
+			<requirement type="Holding" id="smithHammer" />
+		</requirement>
+		<reward type="SkillPoints" value="10" />
+		<reward type="Recipe" id="sledgehammer" />
+		<reward type="Quest" id="Q_WBL5" />
+	</quest>
+	<quest id="Q_WBL5" group_name="Blunt Weapons Training" name="Blunt Weapons 5/5" subtitle="Thor's Avatar" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_club" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
+		<objective type="ZombieKill" id="fatzombiecop" value="20" />
+		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="FirefighterZd" value="5" />
+		<objective type="ZombieKill" id="PoliceZd" value="5" />
+		<objective type="ZombieKill" id="MilitaryZd" value="5" />
+		<objective type="ZombieKill" id="DocZd" value="3" />
+		<objective type="ZombieKill" id="GirlZd" value="3" />
+		<objective type="ZombieKill" id="BikiniZd" value="3" />
+		<requirement type="Group" id="requirementGroupBluntWeapons" value="OR">
+			<requirement type="Holding" id="clubWood" />
+			<requirement type="Holding" id="clubIron" />
+			<requirement type="Holding" id="clubBarbed" />
+			<requirement type="Holding" id="clubSpiked" />
+			<requirement type="Holding" id="sledgehammer" />
+			<requirement type="Holding" id="bat" />
+			<requirement type="Holding" id="nailedBat" />
+			<requirement type="Holding" id="electricBat" />
+			<requirement type="Holding" id="electricSpear" />
+			<requirement type="Holding" id="chainNlocks" />
+			<requirement type="Holding" id="pan" />
+			<requirement type="Holding" id="PoliceBaton" />
+			<requirement type="Holding" id="smithHammer" />
+		</requirement>
+		<reward type="SkillPoints" value="20" />
+		<reward type="Item" id="electricSpear" value="500" />
+		<reward type="Item" id="Q_FinalExam" />
+	</quest>
+	<quest id="Q_WBA" group_name="Blade Weapons Training" name="Blade Weapons 1/5" subtitle="Knifeman" description="It seems I am doing well with Blade Weapons.\n\nNeed to train more if I want to become a master." icon="ui_game_symbol_knife" repeatable="false" category_key="challenge" offer="Cut.Slash.Pierce." difficulty="easy">
+		<objective type="ZombieKill" value="10" />
+		<requirement type="Group" id="requirementGroupBladeWeapons" value="OR">
+			<requirement type="Holding" id="boneShiv" />
+			<requirement type="Holding" id="huntingKnife" />
+			<requirement type="Holding" id="machete" />
+			<requirement type="Holding" id="woodenSpear" />
+			<requirement type="Holding" id="huntingKnifeSpear" />
+			<requirement type="Holding" id="nailwood" />
+			<requirement type="Holding" id="fork" />
+			<requirement type="Holding" id="forkStandard" />
+			<requirement type="Holding" id="lightsword" />
+		</requirement>
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="Q_WBA2" />
+	</quest>
+	<quest id="Q_WBA2" group_name="Blade Weapons Training" name="Blade Weapons 2/5" subtitle="Stabber" description="Need to train even more if I want to achieve something." icon="ui_game_symbol_knife" repeatable="false" category_key="challenge" offer="Cut.Slash.Pierce." difficulty="medium">
+		<objective type="ZombieKill" value="50" />
+		<requirement type="Group" id="requirementGroupBladeWeapons" value="OR">
+			<requirement type="Holding" id="boneShiv" />
+			<requirement type="Holding" id="huntingKnife" />
+			<requirement type="Holding" id="machete" />
+			<requirement type="Holding" id="woodenSpear" />
+			<requirement type="Holding" id="huntingKnifeSpear" />
+			<requirement type="Holding" id="nailwood" />
+			<requirement type="Holding" id="fork" />
+			<requirement type="Holding" id="forkStandard" />
+			<requirement type="Holding" id="lightsword" />
+		</requirement>
+		<reward type="SkillPoints" value="3" />
+		<reward type="Quest" id="Q_WBA3" />
+	</quest>
+	<quest id="Q_WBA3" group_name="Blade Weapons Training" name="Blade Weapons 3/5" subtitle="Fencer" description="Cut their throats!!" icon="ui_game_symbol_knife" repeatable="false" category_key="challenge" offer="Cut.Slash.Pierce." difficulty="medium">
+		<objective type="ZombieKill" value="250" />
+		<requirement type="Group" id="requirementGroupBladeWeapons" value="OR">
+			<requirement type="Holding" id="boneShiv" />
+			<requirement type="Holding" id="huntingKnife" />
+			<requirement type="Holding" id="machete" />
+			<requirement type="Holding" id="woodenSpear" />
+			<requirement type="Holding" id="huntingKnifeSpear" />
+			<requirement type="Holding" id="nailwood" />
+			<requirement type="Holding" id="fork" />
+			<requirement type="Holding" id="forkStandard" />
+			<requirement type="Holding" id="lightsword" />
+		</requirement>
+		<reward type="SkillPoints" value="5" />
+		<reward type="Quest" id="Q_WBA4" />
+	</quest>
+	<quest id="Q_WBA4" group_name="Blade Weapons Training" name="Blade Weapons 4/5" subtitle="Sword Master" description="Slice that meat!" icon="ui_game_symbol_knife" repeatable="false" category_key="challenge" offer="Cut.Slash.Pierce." difficulty="hard">
+		<objective type="AnimalKill" id="animalZombieBear" value="5" />
+		<objective type="AnimalKill" id="animalRabbit" value="10" />
+		<objective type="AnimalKill" id="animalChicken" value="10" />
+		<!-- <objective type="ZombieKill" id="Hornet" value="10" /> -->
+		<objective type="AnimalKill" id="Snake" value="10" />
+		<objective type="ZombieKill" id="animalZombieDog" value="20" />
+		<requirement type="Group" id="requirementGroupBladeWeapons" value="OR">
+			<requirement type="Holding" id="boneShiv" />
+			<requirement type="Holding" id="huntingKnife" />
+			<requirement type="Holding" id="machete" />
+			<requirement type="Holding" id="woodenSpear" />
+			<requirement type="Holding" id="huntingKnifeSpear" />
+			<requirement type="Holding" id="nailwood" />
+			<requirement type="Holding" id="fork" />
+			<requirement type="Holding" id="forkStandard" />
+			<requirement type="Holding" id="lightsword" />
+		</requirement>
+		<reward type="SkillPoints" value="10" />
+		<reward type="Recipe" id="machete" />
+		<reward type="Quest" id="Q_WBA5" />
+	</quest>
+	<quest id="Q_WBA5" group_name="Blade Weapons Training" name="Blade Weapons 5/5" subtitle="Obi-Wan Kenobi" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_knife" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
+		<objective type="ZombieKill" id="fatzombiecop" value="20" />
+		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="FirefighterZd" value="5" />
+		<objective type="ZombieKill" id="PoliceZd" value="5" />
+		<objective type="ZombieKill" id="MilitaryZd" value="5" />
+		<objective type="ZombieKill" id="DocZd" value="3" />
+		<objective type="ZombieKill" id="GirlZd" value="3" />
+		<objective type="ZombieKill" id="BikiniZd" value="3" />
+		<requirement type="Group" id="requirementGroupBladeWeapons" value="OR">
+			<requirement type="Holding" id="boneShiv" />
+			<requirement type="Holding" id="huntingKnife" />
+			<requirement type="Holding" id="machete" />
+			<requirement type="Holding" id="woodenSpear" />
+			<requirement type="Holding" id="huntingKnifeSpear" />
+			<requirement type="Holding" id="nailwood" />
+			<requirement type="Holding" id="fork" />
+			<requirement type="Holding" id="forkStandard" />
+			<requirement type="Holding" id="lightsword" />
+		</requirement>
+		<reward type="SkillPoints" value="20" />
+		<reward type="Item" id="lightsword" value="500" />
+		<reward type="Item" id="Q_FinalExam" />
+	</quest>
+	<quest id="Q_WPI" group_name="Pistols Training" name="Pistols 1/5" subtitle="Cowboy" description="It seems I am doing well with Pistols.\n\nNeed to train more if I want to become a master." icon="ui_game_symbol_pistol" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="easy">
+		<objective type="ZombieKill" value="10" />
+		<requirement type="Group" id="requirementGroupPistols" value="OR">
+			<requirement type="Holding" id="gunRevolver" />
+			<requirement type="Holding" id="steampunkRevolver" />
+			<requirement type="Holding" id="gunPistol" />
+			<requirement type="Holding" id="gun44Magnum" />
+			<requirement type="Holding" id="gunNail" />
+		</requirement>
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="Q_WPI2" />
+	</quest>
+	<quest id="Q_WPI2" group_name="Pistols Training" name="Pistols 2/5" subtitle="Duelist" description="Need to train even more if I want to achieve something." icon="ui_game_symbol_pistol" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="medium">
+		<objective type="ZombieKill" value="50" />
+		<requirement type="Group" id="requirementGroupPistols" value="OR">
+			<requirement type="Holding" id="gunRevolver" />
+			<requirement type="Holding" id="steampunkRevolver" />
+			<requirement type="Holding" id="gunPistol" />
+			<requirement type="Holding" id="gun44Magnum" />
+			<requirement type="Holding" id="gunNail" />
+		</requirement>
+		<reward type="SkillPoints" value="3" />
+		<reward type="Quest" id="Q_WPI3" />
+	</quest>
+	<quest id="Q_WPI3" group_name="Pistols Training" name="Pistols 3/5" subtitle="Pistolier" description="Do you wanna piece of me boy?!" icon="ui_game_symbol_pistol" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="medium">
+		<objective type="ZombieKill" value="250" />
+		<requirement type="Group" id="requirementGroupPistols" value="OR">
+			<requirement type="Holding" id="gunRevolver" />
+			<requirement type="Holding" id="steampunkRevolver" />
+			<requirement type="Holding" id="gunPistol" />
+			<requirement type="Holding" id="gun44Magnum" />
+			<requirement type="Holding" id="gunNail" />
+		</requirement>
+		<reward type="SkillPoints" value="5" />
+		<reward type="Quest" id="Q_WPI4" />
+	</quest>
+	<quest id="Q_WPI4" group_name="Pistols Training" name="Pistols 4/5" subtitle="Reiter" description="Top 5 holland cheese recipes." icon="ui_game_symbol_pistol" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="hard">
+		<objective type="AnimalKill" id="animalZombieBear" value="5" />
+		<objective type="AnimalKill" id="animalRabbit" value="10" />
+		<objective type="AnimalKill" id="animalChicken" value="10" />
+		<!-- <objective type="ZombieKill" id="Hornet" value="10" /> -->
+		<objective type="AnimalKill" id="Snake" value="10" />
+		<objective type="ZombieKill" id="animalZombieDog" value="20" />
+		<requirement type="Group" id="requirementGroupPistols" value="OR">
+			<requirement type="Holding" id="gunRevolver" />
+			<requirement type="Holding" id="steampunkRevolver" />
+			<requirement type="Holding" id="gunPistol" />
+			<requirement type="Holding" id="gun44Magnum" />
+			<requirement type="Holding" id="gunNail" />
+		</requirement>
+		<reward type="SkillPoints" value="10" />
+		<reward type="Skill" id="Pistols" value="5" />
+		<reward type="Quest" id="Q_WPI5" />
+	</quest>
+	<quest id="Q_WPI5" group_name="Pistols Training" name="Pistols 5/5" subtitle="Django Freeman" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_pistol" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
+		<objective type="ZombieKill" id="fatzombiecop" value="20" />
+		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="FirefighterZd" value="5" />
+		<objective type="ZombieKill" id="PoliceZd" value="5" />
+		<objective type="ZombieKill" id="MilitaryZd" value="5" />
+		<objective type="ZombieKill" id="DocZd" value="3" />
+		<objective type="ZombieKill" id="GirlZd" value="3" />
+		<objective type="ZombieKill" id="BikiniZd" value="3" />
+		<requirement type="Group" id="requirementGroupPistols" value="OR">
+			<requirement type="Holding" id="gunRevolver" />
+			<requirement type="Holding" id="steampunkRevolver" />
+			<requirement type="Holding" id="gunPistol" />
+			<requirement type="Holding" id="gun44Magnum" />
+			<requirement type="Holding" id="gunNail" />
+		</requirement>
+		<reward type="SkillPoints" value="20" />
+		<reward type="Item" id="gun44Magnum" value="500" />
+		<reward type="Item" id="Q_FinalExam" />
+	</quest>
+	<quest id="Q_WSH" group_name="Shotguns Training" name="Shotguns 1/5" subtitle="Farmer" description="It seems I am doing well with Shotguns.\n\nNeed to train more if I want to become a master." icon="ui_game_symbol_shotgun" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="easy">
+		<objective type="ZombieKill" value="10" />
+		<requirement type="Group" id="requirementGroupShotguns" value="OR">
+			<requirement type="Holding" id="blunderbuss" />
+			<requirement type="Holding" id="buechse" />
+			<requirement type="Holding" id="gunSawedOffPumpShotgun" />
+			<requirement type="Holding" id="gunPumpShotgun" />
+			<requirement type="Holding" id="nailShotgun" />
+		</requirement>
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="Q_WSH2" />
+	</quest>
+	<quest id="Q_WSH2" group_name="Shotguns Training" name="Shotguns 2/5" subtitle="Hunter" description="Need to train even more if I want to achieve something." icon="ui_game_symbol_shotgun" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="medium">
+		<objective type="ZombieKill" value="50" />
+		<requirement type="Group" id="requirementGroupShotguns" value="OR">
+			<requirement type="Holding" id="blunderbuss" />
+			<requirement type="Holding" id="buechse" />
+			<requirement type="Holding" id="gunSawedOffPumpShotgun" />
+			<requirement type="Holding" id="gunPumpShotgun" />
+			<requirement type="Holding" id="nailShotgun" />
+		</requirement>
+		<reward type="SkillPoints" value="3" />
+		<reward type="Quest" id="Q_WSH3" />
+	</quest>
+	<quest id="Q_WSH3" group_name="Shotguns Training" name="Shotguns 3/5" subtitle="Policeman" description="Freeze, dang it!! You are under arrest!" icon="ui_game_symbol_shotgun" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="medium">
+		<objective type="ZombieKill" value="250" />
+		<requirement type="Group" id="requirementGroupShotguns" value="OR">
+			<requirement type="Holding" id="blunderbuss" />
+			<requirement type="Holding" id="buechse" />
+			<requirement type="Holding" id="gunSawedOffPumpShotgun" />
+			<requirement type="Holding" id="gunPumpShotgun" />
+			<requirement type="Holding" id="nailShotgun" />
+		</requirement>
+		<reward type="SkillPoints" value="5" />
+		<reward type="Quest" id="Q_WSH4" />
+	</quest>
+	<quest id="Q_WSH4" group_name="Shotguns Training" name="Shotguns 4/5" subtitle="Marine" description="Beasty pump action." icon="ui_game_symbol_shotgun" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="hard">
+		<objective type="AnimalKill" id="animalZombieBear" value="5" />
+		<objective type="AnimalKill" id="animalRabbit" value="10" />
+		<objective type="AnimalKill" id="animalChicken" value="10" />
+		<!-- <objective type="ZombieKill" id="Hornet" value="10" /> -->
+		<objective type="AnimalKill" id="Snake" value="10" />
+		<objective type="ZombieKill" id="animalZombieDog" value="20" />
+		<requirement type="Group" id="requirementGroupShotguns" value="OR">
+			<requirement type="Holding" id="blunderbuss" />
+			<requirement type="Holding" id="buechse" />
+			<requirement type="Holding" id="gunSawedOffPumpShotgun" />
+			<requirement type="Holding" id="gunPumpShotgun" />
+			<requirement type="Holding" id="nailShotgun" />
+		</requirement>
+		<reward type="SkillPoints" value="10" />
+		<reward type="Recipe" id="shotgunSlug" />
+		<reward type="Quest" id="Q_WSH5" />
+	</quest>
+	<quest id="Q_WSH5" group_name="Shotguns Training" name="Shotguns 5/5" subtitle="Terminator" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_shotgun" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
+		<objective type="ZombieKill" id="fatzombiecop" value="20" />
+		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="FirefighterZd" value="5" />
+		<objective type="ZombieKill" id="PoliceZd" value="5" />
+		<objective type="ZombieKill" id="MilitaryZd" value="5" />
+		<objective type="ZombieKill" id="DocZd" value="3" />
+		<objective type="ZombieKill" id="GirlZd" value="3" />
+		<objective type="ZombieKill" id="BikiniZd" value="3" />
+		<requirement type="Group" id="requirementGroupShotguns" value="OR">
+			<requirement type="Holding" id="blunderbuss" />
+			<requirement type="Holding" id="buechse" />
+			<requirement type="Holding" id="gunSawedOffPumpShotgun" />
+			<requirement type="Holding" id="gunPumpShotgun" />
+			<requirement type="Holding" id="nailShotgun" />
+		</requirement>
+		<reward type="SkillPoints" value="20" />
+		<reward type="Item" id="buechse" value="500" />
+		<reward type="Item" id="Q_FinalExam" />
+	</quest>
+	<quest id="Q_WRI" group_name="Rifles Training" name="Rifles 1/5" subtitle="Gunner" description="It seems I am doing well with Rifles.\n\nNeed to train more if I want to become a master." icon="ui_game_symbol_rifle" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="easy">
+		<objective type="ZombieKill" value="10" />
+		<requirement type="Group" id="requirementGroupRifles" value="OR">
+			<requirement type="Holding" id="ACW" />
+			<requirement type="Holding" id="MTAR" />
+			<requirement type="Holding" id="Ump" />
+			<requirement type="Holding" id="HK416" />
+			<requirement type="Holding" id="mg4" />
+			<requirement type="Holding" id="Browning" />
+			<requirement type="Holding" id="OldMG" />
+			<requirement type="Holding" id="gunMP5" />
+			<requirement type="Holding" id="gunAK47" />
+			<requirement type="Holding" id="gunHuntingRifle" />
+			<requirement type="Holding" id="gunSniperRifle" />
+			<requirement type="Holding" id="flameThrower" />
+			<requirement type="Holding" id="minigun" />
+		</requirement>
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="Q_WRI2" />
+	</quest>
+	<quest id="Q_WRI2" group_name="Rifles Training" name="Rifles 2/5" subtitle="Rifleman" description="Need to train even more if I want to achieve something." icon="ui_game_symbol_rifle" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="medium">
+		<objective type="ZombieKill" value="50" />
+		<requirement type="Group" id="requirementGroupRifles" value="OR">
+			<requirement type="Holding" id="ACW" />
+			<requirement type="Holding" id="MTAR" />
+			<requirement type="Holding" id="Ump" />
+			<requirement type="Holding" id="HK416" />
+			<requirement type="Holding" id="mg4" />
+			<requirement type="Holding" id="Browning" />
+			<requirement type="Holding" id="OldMG" />
+			<requirement type="Holding" id="gunMP5" />
+			<requirement type="Holding" id="gunAK47" />
+			<requirement type="Holding" id="gunHuntingRifle" />
+			<requirement type="Holding" id="gunSniperRifle" />
+			<requirement type="Holding" id="flameThrower" />
+			<requirement type="Holding" id="minigun" />
+		</requirement>
+		<reward type="SkillPoints" value="3" />
+		<reward type="Quest" id="Q_WRI3" />
+	</quest>
+	<quest id="Q_WRI3" group_name="Rifles Training" name="Rifles 3/5" subtitle="Special Forces" description="Freeze, dang it!! You are under arrest!" icon="ui_game_symbol_rifle" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="medium">
+		<objective type="ZombieKill" value="250" />
+		<requirement type="Group" id="requirementGroupRifles" value="OR">
+			<requirement type="Holding" id="ACW" />
+			<requirement type="Holding" id="MTAR" />
+			<requirement type="Holding" id="Ump" />
+			<requirement type="Holding" id="HK416" />
+			<requirement type="Holding" id="mg4" />
+			<requirement type="Holding" id="Browning" />
+			<requirement type="Holding" id="OldMG" />
+			<requirement type="Holding" id="gunMP5" />
+			<requirement type="Holding" id="gunAK47" />
+			<requirement type="Holding" id="gunHuntingRifle" />
+			<requirement type="Holding" id="gunSniperRifle" />
+			<requirement type="Holding" id="flameThrower" />
+			<requirement type="Holding" id="minigun" />
+		</requirement>
+		<reward type="SkillPoints" value="5" />
+		<reward type="Quest" id="Q_WRI4" />
+	</quest>
+	<quest id="Q_WRI4" group_name="Rifles Training" name="Rifles 4/5" subtitle="Commando" description="Ultimate firepower." icon="ui_game_symbol_rifle" repeatable="false" category_key="challenge" offer="Shoot'em up!" difficulty="hard">
+		<objective type="AnimalKill" id="animalZombieBear" value="5" />
+		<objective type="AnimalKill" id="animalRabbit" value="10" />
+		<objective type="AnimalKill" id="animalChicken" value="10" />
+		<!-- <objective type="ZombieKill" id="Hornet" value="10" /> -->
+		<objective type="AnimalKill" id="Snake" value="10" />
+		<objective type="ZombieKill" id="animalZombieDog" value="20" />
+		<requirement type="Group" id="requirementGroupRifles" value="OR">
+			<requirement type="Holding" id="ACW" />
+			<requirement type="Holding" id="MTAR" />
+			<requirement type="Holding" id="Ump" />
+			<requirement type="Holding" id="HK416" />
+			<requirement type="Holding" id="mg4" />
+			<requirement type="Holding" id="Browning" />
+			<requirement type="Holding" id="OldMG" />
+			<requirement type="Holding" id="gunMP5" />
+			<requirement type="Holding" id="gunAK47" />
+			<requirement type="Holding" id="gunHuntingRifle" />
+			<requirement type="Holding" id="gunSniperRifle" />
+			<requirement type="Holding" id="flameThrower" />
+			<requirement type="Holding" id="minigun" />
+		</requirement>
+		<reward type="SkillPoints" value="10" />
+		<reward type="Recipe" id="ScopePSG" />
+		<reward type="Quest" id="Q_WRI5" />
+	</quest>
+	<quest id="Q_WRI5" group_name="Rifles Training" name="Rifles 5/5" subtitle="Deadshot" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_rifle" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
+		<objective type="ZombieKill" id="fatzombiecop" value="20" />
+		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="FirefighterZd" value="5" />
+		<objective type="ZombieKill" id="PoliceZd" value="5" />
+		<objective type="ZombieKill" id="MilitaryZd" value="5" />
+		<objective type="ZombieKill" id="DocZd" value="3" />
+		<objective type="ZombieKill" id="GirlZd" value="3" />
+		<objective type="ZombieKill" id="BikiniZd" value="3" />
+		<requirement type="Group" id="requirementGroupRifles" value="OR">
+			<requirement type="Holding" id="ACW" />
+			<requirement type="Holding" id="MTAR" />
+			<requirement type="Holding" id="Ump" />
+			<requirement type="Holding" id="HK416" />
+			<requirement type="Holding" id="mg4" />
+			<requirement type="Holding" id="Browning" />
+			<requirement type="Holding" id="OldMG" />
+			<requirement type="Holding" id="gunMP5" />
+			<requirement type="Holding" id="gunAK47" />
+			<requirement type="Holding" id="gunHuntingRifle" />
+			<requirement type="Holding" id="gunSniperRifle" />
+			<requirement type="Holding" id="flameThrower" />
+			<requirement type="Holding" id="minigun" />
+		</requirement>
+		<reward type="SkillPoints" value="20" />
+		<reward type="Item" id="mg4" value="500" />
+		<reward type="Item" id="Q_FinalExam" />
+	</quest>
+	<!-- Farmer Quest Chains -->
+	<quest id="FEX" name="Final Exam" subtitle="Boss of the Bosses" description="Now you are ready for the final exam.\n\nHere is the list of the strongest abominations, created by the apocalypse itself.\n\nYou must stop them, before it is too late..." icon="ui_game_symbol_q_boss" repeatable="false" category_key="Quest" offer="You can find all of them in the radiated zones." difficulty="insane">
+		<objective type="AnimalKill" id="radSpider" value="10" />
+		<objective type="AnimalKill" id="radSpiderSmall" value="10" />
+		<objective type="ZombieKill" id="WallCrusher" value="5" />
+		<objective type="ZombieKill" id="Parasite" value="5" />
+		<objective type="ZombieKill" id="RezBoss" value="5" />
+		<objective type="ZombieKill" id="RadBoss" value="3" />
+		<objective type="ZombieKill" id="RadBossOld" value="3" />
+		<reward type="SkillPoints" value="30" />
+	</quest>
+	<quest id="Q_Farm_A1" group_name="Newbie Farmer" name="Newbie Farmer 1/6" subtitle="First Tools" description="Collect required materials and craft gardening hoe and the shovel for your farm." icon="ui_game_symbol_q_farm1" repeatable="false" category_key="Quest" offer="First steps into farming." difficulty="easy">
+		<objective type="FetchKeep" id="forgedIron" value="32" />
+		<objective type="FetchKeep" id="wood" value="40" />
+		<objective type="Craft" id="hoeIron" value="1" />
+		<objective type="Craft" id="shovelIron" value="1" />
+		<reward type="Quest" id="Q_Farm_A2" />
+	</quest>
+	<quest id="Q_Farm_A2" group_name="Newbie Farmer" name="Newbie Farmer 2/6" subtitle="Your Bucket" description="Collect required materials and craft iron bucket to water your plants.\nYou need a workbench to craft it." icon="ui_game_symbol_q_farm1" repeatable="false" category_key="Quest" offer="First steps into farming." difficulty="easy">
+		<objective type="FetchKeep" id="forgedIron" value="7" />
+		<objective type="FetchKeep" id="bucket" value="1" />
+		<reward type="Quest" id="Q_Farm_A3" />
+	</quest>
+	<quest id="Q_Farm_A3" group_name="Newbie Farmer" name="Newbie Farmer 3/6" subtitle="Find a Water" description="Find a source of water and fill the bucket." icon="ui_game_symbol_q_farm1" repeatable="false" category_key="Quest" offer="First steps into farming." difficulty="easy">
+		<reward type="Quest" id="Q_Farm_A4" />
+	</quest>
+	<quest id="Q_Farm_A4" group_name="Newbie Farmer" name="Newbie Farmer 4/6" subtitle="Find Seeds" description="Now you need to make your first seeds.\n\nBetter to start looking for the Sunflower and Goldenrod plants, as the base materials for the farming expendables.\nMake the seeds out of the Goldenrod plant, once you find one." icon="ui_game_symbol_q_farm1" repeatable="false" category_key="Quest" offer="First steps into farming." difficulty="easy">
+		<objective type="FetchKeep" id="sunflowerSeed" value="1" />
+		<objective type="Craft" id="plantedGoldenrod1" value="1" />
+		<reward type="Quest" id="Q_Farm_A5" />
+	</quest>
+	<quest id="Q_Farm_A5" group_name="Newbie Farmer" name="Newbie Farmer 5/6" subtitle="Plant Seeds" description="Find a spot where you want to start your farm, it should be ordinary soil.\nMake a hole nearby using a shovel and fill it with water using your bucket.\nThen you should hoe the dirt near the water source and plant your seeds on the hoed dirt." icon="ui_game_symbol_q_farm1" repeatable="false" category_key="Quest" offer="First steps into farming." difficulty="easy">
+		<objective type="BlockPlace" id="waterMovingBucket" value="1" />
+		<objective type="BlockPlace" id="plantedGoldenrod1" value="1" />
+		<objective type="BlockPlace" id="plantedSunflower" value="1" />
+		<reward type="Quest" id="Q_Farm_A6" />
+	</quest>
+	<quest id="Q_Farm_A6" group_name="Newbie Farmer" name="Newbie Farmer 6/6" subtitle="Time to Harvest" description="Wait until your crops will mature, and harvest them.\nDo not forget to water your plants in time, or better create a water trench, by digging the dirt and filling trench with water." icon="ui_game_symbol_q_farm1" repeatable="false" category_key="Quest" offer="First steps into farming." difficulty="easy">
+		<objective type="FetchKeep" id="goldenrodPlant" value="1" />
+		<objective type="FetchKeep" id="sunflowerSeed" value="1" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="Q_Farm_B1" />
+		<reward type="Quest" id="Q_Orchard" />
+	</quest>
+	<quest id="Q_Farm_B1" group_name="Fertilize It!" name="Fertilize It! 1/3" subtitle="A Beaker" description="We can increase the harvest of our crops.\nAll we need is a good fertilizer for the soil.\n\nBut first, we need to find a beaker to create one." icon="ui_game_symbol_q_farm2" repeatable="false" category_key="Quest" offer="How To increase the yield of crops." difficulty="medium">
+		<objective type="FetchKeep" id="beaker" value="1" />
+		<reward type="Quest" id="Q_Farm_B2" />
+	</quest>
+	<quest id="Q_Farm_B2" group_name="Fertilize It!" name="Fertilize It! 2/3" subtitle="Craft Fertilizer" description="Now, when you have a beaker, put it into your campfire and find a resources to make a fertilizer." icon="ui_game_symbol_q_farm2" repeatable="false" category_key="Quest" offer="How To increase the yield of crops." difficulty="medium">
+		<objective type="FetchKeep" id="turd" value="2" />
+		<objective type="FetchKeep" id="potassiumNitratePowder" value="15" />
+		<objective type="FetchKeep" id="dirtFragment" value="3" />
+		<objective type="FetchKeep" id="fertilizer" value="1" />
+		<reward type="Quest" id="Q_Farm_B3" />
+	</quest>
+	<quest id="Q_Farm_B3" group_name="Fertilize It!" name="Fertilize It! 3/3" subtitle="Fertilize It!" description="Ok, it doesn't smell good... But all for the profit.\n\nUpgrade your farmland using a hoe." icon="ui_game_symbol_q_farm2" repeatable="false" category_key="Quest" offer="How To increase the yield of crops." difficulty="medium">
+		<objective type="BlockUpgrade" id="fertileFarmland" value="1" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="Quest" id="Q_Farm_C1" />
+	</quest>
+	<quest id="Q_Farm_C1" group_name="Fight the Plague!" name="Fight the Plague! 1/7" subtitle="Natural Pesticides" description="Good farm you have there! ;)\nBut it seems those insects trying to mess with you - almost professional farmer!\n Time to fight back. Craft some Natural Pesticides at the campfire now." icon="ui_game_symbol_q_farm3" repeatable="false" category_key="Quest" offer="Those flies are so... annoying...." difficulty="medium">
+		<objective type="FetchKeep" id="goldenrodPlant" value="1" />
+		<objective type="FetchKeep" id="yuccaFibers" value="5" />
+		<objective type="FetchKeep" id="naturalPesticides" value="1" />
+		<reward type="Quest" id="Q_Farm_C2" />
+	</quest>
+	<quest id="Q_Farm_C2" group_name="Fight the Plague!" name="Fight the Plague! 2/7" subtitle="Mortar and Pestle" description="Ok, we have a pesticide dust. Now we need a sunflower oil, to mix it with natural pesticides.\nBut first we need to craft a mortar and pestle." icon="ui_game_symbol_q_farm3" repeatable="false" category_key="Quest" offer="Those flies are so... annoying...." difficulty="medium">
+		<objective type="FetchKeep" id="clayLump" value="2" />
+		<objective type="FetchKeep" id="rockSmall" value="3" />
+		<objective type="Craft" id="mortarAndPestle" value="1" />
+		<reward type="Quest" id="Q_Farm_C3" />
+	</quest>
+	<quest id="Q_Farm_C3" group_name="Fight the Plague!" name="Fight the Plague! 3/7" subtitle="Sunflower Oil" description="Now when you have a mortar and pestle, you can make a sunflower oil from seeds.\nJust take 5 seeds in your hand, aim at the mortal and pestle and left-click on it to make an oil." icon="ui_game_symbol_q_farm3" repeatable="false" category_key="Quest" offer="Those flies are so... annoying...." difficulty="medium">
+		<objective type="FetchKeep" id="sunflowerSeed" value="5" />
+		<objective type="BlockPlace" id="mortarAndPestle" value="1" />
+		<objective type="FetchKeep" id="sunflowerOil" value="5" />
+		<reward type="Quest" id="Q_Farm_C4" />
+	</quest>
+	<quest id="Q_Farm_C4" group_name="Fight the Plague!" name="Fight the Plague! 4/7" subtitle="Chemistry Station" description="Hmm... It seems you cannot mix components without a chemistry station.\nYou can craft one after learning the skill and collecting all required components, or... Just find it somewhere, if you are lucky enough ;) " icon="ui_game_symbol_q_farm3" repeatable="false" category_key="Quest" offer="Those flies are so... annoying...." difficulty="medium">
+		<objective type="Craft" id="chemistryStation" value="1" />
+		<objective type="BlockPlace" id="chemistryStation" value="1" />
+		<reward type="Quest" id="Q_Farm_C5" />
+	</quest>
+	<quest id="Q_Farm_C5" group_name="Fight the Plague!" name="Fight the Plague! 5/7" subtitle="Pesticide Spray" description="Ok. So you have access to the chemistry station now.\n\nTime to craft some Pesticide Spray." icon="ui_game_symbol_q_farm3" repeatable="false" category_key="Quest" offer="Those flies are so... annoying...." difficulty="medium">
+		<objective type="FetchKeep" id="bottledWater" value="1" />
+		<objective type="FetchKeep" id="naturalPesticides" value="1" />
+		<objective type="FetchKeep" id="sunflowerOil" value="5" />
+		<objective type="FetchKeep" id="pesticide" value="1" />
+		<reward type="Quest" id="Q_Farm_C6" />
+	</quest>
+	<quest id="Q_Farm_C6" group_name="Fight the Plague!" name="Fight the Plague! 6/7" subtitle="Spraying Manual Pump" description="You need a tool to spray your pesticides.\nCollect materials and craft it at the workbench." icon="ui_game_symbol_q_farm3" repeatable="false" category_key="Quest" offer="Those flies are so... annoying...." difficulty="medium">
+		<objective type="FetchKeep" id="forgedIron" value="3" />
+		<objective type="FetchKeep" id="canEmpty" value="1" />
+		<objective type="FetchKeep" id="mechanicalParts" value="1" />
+		<objective type="FetchKeep" id="spring" value="1" />
+		<objective type="FetchKeep" id="SprayItem" value="1" />
+		<reward type="Quest" id="Q_Farm_C7" />
+	</quest>
+	<quest id="Q_Farm_C7" group_name="Fight the Plague!" name="Fight the Plague! 7/7" subtitle="Use it!" description="It is time to release the dogs!\nLoad you spraying pump and use it on your crops.\nIt grants very high resistance to insect plague through the whole lifecycle of the crop." icon="ui_game_symbol_q_farm3" repeatable="false" category_key="Quest" offer="Those flies are so... annoying...." difficulty="medium">
+		<objective type="FetchKeep" id="pesticide" value="1" />
+		<objective type="FetchKeep" id="SprayItem" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Quest" id="Q_Farm_D1" />
+	</quest>
+	<quest id="Q_Farm_D1" group_name="Powered Farm" name="Powered Farm 1/4" subtitle="Diesel Power" description="You can use electric power to help against insects and rodents.\nBetter to create your own generator now.\nDiesel Generator can be created in the Mill, after reading appropriate books." icon="ui_game_symbol_q_farm4" repeatable="false" category_key="Quest" offer="Electrify your farm now." difficulty="medium">
+		<objective type="FetchKeep" id="metalFrame" value="1" />
+		<objective type="FetchKeep" id="smallDeposit" value="1" />
+		<objective type="FetchKeep" id="mechanicalParts" value="15" />
+		<objective type="FetchKeep" id="scrapCopper" value="10" />
+		<objective type="FetchKeep" id="smallConsole" value="1" />
+		<objective type="BlockPlace" id="smallGenerator" value="1" />
+		<reward type="Quest" id="Q_Farm_D2" />
+	</quest>
+	<quest id="Q_Farm_D2" group_name="Powered Farm" name="Powered Farm 2/4" subtitle="Insect Repellent Light" description="Craft Insect repellent device.\nIt should be wired to a power source.\nYou can craft it at the workbench." icon="ui_game_symbol_q_farm4" repeatable="false" category_key="Quest" offer="Electrify your farm now." difficulty="medium">
+		<objective type="FetchKeep" id="forgedIron" value="2" />
+		<objective type="FetchKeep" id="shortMetalPipe" value="1" />
+		<objective type="FetchKeep" id="electricParts" value="1" />
+		<objective type="FetchKeep" id="electronicParts" value="1" />
+		<objective type="Craft" id="InsectLamp" value="1" />
+		<reward type="Quest" id="Q_Farm_D3" />
+	</quest>
+	<quest id="Q_Farm_D3" group_name="Powered Farm" name="Powered Farm 3/4" subtitle="Ultrasonic Rodent Repeller" description="Craft Ultrasonic Rodent Repeller device.\nIt should be wired to a power souce.\nYou can craft it at the workbench." icon="ui_game_symbol_q_farm4" repeatable="false" category_key="Quest" offer="Electrify your farm now." difficulty="medium">
+		<objective type="FetchKeep" id="forgedIron" value="1" />
+		<objective type="FetchKeep" id="shortMetalPipe" value="2" />
+		<objective type="FetchKeep" id="electricParts" value="1" />
+		<objective type="FetchKeep" id="electronicParts" value="2" />
+		<objective type="Craft" id="UltraSound" value="1" />
+		<reward type="Quest" id="Q_Farm_D4" />
+	</quest>
+	<quest id="Q_Farm_D4" group_name="Powered Farm" name="Powered Farm 4/4" subtitle="Turn it on!" description="It is time to place devices you just crafted.\nEvery device should be wired to a power source and has an area of effect, protecting plants in a decent area.\nMake sure the generator has gas cans inside and powered on." icon="ui_game_symbol_q_farm4" repeatable="false" category_key="Quest" offer="Electrify your farm now." difficulty="medium">
+		<objective type="BlockPlace" id="InsectLamp" value="1" />
+		<objective type="BlockPlace" id="UltraSound" value="1" />
+		<reward type="SkillPoints" value="4" />
+		<reward type="Quest" id="Q_Farm_E1" />
+	</quest>
+	<quest id="Q_Farm_E1" group_name="Food for Everyone" name="Survivor's Farm 1/6" subtitle="Radio Tower" description="Time to recruit survivors.\nYou can recruit survivors by turning on a radio tower.\nYou need a mill to craft one." icon="ui_game_symbol_q_farm5" repeatable="false" category_key="Quest" offer="Share your knowledge." difficulty="medium">
+		<objective type="FetchKeep" id="forgedIron" value="100" />
+		<objective type="FetchKeep" id="electricParts" value="10" />
+		<objective type="FetchKeep" id="lightBulb" value="1" />
+		<objective type="Craft" id="radioTower" value="1" />
+		<reward type="Quest" id="Q_Farm_E3" />
+	</quest>
+	<quest id="Q_Farm_E3" group_name="Food for Everyone" name="Survivor's Farm 3/6" subtitle="Turn it on!" description="It's time to connect your devices and wait for arrival of new survivors.\nMake sure you turned on the generator, it has Gas Cans inside, and Radio Tower lamp is blinking." icon="ui_game_symbol_q_farm5" repeatable="false" category_key="Quest" offer="Share your knowledge." difficulty="medium">
+		<objective type="BlockPlace" id="radioTowerBlock" value="1" />
+		<reward type="Quest" id="Q_Farm_E4" />
+	</quest>
+	<quest id="Q_Farm_E4" group_name="Food for Everyone" name="Survivor's Farm 4/6" subtitle="Farmer Station" description="While we waiting for survivors, we can prepare a Farmer station.\nCollect materials and craft one.\nYou need to place it near a girl survivor.\nYou can also tell her to follow you and place the station at desired destination." icon="ui_game_symbol_q_farm5" repeatable="false" category_key="Quest" offer="Share your knowledge." difficulty="medium">
+		<objective type="FetchKeep" id="hoeIron" value="1" />
+		<objective type="FetchKeep" id="forgedIron" value="10" />
+		<objective type="FetchKeep" id="bucket" value="2" />
+		<objective type="Craft" id="farmer" value="1" />
+		<reward type="Quest" id="Q_Farm_E5" />
+	</quest>
+	<quest id="Q_Farm_E5" group_name="Food for Everyone" name="Survivor's Farm 5/6" subtitle="Farmer Storage" description="Create a storage for your farmer survivor.\nShe will take seeds from this storage, and put harvested plants inside." icon="ui_game_symbol_q_farm5" repeatable="false" category_key="Quest" offer="Share your knowledge." difficulty="medium">
+		<objective type="FetchKeep" id="nail" value="10" />
+		<objective type="FetchKeep" id="wood" value="20" />
+		<objective type="Craft" id="cntStorageFarm" value="1" />
+		<reward type="Quest" id="Q_Farm_E6" />
+	</quest>
+	<quest id="Q_Farm_E6" group_name="Food for Everyone" name="Survivor's Farm 6/6" subtitle="Farmer Storage" description="As soon as you meet the girl survivor, place a farmer station near her and place farmer storage as close to the farmer station as possible.\nMore info about survivors and farmer can be found in the journal." icon="ui_game_symbol_q_farm5" repeatable="false" category_key="Quest" offer="Share your knowledge." difficulty="medium">
+		<objective type="BlockPlace" id="farmerBlock" value="1" />
+		<objective type="BlockPlace" id="cntStorageFarm" value="1" />
+		<reward type="SkillPoints" value="5" />
+	</quest>
+	<!-- Little Animal Quests -->
+	<quest id="Q_Animals_A1" group_name="Coops and Hutches" name="Coops and Hutches 1/10" subtitle="Trap Box" description="Let's start with catching up smaller animals, like chickens and rabbits.\nAs they are small and fast, it is better to set a trap and bait it.\n\nLet's craft a trap box first." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Lets catch some animals." difficulty="easy">
+		<objective type="FetchKeep" id="nail" value="10" />
+		<objective type="FetchKeep" id="wood" value="20" />
+		<objective type="FetchKeep" id="spring" value="1" />
+		<objective type="Craft" id="BoxTrap" value="1" />
+		<reward type="Quest" id="Q_Animals_A2" />
+	</quest>
+	<quest id="Q_Animals_A2" group_name="Coops and Hutches" name="Coops and Hutches 2/10" subtitle="Trap Box" description="Place a trap box and bait it using a wheat.\nThe chance to capture an animal is not so high, but you can place as much trap boxes, as you like.\nJust do not forget to bait'em!" icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Lets catch some animals." difficulty="easy">
+		<objective type="FetchKeep" id="wheat" value="1" />
+		<objective type="BlockPlace" id="BoxTrap" value="1" />
+		<reward type="Quest" id="Q_Animals_A3" />
+	</quest>
+	<quest id="Q_Animals_A3" group_name="Coops and Hutches" name="Coops and Hutches 3/10" subtitle="Capture Animals" description="Now you have to give it a time.\nDo not forget to check your traps constantly, maybe there is a prey waiting for you already.\nCatch two chickens and two rabbits." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Lets catch some animals." difficulty="easy">
+		<objective type="FetchKeep" id="chickenItem" value="2" />
+		<objective type="FetchKeep" id="rabbitItem" value="2" />
+		<reward type="Quest" id="Q_Animals_A4" />
+	</quest>
+	<quest id="Q_Animals_A4" group_name="Coops and Hutches" name="Coops and Hutches 4/10" subtitle="Chicken Coop" description="Ok now,when you have two of each animals, you need to build them a new home.\nLets start with crafting a Chicken Coop." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Lets build a chicken coop." difficulty="easy">
+		<objective type="FetchKeep" id="nail" value="20" />
+		<objective type="FetchKeep" id="wood" value="50" />
+		<objective type="Craft" id="trough" value="2" />
+		<objective type="Craft" id="ChickenCoop" value="1" />
+		<reward type="Quest" id="Q_Animals_A5" />
+	</quest>
+	<quest id="Q_Animals_A5" group_name="Coops and Hutches" name="Coops and Hutches 5/10" subtitle="Rabbit Hutch" description="Craft a hutch for your rabbits.\nSome parts can be crafted only at the workbench." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Lets build a rabbit hutch." difficulty="medium">
+		<objective type="FetchKeep" id="nail" value="20" />
+		<objective type="FetchKeep" id="wood" value="50" />
+		<objective type="FetchKeep" id="bucket" value="2" />
+		<objective type="Craft" id="barbedWireSheet" value="2" />
+		<objective type="Craft" id="RabbitHutch" value="1" />
+		<reward type="Quest" id="Q_Animals_A6" />
+	</quest>
+	<quest id="Q_Animals_A6" group_name="Coops and Hutches" name="Coops and Hutches 6/10" subtitle="Find a Water" description="Our animals need a water to drink, as any living creature.\nCraft 2 buckets at the workbench and fill them from any source of water." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Find a water." difficulty="medium">
+		<objective type="FetchKeep" id="bucket" value="2" />
+		<objective type="FetchKeep" id="bucketWater" value="2" />
+		<reward type="Quest" id="Q_Animals_A7" />
+	</quest>
+	<quest id="Q_Animals_A7" group_name="Coops and Hutches" name="Coops and Hutches 7/10" subtitle="Feed for Chickens" description="Our animals need a food as well.\nLets make some feed for our chickens first.\n\nTip: Sunflower Oil made from sunflower seeds using mortar and pestle." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Feed for Chickens." difficulty="medium">
+		<objective type="FetchKeep" id="wheat" value="20" />
+		<objective type="FetchKeep" id="sunflowerOil" value="20" />
+		<objective type="Craft" id="ChickenFeed" value="100" />
+		<reward type="Quest" id="Q_Animals_A8" />
+	</quest>
+	<quest id="Q_Animals_A8" group_name="Coops and Hutches" name="Coops and Hutches 8/10" subtitle="Feed for Rabbits" description="Now make some feed for our rabbits.\n\nTip: Flour made from the wheat using mortar and pestle." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Feed for Rabbits." difficulty="medium">
+		<objective type="FetchKeep" id="flour" value="10" />
+		<objective type="FetchKeep" id="sunflowerOil" value="10" />
+		<objective type="FetchKeep" id="salad" value="10" />
+		<objective type="Craft" id="RabbitFeed" value="100" />
+		<reward type="Quest" id="Q_Animals_A9" />
+	</quest>
+	<quest id="Q_Animals_A9" group_name="Coops and Hutches" name="Coops and Hutches 9/10" subtitle="Animal Farm" description="Now you have all required materials to start your own farm.\nPlace both chicken coop and a rabbit hutch.\nPlace chickens and rabbits inside accordingly with their food and a bucket of water for each building.\nYou should check them from time to time to drop new food/water and collect resources they give.\nThey will also breed, until their number reach 4.\nProduction speed will increase accordingly, but they will not bring new breed anymore, unless you remove one or two." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Place a chicken coop and a Rabbit hutch." difficulty="easy">
+		<objective type="BlockPlace" id="ChickenCoop" value="1" />
+		<objective type="BlockPlace" id="RabbitHutch" value="1" />
+		<reward type="Quest" id="Q_Animals_A10" />
+	</quest>
+	<quest id="Q_Animals_A10" group_name="Coops and Hutches" name="Coops and Hutches 10/10" subtitle="Profit!" description="Time for profit!\n\nCollect resources from your animals." icon="ui_game_symbol_q_animals_1" repeatable="false" category_key="Quest" offer="Collector" difficulty="easy">
+		<objective type="FetchKeep" id="egg" value="3" />
+		<objective type="FetchKeep" id="feather" value="3" />
+		<objective type="FetchKeep" id="turd" value="3" />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	<!-- Your own Orchard -->
+	<quest id="Q_Orchard" group_name="Orchard" name="Orchard Basics 1/4" subtitle="Find an Avocado" description="Now you know how to make seeds and water your plants.\nThere are a lot of fruit trees in the world. Collect a fruit to make your own orchard.\nThey say there are a lot of avocado trees at the Pine Forest.\nBetter start looking there.\nYou collect fruits using your bare hands." offer="Fruity World." icon="ui_game_symbol_q_orchard" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="avocado" value="1" />
+		<requirement type="Holding" id="" />
+		<reward type="Quest" id="Q_Orchard2" />
+	</quest>
+	<quest id="Q_Orchard2" group_name="Orchard" name="Orchard Basics 2/4" subtitle="Avocado Seed" description="Craft an Avocado tree seed from the fruit now." offer="Fruity World." icon="ui_game_symbol_q_orchard" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="Craft" id="avocadoSeed" value="1" />
+		<reward type="Quest" id="Q_Orchard3" />
+	</quest>
+	<quest id="Q_Orchard3" group_name="Orchard" name="Orchard Basics 3/4" subtitle="Plant it" description="Plant your seed now, make a water trench nearby, and fill it using a bucket." offer="Fruity World." icon="ui_game_symbol_q_orchard" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="BlockPlace" id="plantedAvocadoTree" value="1" />
+		<objective type="FetchKeep" id="bucketWater" value="1" />
+		<objective type="BlockPlace" id="waterMovingBucket" value="1" />
+		<reward type="Quest" id="Q_Orchard4" />
+	</quest>
+	<quest id="Q_Orchard4" group_name="Orchard" name="Orchard Basics 4/4" subtitle="Plant it" description="Now just wait for tree to mature. make sure there is always a water nearby, otherwise you tree will not grow\n.Harvest your fruits barehandly when time comes." offer="Fruity World." icon="ui_game_symbol_q_orchard" repeatable="false" category_key="Quest" difficulty="easy">
+		<objective type="FetchKeep" id="avocado" value="3" />
+		<requirement type="Holding" id="" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+</quests>

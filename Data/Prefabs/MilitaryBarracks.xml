@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="Zoning" value="Industrial"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-1"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="Condition" value="Normal"/>
+    <property name="Age" value="Old"/>
+    <property name="StaticSpawner.Size" value="20, 2, 20"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
+	<property name="DisallowedBiomes" value="radiated,burnt_forest" />
+    <property name="SleeperVolumeStart" value="-10, 1, -10"/>
+    <property name="SleeperVolumeSize" value="66, 9, 62"/>
+    <property name="SleeperVolumeGroup" value="S_ZomSoldier_Med"/>
+    <property name="SleeperVolumeGameStageAdjust" value=""/>
+    <property name="SleeperIsLootVolume" value="False"/>
+</prefab>
