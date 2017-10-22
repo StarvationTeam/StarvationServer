@@ -18651,6 +18651,8 @@
 		<property class="RepairItems">
 			<property name="yuccaFibers" value="10" />
 		</property>
+		<property name="EconomicValue" value="10" />
+		<property name="EconomicBundleSize" value="10" />
 		<drop event="Destroy" name="yuccaFibers" count="1,3" />
 	</block>
 	<block id="1010" name="Radio">
@@ -19262,14 +19264,18 @@
 	<block id="348" name="cntTrashPile09">
 		<property name="Class" value="Loot" />
 		<property name="Material" value="trash" />
-		<property name="Shape" value="ModelEntity" />
-		<property name="Model" value="#TrashBags?TrashBagsPrefab" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/trash_pile09" param1="main_mesh" />
+		<!-- <property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#TrashBags?TrashBagsPrefab"/> -->
 		<property name="CustomIcon" value="ui_game_symbol_trashBags" />
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
 		<property name="LootList" value="2" />
 		<property name="CanPickup" value="false" />
 		<property name="IsTerrainDecoration" value="true" />
-		<property name="ImposterExchange" value="imposterCTREighth" param1="29" />
+		<property name="ImposterExchange" value="imposterCTREighth" param1="116" />
+		<!-- <property name="ImposterExchange" value="imposterCTREighth" param1="29" /> -->
 		<drop event="Destroy" count="0" />
 		<drop event="Destroy" name="scrapPlastics" count="0,2" prob="0.2" tool_category="Disassemble" />
 		<property name="BuffsWhenWalkedOn" value="flies" />

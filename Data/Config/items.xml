@@ -8612,7 +8612,7 @@
 		<property name="EconomicValue" value="1" />
 		<!-- oil barrel 500 -->
 		<property name="EconomicBundleSize" value="1" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="Group" value="Resources,Food/Cooking" />
 	</item>
 	<item id="57" name="ChickenFeed">
@@ -8626,7 +8626,7 @@
 		<property name="EconomicValue" value="1" />
 		<!-- oil barrel 500 -->
 		<property name="EconomicBundleSize" value="1" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="Group" value="Resources,Food/Cooking" />
 	</item>
 	<!-- STARVATION WEAPON BOOKS START -->
@@ -8634,7 +8634,7 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="electricBat, electricSpear" />
-			<property name="Skills_to_gain" value="Weapon Smithing" />
+			<property name="Skills_to_gain" value="craftSkillWeapons" />
 		</property>
 	</item>
 	<!-- STARVATION WEAPON BOOKS END -->
@@ -8687,7 +8687,7 @@
 			<property name="Pos" value="-0.1,-0.7" />
 		</property>
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="61" name="huntingKnifeSpear">
@@ -8728,7 +8728,7 @@
 			<property name="Pos" value="-0.1,-0.7" />
 		</property>
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="62" name="bat">
@@ -8768,7 +8768,7 @@
 			<property name="Pos" value="-0.1,-0.7" />
 		</property>
 		<property name="ActionSkillGroup" value="Blunt Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="63" name="nailedBat">
@@ -8808,7 +8808,7 @@
 			<property name="Pos" value="-0.1,-0.7" />
 		</property>
 		<property name="ActionSkillGroup" value="Blunt Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="64" name="electricBat">
@@ -8848,7 +8848,7 @@
 			<property name="Pos" value="-0.1,-0.7" />
 		</property>
 		<property name="ActionSkillGroup" value="Blunt Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="65" name="electricSpear">
@@ -8885,7 +8885,7 @@
 			<property name="Pos" value="-0.1,-0.7" />
 		</property>
 		<property name="ActionSkillGroup" value="Blunt Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="66" name="chainNlocks">
@@ -8942,7 +8942,7 @@
 		</property>
 		<property name="Group" value="Tools/Traps" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="68" name="fork">
@@ -8976,7 +8976,7 @@
 		</property>
 		<property name="Group" value="Tools/Traps" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="71" name="forkStandard">
@@ -9010,7 +9010,7 @@
 		</property>
 		<property name="Group" value="Tools/Traps" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<!-- STARVATION MELEE WEAPONS END-->
@@ -9088,7 +9088,7 @@
 			<property name="Rot" value="0,-45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="73" name="assaultRifleTriggerHousing">
@@ -9205,7 +9205,7 @@
 			<property name="Rot" value="0,-45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="111" name="mtar_parts">
@@ -9279,7 +9279,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -9391,7 +9391,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -9509,7 +9509,7 @@
 		<property name="AttachmentFlashlight" value="flashlight02" />
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -9616,7 +9616,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Pistols" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 		<property name="EconomicValue" value="1000" />
@@ -9731,7 +9731,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Pistols" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -9840,7 +9840,7 @@
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Shotguns" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="162" name="smallCrossbow">
@@ -9893,7 +9893,7 @@
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Archery" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="PickupJournalEntry" value="alternateAmmoTip" />
 	</item>
@@ -9994,7 +9994,7 @@
 			<property name="Zoom_max_in" value="35" />
 		</property>
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="175" name="partsBrowning_stock">
@@ -10157,7 +10157,7 @@
 			<property name="Accuracy" value="0.7,0.3" />
 		</property>
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="189" name="OldMGItem">
@@ -10235,7 +10235,7 @@
 			<property name="Buff_chance" value=".8" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 	</item>
 	<item id="198" name="MilitaryScrewer">
 		<property name="Meshfile" value="#drill?DrillTool" />
@@ -10281,7 +10281,7 @@
 		</property>
 		<property name="Group" value="Tools/Traps" />
 		<property name="ActionSkillGroup" value="Construction Tools" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="965" name="MP7">
@@ -10343,7 +10343,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -10425,7 +10425,7 @@
 			<property name="kickbackHip" value="1" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10473,7 +10473,7 @@
 			<property name="kickbackHip" value="5" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10497,7 +10497,7 @@
 			<property name="kickbackHip" value="3" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10533,7 +10533,7 @@
 			<property name="Zoom_max_in" value="15" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10558,7 +10558,7 @@
 			<property name="FallOff_Range_Modifier" value="0.4" param1="Add" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10580,7 +10580,7 @@
 			<property name="Reload_time" value="1.5" param1="Multiply" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10604,7 +10604,7 @@
 			<property name="kickbackHip" value="2" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10624,7 +10624,7 @@
 			<property name="kickbackHip" value="3" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10646,7 +10646,7 @@
 			<property name="kickbackHip" value="3" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10687,7 +10687,7 @@
 			<property name="Zoom_max_in" value="15" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10708,7 +10708,7 @@
 			<property name="Reload_time" value="0.8" param1="Multiply" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10740,7 +10740,7 @@
 			<property name="kickbackHip" value="1" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10760,7 +10760,7 @@
 			<property name="Reload_time" value="1.5" param1="Multiply" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10782,7 +10782,7 @@
 			<property name="kickbackHip" value="2" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10796,7 +10796,7 @@
 		<property name="HoldType" value="36" />
 		<property name="Stacknumber" value="1" />
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10835,7 +10835,7 @@
 			<property name="Zoom_max_in" value="15" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10860,7 +10860,7 @@
 			<property name="FallOff_Range_Modifier" value="0.2" param1="Add" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10899,7 +10899,7 @@
 			<property name="Zoom_max_in" value="15" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10922,7 +10922,7 @@
 			<property name="Block_Damage_Modifier" value="0.1" param1="Add" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -10986,7 +10986,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Pistols" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11048,7 +11048,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Pistols" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11114,7 +11114,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Shotguns" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11180,7 +11180,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Shotguns" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="alternateAmmoTip,gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11248,7 +11248,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11317,7 +11317,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11382,7 +11382,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11456,7 +11456,7 @@
 			<property name="Rot" value="0,-45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11587,7 +11587,7 @@
 			<property name="Rot" value="0,-45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11709,7 +11709,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Pistols" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11740,7 +11740,7 @@
 			<property name="kickbackHip" value="1" param1="Sub" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -11760,7 +11760,7 @@
 			<property name="Reload_time" value="1.5" param1="Multiply" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="ActionSkillGroup" value="" />
 		<property name="EconomicValue" value="650" />
 	</item>
@@ -11869,7 +11869,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -11878,14 +11878,14 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="trapBear, trapNail" />
-			<property name="Skills_to_gain" value="Tool Smithing" />
+			<property name="Skills_to_gain" value="craftSkillTools" />
 		</property>
 	</item>
 	<item id="267" name="trapsBookPowered">
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="trapFire, trapSpike" />
-			<property name="Skills_to_gain" value="Science" />
+			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -11895,21 +11895,21 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="mill, boiler" />
-			<property name="Skills_to_gain" value="Science" />
+			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 	</item>
 	<item id="286" name="powerBookGas">
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="biogasDigester, gasTankSecure, gasTankEmpty, moonshine" />
-			<property name="Skills_to_gain" value="Science" />
+			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 	</item>
 	<item id="287" name="powerBookElectricity">
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="lathe, dieselGen" />
-			<property name="Skills_to_gain" value="Science" />
+			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -11921,7 +11921,7 @@
 		<property name="HoldType" value="45" />
 		<property name="Stacknumber" value="5" />
 		<property name="Group" value="Resources" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 	</item>
 	<item id="289" name="gauge">
 		<property name="Extends" value="metalFrame" />
@@ -12146,7 +12146,7 @@
 		<property name="CritChance" value=".25" />
 		<property name="Group" value="Ammo/Weapons,Basics" />
 		<property name="ActionSkillGroup" value="Blunt Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="EconomicValue" value="200" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
@@ -13066,7 +13066,7 @@
 		<property name="EconomicValue" value="1" />
 		<!-- oil barrel 500 -->
 		<property name="EconomicBundleSize" value="1" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="Group" value="Resources,Food/Cooking" />
 	</item>
 	<!-- HUSBANDRY -->
@@ -13356,7 +13356,7 @@
 		<property name="HoldType" value="45" />
 		<property name="Stacknumber" value="1" />
 		<property name="Group" value="Resources" />
-		<property name="CraftingSkillGroup" value="Tailoring" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<item id="505" name="dogMaleItem">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -13468,8 +13468,8 @@
 		</property>
 		<property name="DescriptionKey" value="exoArmorGroupDesc" />
 		<property name="Group" value="Clothing" />
-		<property name="ActionSkillGroup" value="Heavy Armor" />
-		<property name="CraftingSkillGroup" value="Armor Smithing" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="577" name="exoHelmet">
@@ -13539,7 +13539,7 @@
 		<property name="RepairTime" value="2" />
 		<property name="RepairAmount" value="2000" />
 		<property name="Group" value="Resources,Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property class="Action1">
 			<property name="Class" value="EatAt, Mods" />
 			<property name="Delay" value="1.0" />
@@ -13619,7 +13619,7 @@
 			<property name="Rot" value="0,-45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -13738,7 +13738,7 @@
 		<!-- End: Needed for the attachment flashlight -->
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Rifles" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="603" name="minigun_barrel">
@@ -13836,7 +13836,7 @@
 			<property name="Zoom_max_in" value="15" />
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	</item>
@@ -13895,7 +13895,7 @@
 		<property name="Stacknumber" value="500" />
 		<property name="Weight" value="1" />
 		<!-- STK ammo -->
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="EconomicValue" value="25" />
 		<property name="Group" value="Ammo/Weapons" />
 	</item>
@@ -13929,7 +13929,7 @@
 			<property name="FlyTime" value="1.2" />
 			<property name="LifeTime" value="8" />
 		</property>
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="Group" value="Ammo/Weapons" />
 	</item>
 	<item id="612" name="scrapCopper">
@@ -14004,7 +14004,7 @@
 			<property name="Recipes_to_learn" value="RadSyringe" />
 			<property name="ActionExp" value="100" />
 			<property name="ActionExpBonusMultiplier" value="10" />
-			<property name="Skills_to_gain" value="Science" />
+			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 		<property name="EconomicValue" value="1000" />
 	</item>
@@ -14042,7 +14042,7 @@
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc" />
 		<property name="Group" value="Clothing" />
 		<property name="ActionSkillGroup" value="Clothing/Armor" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="398" name="hazmatPants">
@@ -14213,7 +14213,7 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Construction Tools" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 	</item>
 	<item id="626" name="potassiumHydroxide">
 		<property name="Meshfile" value="Items/Food/cornmeal" />
@@ -14231,7 +14231,7 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="potassiumHydroxide, iodineSolution, potassiumIodidePills, syringe" />
-			<property name="Skills_to_gain" value="Science" />
+			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -14260,7 +14260,7 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Medicine" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 	</item>
 	<item id="629" name="syringe">
 		<property name="Meshfile" value="#ChemTable?SyringePrefab" />
@@ -14286,7 +14286,7 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Medicine" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 	</item>
 	<item id="630" name="iodineSolution">
 		<property name="CustomIcon" value="bottledRiverWater" />
@@ -14302,7 +14302,7 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Medicine" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 	</item>
 	<item id="631" name="RadSyringe">
 		<property name="Meshfile" value="#ChemTable?SyringePrefab" />
@@ -14329,7 +14329,7 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Medicine" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 	</item>
 	<item id="632" name="flyer">
 		<property name="Extends" value="schematicMaster" />
@@ -14347,7 +14347,7 @@
 		<property name="Stacknumber" value="10" />
 		<!-- STK loot -->
 		<property name="Group" value="Resources" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 	</item>
 	<item id="634" name="medicalSet">
 		<property name="Extends" value="medicalScissors" />
@@ -14359,17 +14359,17 @@
 	</item>
 	<item id="636" name="scienceStationSmallParts">
 		<property name="Extends" value="medicalScissors" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="DescriptionKey" value="scienceStationGroupDesc" />
 	</item>
 	<item id="637" name="scienceStationBase">
 		<property name="Extends" value="medicalScissors" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="DescriptionKey" value="scienceStationGroupDesc" />
 	</item>
 	<item id="638" name="scienceStationParts">
 		<property name="Extends" value="medicalScissors" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="DescriptionKey" value="scienceStationGroupDesc" />
 	</item>
 	<item id="639" name="RadSuitKey">
@@ -14395,7 +14395,7 @@
 		</property>
 		<property name="Group" value="Tools/Traps" />
 		<property name="ActionSkillGroup" value="Construction Tools" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 	</item>
 	<!-- RAD MOD -->
 	<!-- PowerPlantBlocks -->
@@ -14405,7 +14405,7 @@
 		<property name="HoldType" value="45" />
 		<property name="Stacknumber" value="5" />
 		<property name="Group" value="Resources" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 	</item>
 	<item id="641" name="plutonium">
 		<property name="Meshfile" value="Items/Crafting/rock_small" />
@@ -14553,7 +14553,7 @@
 		<property name="EconomicValue" value="80" />
 		<property name="EconomicBundleSize" value="1" />
 		<property name="Group" value="Resources,Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 	</item>
 	<item id="660" name="ironArrowHeadPack">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -14565,7 +14565,7 @@
 		<property name="EconomicValue" value="30" />
 		<property name="EconomicBundleSize" value="1" />
 		<property name="Group" value="Resources,Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 	</item>
 	<item id="664" name="bulletCasingPack">
 		<property name="Meshfile" value="Items/Crafting/bullet_casingPrefab" />
@@ -14576,7 +14576,7 @@
 		<property name="EconomicValue" value="50" />
 		<property name="EconomicBundleSize" value="1" />
 		<property name="Group" value="Resources,Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 	</item>
 	<item id="669" name="bulletTipPack">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -14588,7 +14588,7 @@
 		<property name="EconomicValue" value="50" />
 		<property name="EconomicBundleSize" value="1" />
 		<property name="Group" value="Resources,Ammo/Weapons" />
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 	</item>
 	<item id="1010" name="glassPane">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -15082,7 +15082,7 @@
 		<property name="Material" value="metal" />
 		<property name="Stacknumber" value="1" />
 		<property name="Group" value="Resources" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 	</item>
 	<item id="773" name="blender">
 		<property name="Extends" value="mixer" />
@@ -15136,7 +15136,7 @@
 			<property name="Pos" value="-0.1,-0.7" />
 		</property>
 		<property name="ActionSkillGroup" value="Blunt Weapons" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<!-- DRYED FOOD -->
@@ -15275,7 +15275,7 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="toyBoxFun, toyBoxAction" />
-			<property name="Skills_to_gain" value="Tool Smithing" />
+			<property name="Skills_to_gain" value="craftSkillTools" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -15616,7 +15616,7 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="garageDoorRolling, ShutterDoor, ShutterDoorV" />
-			<property name="Skills_to_gain" value="Tool Smithing" />
+			<property name="Skills_to_gain" value="craftSkillTools" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -15633,7 +15633,7 @@
 			<property name="Pos" value="0,-0.2" />
 			<property name="Rot" value="90,45,0" />
 		</property>
-		<property name="CraftingSkillGroup" value="Misc Crafting" />
+		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 	</item>
 	<item id="800" name="steelArmorPlate">
 		<property name="Meshfile" value="Items/Misc/paper" />
@@ -15647,13 +15647,13 @@
 			<property name="Pos" value="0,-0.2" />
 			<property name="Rot" value="90,45,0" />
 		</property>
-		<property name="CraftingSkillGroup" value="Misc Crafting" />
+		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 	</item>
 	<item id="801" name="armorPlate">
 		<property name="Extends" value="steelArmorPlate" />
 		<property name="Weight" value="10" />
-		<property name="ActionSkillGroup" value="Heavy Armor" />
-		<property name="CraftingSkillGroup" value="Armor Smithing" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<item id="802" name="steelBoots">
 		<property name="CustomIcon" value="ironBoots" />
@@ -15670,8 +15670,8 @@
 		<property name="EquipSlot" value="Feet" />
 		<property name="Degradation" value="300" param1="true" />
 		<property name="Encumbrance" value="0.2" />
-		<property name="ActionSkillGroup" value="Heavy Armor" />
-		<property name="CraftingSkillGroup" value="Armor Smithing" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 		<property class="Attributes">
 			<property name="ConcussiveProtection" value="0.6, 0.8" />
 			<property name="PunctureProtection" value="0.6, 0.9" />
@@ -15777,8 +15777,8 @@
 			<property name="Pos" value="0,-0.05" />
 			<property name="Rot" value="90,45,0" />
 		</property>
-		<property name="ActionSkillGroup" value="Clothing" />
-		<property name="CraftingSkillGroup" value="Tailoring" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<!-- material leather -->
 	<item id="808" name="leatherDusterCamo">
@@ -15815,7 +15815,7 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Light Armor" />
-		<property name="CraftingSkillGroup" value="Leatherworking" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<item id="809" name="camoCowboyHat">
 		<property name="DescriptionKey" value="cowboyHatGroupDesc" />
@@ -15850,7 +15850,7 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Clothing" />
-		<property name="CraftingSkillGroup" value="Tailoring" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<!-- material cloth -->
 	<item id="810" name="bandanaCamo">
@@ -15886,8 +15886,8 @@
 			<property name="Pos" value="0,-0.05" />
 			<property name="Rot" value="90,45,0" />
 		</property>
-		<property name="ActionSkillGroup" value="Clothing" />
-		<property name="CraftingSkillGroup" value="Tailoring" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<item id="811" name="skullCapCamo">
 		<property name="CustomIcon" value="skullCap" />
@@ -15903,8 +15903,8 @@
 		<property name="Degradation" value="100" param1="true" />
 		<property name="RepairTools" value="cloth" />
 		<property name="Encumbrance" value="0.01" />
-		<property name="ActionSkillGroup" value="Clothing" />
-		<property name="CraftingSkillGroup" value="Tailoring" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 		<property class="Attributes">
 			<property name="ConcussiveProtection" value="0.05, 0.2" />
 			<property name="PunctureProtection" value="0.05, 0.2" />
@@ -15924,8 +15924,8 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 		<property name="DescriptionKey" value="skullCapDesc" />
-		<property name="ActionSkillGroup" value="Clothing" />
-		<property name="CraftingSkillGroup" value="Tailoring" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<item id="812" name="denimPantsCamo">
 		<property name="DescriptionKey" value="denimClothesGroupDesc" />
@@ -15961,8 +15961,8 @@
 			<property name="Pos" value="0,-0.05" />
 			<property name="Rot" value="90,45,0" />
 		</property>
-		<property name="ActionSkillGroup" value="Clothing" />
-		<property name="CraftingSkillGroup" value="Tailoring" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<!-- Camo Steel Armor -->
 	<item id="813" name="steelCamoBoots">
@@ -16038,7 +16038,7 @@
 			<property name="Pos" value="-0.1,-0.7" />
 		</property>
 		<property name="ActionSkillGroup" value="Blunt Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="819" name="FatiguePill">
@@ -16062,7 +16062,7 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="gunRevolver,mg4,HK416,Ump,smallCrossbow,ACW,MTAR,flameThrower,minigun,multiRocketLauncher,desertEagle,MauserK98" />
-			<property name="Skills_to_gain" value="Gun Smithing" />
+			<property name="Skills_to_gain" value="craftSkillGuns" />
 		</property>
 	</item>
 	<item id="822" name="WeaponWorkbenchFlyer">
@@ -16124,7 +16124,7 @@
 		</property>
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 	</item>
 	<item id="824" name="CrocoSkin">
 		<property name="Stacknumber" value="15" />
@@ -16170,7 +16170,7 @@
 		<!--property name="DescriptionKey" value="leatherClothesGroupDesc" /-->
 		<property name="Group" value="Clothing" />
 		<property name="ActionSkillGroup" value="" />
-		<property name="CraftingSkillGroup" value="Tailoring" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="826" name="SprayItem">
@@ -16218,8 +16218,8 @@
 		<property name="Group" value="Tools/Traps" />
 		<property name="PickupJournalEntry" value="farmingTip" />
 		<property name="ActionSkillGroup" value="Mining Tools" />
-		<property name="CraftingSkillGroup" value="Tool Smithing" />
-		<!-- 15.0 workaround. Should be Gun Smithing -->
+		<property name="CraftingSkillGroup" value="craftSkillTools" />
+		<!-- 15.0 workaround. Should be craftSkillGuns -->
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<item id="827" name="pesticide">
@@ -16228,7 +16228,7 @@
 		<property name="HoldType" value="21" />
 		<property name="Stacknumber" value="500" />
 		<!-- STK ammo -->
-		<property name="CraftingSkillGroup" value="Gun Smithing" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="EconomicValue" value="15" />
 		<property name="Group" value="Ammo/Weapons" />
 	</item>
@@ -16505,7 +16505,7 @@
 		<!-- STK loot -->
 		<property name="Group" value="Resources" />
 		<property name="ActionSkillGroup" value="Medicine" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 	</item>
 	<item id="843" name="garlicSap">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -16516,7 +16516,7 @@
 		<!-- STK loot -->
 		<property name="Group" value="Resources" />
 		<property name="ActionSkillGroup" value="Medicine" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 	</item>
 	<item id="844" name="snakePoison">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -16527,7 +16527,7 @@
 		<!-- STK loot -->
 		<property name="Group" value="Resources" />
 		<property name="ActionSkillGroup" value="Medicine" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 	</item>
 	<item id="845" name="insectBiteAntidote">
 		<property name="CustomIconTint" value="b0ffb0" />
@@ -16559,7 +16559,7 @@
 			<property name="Debuff" value="scorpionPoisoning,spiderPoisoning" />
 		</property>
 		<property name="ActionSkillGroup" value="Medicine" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="Group" value="Medicine" />
 		<property name="ActionExp" value="10" />
 	</item>
@@ -16830,7 +16830,7 @@
 			<property name="Pos" value="0,0" />
 		</property>
 		<property name="ActionSkillGroup" value="Mining Tools" />
-		<property name="CraftingSkillGroup" value="Science" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
 	<!-- End BigForge conversion Items -->

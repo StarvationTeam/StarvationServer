@@ -1369,36 +1369,36 @@
 			</effect>
 		</crafting_skill>
 		<!-- DOGSDX -->
-		<!-- <crafting_skill name="Stress Resistence" icon="stress" description_key="StressResistanceDesc" title_key="StressResistance" exp_to_level="100" experience_multiplier="1.15" max_level="7" skill_point_cost_multiplier="0" skill_point_cost_per_level="999" group="health" passive_effect="true"/>
-	<perk name="Zen Master" icon="meditate" description_key="MeditateDesc" title_key="zenmaster" max_level="7" skill_point_cost_multiplier="1" skill_point_cost_per_level="1" group="health">
-		<requirement perk_level="1" required_skill_name="Stress Resistence" required_skill_level="1" />
-		<requirement perk_level="2" required_skill_name="Stress Resistence" required_skill_level="2" />
-		<requirement perk_level="3" required_skill_name="Stress Resistence" required_skill_level="3" />
-		<requirement perk_level="4" required_skill_name="Stress Resistence" required_skill_level="4" />
-		<requirement perk_level="5" required_skill_name="Stress Resistence" required_skill_level="5" />
-		<requirement perk_level="6" required_skill_name="Stress Resistence" required_skill_level="6" />
-		<requirement perk_level="7" required_skill_name="Stress Resistence" required_skill_level="7" />
-		<recipe name="meditationCarpet" unlock_level="7" />
-	</perk>
-	<perk name="Courage" icon="strongmind" description_key="CourageDesc" title_key="Courage" max_level="2" skill_point_cost_multiplier="1" skill_point_cost_per_level="5" group="health">
-		<requirement perk_level="1" required_skill_name="Stress Resistence" required_skill_level="4" />
-		<requirement perk_level="2" required_skill_name="Stress Resistence" required_skill_level="6" />		
-		<recipe name="shadesBlack" unlock_level="2" />
-	</perk>
-	<perk name="HeatEnergyPerk" icon="resource" description_key="powerBookSteamDesc" title_key="powerBookSteam" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="30" group="tools">
-		<requirement skill_level="1" required_skill_name="Science" required_skill_level="20" />
+		<crafting_skill name="Stress Resistence" icon="stress" description_key="StressResistanceDesc" title_key="StressResistance" exp_to_level="100" experience_multiplier="1.15" max_level="7" skill_point_cost_multiplier="0" skill_point_cost_per_level="999" group="health" passive_effect="true" />
+		<perk name="Zen Master" icon="meditate" description_key="MeditateDesc" title_key="zenmaster" max_level="7" skill_point_cost_multiplier="1" skill_point_cost_per_level="1" group="health">
+			<requirement perk_level="1" required_skill_name="Stress Resistence" required_skill_level="1" />
+			<requirement perk_level="2" required_skill_name="Stress Resistence" required_skill_level="2" />
+			<requirement perk_level="3" required_skill_name="Stress Resistence" required_skill_level="3" />
+			<requirement perk_level="4" required_skill_name="Stress Resistence" required_skill_level="4" />
+			<requirement perk_level="5" required_skill_name="Stress Resistence" required_skill_level="5" />
+			<requirement perk_level="6" required_skill_name="Stress Resistence" required_skill_level="6" />
+			<requirement perk_level="7" required_skill_name="Stress Resistence" required_skill_level="7" />
+			<recipe name="meditationCarpet" unlock_level="7" />
+		</perk>
+		<perk name="Courage" icon="strongmind" description_key="CourageDesc" title_key="Courage" max_level="2" skill_point_cost_multiplier="1" skill_point_cost_per_level="5" group="health">
+			<requirement perk_level="1" required_skill_name="Stress Resistence" required_skill_level="4" />
+			<requirement perk_level="2" required_skill_name="Stress Resistence" required_skill_level="6" />
+			<recipe name="shadesBlack" unlock_level="2" />
+		</perk>
+		<!-- <perk name="HeatEnergyPerk" icon="resource" description_key="powerBookSteamDesc" title_key="powerBookSteam" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="30" group="tools">
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="20" />
 		<recipe name="mill" unlock_level="1" />
 		<recipe name="boiler" unlock_level="1" />		
 	</perk>
 	<perk name="GasEnergyPerk" icon="resource" description_key="powerBookGasDesc" title_key="powerBookGas" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="30" group="tools">			
-		<requirement skill_level="1" required_skill_name="Science" required_skill_level="25" />
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="25" />
 		<recipe name="biogasDigester" unlock_level="1" />
 		<recipe name="gasTankSecure" unlock_level="1" />
 		<recipe name="gasTankEmpty" unlock_level="1" />
 		<recipe name="moonshine" unlock_level="1" />			
 	</perk>
 	<perk name="ElecticityEnergyPerk" icon="resource" description_key="powerBookElectricityDesc" title_key="powerBookElectricity" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="30" group="tools">
-		<requirement skill_level="1" required_skill_name="Science" required_skill_level="30" />
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="30" />
 		<recipe name="lathe" unlock_level="1" />
 		<recipe name="dieselGen" unlock_level="1" />		
 	</perk> -->
