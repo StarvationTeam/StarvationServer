@@ -433,7 +433,7 @@
 	<buff id="StrongMind" duration="0" name_key="StrongMind" description_key="StrongMindDesc" tooltip_key="StrongMindDesc" icon="ui_game_symbol_strongmind" />
 	<buff id="meditatingTrigger" duration="1" actions="setvar(CTRcarpet, 10)" />
 	<buff id="Meditate" duration="0" buffif="CTRcarpet greater 0" debuffif="CTRcarpet less 1" name_key="Meditate" actions="increment(CTRcarpet, -3, 2, 0, 0);increment(sanity, 4, 3, 0, 0)" description_key="MeditatingDesc" tooltip_key="MeditatingDesc" icon="ui_game_symbol_meditate" />
-	<buff id="Meditating" duration="0" name_key="Meditating" actions="increment(sanity, 4, 3, 0, 0)" description_key="MeditatingDesc" tooltip_key="MeditatingDesc" icon="ui_game_symbol_meditate" />
+	<buff id="Meditating" duration="0" name_key="Meditating" actions="increment(sanity, 3, 3, 0, 0)" description_key="MeditatingDesc" tooltip_key="MeditatingDesc" icon="ui_game_symbol_meditate" />
 	<buff id="meditatePassive1" mutex="meditatePassive2,meditatePassive3,meditatePassive4,meditatePassive5,meditatePassive6,meditatePassive7" duration="0" actions="increment(sanity, 0.1, 25t, 0, 0)" name_key="meditatePassive1" />
 	<buff id="meditatePassive2" mutex="meditatePassive3,meditatePassive4,meditatePassive5,meditatePassive6,meditatePassive7" duration="0" actions="increment(sanity, 0.4, 25t, 0, 0)" name_key="meditatePassive2" />
 	<buff id="meditatePassive3" mutex="meditatePassive4,meditatePassive5,meditatePassive6,meditatePassive7" duration="0" actions="increment(sanity, 0.5, 25t, 0, 0)" name_key="meditatePassive3" />
@@ -442,8 +442,8 @@
 	<buff id="meditatePassive6" mutex="meditatePassive7" duration="0" actions="increment(sanity, 0.9, 25t, 0, 0)" name_key="meditatePassive6" />
 	<buff id="meditatePassive7" duration="0" actions="increment(sanity, 1.3, 25t, 0, 1)" name_key="meditatePassive7" />
 	<!-- SANITY DEBUFFS -->
-	<buff id="sanityVerySmall" duration="4" actions="increment(sanity, -.1, 1, 0, 1)" name_key="sanityVerySmall" />
-	<buff id="sanitySmall" duration="4" actions="increment(sanity, -.3, 1, 0, 1)" name_key="sanitySmall" />
+	<buff id="sanityVerySmall" duration="4" actions="increment(sanity, -.2, 1, 0, 1)" name_key="sanityVerySmall" />
+	<buff id="sanitySmall" duration="4" actions="increment(sanity, -.35, 1, 0, 1)" name_key="sanitySmall" />
 	<buff id="sanityNormal" duration="2" actions="increment(sanity, -1, 1, 0, 1)" name_key="sanityNormal" />
 	<buff id="sanityMedium" duration="2" actions="increment(sanity, -3, 1, 0, 1)" name_key="sanityMedium" />
 	<buff id="sanityBig" duration="2" actions="increment(sanity, -50, 1, 0, 1)" name_key="sanityBig" />

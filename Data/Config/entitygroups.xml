@@ -17,7 +17,6 @@
 		<entity name="zombieStripper" prob="0.3" />
 		<entity name="zombieUtilityWorker" prob="0.3" />
 		<entity name="zombieNurse" prob="0.3" />
-		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiian" prob="0.3" />
 		<entity name="PoliceZd" prob="0.02" />
 		<entity name="FirefighterZd" prob="0.02" />
@@ -37,7 +36,6 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" prob="0.05" />
-		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiian" prob="0.3" />
 		<entity name="PoliceZd" prob="0.03" />
 		<entity name="FirefighterZd" prob="0.03" />
@@ -57,7 +55,6 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" />
-		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatCop" />
 		<entity name="zombieBurnt" />
 		<entity name="zombieMaleHazmat" prob="0.05" />
@@ -77,7 +74,6 @@
 		<entity name="zombieMarleneFeral" />
 		<entity name="zombieNurseFeral" />
 		<entity name="animalZombieDog" />
-		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieFatCopFeral" />
 		<entity name="zombieBurnt" />
 		<entity name="animalZombieBear" />
@@ -98,7 +94,6 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" />
-		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatCop" />
 		<entity name="zombieBurnt" />
 		<entity name="zombieWightFeral" />
@@ -118,7 +113,6 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" prob="0.15" />
-		<entity name="zombieSteveCrawler" prob="0.05" />
 		<entity name="zombieFatCop" prob="0.15" />
 		<entity name="zombieBurnt" prob="0.07" />
 		<entity name="animalZombieBear" prob="0.1" />
@@ -137,7 +131,6 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" prob="0.15" />
-		<entity name="zombieSteveCrawler" prob="0.05" />
 		<entity name="zombieFatCop" prob="0.15" />
 		<entity name="zombieBurnt" prob="0.07" />
 		<entity name="zombieWightFeral" prob="0.1" />
@@ -157,7 +150,6 @@
 		<entity name="zombieFatCop" prob="0.05" />
 		<entity name="animalZombieDog" prob="0.05" />
 		<entity name="animalZombieBear" prob="0.05" />
-		<entity name="zombieSteveCrawler" prob="0.1" />
 	</entitygroup>
 	<entitygroup name="ZombieScouts">
 		<entity name="zombieScreamer" />
@@ -167,7 +159,6 @@
 	</entitygroup>
 	<entitygroup name="ZombiesBurntForest">
 		<entity name="zombieBurnt" prob="0.2" />
-		<entity name="zombieSteveCrawler" prob="0.05" />
 		<entity name="PoliceZd" prob="0.3" />
 		<entity name="FirefighterZd" prob="0.3" />
 		<entity name="MilitaryZd" prob="0.3" />
@@ -185,14 +176,12 @@
 		<entity name="zombieMarleneFeral" />
 		<entity name="zombieYoFeral" />
 		<entity name="zombieSteveFeral" />
-		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieSnowFeral" />
 		<entity name="zombieSpiderFeral" />
 		<entity name="zombieNurseFeral" />
 	</entitygroup>
 	<entitygroup name="ZombiesCave">
 		<entity name="animalBear" prob="0.1" />
-		<entity name="zombieSteveCrawler" prob="0.05" />
 		<entity name="zombieJoe" prob="0.05" />
 		<entity name="zombieSteve" prob="0.05" />
 		<entity name="zombieMoe" prob="0.05" />
@@ -336,8 +325,6 @@
 		<entity name="zombieSnowFeral" />
 		<entity name="zombieSoldierFeral" />
 		<entity name="zombieSpiderFeral" />
-		<entity name="zombieSteveCrawler" />
-		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieSteveFeral" />
 		<entity name="zombieUtilityWorkerFeral" />
 		<entity name="zombieWightFeral" />
@@ -376,7 +363,6 @@
 		<entity name="zombieMarlene" prob="0.01" />
 		<entity name="zombieNurse" prob="0.01" />
 		<entity name="animalZombieDog" prob="0.01" />
-		<entity name="zombieSteveCrawler" prob="0.01" />
 		<entity name="zombieWightFeral" prob="0.01" />
 		<entity name="MilitaryZd" />
 		<entity name="PoliceZd" prob="0.02" />
@@ -400,7 +386,6 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieArlene" />
 		<entity name="zombieJoe" />
-		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieBoe" />
@@ -14143,7 +14128,7 @@
 		<entity name="tigerAlbino" prob="0.002" />
 	</entitygroup>
 	<entitygroup name="AnimalsCity">
-		<entity name="cougar" />
+		<entity name="cougar" prob="0.01" />
 		<entity name="spider" prob="0.01" />
 		<entity name="spiderSmall" prob="0.01" />
 		<entity name="scorpionSmall" prob="0.005" />
@@ -14186,9 +14171,9 @@
 		<entity name="animalMalePig" prob="0.01" />
 		<entity name="dogFemale" prob="0.01" />
 		<entity name="dogMale" prob="0.005" />
-		<entity name="tiger" prob="0.048" />
-		<entity name="tigerBrown" prob="0.028" />
-		<entity name="Snake" prob="0.005" />
+		<entity name="tiger" prob="0.01" />
+		<entity name="tigerBrown" prob="0.005" />
+		<entity name="Snake" prob="0.05" />
 	</entitygroup>
 	<entitygroup name="RatPlague">
 		<entity name="Rat" />

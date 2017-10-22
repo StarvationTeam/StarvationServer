@@ -545,7 +545,7 @@
 		<property name="AvatarController" value="AvatarZombie01Controller" />
 		<property name="HandItem" value="handZombie02" />
 		<property name="MaxHealth" value="120" />
-		<property name="Class" value="EntityZombieCrawlSDX, Mods" />
+		<property name="Class" value="EntityZombieCrawl" />
 		<property name="WalkType" value="4" />
 		<property name="CanClimbLadders" value="false" />
 		<property name="RotateToGround" value="true" />
