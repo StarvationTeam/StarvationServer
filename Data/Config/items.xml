@@ -5653,6 +5653,7 @@
 		<property name="HoldType" value="23" />
 		<property name="Stacknumber" value="500" />
 		<property name="foodSpoilImmune" value="30" />
+		<property name="Buff" value="fruity" />
 		<property name="EconomicValue" value="10" />
 		<property name="EconomicBundleSize" value="5" />
 		<property name="CraftingIngredientTime" value="8" />
@@ -8022,7 +8023,7 @@
 	<item id="908" name="electronicBrokenIPad">
 		<property name="Extends" value="itemMaster" />
 		<property name="Material" value="MelectronicParts" />
-		<property name="CustomIcon" value="ui_game_symbol_electronicBrokenIPad" />
+		<property name="CustomIcon" value="ui_game_symbol_electronicBrokenIpad" />
 		<property name="DescriptionKey" value="electronicBrokenIPadDesc" />
 		<property name="Weight" value="5" />
 	</item>
@@ -8634,7 +8635,6 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="electricBat, electricSpear" />
-			<property name="Skills_to_gain" value="craftSkillWeapons" />
 		</property>
 	</item>
 	<!-- STARVATION WEAPON BOOKS END -->
@@ -11878,14 +11878,12 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="trapBear, trapNail" />
-			<property name="Skills_to_gain" value="craftSkillTools" />
 		</property>
 	</item>
 	<item id="267" name="trapsBookPowered">
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="trapFire, trapSpike" />
-			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -11895,21 +11893,18 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="mill, boiler" />
-			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 	</item>
 	<item id="286" name="powerBookGas">
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="biogasDigester, gasTankSecure, gasTankEmpty, moonshine" />
-			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 	</item>
 	<item id="287" name="powerBookElectricity">
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="lathe, dieselGen" />
-			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -12590,6 +12585,8 @@
 			<property name="Gain_wellness" value="0.05" />
 		</property>
 		<property name="EconomicValue" value="3" />
+		<property name="foodSpoilImmune" value="30" />
+		<property name="Buff" value="fruity" />
 	</item>
 	<item id="389" name="carrot">
 		<property name="Extends" value="tomato" />
@@ -14231,7 +14228,6 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="potassiumHydroxide, iodineSolution, potassiumIodidePills, syringe" />
-			<property name="Skills_to_gain" value="craftSkillScience" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -15616,7 +15612,6 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="garageDoorRolling, ShutterDoor, ShutterDoorV" />
-			<property name="Skills_to_gain" value="craftSkillTools" />
 		</property>
 		<property name="EconomicValue" value="500" />
 	</item>
@@ -16062,7 +16057,6 @@
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
 			<property name="Recipes_to_learn" value="gunRevolver,mg4,HK416,Ump,smallCrossbow,ACW,MTAR,flameThrower,minigun,multiRocketLauncher,desertEagle,MauserK98" />
-			<property name="Skills_to_gain" value="craftSkillGuns" />
 		</property>
 	</item>
 	<item id="822" name="WeaponWorkbenchFlyer">

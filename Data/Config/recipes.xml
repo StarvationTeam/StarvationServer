@@ -1990,7 +1990,7 @@
 		<ingredient name="unit_clay" count="1" />
 	</recipe>
 	<recipe name="insulator" count="1" craft_area="glassandCeramicsStation" craft_tool="mold" material_based="true">
-		<ingredient name="unit_iron" count="2" />
+		<ingredient name="unit_lead" count="2" />
 		<ingredient name="unit_glass" count="10" />
 		<ingredient name="unit_clay" count="20" />
 	</recipe>
@@ -2403,6 +2403,13 @@
 		<ingredient name="KSR_receiver" count="1" />
 		<ingredient name="KSR_parts" count="1" />
 		<ingredient name="KSR_barrel" count="1" />
+		<ingredient name="flashlight02" count="0" />
+	</recipe>
+	<recipe name="MP7" count="1" craft_area="assembly" scrapable="False">
+		<ingredient name="MP7_Stock" count="1" />
+		<ingredient name="MP7_UpperReceiver" count="1" />
+		<ingredient name="MP7_LowerReceiver" count="1" />
+		<ingredient name="MP7_Barrel" count="1" />
 		<ingredient name="flashlight02" count="0" />
 	</recipe>
 	<!-- TRAPS START -->
@@ -3336,25 +3343,25 @@
 		<ingredient name="partsSniperRifle_stock" count="1" />
 		<ingredient name="partsSniperRifle_parts" count="1" />
 	</recipe>
-	<recipe name="weaponSmith" count="1">
+	<recipe name="weaponSmithBlock" count="1">
 		<ingredient name="forge1" count="1" />
 		<ingredient name="forgestone" count="1" />
 		<ingredient name="anvil1" count="1" />
 		<ingredient name="smithHammer" count="1" />
 	</recipe>
-	<recipe name="mechanic" count="1">
+	<recipe name="mechanicBlock" count="1">
 		<ingredient name="mill" count="1" />
 		<ingredient name="lathe" count="1" />
 		<ingredient name="workbench" count="1" />
 		<ingredient name="carBattery" count="2" />
 	</recipe>
-	<recipe name="cookChef" count="1">
+	<recipe name="cookChefBlock" count="1">
 		<ingredient name="bigOven" count="1" />
 		<ingredient name="cookingPot" count="1" />
 		<ingredient name="cookingGrill" count="1" />
 		<ingredient name="carBattery" count="1" />
 	</recipe>
-	<recipe name="guard" count="1">
+	<recipe name="guardBlock" count="1">
 		<ingredient name="denimPantsCamo" count="1" />
 		<ingredient name="armyShirt" count="1" />
 		<ingredient name="skullCapCamo" count="1" />
@@ -3368,7 +3375,7 @@
 		<ingredient name="electricParts" count="10" />
 		<ingredient name="lightBulb" count="1" />
 	</recipe>
-	<recipe name="farmer" count="1">
+	<recipe name="farmerBlock" count="1">
 		<ingredient name="hoeIron" count="1" />
 		<ingredient name="forgedIron" count="10" />
 		<ingredient name="bucket" count="2" />

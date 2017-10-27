@@ -3194,7 +3194,7 @@
 		<drop event="Destroy" name="scrapIron" count="5" prob="1" />
 		<property name="EconomicValue" value="40" />
 		<property name="BuffsWhenActivate" value="flies" />
-		<property name="BuffsChance" value="0.15" />
+		<property name="BuffsChance" value="0.13" />
 	</block>
 	<block id="336" name="cntBin">
 		<property name="Class" value="Loot" />
@@ -3276,7 +3276,7 @@
 		<drop event="Destroy" count="0" />
 		<drop event="Destroy" name="scrapPlastics" count="0,2" prob="0.2" tool_category="Disassemble" />
 		<property name="BuffsWhenActivate" value="flies" />
-		<property name="BuffsChance" value="0.15" />
+		<property name="BuffsChance" value="0.10" />
 	</block>
 	<block id="341" name="cntTrashPile02">
 		<property name="Extends" value="cntTrashPile01" />
@@ -5435,7 +5435,7 @@
 		<drop event="Harvest" name="wood" count="20,30" tool_category="harvestingTools" />
 		<drop event="Destroy" count="0" />
 		<property name="BuffsWhenActivate" value="bees" />
-		<property name="BuffsChance" value="0.35" />
+		<property name="BuffsChance" value="0.20" />
 	</block>
 	<block id="589" name="treeWinterPine02">
 		<property name="Extends" value="treeMaster" />
@@ -8942,7 +8942,7 @@
 		<property name="EconomicValue" value="60" />
 		<property name="ImposterExchange" value="imposterBlock" param1="77" />
 		<property name="BuffsWhenActivate" value="flies" />
-		<property name="BuffsChance" value="0.25" />
+		<property name="BuffsChance" value="0.17" />
 	</block>
 	<block id="947" name="rScrapIronWedgeStairs">
 		<property name="Extends" value="rScrapIronMaster" />
@@ -17095,7 +17095,7 @@
 		<drop event="Destroy" name="date" count="2" prob="1" />
 	</block>
 	<block id="950" name="redwoodTree">
-		<property name="Class" value="ModelTree" />
+		<property name="Class" value="ModelTreeM, Mods" />
 		<property name="Material" value="treeWoodLarge" />
 		<property name="Shape" value="ModelEntity" />
 		<property name="Tag" value="TreeTrunk" />
@@ -17105,8 +17105,8 @@
 		<property name="IsPlant" value="true" />
 		<property name="ParticleOnDeath" value="treeGib_burnt" />
 		<property name="ModelOffset" value="0,0,0" />
-		<drop event="Harvest" name="redwood" count="150" />
-		<drop event="Destroy" name="redwood" count="50" prob="1" />
+		<drop event="Harvest" name="wood" count="150" />
+		<drop event="Destroy" name="wood" count="50" prob="1" />
 	</block>
 	<block id="951" name="avocadoTree">
 		<property name="Extends" value="fruitTreeMaster" />
@@ -17977,6 +17977,8 @@
 	</block>
 	<block id="1023" name="weaponSmithBlock">
 		<property name="Class" value="Crafter, Mods" />
+		<property name="CustomIcon" value="weaponSmith" />
+		<property name="DescriptionKey" value="weaponSmithDesc" />
 		<property name="Material" value="organic" />
 		<property name="Stacknumber" value="1" />
 		<property name="Shape" value="ModelEntity" />
@@ -18040,6 +18042,8 @@
 	</block>
 	<block id="1089" name="cookChefBlock">
 		<property name="Class" value="Crafter, Mods" />
+		<property name="CustomIcon" value="cookChef" />
+		<property name="DescriptionKey" value="cookChefDesc" />
 		<property name="Material" value="organic" />
 		<property name="Stacknumber" value="1" />
 		<property name="Shape" value="ModelEntity" />
@@ -18100,6 +18104,8 @@
 	</block>
 	<block id="1090" name="farmerBlock">
 		<property name="Class" value="Farmer, Mods" />
+		<property name="CustomIcon" value="farmer" />
+		<property name="DescriptionKey" value="farmerDesc" />
 		<property name="Material" value="organic" />
 		<property name="Stacknumber" value="1" />
 		<property name="Shape" value="ModelEntity" />
@@ -18211,9 +18217,8 @@
 		<property class="RepairItems">
 			<property name="wood" value="20" />
 		</property>
-		<property class="UpgradeRated">
-			<property name="ToBlock" value="cntStorageFarm" />
-			<property name="Rate" value="15" />
+		<property name="UpgradeRated.ToBlock" value="cntStorageFarm">
+			<property name="UpgradeRated.Rate" value="15" />
 		</property>
 		<property name="DowngradeBlock" value="cntStorageFarmInsecure" />
 		<drop event="Destroy" count="0" />
@@ -18222,6 +18227,8 @@
 	</block>
 	<block id="1149" name="guardBlock">
 		<property name="Class" value="Guard, Mods" />
+		<property name="CustomIcon" value="guard" />
+		<property name="DescriptionKey" value="guardDesc" />
 		<property name="Material" value="organic" />
 		<property name="Stacknumber" value="1" />
 		<property name="Shape" value="ModelEntity" />
@@ -18278,6 +18285,8 @@
 	</block>
 	<block id="1150" name="mechanicBlock">
 		<property name="Class" value="Crafter, Mods" />
+		<property name="CustomIcon" value="mechanic" />
+		<property name="DescriptionKey" value="mechanicDesc" />
 		<property name="Material" value="organic" />
 		<property name="Stacknumber" value="1" />
 		<property name="Shape" value="ModelEntity" />

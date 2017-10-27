@@ -142,10 +142,10 @@
 		<modify id="0" stat="stamina" amount="-3" rate="1" />
 		<modify id="1" stat="health" amount="-1" rate="30" />
 	</buff>
-	<buff id="cannotBreath" mutex="drowning" duration="20" stack="discard" actions="debuff(freshAir);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" onexpired="drowning" notificationClass="UnderwaterBuffNotification" icon="ui_game_symbol_oxygen" name_key="cannotBreathe" description_key="cannotBreatheDesc" tooltip_key="cannotBreatheTooltip" />
-	<buff id="drowning" duration="0" stack="discard" actions="damage(0,4,0,0);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" type="drowning" icon="ui_game_symbol_oxygen" name_key="drowning" description_key="drowningDesc" tooltip_key="drowningTooltip">
+	<buff id="drowning" duration="0" stack="discard" actions="damage(0,4,0,0);debuff(flies);debuff(bees);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" type="drowning" icon="ui_game_symbol_oxygen" name_key="drowning" description_key="drowningDesc" tooltip_key="drowningTooltip">
 		<modify id="1" stat="health" amount="-14" rate="4" />
 	</buff>
+	<buff id="cannotBreath" mutex="drowning" duration="20" stack="discard" actions="debuff(flies);debuff(bees);debuff(freshAir);debuff(burningSmall);debuff(burning);debuff(burningMolotov)" onexpired="drowning" notificationClass="UnderwaterBuffNotification" icon="ui_game_symbol_oxygen" name_key="cannotBreathe" description_key="cannotBreatheDesc" tooltip_key="cannotBreatheTooltip" />
 	<buff id="freshAir" duration="1" stack="discard" actions="debuff(cannotBreath);debuff(cannotBreatheWrn);debuff(drowning)" />
 	<buff id="smell" duration="0" icon="ui_game_symbol_smell" name_key="smell" description_key="smellDesc" tooltip_key="smellTooltip" />
 	<buff id="wellnessSmallGain" duration="1000" stack="discard" actions="increment(@wellness, 1, 0, 0, 1)" icon="ui_game_symbol_smell" name_key="wellnessSmallGain" description_key="wellnessSmallGainDesc" tooltip_key="wellnessSmallGainTooltip" />
@@ -273,8 +273,8 @@
 	<buff id="coolByAirCon" duration="0" stack="discard" buffif="-heatSource gequal 1" debuffif="-heatSource less 1" type="coretemp" icon="ui_game_symbol_cool" name_key="coolByAirCon" description_key="coolByAirConDesc" tooltip_key="coolByAirConTooltip">
 		<modify id="0" stat="coretemp" modifyValue="-30" />
 	</buff>
-	<buff id="flies" duration="30" stack="discard" actions="attach(#FliesParticle?FliesParticle, Origin/CameraNode, 0, firstperson);increment(sanity, -0.5, 1, 30, 0)" icon="ui_game_symbol_fly" description_key="" />
-	<buff id="bees" duration="30" stack="discard" actions="attach(#BeesParticle?BeesParticle, Origin/CameraNode, 0, firstperson);increment(sanity, -0.5, 1, 30, 0)" onexpired="stung" icon="ui_game_symbol_bees" description_key="">
+	<buff id="flies" duration="30" stack="discard" actions="attach(#FliesParticle10?FliesParticle10, Origin/CameraNode, 0, firstperson);increment(sanity, -0.5, 1, 30, 0)" icon="ui_game_symbol_fly" description_key="" />
+	<buff id="bees" duration="30" stack="discard" mutex="cannotBreath,drowning" actions="attach(#BeesParticle?BeesParticle, Origin/CameraNode, 0, firstperson);increment(sanity, -0.5, 1, 30, 0)" onexpired="stung" icon="ui_game_symbol_bees" description_key="">
 		<modify id="1" stat="health" amount="-0.5" rate="2" />
 	</buff>
 	<buff id="stung" duration="1500" actions="increment(@sanity, -0.1, 0, 0, 1)" type="sickness" icon="ui_game_symbol_stung" name_key="stung" description_key="stungDesc" tooltip_key="stungToolTip">
@@ -440,7 +440,7 @@
 	<buff id="meditatePassive4" mutex="meditatePassive5,meditatePassive6,meditatePassive7" duration="0" actions="increment(sanity, 0.6, 25t, 0, 0)" name_key="meditatePassive4" />
 	<buff id="meditatePassive5" mutex="meditatePassive6,meditatePassive7" duration="0" actions="increment(sanity, 0.8, 25t, 0, 0)" name_key="meditatePassive5" />
 	<buff id="meditatePassive6" mutex="meditatePassive7" duration="0" actions="increment(sanity, 0.9, 25t, 0, 0)" name_key="meditatePassive6" />
-	<buff id="meditatePassive7" duration="0" actions="increment(sanity, 1.3, 25t, 0, 1)" name_key="meditatePassive7" />
+	<buff id="meditatePassive7" duration="0" actions="increment(sanity, 1.0, 25t, 0, 1)" name_key="meditatePassive7" />
 	<!-- SANITY DEBUFFS -->
 	<buff id="sanityVerySmall" duration="4" actions="increment(sanity, -.2, 1, 0, 1)" name_key="sanityVerySmall" />
 	<buff id="sanitySmall" duration="4" actions="increment(sanity, -.35, 1, 0, 1)" name_key="sanitySmall" />
