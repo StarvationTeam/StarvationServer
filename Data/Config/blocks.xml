@@ -1432,7 +1432,7 @@
 		<property name="ImposterDontBlock" value="true" />
 		<property name="CreativeMode" value="None" />
 		<property name="Collide" value="movement,melee,rocket" />
-		<property name="FuelValue" value="150" />
+		<property name="FuelValue" value="100" />
 		<property class="RepairItems">
 			<property name="wood" value="2" />
 		</property>

@@ -543,6 +543,7 @@
 		<item name="canEmpty" />
 		<item name="hubcap" />
 		<item name="candyTin" />
+		<item name="chains" />
 	</lootgroup>
 	<lootgroup name="electronicJunk">
 		<item name="electronic3ds" />
@@ -1075,6 +1076,7 @@
 		<item name="trapsBookPowered" />
 		<item name="powerBookSteam" />
 		<item name="powerBookGas" />
+		<item name="powerBookElectricity" />
 		<item name="radbook" />
 	</lootgroup>
 	<lootgroup name="paintMagazines" count="1">
@@ -1305,6 +1307,7 @@
 		<item name="partsNailgun_battery" prob="0.1" />
 		<item name="padlock" prob="0.6" />
 		<item name="gasCan" count="10,50" />
+		<item name="chains" prob="0.6" />
 	</lootgroup>
 	<lootgroup name="hats">
 		<item group="cowboyHatAll" />
@@ -1438,6 +1441,7 @@
 		<item name="forgedSteel" count="1,4" prob="0.22" />
 		<item name="paintTool" prob="0.3" />
 		<item name="wireTool" />
+		<item name="chains" />
 	</lootgroup>
 	<lootgroup name="workingStiffs" count="1">
 		<item name="pickaxeIron" />
@@ -1521,6 +1525,7 @@
 		<item group="ballCapAll" />
 		<item name="wornBoots" />
 		<item name="footballHelmet" />
+		<item name="chains" />
 	</lootgroup>
 	<lootgroup name="beverages" count="1">
 		<item name="emptyJar" prob="2.5" />
@@ -1857,6 +1862,8 @@
 		<item group="medicine" prob="0.1" />
 		<item group="weaponsMelee" prob="0.03" />
 		<item name="padlock" prob="0.5" />
+		<!-- gore block dummy -->
+		<item name="chains" prob="0.5" />
 	</lootcontainer>
 	<lootcontainer id="37" count="0" size="5,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item name="cobweb" count="1" />
@@ -1929,6 +1936,7 @@
 		<item group="trophyGroup" />
 		<item name="padlock" prob="0.5" />
 		<!-- file cabinet -->
+		<item name="chains" prob="0.5" />
 	</lootcontainer>
 	<lootcontainer id="45" count="0,3" size="4,3" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="baseTemplate">
 		<item group="cupboard" />
@@ -2368,6 +2376,7 @@
 		<item group="tools" count="1" />
 		<item group="rareTools" count="1" prob="0.5" />
 		<!-- cntCollapsedWorkbench -->
+		<item name="chains" prob="0.5" />
 	</lootcontainer>
 	<lootcontainer id="93" count="0,1" size="7,4" sound_open="cement_mixer_open" sound_close="cement_mixer_close" loot_quality_template="baseTemplate">
 		<item name="rockSmall" count="40,120" />
@@ -2480,6 +2489,7 @@
 		<item name="flashlight02" prob="0.14" />
 		<item group="questChallenge" count="1" prob="0.04" />
 		<item group="treasureMaps" count="1" prob="0.05" />
+		<item name="chains" prob="0.05" />
 	</lootcontainer>
 	<!-- lootcontainer 105 MilitaryZd -->
 	<lootcontainer id="105" count="0,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">

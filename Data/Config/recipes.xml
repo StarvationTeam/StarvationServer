@@ -990,10 +990,6 @@
 	<recipe name="cntLockers" count="1" craft_area="workbench">
 		<ingredient name="forgedIron" count="2" />
 	</recipe>
-	<recipe name="macheteBlade" count="1" craft_area="forge" craft_tool="forgeCrucible" material_based="true">
-		<ingredient name="unit_iron" count="200" />
-		<ingredient name="unit_clay" count="40" />
-	</recipe>
 	<recipe name="machete" count="1" craft_area="workbench" craft_time="60">
 		<ingredient name="macheteBlade" count="1" />
 		<ingredient name="leather" count="1" />
@@ -1471,10 +1467,6 @@
 		<ingredient name="wood" count="1" />
 		<ingredient name="feather" count="1" />
 	</recipe>
-	<recipe name="steelArrowHead" count="1" craft_area="forge" craft_tool="forgeCrucible" material_based="true">
-		<ingredient name="unit_iron" count="5" />
-		<ingredient name="unit_clay" count="1" />
-	</recipe>
 	<recipe name="steelCrossbowBolt" count="1">
 		<ingredient name="steelArrowHead" count="1" />
 		<ingredient name="wood" count="1" />
@@ -1797,11 +1789,6 @@
 	<recipe name="mechanicalParts" count="1" craft_area="workbench">
 		<ingredient name="forgedSteel" count="2" />
 		<ingredient name="ductTape" count="1" />
-	</recipe>
-	<recipe name="insulator" count="1" craft_area="forge" craft_tool="toolAndDieSet" material_based="true">
-		<ingredient name="unit_iron" count="2" />
-		<ingredient name="unit_glass" count="10" />
-		<ingredient name="unit_clay" count="20" />
 	</recipe>
 	<recipe name="electricParts" count="1" craft_area="workbench">
 		<ingredient name="insulator" count="1" />
@@ -4027,6 +4014,14 @@
 	</recipe>
 	<recipe name="coal" count="1" craft_area="forge1" material_based="true" craft_time="1">
 		<ingredient name="unit_coal" count="5" />
+	</recipe>
+	<recipe name="steelArrowHead" count="1" craft_area="forge1" craft_tool="forgeCrucible" material_based="true">
+		<ingredient name="unit_steel" count="5" />
+		<ingredient name="unit_clay" count="1" />
+	</recipe>
+	<recipe name="macheteBlade" count="1" craft_area="forge1" craft_tool="forgeCrucible" material_based="true">
+		<ingredient name="unit_steel" count="200" />
+		<ingredient name="unit_clay" count="40" />
 	</recipe>
 	<!-- BigForge Conversion Recipes end -->
 	<recipe name="forge1" count="1">

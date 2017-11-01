@@ -8208,9 +8208,43 @@
 		<property name="Weight" value="5" />
 	</item>
 	<item id="973" name="salvagedSawBat">
-		<property name="Extends" value="clubSpiked" />
 		<property name="Meshfile" value="#SawBat?SawBatPrefab" />
 		<property name="CustomIcon" value="ui_game_symbol_bladeBat" />
+		<property name="Material" value="wood" />
+		<property name="HoldType" value="2" />
+		<property name="RepairTools" value="wood" />
+		<property name="Degradation" value="150" param1="true" />
+		<property name="FuelValue" value="40" />
+		<property name="SoundDestroy" value="wooddestroy1" />
+		<property class="Action0">
+			<!-- AttackAction -->
+			<property name="Class" value="Melee" />
+			<property name="Delay" value="1" />
+			<property name="Range" value="2.5" />
+			<property name="Sphere" value="0.2" />
+			<property name="Sound_start" value="swoosh" />
+			<property name="Stamina_usage" value="6" />
+			<property name="Buff" value="bleeding,criticalBlunt" />
+			<property name="Buff_chance" value=".7,.8" />
+			<property name="DamageBonus.head" value="8" />
+			<property name="DamageBonus.glass" value="25" />
+			<property name="DamageBonus.plants" value="25" />
+			<property name="DamageBonus.leaves" value="25" />
+		</property>
+		<property class="Attributes">
+			<property name="EntityDamage" value="20,40" />
+			<property name="BlockDamage" value="3,8" />
+			<property name="DegradationMax" value="100,600" />
+		</property>
+		<property name="CritChance" value=".6" />
+		<property name="Group" value="Ammo/Weapons" />
+		<property class="Preview">
+			<property name="Zoom" value="8" />
+			<property name="Pos" value="-0.1,-0.7" />
+		</property>
+		<property name="ActionSkillGroup" value="Blunt Weapons" />
+		<property name="CraftingSkillGroup" value="craftSkillWeapons" />
+		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 	<item id="974" name="sawBlade">
 		<property name="Material" value="Msteel" />
@@ -16827,38 +16861,16 @@
 		<property name="CraftingSkillGroup" value="craftSkillScience" />
 		<property name="RepairExpMultiplier" value="10.8" />
 	</item>
+	<item id="1026" name="chains">
+		<property name="Extends" value="itemMaster" />
+		<property name="Stacknumber" value="1" />
+		<property name="CustomIcon" value="chains" />
+		<property name="Material" value="metal" />
+		<property name="Weight" value="10" />
+		<property name="SellableToTrader" value="true" />
+		<property name="MeltTimePerUnit" value="1.0" />
+	</item>
 	<!-- End BigForge conversion Items -->
-	<!-- Begin BigForge conversion Materials -->
-	<config name="materials">
-		<remove xpath="/materials/material[@id='coal']" />
-		<remove xpath="/materials/material[@id='MstainlessSteel']" />
-		<append xpath="/materials">
-			<material id="coal">
-				<property name="damage_category" value="stone" />
-				<property name="surface_category" value="stone" />
-				<property name="Hardness" type="float" value="1" />
-				<property name="forge_category" value="coal" />
-				<property name="stepsound" value="stone" />
-				<property name="stability_glue" value="20" />
-				<property name="Mass" type="int" value="10" />
-				<property name="MaxDamage" value="400" />
-				<property name="Experience" value="6" />
-			</material>
-			<material id="MstainlessSteel">
-				<property name="damage_category" value="metal" />
-				<property name="surface_category" value="metal" />
-				<property name="forge_category" value="steel" />
-				<property name="Hardness" type="float" value="1" />
-				<property name="stepsound" value="metal" />
-				<property name="stability_glue" value="320" />
-				<property name="Mass" type="int" value="20" />
-				<property name="explosionresistance" value="1.75" />
-				<property name="MaxDamage" value="12000" />
-				<property name="Experience" value="7" />
-			</material>
-		</append>
-	</config>
-	<!-- End BigForge conversion Materials -->
 	<!-- STARVATION -->
 	<item id="975" name="npcPistol">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/PistolPrefab" />

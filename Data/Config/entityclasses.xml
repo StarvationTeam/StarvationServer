@@ -760,9 +760,8 @@
 		<property name="AITask-2" value="BreakBlock" />
 		<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5" />
 		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
-		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" />
-		<property name="AITask-6" value="ApproachSpot" />
-		<property name="AITask-7" value="Wander" />
+		<property name="AITask-5" value="ApproachSpot" />
+		<property name="AITask-6" value="Wander" />
 		<property name="SoundRandom" value="Enemies/Acid_Puking_Hulk/hulkroam" />
 		<property name="SoundAlert" value="Enemies/Acid_Puking_Hulk/hulkalert" />
 		<property name="SoundAttack" value="Enemies/Acid_Puking_Hulk/hulkattack" />
@@ -1038,7 +1037,6 @@
 		<property name="Mesh" value="Animals/Stag/STAG" />
 		<property name="ModelType" value="Standard" />
 		<property name="Prefab" value="NPC" />
-		<property name="Class" value="EntityAnimalStag" />
 		<property name="Parent" value="Animals" />
 		<property name="AvatarController" value="GameObjectAnimalAnimation" />
 		<property name="Weight" value="70" />

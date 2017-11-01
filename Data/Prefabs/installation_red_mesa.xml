@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prefab>
-    <property name="CopyAirBlocks" value="True"/>
-    <property name="AllowTopSoilDecorations" value="False"/>
-    <property name="TraderArea" value="False"/>
-    <property name="ExcludeDistantPOIMesh" value="False"/>
-    <property name="Zoning" value="Industrial"/>
-    <property name="RotationToFaceNorth" value="2"/>
-    <property name="YOffset" value="-24"/>
-    <property name="StaticSpawner.Size" value="20, 2, 20"/>
-    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
-    <property name="SleeperVolumeStart" value="0, 23, 0#2, 26, 2#18, 15, 22#25, 15, 22#0, 2, 23#0, 15, 0#16, 7, 20#9, 9, 0#9, 3, 12#17, 3, 0#18, 3, 22#0, 19, 0#0, 9, 8#33, 2, 21#17, 15, 0"/>
-    <property name="SleeperVolumeSize" value="45, 4, 46#15, 7, 15#8, 6, 20#8, 15, 11#15, 25, 19#16, 3, 23#15, 6, 26#37, 5, 21#7, 4, 9#29, 4, 21#14, 4, 24#15, 3, 23#9, 5, 13#13, 19, 19#29, 5, 21"/>
-    <property name="SleeperVolumeGroup" value="S_ZomSoldier_L,S_ZomSoldier_Med,S_ZomSoldier_S,S_ZomSoldier_S,S_ZomUtilityWorker_Med,S_Default_Med,S_Default_Med,S_Default_L,S_ZomSoldier_S,S_Default_L,S_ZomUtilityWorker_S,S_Default_Med,S_ZomSoldier_Med,S_ZomSoldier_L,S_ZomUtilityWorker_L"/>
-    <property name="SleeperVolumeGameStageAdjust" value="medium,hard,medium,medium,medium,medium,medium,medium,medium,medium,medium,medium,medium,medium,medium"/>
-    <property name="SleeperIsLootVolume" value="True,True,True,True,True,True,True,True,False,True,False,False,True,False,False"/>
+    <property name="CopyAirBlocks" value="True" />
+    <property name="AllowTopSoilDecorations" value="False" />
+    <property name="YOffset" value="-24" />
+    <property name="Zoning" value="industrial" />
+    <property name="RotationToFaceNorth" value="2" />
+    <property name="AllowedTownships" value="wilderness,rural,town,city" />
+    <property name="TraderArea" value="False" />
+    <property name="ExcludeDistantPOIMesh" value="False" />
+    <property name="SleeperVolumeSize" value="45, 4, 46#15, 7, 15#8, 6, 20#8, 15, 11#15, 25, 19#16, 3, 23#15, 6, 26#37, 5, 21#7, 4, 9#29, 4, 21#14, 4, 24#15, 3, 23#9, 5, 13#13, 19, 19#29, 5, 21" />
+    <property name="SleeperVolumeStart" value="0, 23, 0#2, 26, 2#18, 15, 22#25, 15, 22#0, 2, 23#0, 15, 0#16, 7, 20#9, 9, 0#9, 3, 12#17, 3, 0#18, 3, 22#0, 19, 0#0, 9, 8#33, 2, 21#17, 15, 0" />
+    <property name="SleeperVolumeGroup" value="S_ZomSoldier_L,S_ZomSoldier_Med,S_ZomSoldier_S,S_ZomSoldier_S,S_ZomUtilityWorker_Med,S_Default_Med,S_Default_Med,S_Default_L,S_ZomSoldier_S,S_Default_L,S_ZomUtilityWorker_S,S_Default_Med,S_ZomSoldier_Med,S_ZomSoldier_L,S_ZomUtilityWorker_L" />
+    <property name="SleeperVolumeGameStageAdjust" value="medium,hard,medium,medium,medium,medium,medium,medium,medium,medium,medium,medium,medium,medium,medium" />
+    <property name="SleeperIsLootVolume" value="True,True,True,True,True,True,True,True,False,True,False,False,True,False,False" />
 </prefab>

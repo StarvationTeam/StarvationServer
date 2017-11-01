@@ -1214,7 +1214,7 @@
 		<objective type="FetchKeep" id="hoeIron" value="1" />
 		<objective type="FetchKeep" id="forgedIron" value="10" />
 		<objective type="FetchKeep" id="bucket" value="2" />
-		<objective type="Craft" id="farmer" value="1" />
+		<objective type="Craft" id="farmerBlock" value="1" />
 		<reward type="Quest" id="Q_Farm_E5" />
 	</quest>
 	<quest id="Q_Farm_E5" group_name="Food for Everyone" name="Survivor's Farm 5/6" subtitle="Farmer Storage" description="Create a storage for your farmer survivor.\nShe will take seeds from this storage, and put harvested plants inside." icon="ui_game_symbol_q_farm5" repeatable="false" category_key="Quest" offer="Share your knowledge." difficulty="medium">
