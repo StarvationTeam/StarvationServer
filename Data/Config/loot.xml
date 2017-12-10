@@ -1284,6 +1284,8 @@
 		<item name="aatItem" count="1" prob="0.05" />
 		<item name="chessItem" count="1" prob="0.05" />
 		<item name="wolverineItem" count="1" prob="0.05" />
+		<item name="alienItem" count="1" prob="0.05" />
+		<item name="warZdItem" count="1" prob="0.05" />
 		<item name="starvationPoster" count="1" prob="0.02" />
 	</lootgroup>
 	<lootgroup name="rareAutomotive">
@@ -1802,7 +1804,8 @@
 		<item group="automotive+tools+junk" />
 		<item name="miningHelmet" prob="0.035" />
 		<!-- cars-->
-		<item name="bat" prob="0.05" />
+		<item name="bat" prob="0.02" />
+		<item name="gauge" prob="0.005" />
 	</lootcontainer>
 	<lootcontainer id="20" count="0,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" open_time="4" loot_quality_template="baseTemplate">
 		<item group="metalpipe" />
@@ -1825,6 +1828,7 @@
 		<item group="electricalDevices" prob="0.01" />
 		<!-- garage stuff, tools, etc -->
 		<item group="junk" prob=".25" />
+		<item name="gauge" prob="0.005" />
 	</lootcontainer>
 	<lootcontainer id="25" count="1,3" size="4,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
 		<item name="egg" count="1" prob="0.25" />

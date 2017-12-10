@@ -1819,8 +1819,15 @@
 		<property name="SoundAttack" value="apeAttack" />
 		<property name="SoundSense" value="apeSensed" />
 		<property name="SoundGiveUp" value="" />
+		<drop event="Harvest" name="rawMeat" count="0" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="0" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="0" prob=".5" />
+		<drop event="Harvest" name="CrocoSkin" tool_category="Butcher" count="0" />
+		<drop event="Harvest" name="CrocoSkin" tool_category="Butcher" count="0" prob=".5" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="3,5" />
+		<drop event="Harvest" name="banana" tool_category="Butcher" count="1" />
 	</entity_class>
-	<entity_class name="radApe" extends="crocodile">
+	<entity_class name="radApe" extends="Ape">
 		<property name="Mesh" value="#Ape?ApeRad" />
 		<property name="HandItem" value="handAnimalZombieBear" />
 	</entity_class>
@@ -2333,7 +2340,7 @@
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="1" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" prob=".5" />
-		<drop event="Destroy" name="snakeItem" tool_category="Butcher" count="1" prob=".2" />
+		<drop event="Destroy" name="snakeItem" tool_category="Butcher" count="1" prob=".33" />
 	</entity_class>
 	<entity_class name="animalSnakeSwim" extends="animalTemplateHostile">
 		<property name="Class" value="EntitySwimmer, Mods" />
@@ -2389,6 +2396,7 @@
 		<property name="DeadBodyHitPoints" value="150" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="2" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" />
+		<drop event="Destroy" name="snakeItem" tool_category="Butcher" count="1" prob=".2" />
 	</entity_class>
 	<entity_class name="TalkingHead">
 		<!-- This one decides for scoring -->

@@ -18484,6 +18484,8 @@
 		<drop event="Harvest" name="gunPowder" count="100" prob="0.5" />
 		<drop event="Harvest" name="headlight" count="1" prob="0.5" tool_category="Disassemble" />
 		<drop event="Harvest" name="headlight" count="1" prob="0.5" tool_category="Disassemble" />
+		<drop event="Harvest" name="gauge" count="1" prob="0.3" tool_category="Disassemble" />
+		<drop event="Harvest" name="gauge" count="1" prob="0.1" tool_category="Disassemble" />
 		<drop event="Harvest" name="mechanicalParts" count="10" prob=".6" tool_category="Disassemble" />
 		<drop event="Harvest" name="mechanicalParts" count="5" prob=".4" tool_category="Disassemble" />
 		<drop event="Harvest" name="mechanicalParts" count="5" prob=".2" tool_category="Disassemble" />
@@ -18529,6 +18531,8 @@
 		<drop event="Harvest" name="gunPowder" count="100" prob="0.5" />
 		<drop event="Harvest" name="headlight" count="1" prob="0.5" tool_category="Disassemble" />
 		<drop event="Harvest" name="headlight" count="1" prob="0.5" tool_category="Disassemble" />
+		<drop event="Harvest" name="gauge" count="1" prob="0.3" tool_category="Disassemble" />
+		<drop event="Harvest" name="gauge" count="1" prob="0.1" tool_category="Disassemble" />
 		<drop event="Harvest" name="mechanicalParts" count="10" prob=".6" tool_category="Disassemble" />
 		<drop event="Harvest" name="mechanicalParts" count="5" prob=".4" tool_category="Disassemble" />
 		<drop event="Harvest" name="mechanicalParts" count="5" prob=".2" tool_category="Disassemble" />
@@ -18749,6 +18753,7 @@
 		<property name="Material" value="wood" />
 		<property name="Shape" value="ModelEntity" />
 		<property name="Model" value="#rattrap?RatTrap" />
+		<property name="ModelOffset" value="0,0,0" />
 		<property name="Collide" value="movement,bullet,rocket,melee" />
 		<property class="RepairItems">
 			<property name="wood" value="5" />
@@ -19254,6 +19259,9 @@
 		<!-- All models are free assets from Unity store by KrazyFX -->
 		<property name="Collide" value="melee,movement" />
 		<property name="CustomIcon" value="ui_game_symbol_steelBars" />
+		<property class="RepairItems">
+			<property name="forgedSteel" value="10" />
+		</property>
 		<drop event="Harvest" name="scrapSteel" count="3,5" tool_category="Disassemble" />
 		<drop event="Destroy" count="0" />
 		<drop event="Destroy" name="scrapSteel" count="2,5" />
@@ -19266,6 +19274,9 @@
 		<property name="Model" value="#SteelBars?SteelBarsCenteredPrefab" />
 		<property name="Collide" value="melee,movement" />
 		<property name="CustomIcon" value="ui_game_symbol_steelBarsCentered" />
+		<property class="RepairItems">
+			<property name="forgedSteel" value="10" />
+		</property>
 		<drop event="Harvest" name="scrapSteel" count="3,5" tool_category="Disassemble" />
 		<drop event="Destroy" count="0" />
 		<drop event="Destroy" name="scrapSteel" count="2,5" />

@@ -345,5 +345,14 @@
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		<!-- Mortelentus Server -->
+		<!-- MINER -->
+		<window_group name="workstation_miner" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowToolsForge" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
 	</ruleset>
 </xui>

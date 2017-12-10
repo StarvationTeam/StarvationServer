@@ -5676,7 +5676,7 @@
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="23" />
 		<property name="Stacknumber" value="500" />
-		<property name="foodSpoilImmune" value="20" />
+		<property name="foodSpoilImmune" value="55" />
 		<property name="EconomicValue" value="20" />
 		<property class="Action1">
 			<property name="Class" value="Eat" />
@@ -7565,7 +7565,7 @@
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 		<property name="HoldType" value="45" />
-		<property name="Material" value="Msteel" />
+		<property name="Material" value="metal" />
 		<property name="Stacknumber" value="1" />
 		<property name="EconomicValue" value="240" />
 		<property name="Group" value="Resources" />
@@ -15562,7 +15562,7 @@
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 		<property name="Material" value="Msteel" />
-		<property name="Weight" value="20" />
+		<property name="Weight" value="200" />
 		<property name="HoldType" value="45" />
 		<property name="Stacknumber" value="50" />
 		<property name="EconomicValue" value="600" />
