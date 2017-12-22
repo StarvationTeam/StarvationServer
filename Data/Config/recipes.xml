@@ -4249,6 +4249,25 @@
 		<ingredient name="cloth" count="10" />
 	</recipe>
 	<!-- STARVATION STUFF -->
+	<recipe name="MinerArm" count="1" craft_area="mill">
+		<ingredient name="forgedSteel" count="20" />
+		<ingredient name="mechanicalParts" count="20" />
+		<ingredient name="smallEngine" count="1" />
+	</recipe>
+	<recipe name="miner" count="1" craft_area="mill">
+		<ingredient name="forgedSteel" count="50" />
+	</recipe>
+	<recipe name="MinerBlade" count="1" craft_area="lathe">
+		<ingredient name="forgedSteel" count="20" />
+		<ingredient name="rawDiamond" count="5" />
+	</recipe>
+	<recipe name="ControlBox" count="1" craft_area="scienceStation">
+		<ingredient name="electronicParts" count="20" />
+		<ingredient name="electricParts" count="15" />
+		<ingredient name="forgedSteel" count="5" />
+		<ingredient name="scrapPlastics" count="10" />
+		<ingredient name="glassBusinessSheet" count="1" />
+	</recipe>
 	<recipe name="steelBars" count="1" craft_area="forge1" craft_tool="forgeCrucible" material_based="true">
 		<ingredient name="unit_steel" count="100" />
 		<ingredient name="unit_clay" count="20" />

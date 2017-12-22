@@ -11,6 +11,12 @@
 		<reward type="Quest" id="Q_Husbandry" />
 		<reward type="Quest" id="Q_NailWood" />
 		<reward type="Quest" id="Q_WoodenSpear" />
+		<reward type="Quest" id="Q_WRI" />
+		<reward type="Quest" id="Q_WSH" />
+		<reward type="Quest" id="Q_WPI" />
+		<reward type="Quest" id="Q_WBA" />
+		<reward type="Quest" id="Q_WBL" />
+		<reward type="Quest" id="Q_WAR" />
 		<reward type="Quest" id="LOS" />
 	</quest>
 	<quest id="quest_BasicSurvival2" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival2" subtitle="Craft a Stone Axe" subtitle_key="quest_BasicSurvival2_subtitle" description_key="quest_BasicSurvival2_description" icon="ui_game_symbol_hammer" category_key="quest" offer_key="quest_BasicSurvival_offer">
@@ -360,6 +366,9 @@
 	<quest id="pacco_game_room" group_name="Game Room" name="Game Room 3/3" subtitle="My Game Room" description="Perfect, I see you finally got it.\n\nYou can now enter my game room at any time\nGood luck!\n\n\nI hope this helped you to know a little bit\nabout Pacco.\nHe was a great modder\n\nAnd a great man!" icon="ui_game_symbol_map_trader" category_key="Quest">
 		<reward type="SkillPoints" value="1" />
 	</quest>
+	<quest id="quest_Santa" group_name="Merry Christmas" name="Merry Christmas" subtitle="Oh Oh Oh" description="Merry Christmas and a Happy New Year 2018!!" icon="ui_game_symbol_map_trader" repeatable="true" category_key="challenge">
+		<reward type="Item" id="xmasGift" />
+	</quest>
 	<!-- <quest id="quest_Refinery" group_name="The Refinery" name="The Refinery" subtitle="The Refinery" description="Despair! I despair! My familly, my friends... They need me!\nWe thought we were safe. We hoped... We thought we could survive through this...\nBut then they came. Worst then monsters! Those bandits came for our fuel!\nI wonder if there's still someone alive, but I'm too weak..I'm out of power for my exoskeleton and I'm too weak to try..." offer="Despair! I despair! My familly, my friends... They need me!\nWe thought we were safe. We hoped... We thought we could survive through this...\nBut then they came. Worst then monsters! Those bandits came for our fuel!\nI wonder if there's still someone alive, but I'm too weak..I'm out of power for my exoskeleton and I'm too weak to try..." icon="ui_game_symbol_map_trader" category_key="Quest"  difficulty="hard">
 		<objective type="Goto" id="utility_refinery_01" value="10" />
 		<reward type="SkillPoints" value="1" />
@@ -576,8 +585,10 @@
 		<reward type="Quest" id="Q_WAR5" />
 	</quest>
 	<quest id="Q_WAR5" group_name="Archery Training" name="Archery Training 5/5" subtitle="Freaking Legolas" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_archery" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
-		<objective type="ZombieKill" id="fatzombiecop" value="20" />
-		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="zombieFatCop" value="20" />
+		<objective type="ZombieKill" id="zombieBoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieJoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieFemaleFatFeral" value="3" />
 		<objective type="ZombieKill" id="FirefighterZd" value="5" />
 		<objective type="ZombieKill" id="PoliceZd" value="5" />
 		<objective type="ZombieKill" id="MilitaryZd" value="5" />
@@ -681,8 +692,10 @@
 		<reward type="Quest" id="Q_WBL5" />
 	</quest>
 	<quest id="Q_WBL5" group_name="Blunt Weapons Training" name="Blunt Weapons 5/5" subtitle="Thor's Avatar" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_club" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
-		<objective type="ZombieKill" id="fatzombiecop" value="20" />
-		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="zombieFatCop" value="20" />
+		<objective type="ZombieKill" id="zombieBoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieJoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieFemaleFatFeral" value="3" />
 		<objective type="ZombieKill" id="FirefighterZd" value="5" />
 		<objective type="ZombieKill" id="PoliceZd" value="5" />
 		<objective type="ZombieKill" id="MilitaryZd" value="5" />
@@ -779,8 +792,10 @@
 		<reward type="Quest" id="Q_WBA5" />
 	</quest>
 	<quest id="Q_WBA5" group_name="Blade Weapons Training" name="Blade Weapons 5/5" subtitle="Obi-Wan Kenobi" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_knife" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
-		<objective type="ZombieKill" id="fatzombiecop" value="20" />
-		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="zombieFatCop" value="20" />
+		<objective type="ZombieKill" id="zombieBoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieJoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieFemaleFatFeral" value="3" />
 		<objective type="ZombieKill" id="FirefighterZd" value="5" />
 		<objective type="ZombieKill" id="PoliceZd" value="5" />
 		<objective type="ZombieKill" id="MilitaryZd" value="5" />
@@ -857,8 +872,10 @@
 		<reward type="Quest" id="Q_WPI5" />
 	</quest>
 	<quest id="Q_WPI5" group_name="Pistols Training" name="Pistols 5/5" subtitle="Django Freeman" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_pistol" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
-		<objective type="ZombieKill" id="fatzombiecop" value="20" />
-		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="zombieFatCop" value="20" />
+		<objective type="ZombieKill" id="zombieBoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieJoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieFemaleFatFeral" value="3" />
 		<objective type="ZombieKill" id="FirefighterZd" value="5" />
 		<objective type="ZombieKill" id="PoliceZd" value="5" />
 		<objective type="ZombieKill" id="MilitaryZd" value="5" />
@@ -931,8 +948,10 @@
 		<reward type="Quest" id="Q_WSH5" />
 	</quest>
 	<quest id="Q_WSH5" group_name="Shotguns Training" name="Shotguns 5/5" subtitle="Terminator" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_shotgun" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
-		<objective type="ZombieKill" id="fatzombiecop" value="20" />
-		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="zombieFatCop" value="20" />
+		<objective type="ZombieKill" id="zombieBoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieJoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieFemaleFatFeral" value="3" />
 		<objective type="ZombieKill" id="FirefighterZd" value="5" />
 		<objective type="ZombieKill" id="PoliceZd" value="5" />
 		<objective type="ZombieKill" id="MilitaryZd" value="5" />
@@ -1037,8 +1056,10 @@
 		<reward type="Quest" id="Q_WRI5" />
 	</quest>
 	<quest id="Q_WRI5" group_name="Rifles Training" name="Rifles 5/5" subtitle="Deadshot" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_rifle" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">
-		<objective type="ZombieKill" id="fatzombiecop" value="20" />
-		<objective type="ZombieKill" id="zombieferal" value="10" />
+		<objective type="ZombieKill" id="zombieFatCop" value="20" />
+		<objective type="ZombieKill" id="zombieBoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieJoeFeral" value="3" />
+		<objective type="ZombieKill" id="zombieFemaleFatFeral" value="3" />
 		<objective type="ZombieKill" id="FirefighterZd" value="5" />
 		<objective type="ZombieKill" id="PoliceZd" value="5" />
 		<objective type="ZombieKill" id="MilitaryZd" value="5" />

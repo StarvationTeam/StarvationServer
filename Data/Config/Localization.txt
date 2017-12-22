@@ -1651,7 +1651,7 @@ trophy2,items,Item,KgNone,Lead Trophy,Trophée en plomb,Bleitrophäe,,Trofeo de 
 trophy2Desc,items,Item,KgNone,Lead objects can be scrapped into scrap lead in your backpack or smelted in a forge as a core resource.,"Les objets en plomb peuvent être recyclés dans votre sac à dos pour obtenir du plomb recyclé, ou fondus dans la forge pour obtenir une ressource de base.","Gegenstände aus Blei können in deinem Rucksack zerlegt werden, um Bleistücke zu erhalten. Sie können auch in der Schmiede eingeschmolzen werden, um den Rohstoff selbst zu erhalten.",,Los objetos de plomo se pueden despedazar para tener chatarra de plomo en tu mochila o fundir en la fragua para obtener recursos básicos.
 trophy3,items,Item,KgNone,Tungsten Trophy,Trophée en tungstène,Wolframtrophäe,,Trofeo de tungsteno
 trophyDesc,items,Item,KgNone,Brass objects can be scrapped into scrap brass in your backpack or smelted in a forge as a core resource.,"Les objets en laiton peuvent être recyclés dans votre sac à dos pour obtenir du laiton recyclé, ou fondus dans la forge pour obtenir une ressource de base.","Gegenstände aus Messing können in deinem Rucksack zerlegt werden, um Messingstücke zu erhalten. Sie können auch in der Schmiede eingeschmolzen werden, um den Rohstoff selbst zu erhalten.",,Los objetos de latón se pueden despedazar para tener chatarra de latón en tu mochila o fundir en la fragua para obtener recursos básicos.
-turd,items,Item,KgNone,A human turd,Une crotte d'humain,Menschliche Scheiße,,Una mierda humana
+turd,items,Item,KgNone,A turd,Une crotte,Scheiße,,Una mierda
 turdDesc,items,Item,KgNone,A disgusting turd. Only pick up on the clean end. It can be thrown at your friends or to distract zombies.,Une crotte dégoutante. À ramasser par le bout propre. Vous pouvez la jeter sur vos amis ou vous en servir pour distraire des zombies.,Ekelhafte Scheiße. Heb sie nur am sauberen Ende auf. Du kannst sie auf deine Freunde werfen oder damit Zombies ablenken.,,"Una mierda asquerosa. Recógela por la parte limpia. Se la puedes lanzar a tus amigos, o a los zombis para distraerlos."
 wood,items,Item,KgNone,Wood,Bois,Holz,,Madera
 woodDesc,items,Item,KgNone,A piece of wood. Great for building tools and constructing wood frames for building.,Un morceau de bois. Idéal pour fabriquer des outils et construire des structures en bois pour les constructions.,"Ein Stück Holz. Ideal, um Werkzeuge und Holzrahmen für den Bau herzustellen.",,Un trozo de madera. Ideal para construir herramientas y estructuras de madera para edificios.
@@ -6029,3 +6029,34 @@ glassPane,,,,Glass Plates,,,,
 glassPaneDesc,,,,"Coated glass plates, ready to use for the manufacturing of solar cells",,,,
 pendulum,,,,Pedulum,,,,  
 pendulumDesc,,,,Electrical contraption which holds a large blade in the shape of a pendulum.\n [ Crafted in Workbench. ],,,,
+oreScanner,,,,Ore Scanner,,,,  
+oreScannerDesc,,,,This electronic device will scan for ore directly under you down to bedrock in a radius of 3 meters.,,,,
+praseodymiumFragment,,,,Praseodymium Fragment,,,,  
+praseodymiumFragmentDesc,,,,Praseodymium is a natural rare ore that can be used to create high-strength metals,,,,
+lanthanumFragment,,,,Lanthanum Fragment,,,,  
+lanthanumFragmentDesc,,,,"Lanthanum light refraction properties are impressive, making them perfect for optical processes",,,,
+neodymiumFragment,,,,Neodymium Fragment,,,,  
+neodymiumFragmentDesc,,,,"Neodymium magnets are the strongest, and are usually used in high tech weaponry",,,,
+rawLarimar,,,,Larimar Gem,,,,  
+rawLarimarDesc,,,,Larimar Gem is a very rare blue variety of the mineral pectolite and has impressive light concentration properties,,,,
+rawBenitoite,,,,Benitoite Crystal,,,,  
+rawBenitoiteDesc,,,,"Benitoite Crystals are very rare. Benitoite covered surfaces are extreamly clean, and it can be used to improve weapons damage to entities",,,,
+rawHessonite,,,,Hessonite Crystal,,,,  
+rawHessoniteDesc,,,,Hessonite Crystals are very rare. Hessonite strong and wavy surface is perfect to increase weapons damage to blocks,,,,
+rawRuby,,,,Ruby Crystal,,,,  
+rawRubyDesc,,,,"Ruby Crystals may have lost its importance in the laser industry, but they can still be used to improve weapons damage to blocks",,,,
+rawPainite,,,,Painite Crystal,,,,  
+rawPainiteDesc,,,,Painite Crystals are very rare. Painite properties make it useful to increase weapons damage to entities,,,,
+freezingStomp,,,,Freezing Stomp,,,,
+freezingStompDesc,,,,You've been frozen by an abominable snow man.,,,,
+freezingStompToolTip,,,,Freezing Stomp,,,,
+xmasGift,,,,Christmas Present,,,,  
+xmasGiftDesc,,,,Santa gave you a present. I wonder what it is!,,,,
+ControlBox,,,,Miner Control Box,,,,
+ControlBoxDesc,,,,This top notch control box is used to control miners.\n [ Crafted in Science Workstation. ],,,,
+MinerArm,,,,Miner Arm,,,,
+MinerArmDesc,,,,A miner mechanical arm\n [ Crafted in Mill. ],,,,
+MinerBlade,,,,Miner Blade,,,,
+MinerBladeDesc,,,,A miner blade\n [ Crafted in Lathe. ],,,,
+miner,,,,Miner Base,,,,
+minerDesc,,,,Metalic Base for a Miner\n [ Crafted in Mill. ],,,,

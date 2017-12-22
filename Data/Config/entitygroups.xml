@@ -14123,6 +14123,8 @@
 		<entity name="Snake" prob="0.005" />
 	</entitygroup>
 	<entitygroup name="AnimalsMountain">
+		<entity name="Santa" prob="0.008" />
+		<entity name="abominable" prob="0.002" />
 		<entity name="cougar" prob="0.02" />
 		<entity name="cougarAlbino" prob="0.009" />
 		<entity name="tigerAlbino" prob="0.002" />
@@ -14342,5 +14344,87 @@
 		<entity name="npcBanditLeader" />
 		<entity name="banditLeaderMP7" />
 		<entity name="banditLeaderMP5" />
+	</entitygroup>
+	<entitygroup name="MinerZeds">
+		<entity name="minerWorm" />
+	</entitygroup>
+	<entitygroup name="MinerBossGroup">
+		<entity name="minerBoss" />
+	</entitygroup>
+	<entitygroup name="SantaEvent1">
+		<entity name="zombieBoe" />
+		<entity name="zombieJoe" />
+		<entity name="zombieSteve" />
+		<entity name="zombieMoe" />
+		<entity name="zombieYo" />
+		<entity name="zombieBusinessMan" />
+		<entity name="zombieArlene" />
+		<entity name="zombieDarlene" />
+		<entity name="zombieMarlene" />
+		<entity name="zombieSkateboarder" />
+		<entity name="goblinLeader" prob="0.4" />
+		<entity name="zombieCheerleader" prob="0.3" />
+		<entity name="zombieOldTimer" prob="0.3" />
+		<entity name="zombieBiker" prob="0.3" />
+		<entity name="zombieFarmer" prob="0.3" />
+		<entity name="zombieStripper" prob="0.3" />
+		<entity name="zombieUtilityWorker" prob="0.3" />
+		<entity name="zombieNurse" prob="0.3" />
+		<entity name="zombieFatHawaiian" prob="0.3" />
+	</entitygroup>
+	<entitygroup name="SantaEvent2">
+		<entity name="zombieBoe" />
+		<entity name="zombieJoe" />
+		<entity name="zombieSteve" />
+		<entity name="zombieMoe" />
+		<entity name="zombieYo" />
+		<entity name="zombieBusinessMan" />
+		<entity name="zombieArlene" />
+		<entity name="zombieDarlene" />
+		<entity name="zombieMarlene" />
+		<entity name="zombieSkateboarder" />
+		<entity name="goblinLeader" prob="0.6" />
+		<entity name="zombieCheerleader" prob="0.3" />
+		<entity name="zombieOldTimer" prob="0.3" />
+		<entity name="zombieBiker" prob="0.3" />
+		<entity name="zombieFarmer" prob="0.3" />
+		<entity name="zombieStripper" prob="0.3" />
+		<entity name="zombieUtilityWorker" prob="0.3" />
+		<entity name="zombieNurse" prob="0.3" />
+		<entity name="zombieFatHawaiian" prob="0.3" />
+	</entitygroup>
+	<entitygroup name="SantaEvent3">
+		<entity name="BikiniZd" prob="0.266" />
+		<entity name="zombieFatCop" prob="0.266" />
+		<entity name="goblinLeader" prob="0.4" />
+		<entity name="zombieFemaleFat" />
+		<entity name="zombieMarleneFeral" prob="0.114" />
+		<entity name="zombieBusinessMan" />
+		<entity name="zombieYoFeral" prob="0.114" />
+		<entity name="zombieSteve" />
+		<entity name="zombieMaleHazmat" />
+		<entity name="FirefighterZd" prob="0.182" />
+		<entity name="zombieMoe" />
+		<entity name="zombieArlene" />
+	</entitygroup>
+	<entitygroup name="SantaEvent4">
+		<entity name="zombieBusinessMan" />
+		<entity name="zombieSteve" />
+		<entity name="zombieFatHawaiian" />
+		<entity name="zombieSkateboarder" />
+		<entity name="zombieUtilityWorker" />
+		<entity name="zombieBiker" />
+		<entity name="zombieBoe" />
+		<entity name="goblinLeader" prob="0.6" />
+		<entity name="zombieFatCop" prob="0.269" />
+		<entity name="zombieArleneFeral" prob="0.121" />
+		<entity name="zombieDarleneFeral" prob="0.121" />
+		<entity name="BikiniZd" prob="0.269" />
+	</entitygroup>
+	<entitygroup name="SantaEventSpecial">
+		<entity name="goblinMinion" />
+	</entitygroup>
+	<entitygroup name="SantaEventBoss">
+		<entity name="abominableBoss" />
 	</entitygroup>
 </entitygroups>

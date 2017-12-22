@@ -49,6 +49,7 @@
 	<item id="7" name="clubIron">
 		<property name="Extends" value="clubMaster" />
 		<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_RefinedPrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="Material" value="metal" />
 		<property name="EconomicValue" value="100" />
 		<property name="SellableToTrader" value="true" />
@@ -116,6 +117,7 @@
 	</item>
 	<item id="12" name="sledgehammer">
 		<property name="Meshfile" value="Items/Tools/sledgehammer_steelPrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="Material" value="metal" />
 		<property name="RepairTools" value="forgedIron" />
 		<property name="HoldType" value="33" />
@@ -126,7 +128,7 @@
 		<property name="EconomicValue" value="500" />
 		<property name="CritChance" value="0.4" />
 		<property class="Action0">
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="1.8" />
 			<property name="Range" value="2.4" />
 			<property name="Sphere" value="0.2" />
@@ -275,6 +277,7 @@
 	</item>
 	<item id="21" name="huntingKnife">
 		<property name="Meshfile" value="Items/Weapons/Melee/Knives/hunting_knifePrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="Material" value="metal" />
 		<property name="RepairTools" value="forgedIron" />
 		<property name="HoldType" value="36" />
@@ -284,7 +287,7 @@
 		<property name="SoundJammed" value="ItemNeedsRepair" />
 		<property name="SoundDestroy" value="wooddestroy1" />
 		<property class="Action0">
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="1.2" />
 			<property name="Range" value="2.2" />
 			<property name="Sphere" value="0.1" />
@@ -903,6 +906,7 @@
 	</item>
 	<item id="107" name="fireaxeIron">
 		<property name="Meshfile" value="Items/Weapons/Melee/Axe/fireaxePrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="Material" value="metal" />
 		<property name="RepairTools" value="forgedIron" />
 		<property name="HoldType" value="17" />
@@ -912,7 +916,7 @@
 		<property name="EconomicValue" value="240" />
 		<property name="SoundDestroy" value="wooddestroy1" />
 		<property class="Action0">
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="1.1" />
 			<property name="Range" value="2.1" />
 			<property name="Sphere" value="0.1" />
@@ -945,6 +949,7 @@
 	</item>
 	<item id="113" name="pickaxeIron">
 		<property name="Meshfile" value="Items/Tools/pickaxe_ironPrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="Material" value="metal" />
 		<property name="RepairTools" value="forgedIron" />
 		<property name="HoldType" value="32" />
@@ -954,7 +959,7 @@
 		<property name="FuelValue" value="30" />
 		<property name="EconomicValue" value="240" />
 		<property class="Action0">
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="1.0" />
 			<property name="Range" value="2" />
 			<property name="Sphere" value="0.1" />
@@ -1029,6 +1034,7 @@
 	</item>
 	<item id="118" name="shovelIron">
 		<property name="Meshfile" value="Items/Tools/shovel_ironPrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="Material" value="metal" />
 		<property name="RepairTools" value="forgedIron" />
 		<property name="HoldType" value="18" />
@@ -1038,7 +1044,7 @@
 		<property name="FuelValue" value="30" />
 		<property name="EconomicValue" value="240" />
 		<property class="Action0">
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="1.1" />
 			<property name="Range" value="2" />
 			<property name="Block_range" value="4" />
@@ -2945,6 +2951,7 @@
 		<property name="EconomicValue" value="506" />
 		<property name="HoldType" value="45" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 		<property class="Attributes">
 			<property name="ConcussiveProtection" value="0.26,0.65" />
@@ -8207,8 +8214,22 @@
 		<property name="DescriptionKey" value="glassWaterBongDesc" />
 		<property name="Weight" value="5" />
 	</item>
+	<!-- Ore Scanner -->
+	<item id="1030" name="oreScanner">
+		<property name="Meshfile" value="#Miner?MetalDetectorPrefab" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="44" />
+		<property class="Action0">
+			<property name="Class" value="Scanner, Mods" />
+		</property>
+		<property name="Group" value="Miscellaneous" />
+		<property class="Preview">
+			<property name="Pos" value="-0.15,-0.8" />
+		</property>
+	</item>
 	<item id="973" name="salvagedSawBat">
 		<property name="Meshfile" value="#SawBat?SawBatPrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="CustomIcon" value="ui_game_symbol_bladeBat" />
 		<property name="Material" value="wood" />
 		<property name="HoldType" value="2" />
@@ -8218,7 +8239,7 @@
 		<property name="SoundDestroy" value="wooddestroy1" />
 		<property class="Action0">
 			<!-- AttackAction -->
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="1" />
 			<property name="Range" value="2.5" />
 			<property name="Sphere" value="0.2" />
@@ -8887,6 +8908,7 @@
 	</item>
 	<item id="65" name="electricSpear">
 		<property name="Meshfile" value="#electric?Power_Spear" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="18" />
 		<property name="RepairTools" value="forgedIron" />
@@ -8894,7 +8916,7 @@
 		<property name="SoundDestroy" value="wooddestroy1" />
 		<property class="Action0">
 			<!-- AttackAction -->
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="2.20" />
 			<property name="Range" value="4" />
 			<property name="Sphere" value="0.1" />
@@ -13025,7 +13047,7 @@
 			<property name="Sphere" value="0.8" />
 			<property name="Sound_start" value="swoosh" />
 			<property name="Stamina_usage" value="1" />
-			<property name="DamageBonus.head" value="5" />
+			<!--				<property name="DamageBonus.head" value="5" /> -->
 			<property name="DamageBonus.glass" value="5" />
 			<property name="DamageBonus.plants" value="5" />
 			<property name="DamageBonus.leaves" value="5" />
@@ -13467,6 +13489,7 @@
 	<!-- DOGSDX -->
 	<!-- EXOS SUIT -->
 	<item id="570" name="exoGloves">
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<!-- armorMasterBanditArmor -->
 		<property name="Insulation" value="0" />
 		<property name="Encumbrance" value="0.1" />
@@ -13698,6 +13721,7 @@
 		</property>
 	</item>
 	<item id="602" name="minigun">
+		<property name="Class" value="ItemClassAttachments, Mods" />
 		<property name="Meshfile" value="#minigun?MinigunPrefab" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="19" />
@@ -15084,6 +15108,7 @@
 	<item id="770" name="Pizza">
 		<property name="Extends" value="boiledPasta" />
 		<property name="Meshfile" value="#pizza?PizzaPrefab1" />
+		<property name="CustomIcon" value="pizza" />
 		<property name="HoldType" value="21" />
 		<property class="Action1">
 			<property name="Gain_health" value="5" />
@@ -15311,6 +15336,7 @@
 	</item>
 	<item id="22" name="machete">
 		<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="RepairTools" value="forgedSteel" />
 		<property name="HoldType" value="47" />
 		<property name="DegradationBreaksAfter" value="false" />
@@ -15321,7 +15347,7 @@
 		<property name="Material" value="Msteel" />
 		<property name="Weight" value="20" />
 		<property class="Action0">
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="1.2" />
 			<property name="Range" value="2.2" />
 			<property name="Sphere" value="0.1" />
@@ -15685,6 +15711,7 @@
 		<property name="CraftingSkillGroup" value="craftSkillArmor" />
 	</item>
 	<item id="802" name="steelBoots">
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<property name="CustomIcon" value="ironBoots" />
 		<property name="CustomIconTint" value="ffffff" />
 		<property name="DescriptionKey" value="steelArmorGroupDesc" />
@@ -16111,6 +16138,7 @@
 	</item>
 	<item id="823" name="lightsword">
 		<property name="Meshfile" value="#lightswordnew?Lightsword" />
+		<property name="Class" value="ItemClassAR1, Mods" />
 		<!--property name="DescriptionKey" value="LightSwordDesc" /-->
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="17" />
@@ -16125,7 +16153,7 @@
 		<property name="SoundHolster" value="lightSword_close" />
 		<property class="Action0">
 			<!-- AttackAction -->
-			<property name="Class" value="Melee" />
+			<property name="Class" value="MeleeAt, Mods" />
 			<property name="Delay" value="1.2" />
 			<property name="Range" value="2.2" />
 			<property name="Sphere" value="0.1" />
@@ -17513,5 +17541,211 @@
 		</property>
 		<property name="Group" value="Basics,Decor/Miscellaneous" />
 		<property name="EconomicValue" value="25" />
+	</item>
+	<item id="1027" name="ControlBox">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Msteel" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="1" />
+		<property name="Weight" value="10" />
+		<property name="EconomicValue" value="22" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1028" name="MinerArm">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Msteel" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="1" />
+		<property name="Weight" value="10" />
+		<property name="EconomicValue" value="22" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1029" name="MinerBlade">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Msteel" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="1" />
+		<property name="Weight" value="10" />
+		<property name="EconomicValue" value="22" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1031" name="praseodymiumFragment">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1032" name="lanthanumFragment">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1033" name="neodymiumFragment">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1034" name="rawLarimar">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1035" name="rawBenitoite">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="10,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<property class="AttachAction0">
+			<!-- AttackAction per 100 quality -->
+			<!-- Used in ranged weapons ONLY -->
+			<!-- 1 up to 100 -> 0.05 -->
+			<!-- 501 up to 600 -> 0.05 * 6 -->
+			<property name="Entity_Damage_Modifier" value="0.05" param1="Add" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1036" name="rawHessonite">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="10,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<property class="AttachAction0">
+			<!-- AttackAction per 100 quality -->
+			<!-- Used in ranged weapons ONLY -->
+			<!-- 1 up to 100 -> 0.05 -->
+			<!-- 501 up to 600 -> 0.05 * 6 -->
+			<property name="Block_Damage_Modifier" value="0.05" param1="Add" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1037" name="rawPainite">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="10,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<property class="AttachAction0">
+			<!-- AttackAction per 100 quality -->
+			<!-- Used in melee weapons ONLY -->
+			<!-- 1 up to 100 -> 0.05 -->
+			<!-- 501 up to 600 -> 0.05 * 6 -->
+			<property name="Entity_Damage_Modifier" value="0.05" param1="Add" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1038" name="rawRuby">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="10,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<property class="AttachAction0">
+			<!-- AttackAction per 100 quality -->
+			<!-- Used in melee weapons ONLY -->
+			<!-- 1 up to 100 -> 0.05 -->
+			<!-- 501 up to 600 -> 0.05 * 6 -->
+			<property name="Block_Damage_Modifier" value="0.05" param1="Add" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1039" name="xmasGift">
+		<property name="Class" value="ItemClassGiftBox, Mods" />
+		<property name="Meshfile" value="#Gifts?GiftPrefab" />
+		<!-- Present by holtkamp is licensed under CC Attribution  -->
+		<property name="DropMeshfile" value="#Gifts?GiftPrefab" />
+		<property name="Material" value="paper" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="1" />
+		<property name="Weight" value="10" />
+		<property name="EconomicValue" value="22" />
+		<property name="Group" value="Resources" />
 	</item>
 </items>

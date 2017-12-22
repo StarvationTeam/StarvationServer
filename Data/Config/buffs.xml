@@ -325,6 +325,10 @@
 		<modify id="1" stat="speedmodifier" mulValue="0.3" />
 	</buff>
 	<buff id="VomitCoolDown" duration="20" stack="discard" />
+	<buff id="Stomp" duration="5" ffcheck="true" actions="attach(#DustStorm?DustStorm, Graphics, 5)" icon="ui_game_symbol_fire" name_key="BossRegen" description_key="electricalShockDesc" />
+	<buff id="freezingStomp" duration="60" stack="extend" type="staminaup" icon="ui_game_symbol_freeze" name_key="freezingStomp" description_key="freezingStompDesc" tooltip_key="freezingStompToolTip">
+		<modify id="1" stat="coretemp" modifyValue="-50" />
+	</buff>
 	<!-- SCURVY DISEASE -->
 	<!-- You get 1 scurvy level every hour -->
 	<buff id="MetabolizeScurvy" mutex="fruity" buffif="+full &gt; 0" duration="0" actions="increment(scurvyLevel, 1, 100t, 0, 0)" name_key="MetabolizeScurvy" />

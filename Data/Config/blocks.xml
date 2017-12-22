@@ -19250,6 +19250,108 @@
 		<property name="CustomIcon" value="ui_game_symbol_fogParticle" />
 		<property name="IsTerrainDecoration" value="true" />
 	</block>
+	<block id="1597" name="miner">
+		<property name="Class" value="Miner, Mods" />
+		<property name="LootList" value="10" />
+		<property name="LootListTools" value="126" />
+		<property name="Material" value="Msteel" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#Miner?MinerPrefab" />
+		<property name="MultiBlockDim" value="1,2,1" />
+		<property name="CanPickup" value="true" />
+		<property name="Group" value="Building" />
+		<property name="CoolDownTime" value="10" />
+		<!-- Time for cooldown and stage countdown in seconds (1-15) -->
+		<property name="StageTime" value="60" />
+		<!-- Stage Duration in seconds (1-120) -->
+		<property name="MaxStages" value="4" />
+		<!-- Maximum number of stages (1-15) -->
+		<property name="MaxMinedBlocks" value="200" />
+		<!-- Maximum number of blocks the miner can mine per full event -->
+		<property name="MinerRadius" value="3" />
+		<!-- Radius of the Mining Area -->
+		<property name="SafetyRadius" value="10,3,10" />
+		<!-- Radius to check for "invalid" blocks. If there are too many man made blocks around, the miner will stop -->
+		<!-- REQUIRED PARTS -->
+		<property class="Parts">
+			<!-- name = itemName, value = transform name to show/hide, param1 = parent itemName (parent must be present for it to show in mesh) -->
+			<property name="ControlBox" value="ControlBox" param2="true" />
+			<property name="MinerArm" value="toolArmGroup" />
+			<property name="MinerBlade" value="toolBladeGroup" param1="MinerArm" />
+		</property>
+		<!-- STAGES DEFINITION -->
+		<property class="Stage1">
+			<property name="minerGroup" value="MinerZeds" />
+			<!-- Special miner entities -->
+			<property name="minerGroupMinMax" value="1,2" />
+			<!-- minimum and maximum amount to spawn on this wave -->
+			<property name="randomGroup" value="ZombiesAll" />
+			<!-- Common entities to spawn -->
+			<property name="randomGroupMinMax" value="2,5" />
+			<property name="specialGroup" value="" />
+			<!-- Special entities to spawn -->
+			<property name="specialGroupMinMax" value="0,0" />
+			<property name="bossGroup" value="" />
+			<!-- bosses to spawn -->
+			<property name="bossGroupMinMax" value="0,0" />
+		</property>
+		<property class="Stage2">
+			<property name="minerGroup" value="MinerZeds" />
+			<property name="minerGroupMinMax" value="2,4" />
+			<property name="randomGroup" value="ZombiesAll" />
+			<property name="randomGroupMinMax" value="4,8" />
+			<property name="specialGroup" value="" />
+			<property name="specialGroupMinMax" value="0,0" />
+			<property name="bossGroup" value="" />
+			<property name="bossGroupMinMax" value="0,0" />
+		</property>
+		<property class="Stage3">
+			<property name="minerGroup" value="MinerZeds" />
+			<property name="minerGroupMinMax" value="3,6" />
+			<property name="randomGroup" value="ZombiesAll" />
+			<property name="randomGroupMinMax" value="6,10" />
+			<property name="specialGroup" value="ZombiesFeral" />
+			<property name="specialGroupMinMax" value="0,1" />
+			<property name="bossGroup" value="SpecialZds" />
+			<property name="bossGroupMinMax" value="0,1" />
+		</property>
+		<property class="Stage4">
+			<property name="minerGroup" value="MinerZeds" />
+			<property name="minerGroupMinMax" value="3,6" />
+			<property name="randomGroup" value="ZombiesAll" />
+			<property name="randomGroupMinMax" value="6,10" />
+			<property name="specialGroup" value="ZombiesFeral" />
+			<property name="specialGroupMinMax" value="1,3" />
+			<property name="bossGroup" value="MinerBossGroup" />
+			<property name="bossGroupMinMax" value="1,1" />
+		</property>
+		<property name="ImposterDontBlock" value="true" />
+		<property name="DescriptionKey" value="minerDesc" />
+		<property name="BigDecorationRadius" value="2" />
+		<property name="powerType" value="failurerelay" />
+		<property name="MultiBlockDim" value="2,7,2" />
+		<property name="StabilitySupport" value="false" />
+		<property name="OnlySimpleRotations" value="true" />
+		<property class="RepairItems">
+			<property name="forgedIron" value="5" />
+			<property name="electricParts" value="3" />
+			<property name="electronicParts" value="2" />
+			<property name="scrapPlastics" value="2" />
+		</property>
+		<drop event="Harvest" name="scrapIron" count="200" tool_category="harvestingTools" />
+		<drop event="Harvest" name="forgedIron" count="5" tool_category="harvestingTools" />
+		<drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble" />
+		<drop event="Harvest" name="mechanicalParts" count="8" tool_category="Disassemble" />
+		<drop event="Harvest" name="forgedSteel" count="5" tool_category="Disassemble" />
+		<drop event="Harvest" name="forgedIron" count="20" tool_category="Military" />
+		<drop event="Harvest" name="mechanicalParts" count="12" tool_category="Military" />
+		<drop event="Harvest" name="forgedSteel" count="10" tool_category="Military" />
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
+		<property name="Stacknumber" value="1" />
+		<property name="TakeDelay" value="30" />
+		<property name="EconomicValue" value="2000" />
+	</block>
 	<block id="1497" name="steelBars">
 		<property name="Material" value="Msteel" />
 		<property name="Weight" value="100" />
