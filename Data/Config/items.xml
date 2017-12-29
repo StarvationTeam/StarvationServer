@@ -10498,8 +10498,9 @@
 		<property class="AttachAction0">
 			<!-- AttackAction -->
 			<property name="Sound_start" value="as_val_fire_start" />
-			<property name="Sound_repeat" value="#sfxsilencedsilenced?suppressor02" />
-			<property name="Sound_end" value="#sfxsilencedsilenced?suppressorend" />
+			<property name="Sound_repeat" value="#zedSounds?silencedGunLoop" />
+			<property name="Sound_end" value="#zedSounds?silencedGun" />
+			<!-- <property name="Sound_end" value="#sfxsilencedsilenced?suppressorend" /> -->
 			<!-- Base Modifier is 1, so this would reduce the base modifier by 0.1 -->
 			<!-- IF no more attachments are present the entity damage modifier would be 0.9, this reducing entity damage by 10% -->
 			<property name="Entity_Damage_Modifier" value="0.2" param1="Sub" />
@@ -10781,8 +10782,9 @@
 		<property class="AttachAction0">
 			<!-- AttackAction -->
 			<property name="Sound_start" value="as_val_fire_start" />
-			<property name="Sound_repeat" value="#sfxsilencedsilenced?suppressor02" />
-			<property name="Sound_end" value="#sfxsilencedsilenced?suppressorend" />
+			<property name="Sound_repeat" value="#zedSounds?silencedGunLoop" />
+			<property name="Sound_end" value="#zedSounds?silencedGun" />
+			<!-- <property name="Sound_end" value="#sfxsilencedsilenced?suppressorend" /> -->
 			<!-- Base Modifier is 1, so this would reduce the base modifier by 0.1 -->
 			<!-- IF no more attachments are present the entity damage modifier would be 0.9, this reducing entity damage by 10% -->
 			<property name="Entity_Damage_Modifier" value="0.1" param1="Sub" />
@@ -11782,7 +11784,8 @@
 		<property class="AttachAction0">
 			<!-- AttackAction -->
 			<property name="Sound_start" value="silencedPistol_start" />
-			<property name="Sound_end" value="#sfxsilencedsilenced?suppressorend" />
+			<property name="Sound_repeat" value="#zedSounds?silencedPistolLoop" />
+			<property name="Sound_end" value="#zedSounds?silencedPistol" />
 			<!-- Base Modifier is 1, so this would reduce the base modifier by 0.1 -->
 			<!-- IF no more attachments are present the entity damage modifier would be 0.9, this reducing entity damage by 10% -->
 			<property name="Entity_Damage_Modifier" value="0.1" param1="Sub" />
@@ -13486,6 +13489,51 @@
 			<property name="entityToSpawn" value="radSpiderPet" />
 		</property>
 	</item>
+	<item id="1044" name="goatMaleItem">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="HoldType" value="7" />
+		<property name="Material" value="organic" />
+		<property name="Stacknumber" value="1" />
+		<property class="Action1">
+			<property name="Class" value="SpawnMorteDog, Mods" />
+			<property name="entityToSpawn" value="goatMale" />
+		</property>
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+		<property name="EconomicValue" value="500" />
+	</item>
+	<item id="1045" name="goatFemaleItem">
+		<property name="Extends" value="goatMaleItem" />
+		<property class="Action1">
+			<property name="entityToSpawn" value="goatFemale" />
+		</property>
+	</item>
+	<item id="1046" name="handMyGoat">
+		<property name="CreativeMode" value="Dev" />
+		<property name="Material" value="organic" />
+		<property name="Canhold" value="false" />
+		<property name="CreativeMode" value="Dev" />
+		<property name="HoldType" value="35" />
+		<property name="Stacknumber" value="1" />
+		<property name="Candrop" value="false" />
+		<property class="Action0">
+			<!-- AttackAction -->
+			<property name="Class" value="MeleeDog, Mods" />
+			<property name="Delay" value="0.5" />
+			<property name="Range" value="2.0" />
+			<property name="Sphere" value="0.2" />
+			<property name="Block_range" value="2.5" />
+			<property name="DamageEntity" value="10" />
+			<property name="DamageBlock" value="25" />
+			<property name="Buff" value="stunned" />
+			<property name="Buff_chance" value=".6" />
+			<property name="DamageBonus.earth" value="4" />
+		</property>
+	</item>
 	<!-- DOGSDX -->
 	<!-- EXOS SUIT -->
 	<item id="570" name="exoGloves">
@@ -13986,6 +14034,98 @@
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillGuns" />
 		<property name="Group" value="Ammo/Weapons" />
+	</item>
+	<item id="1040" name="glandWalcrusher">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<!-- Active buff, will be applied when middle mouse button is pressed -->
+		<!-- Param1 is the upgrade name. -->
+		<!-- Param2 is the decay rate. 50 means that a 600 quality glad will allow for 12 uses -->
+		<property class="ActiveBuff">
+			<property name="Buff" value="GlandRegen" param1="Healing" param2="50" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1041" name="glandParasite">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<!-- Active buff, will be applied when middle mouse button is pressed -->
+		<!-- Param1 is the upgrade name. -->
+		<!-- Param2 is the decay rate. 50 means that a 600 quality glad will allow for 12 uses -->
+		<property class="ActiveBuff">
+			<property name="Buff" value="GlandSpeed" param1="Speed" param2="50" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1042" name="glandRezzer">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<!-- Active buff, will be applied when middle mouse button is pressed -->
+		<!-- Param1 is the upgrade name. -->
+		<!-- Param2 is the decay rate. 50 means that a 600 quality glad will allow for 12 uses -->
+		<property class="ActiveBuff">
+			<property name="Buff" value="GlandRezz" param1="Rezz" param2="50" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1043" name="glandYeti">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<!-- Active buff, will be applied when middle mouse button is pressed -->
+		<!-- Param1 is the upgrade name. -->
+		<!-- Param2 is the decay rate. 50 means that a 600 quality glad will allow for 12 uses -->
+		<property class="ActiveBuff">
+			<property name="Buff" value="GlandCool" param1="Cooling" param2="50" />
+		</property>
+		<property name="Group" value="Resources" />
 	</item>
 	<item id="612" name="scrapCopper">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />

@@ -18217,9 +18217,8 @@
 		<property class="RepairItems">
 			<property name="wood" value="20" />
 		</property>
-		<property name="UpgradeRated.ToBlock" value="cntStorageFarm">
-			<property name="UpgradeRated.Rate" value="15" />
-		</property>
+		<property name="UpgradeRated.ToBlock" value="cntStorageFarm" />
+		<property name="UpgradeRated.Rate" value="15" />
 		<property name="DowngradeBlock" value="cntStorageFarmInsecure" />
 		<drop event="Destroy" count="0" />
 		<property name="Group" value="Building" />

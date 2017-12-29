@@ -1819,7 +1819,7 @@
 		<item name="miningHelmet" prob="0.035" />
 		<!-- cars-->
 		<item name="bat" prob="0.01" />
-		<item name="gauge" prob="0.0025" />
+		<item name="gauge" prob="0.00025" />
 	</lootcontainer>
 	<lootcontainer id="20" count="0,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" open_time="4" loot_quality_template="baseTemplate">
 		<item group="metalpipe" />

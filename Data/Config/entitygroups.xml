@@ -199,6 +199,8 @@
 		<entity name="animalMalePig" prob="0.01" />
 		<entity name="animalSheep" prob="0.02" />
 		<entity name="animalRam" prob="0.01" />
+		<entity name="goatMale" prob="0.02" />
+		<entity name="goatFemale" prob="0.01" />
 	</entitygroup>
 	<entitygroup name="AnimalsDesert">
 		<entity name="animalRabbit" />
@@ -244,6 +246,8 @@
 		<entity name="animalBull" prob="0.02" />
 		<entity name="animalSheep" prob="0.1" />
 		<entity name="animalRam" prob="0.1" />
+		<entity name="goatMale" prob="0.1" />
+		<entity name="goatFemale" prob="0.1" />
 	</entitygroup>
 	<entitygroup name="EnemyAnimalsBurntForest">
 		<entity name="invisibleAnimalEnemy" prob="6" />
@@ -14123,7 +14127,7 @@
 		<entity name="Snake" prob="0.005" />
 	</entitygroup>
 	<entitygroup name="AnimalsMountain">
-		<entity name="Santa" prob="0.008" />
+		<entity name="Santa" prob="0.001" />
 		<entity name="abominable" prob="0.002" />
 		<entity name="cougar" prob="0.02" />
 		<entity name="cougarAlbino" prob="0.009" />
@@ -14200,6 +14204,7 @@
 		<entity name="zombieWightFeralRadiated" prob="0.15" />
 		<entity name="animalZombieBear" prob="0.1" />
 		<entity name="RadBoss" prob="0.02" />
+		<entity name="radApe" prob="0.04" />
 		<entity name="Beastmaster" prob="0.01" />
 	</entitygroup>
 	<entitygroup name="RadBoss">
@@ -14222,6 +14227,9 @@
 		<entity name="FirefighterZd" />
 		<entity name="DocZd" />
 		<entity name="RadBoss" prob="0.2" />
+		<entity name="WallCrusher" prob="0.1" />
+		<entity name="RezBoss" prob="0.1" />
+		<entity name="Parasite" prob="0.1" />
 		<entity name="Beastmaster" prob="0.1" />
 		<entity name="zombieMaleHazmat" prob="0.15" />
 		<entity name="zombieSoldier" prob="0.04" />

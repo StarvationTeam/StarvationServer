@@ -311,14 +311,14 @@
 		<modify id="0" stat="stamina" amount="-5" rate="1" />
 		<modify id="1" stat="health" amount="-1" rate="30" />
 	</buff>
-	<buff id="BossRegen" duration="15" type="healthup" ffcheck="true" actions="attach(#effects?Fog, Graphics, 15)" icon="ui_game_symbol_fire" name_key="BossRegen" description_key="electricalShockDesc">
+	<buff id="BossRegen" duration="15" type="healthup" ffcheck="true" actions="attach(#effects?Fog, Graphics, 15)" icon="ui_game_symbol_regen" name_key="BossRegen" description_key="electricalShockDesc">
 		<modify id="1" stat="health" amount="30" rate="1" />
 	</buff>
-	<buff id="ZedRez" duration="10" type="healthup" icon="ui_game_symbol_fire" name_key="ZedRez" description_key="electricalShockDesc">
+	<buff id="ZedRez" duration="10" type="healthup" icon="ui_game_symbol_rezz" name_key="ZedRez" description_key="electricalShockDesc">
 		<modify id="1" stat="health" amount="2" rate="1" />
 	</buff>
 	<buff id="BossSpawn" duration="5" ffcheck="true" actions="attach(#effects?BloodSplatter, Graphics, 5)" icon="ui_game_symbol_fire" name_key="BossRegen" description_key="electricalShockDesc" />
-	<buff id="BossRez" duration="5" ffcheck="true" actions="attach(#effects?LightningField, Graphics, 5)" icon="ui_game_symbol_fire" name_key="BossRegen" description_key="electricalShockDesc" />
+	<buff id="BossRez" duration="5" ffcheck="true" actions="attach(#effects?LightningField, Graphics, 5)" icon="ui_game_symbol_rezz" name_key="BossRegen" description_key="electricalShockDesc" />
 	<buff id="BossVomit" duration="3" ffcheck="true" actions="attach(#RadSpider?SpiderVomit, Graphics, 3)" icon="ui_game_symbol_fire" name_key="BossRegen" description_key="electricalShockDesc" />
 	<buff id="Vomit" mutex="VomitCoolDown" onexpired="VomitCoolDown" type="sickness" actions="attach(#Vomit?Vomit, Origin/CameraNode, 0, firstperson);increment(@wellness, -0.02, 4, 0, 0)" duration="10" icon="ui_game_symbol_vomit" castsound="vomit" name_key="Vomit" description_key="VomitDesc" tooltip_key="vomitTooltip">
 		<modify id="0" stat="stamina" amount="-1" rate="1" />
@@ -538,11 +538,27 @@
 	<!-- increases speed and stamina regeneration -->
 	<buff id="exoSpeed" duration="0" name_key="exoSpeed">
 		<modify id="0" stat="stamina" amount="15" rate="1" />
-		<modify id="0" stat="speedmodifier" setValue="1.5" />
+		<modify id="0" stat="speedmodifier" mulValue="1.5" />
 	</buff>
 	<!-- decreases speed -->
 	<buff id="exoGun" duration="0" name_key="exoGun" actions="min(powerLevel, 0);increment(powerLevel, -0.25, 50t, 0, 0)">
-		<modify id="0" stat="speedmodifier" setValue="0.5" />
+		<modify id="0" stat="speedmodifier" mulValue="0.5" />
+	</buff>
+	<!-- Speed Boost by Parasite Gland -->
+	<buff id="GlandSpeed" duration="10" type="speedmodifier" actions="attach(#effects?LightningField, Graphics, 10);increment(addiction, 11, 0, 0, 1)" icon="ui_game_symbol_speedboost" castsound="inject" name_key="GlandSpeed" description_key="Your reflexes are incredibly enhanced." tooltip_key="Speed Boost">
+		<modify id="1" stat="speedmodifier" mulValue="2.5" />
+	</buff>
+	<!-- Health Regen by WallCrusher Gland -->
+	<buff id="GlandRegen" duration="15" type="healthup" ffcheck="true" actions="attach(#effects?Fog, Graphics, 15);increment(addiction, 10, 0, 0, 1)" icon="ui_game_symbol_regen" castsound="inject" name_key="GlandRegen" description_key="You release a cloud of the mysterious Wall Crusher gas, and feel suprisingly healthy." tooltip_key="Health Boost">
+		<modify id="1" stat="health" amount="30" rate="1" />
+	</buff>
+	<!-- Ressurect Players by Rezzer Gland -->
+	<buff id="GlandRezz" duration="10" ffcheck="true" actions="attach(ParticleEffects/p_electric_shock, Graphics, 10);increment(addiction, 12, 0, 0, 1)" icon="ui_game_symbol_rezz" castsound="inject" name_key="GlandRezz" description_key="You release an extream electrical discharge, capable of restarting the heart of the fallen." tooltip_key="Rezz Charge">
+		<modify id="1" stat="health" amount="1" rate="1" />
+	</buff>
+	<!-- Cooling Down Effect by Yeti Gland -->
+	<buff id="GlandCool" duration="15" stack="extend" actions="attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson);increment(addiction, 10, 0, 0, 1)" icon="ui_game_symbol_freeze" castsound="inject" name_key="GlandCool" description_key="You release a burst of refreshing cold air" tooltip_key="Cooling Air">
+		<modify id="1" stat="coretemp" modifyValue="-50" />
 	</buff>
 	<buff id="radDesolation" duration="1" onexpired="radiation1" icon="ui_game_symbol_stunned" name_key="radDesolation" description_key="radDesolationDesc" tooltip_key="criticalBluntTooltip" castsound="Buffs/critical_blunt">
 		<modify id="0" stat="health" amount="-150" rate="1" />

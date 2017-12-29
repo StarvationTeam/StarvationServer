@@ -1766,10 +1766,11 @@
 		<property name="AITarget-8" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
 		<property name="AITarget-9" value="SetNearestEntityAsTarget" param1="EntityNPC" />
 		<property name="AITarget-10" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" />
+		<property name="MaxTurnSpeed" value="230" />
 		<property name="MaxViewAngle" value="270" />
 		<property name="CanClimbLadders" value="false" />
 		<!-- General entity properties -->
-		<property name="MaxHealth" value="1000" />
+		<property name="MaxHealth" value="2000" />
 		<property name="WanderSpeed" value="0.25" />
 		<property name="PanicSpeed" value="2.0" />
 		<property name="ApproachSpeed" value="1.3" />
@@ -1806,7 +1807,7 @@
 	<entity_class name="crocodile" extends="rhino">
 		<property name="Mesh" value="#croc?CROCO" />
 		<property name="HandItem" value="handCroco" />
-		<property name="MaxHealth" value="900" />
+		<property name="MaxHealth" value="1100" />
 		<property name="SoundHurt" value="crocoHurt" />
 		<property name="SoundDeath" value="crocoDeath" />
 		<property name="SoundRandom" value="crocoRandom" />
@@ -1826,6 +1827,11 @@
 	</entity_class>
 	<entity_class name="Ape" extends="crocodile">
 		<property name="Mesh" value="#Ape?Ape" />
+		<property name="WanderSpeed" value="0.25" />
+		<property name="PanicSpeed" value="2.0" />
+		<property name="ApproachSpeed" value="1.4" />
+		<property name="NightWanderSpeed" value="0.25" />
+		<property name="NightApproachSpeed" value="1.5" />
 		<property name="SoundHurt" value="apeHurt" />
 		<property name="SoundDeath" value="apeDeath" />
 		<property name="SoundRandom" value="apeRandom" />
@@ -1844,6 +1850,12 @@
 	<entity_class name="radApe" extends="Ape">
 		<property name="Mesh" value="#Ape?ApeRad" />
 		<property name="HandItem" value="handAnimalZombieBear" />
+		<property name="WanderSpeed" value="0.25" />
+		<property name="PanicSpeed" value="2.0" />
+		<property name="ApproachSpeed" value="1.4" />
+		<property name="NightWanderSpeed" value="0.25" />
+		<property name="NightApproachSpeed" value="1.5" />
+		<property name="MaxHealth" value="2200" />
 	</entity_class>
 	<entity_class name="spider">
 		<property name="Mesh" value="#Spider?spider" />
@@ -1867,6 +1879,7 @@
 		<property name="AITarget-2" value="BlockingTargetTask" />
 		<property name="AITarget-3" value="SetNearestCorpseAsTarget" param1="EntityPlayer" />
 		<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
+		<property name="MaxTurnSpeed" value="230" />
 		<property name="MaxViewAngle" value="270" />
 		<property name="CanClimbLadders" value="true" />
 		<property name="CanClimbVertical" value="true" />
@@ -1937,6 +1950,7 @@
 		<property name="AITarget-2" value="BlockingTargetTask" />
 		<property name="AITarget-3" value="SetNearestCorpseAsTarget" param1="EntityPlayer" />
 		<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
+		<property name="MaxTurnSpeed" value="230" />
 		<property name="MaxViewAngle" value="270" />
 		<property name="CanClimbLadders" value="false" />
 		<property name="WanderSpeed" value="0.3" />
@@ -1993,7 +2007,7 @@
 		<property name="ApproachSpeed" value="1.2" />
 		<property name="NightApproachSpeed" value="1.2" />
 		<property name="PanicSpeed" value="1.2" />
-		<property name="ExperienceGain" value="4000" />
+		<property name="ExperienceGain" value="1500" />
 		<!-- For harvesting -->
 		<drop event="Harvest" name="rottingFlesh" count="1" />
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" />
@@ -2152,6 +2166,7 @@
 		<property name="AITarget-10" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" />
 		<property name="CanClimbLadders" value="false" />
 		<!-- General entity properties -->
+		<property name="MaxTurnSpeed" value="230" />
 		<property name="MaxViewAngle" value="270" />
 		<!-- This decides on the particle effect played on hit -->
 		<property name="ParticleOnDeath" value="blood_death" />
@@ -2299,6 +2314,7 @@
 		<property name="AITarget-2" value="BlockingTargetTask" />
 		<property name="AITarget-3" value="SetNearestCorpseAsTarget" param1="EntityPlayer" />
 		<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
+		<property name="MaxTurnSpeed" value="230" />
 		<property name="MaxViewAngle" value="270" />
 		<!-- General entity properties -->
 		<property name="WanderSpeed" value="0.5" />
@@ -2968,7 +2984,7 @@
 		<property name="Class" value="EntityZedBoss, Mods" />
 		<property name="AvatarController" value="BipedAnimations, Mods" />
 		<property name="Hability" value="Regen" />
-		<property name="HabilityChance" value="70" />
+		<property name="HabilityChance" value="75" />
 		<property name="HabilityBuff" value="BossRegen" />
 		<property name="HabilitySound" value="regenSound" />
 		<property name="ModelType" value="Standard" />
@@ -2997,7 +3013,7 @@
 		<property name="AITarget-9" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" />
 		<property name="MaxViewAngle" value="270" />
 		<!-- General entity properties -->
-		<property name="MaxHealth" value="3500" />
+		<property name="MaxHealth" value="4500" />
 		<property name="HandItem" value="handWallCrusher" />
 		<property name="Weight" value="7000" />
 		<property name="Immunity" value="sickness;disease;bleeding;wellness" />
@@ -3037,6 +3053,12 @@
 		<!-- percentual -->
 		<property name="HeadBoost" value="20.0" />
 		<property name="BodyNerf" value="90.0" />
+		<!-- For harvesting -->
+		<drop event="Harvest" name="rottingFlesh" count="2" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
+		<drop event="Destroy" name="glandWalcrusher" tool_category="Butcher" count="1" prob=".01" />
 	</entity_class>
 	<entity_class name="ParasiteMinion" extends="WallCrusher">
 		<property name="HandItem" value="handAxeZombie" />
@@ -3091,6 +3113,13 @@
 		<!-- percentual -->
 		<property name="HeadBoost" value="20.0" />
 		<property name="BodyNerf" value="90.0" />
+		<!-- For harvesting -->
+		<drop event="Harvest" name="rottingFlesh" count="2" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
+		<drop event="Destroy" name="glandWalcrusher" tool_category="Butcher" count="0" prob="0" />
+		<drop event="Destroy" name="glandParasite" tool_category="Butcher" count="1" prob=".01" />
 	</entity_class>
 	<entity_class name="Mortelentus" extends="WallCrusher">
 		<property name="Mesh" value="#pacco?MortelentusZD" />
@@ -3120,7 +3149,13 @@
 		<!-- percentual -->
 		<property name="HeadBoost" value="20.0" />
 		<property name="BodyNerf" value="90.0" />
-		<!--property name="AITask-7" value="ApproachAndAt3tackTarget" param1="EntityPacco" /-->
+		<!-- For harvesting -->
+		<drop event="Harvest" name="rottingFlesh" count="2" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
+		<drop event="Destroy" name="glandWalcrusher" tool_category="Butcher" count="0" prob="0" />
+		<drop event="Destroy" name="glandParasite" tool_category="Butcher" count="1" prob=".01" />
 	</entity_class>
 	<entity_class name="RezBoss" extends="WallCrusher">
 		<property name="HandItem" value="handDocZombie" />
@@ -3145,6 +3180,15 @@
 		<property name="SoundHurt" value="Parasitehurt" />
 		<property name="SoundDeath" value="Parasitedeath" />
 		<property name="SoundAttack" value="Parasiteattack" />
+		<!-- For harvesting -->
+		<!-- For harvesting -->
+		<drop event="Harvest" name="rottingFlesh" count="2" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
+		<drop event="Destroy" name="glandWalcrusher" tool_category="Butcher" count="0" prob="0" />
+		<drop event="Destroy" name="glandParasite" tool_category="Butcher" count="0" prob="0" />
+		<drop event="Destroy" name="glandRezzer" tool_category="Butcher" count="1" prob=".01" />
 	</entity_class>
 	<entity_class name="TruckSoldier" extends="zombieSoldier">
 		<property name="LootListOnDeath" value="10" />
@@ -3209,7 +3253,7 @@
 		<property name="AITarget-8" value="SetNearestEntityAsTarget" param1="EntityNPC" />
 		<property name="AITarget-9" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" />
 		<property name="MaxViewAngle" value="270" />
-		<property name="MaxHealth" value="3500" />
+		<property name="MaxHealth" value="5000" />
 		<property name="HandItem" value="handAxeZombie" />
 		<property name="Weight" value="7000" />
 		<property name="Immunity" value="sickness;disease;bleeding;wellness" />
@@ -3250,6 +3294,14 @@
 		<!-- percentual -->
 		<property name="HeadBoost" value="15.0" />
 		<property name="BodyNerf" value="90.0" />
+		<!-- For harvesting -->
+		<drop event="Harvest" name="rottingFlesh" count="2" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
+		<drop event="Destroy" name="glandWalcrusher" tool_category="Butcher" count="1" prob=".01" />
+		<drop event="Destroy" name="glandParasite" tool_category="Butcher" count="1" prob=".01" />
+		<drop event="Destroy" name="glandRezzer" tool_category="Butcher" count="1" prob=".01" />
 	</entity_class>
 	<!-- Event Entities -->
 	<entity_class name="zombieTemplateEvent">
@@ -3426,7 +3478,8 @@
 		<property name="CanClimbLadders" value="true" />
 		<!-- General entity properties -->
 		<property name="MaxHealth" value="130" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<property name="WanderSpeed" value="0.25" />
 		<property name="PanicSpeed" value="1.5" />
 		<property name="ApproachSpeed" value="1.3" />
@@ -3530,7 +3583,8 @@
 	<entity_class name="MaleSurvivor" extends="Girl">
 		<property name="Mesh" value="#survivorsa16?MaleSurvivor" />
 		<property name="MaxHealth" value="400" />
-		<property name="MaxViewAngle" value="240" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<property name="HandItem" value="handMale" />
 		<property name="IsMale" value="true" />
 		<property name="SoundHurt" value="Player_Male/player1painlg" />
@@ -3573,7 +3627,8 @@
 		<property name="AITarget-2" value="BlockingTargetTask" />
 		<property name="CanClimbLadders" value="false" />
 		<!-- General entity properties -->
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<property name="WanderSpeed" value="0.25" />
 		<property name="PanicSpeed" value="1.5" />
 		<property name="ApproachSpeed" value="1.3" />
@@ -3848,7 +3903,8 @@
 		<property name="CanClimbLadders" value="true" />
 		<!-- General entity properties -->
 		<property name="MaxHealth" value="500" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<property name="WanderSpeed" value="0.25" />
 		<property name="PanicSpeed" value="1.7" />
 		<property name="ApproachSpeed" value="1.7" />
@@ -3970,7 +4026,8 @@
 		<property name="CanClimbLadders" value="true" />
 		<!-- General entity properties -->
 		<property name="MaxHealth" value="800" />
-		<property name="MaxViewAngle" value="220" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<!-- This decides on the particle effect played on hit -->
 		<property name="SurfaceCategory" value="organic" />
 		<property name="ParticleOnDeath" value="blood_death" />
@@ -4110,9 +4167,9 @@
 		<!-- the skill needed to tame -->
 		<!-- 24000 = 1 in-game day -->
 		<property name="Adolesence" value="24000" />
-		<property name="PregnancyTime" value="24000" />
+		<property name="PregnancyTime" value="12000" />
 		<property name="WanderTime" value="180" />
-		<property name="MatingTime" value="2400" />
+		<property name="MatingTime" value="1500" />
 		<property name="MaxAnimalsInArea" value="15" />
 		<property name="MaxAnimalsAreaCheck" value="40" />
 		<property name="MaxMatingAreaCheck" value="10" />
@@ -4181,7 +4238,7 @@
 		<property name="itemTamed" value="cowItem" />
 		<!-- the item used to tame the animal -->
 		<property name="lootItem" value="milk" />
-		<property name="MatingTime" value="4000" />
+		<property name="MatingTime" value="2000" />
 		<drop event="Harvest" name="milk" tool_category="Butcher" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="4" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4" />
@@ -4229,7 +4286,7 @@
 		<property name="lootItem" value="cloth" />
 		<!-- the item harvested -->
 		<!-- 24000 = 1 in-game day -->
-		<property name="MatingTime" value="3500" />
+		<property name="MatingTime" value="1000" />
 		<drop event="Harvest" name="cloth" tool_category="Butcher" count="4" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="4" />
 		<drop event="Destroy" name="animalFat" tool_category="Butcher" count="4" />
@@ -4312,7 +4369,8 @@
 		<property name="AITask-3" value="RunawayWhenHurt" />
 		<!-- <property name="AITask-5" value="RunawayFromEntity" param1="EntityPlayer" />/ -->
 		<property name="CanClimbLadders" value="false" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<!-- custom properties -->
 		<property name="isMale" value="true" />
 		<property name="entityMale" value="dogMale" />
@@ -4325,9 +4383,9 @@
 		<!-- the item they eat -->
 		<!-- <property name="emptyFoodItem" value="DogCookie" /> -->
 		<!-- the empty item they leave if you want some -->
-		<property name="waterItem" value="canMurkyWater" />
+		<property name="waterItem" value="" />
 		<!-- the item they dring -->
-		<property name="emptyWaterItem" value="canEmpty" />
+		<property name="emptyWaterItem" value="" />
 		<!-- the empty item they leave if you want some -->
 		<property name="tameItem" value="DogStaff" />
 		<!-- the item used to tame the animal -->
@@ -4337,9 +4395,9 @@
 		<!-- the skill needed to tame -->
 		<!-- 24000 = 1 in-game day -->
 		<property name="Adolesence" value="24000" />
-		<property name="PregnancyTime" value="24000" />
+		<property name="PregnancyTime" value="12000" />
 		<property name="WanderTime" value="250" />
-		<property name="MatingTime" value="4000" />
+		<property name="MatingTime" value="2000" />
 		<property name="MaxAnimalsInArea" value="15" />
 		<property name="MaxAnimalsAreaCheck" value="40" />
 		<property name="MaxMatingAreaCheck" value="20" />
@@ -4429,7 +4487,8 @@
 		<property name="CanClimbLadders" value="false" />
 		<!-- General entity properties -->
 		<property name="MaxHealth" value="1500" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<property name="WanderSpeed" value="0.25" />
 		<property name="PanicSpeed" value="2.0" />
 		<property name="ApproachSpeed" value="1.3" />
@@ -4542,7 +4601,8 @@
 		<property name="CanClimbLadders" value="false" />
 		<!-- General entity properties -->
 		<property name="MaxHealth" value="300" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<property name="WanderSpeed" value="0.25" />
 		<property name="PanicSpeed" value="2.0" />
 		<property name="ApproachSpeed" value="2.0" />
@@ -4707,7 +4767,8 @@
 		<property name="CanClimbLadders" value="false" />
 		<!-- <property name="AITask-5" value="RunawayFromEntity" param1="EntityPlayer" />/ -->
 		<property name="CanClimbLadders" value="false" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<!-- custom properties -->
 		<property name="isMale" value="true" />
 		<property name="entityMale" value="dogAlbinoPet" />
@@ -4819,7 +4880,8 @@
 		<property name="CanClimbLadders" value="false" />
 		<!-- <property name="AITask-5" value="RunawayFromEntity" param1="EntityPlayer" />/ -->
 		<property name="CanClimbLadders" value="false" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<!-- custom properties -->
 		<property name="isMale" value="true" />
 		<property name="entityMale" value="hyenaPet" />
@@ -4903,7 +4965,8 @@
 		<property name="CanClimbLadders" value="false" />
 		<!-- General entity properties -->
 		<property name="MaxHealth" value="900" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<property name="WanderSpeed" value="0.25" />
 		<property name="PanicSpeed" value="2.0" />
 		<property name="ApproachSpeed" value="2.0" />
@@ -5036,7 +5099,8 @@
 		<property name="CanClimbLadders" value="false" />
 		<!-- General entity properties -->
 		<property name="MaxHealth" value="1200" />
-		<property name="MaxViewAngle" value="180" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
 		<property name="WanderSpeed" value="0.5" />
 		<property name="ApproachSpeed" value="1.2" />
 		<property name="NightWanderSpeed" value="0.3" />
@@ -5120,6 +5184,145 @@
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".4" />
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4" />
 		<!-- Average harvest results:  stag  5 meat  9 hide  4.5 fat,  pig  6m  7h  6f,  bear 7m  14h  7f -->
+	</entity_class>
+	<entity_class name="goatMale">
+		<property name="Mesh" value="#Goat?Goat_X" />
+		<property name="ModelType" value="Standard" />
+		<property name="MeshScale" value="1.5,1.5" />
+		<property name="AvatarController" value="AnimationSDX, Mods" />
+		<property name="RootMotion" value="false" />
+		<property name="Immunity" value="disease" />
+		<property name="Parent" value="Animals" />
+		<property name="RagdollEnabled" value="false" />
+		<property name="IsEntityAnimal" value="true" />
+		<property name="SurfaceCategory" value="organic" />
+		<property name="AttackTimeoutDay" value="1.5" />
+		<!-- in s -->
+		<property name="AttackTimeoutNight" value="1.1" />
+		<property name="Prefab" value="Dog" />
+		<property name="WalkType" value="0" />
+		<property name="HandItem" value="handMyGoat" />
+		<property name="Class" value="EntityDogMorte, Mods" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="1.1" />
+		<property name="PanicSpeed" value="0.6" />
+		<property name="AnimationIdle" value="idleBreathe" />
+		<property name="AnimationMainAttack" value="ramAttack" />
+		<property name="AnimationPain" value="getHit" />
+		<property name="AnimationDeath" value="death" />
+		<property name="AnimationRun" value="run" />
+		<property name="AnimationWalk" value="walk" />
+		<property name="SoundRandom" value="GoatRandom" />
+		<property name="SoundAlert" value="GoatAlert" />
+		<property name="SoundAttack" value="GoatAlert" />
+		<property name="SoundDeath" value="GoatHurt" />
+		<property name="SoundHurt" value="GoatHurt" />
+		<property name="SoundSense" value="GoatSense" />
+		<property name="CanClimbLadders" value="false" />
+		<property name="RotateToGround" value="true" />
+		<property name="MaxHealth" value="100" />
+		<property name="SoundRandomTime" value="45.0" />
+		<property name="SoundAlertTime" value="25.0" />
+		<property name="SoundGiveUp" value="GoatRandom" />
+		<property name="SoundPlay" value="GoatAlert" />
+		<property name="SoundDropBall" value="GoatAlert" />
+		<property name="SoundStarve" value="GoatHurt" />
+		<property name="SoundBark" value="GoatRandom" />
+		<property name="SoundHowl" value="" />
+		<property name="SoundDrink" value="" />
+		<property name="SoundEat" value="" />
+		<property name="ExperienceGain" value="300" />
+		<!-- AI properties -->
+		<property name="AITask-1" value="Swim" />
+		<property name="AITask-2" value="Wander" />
+		<property name="AITask-3" value="RunawayWhenHurt" />
+		<!-- <property name="AITask-5" value="RunawayFromEntity" param1="EntityPlayer" />/ -->
+		<property name="CanClimbLadders" value="false" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
+		<!-- custom properties -->
+		<property name="isMale" value="true" />
+		<property name="entityMale" value="goatMale" />
+		<property name="entityFemale" value="goatFemale" />
+		<property name="entityBaby" value="goatOffspring" />
+		<property name="itemTamed" value="goatMaleItem" />
+		<property name="foodBlock" value="trough" />
+		<!-- the block they look for when hungry -->
+		<property name="foodItem" value="AnimalFeed" />
+		<!-- the item they eat -->
+		<!-- <property name="emptyFoodItem" value="DogCookie" /> -->
+		<!-- the empty item they leave if you want some -->
+		<property name="waterItem" value="" />
+		<!-- the item they dring -->
+		<property name="emptyWaterItem" value="" />
+		<!-- the empty item they leave if you want some -->
+		<property name="tameItem" value="whip" />
+		<!-- the item used to tame the animal -->
+		<property name="tameSkill" value="Husbandry" />
+		<!-- the skill needed to tame -->
+		<property name="harvestSkill" value="Husbandry" />
+		<!-- the skill needed to tame -->
+		<!-- 24000 = 1 in-game day -->
+		<property name="Adolesence" value="24000" />
+		<property name="PregnancyTime" value="12000" />
+		<property name="WanderTime" value="250" />
+		<property name="MatingTime" value="1200" />
+		<property name="MaxAnimalsInArea" value="15" />
+		<property name="MaxAnimalsAreaCheck" value="40" />
+		<property name="MaxMatingAreaCheck" value="20" />
+		<!-- custom properties -->
+		<property name="TimeStayAfterDeath" value="180" />
+		<!-- Set this if you want this entity to be spawned when user chooses 'enemy entities off' -->
+		<property name="IsEnemyEntity" value="false" />
+		<property name="ExperienceGain" value="150" />
+		<!-- For harvesting -->
+		<property name="PhysicsBody" value="zombieDog" />
+		<property name="CorpseBlock" value="animalGore" />
+		<property name="CorpseBlockChance" value="0" />
+		<property name="ParticleOnDestroy" value="blood_death" />
+		<property name="TimeStayAfterDeath" value="60" />
+		<!-- For harvesting -->
+		<property name="DeadBodyHitPoints" value="200" />
+		<drop event="Harvest" name="rottingFlesh" count="2" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="4" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" />
+		<drop event="Destroy" name="animalFat" tool_category="Butcher" count="2" />
+		<drop event="Destroy" name="femur" tool_category="Butcher" count="4" />
+	</entity_class>
+	<entity_class name="goatFemale" extends="goatMale">
+		<property name="Mesh" value="#Goat?Goat_X" />
+		<property name="ModelType" value="Standard" />
+		<property name="MeshScale" value="1,1" />
+		<property name="AvatarController" value="AnimationSDX, Mods" />
+		<!-- custom properties -->
+		<property name="isMale" value="false" />
+		<property name="itemTamed" value="goatFemaleItem" />
+		<!-- For harvesting -->
+		<drop event="Harvest" name="rawMeat" count="2" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="3" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" />
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".5" />
+		<drop event="Destroy" name="femur" tool_category="Butcher" count="2" />
+	</entity_class>
+	<entity_class name="goatOffspring" extends="goatMale">
+		<property name="Mesh" value="#Goat?Goat_X" />
+		<property name="ModelType" value="Standard" />
+		<property name="MeshScale" value="0.4,0.6" />
+		<property name="AvatarController" value="AnimationSDX, Mods" />
+		<!-- custom properties -->
+		<property name="isBaby" value="true" />
+		<!-- For harvesting -->
+		<drop event="Harvest" name="rawMeat" count="1" />
+		<drop event="Destroy" name="femur" tool_category="Butcher" count="1" />
 	</entity_class>
 	<!-- DOGSDX -->
 	<entity_class name="npcBanditMelee">
@@ -5628,5 +5831,6 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="15" />
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="7" />
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="4" />
+		<drop event="Destroy" name="glandYeti" tool_category="Butcher" count="1" prob=".01" />
 	</entity_class>
 </entity_classes>
