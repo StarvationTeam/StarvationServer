@@ -15396,6 +15396,36 @@
 		<drop event="Destroy" name="scrapIron" count="3,6" />
 		<drop event="Destroy" count="0" />
 	</block>
+	<block id="1598" name="randomGem">
+		<property name="Class" value="Randomizer, Mods" />
+		<property name="Material" value="Msteel" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#VanillaAssets?CrystalDynamicPrefab" />
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
+		<property name="CanPickup" value="false" />
+		<property name="IsTerrainDecoration" value="true" />
+		<!-- minumum,maximnum interval of allowed number of visible object per instance (MAX 12) -->
+		<property name="ShownInterval" value="0,12" />
+		<property class="ObjectList">
+			<!-- object names that will be randomly visible -->
+			<property name="1" value="Shard1" />
+			<property name="2" value="Shard2" />
+			<property name="3" value="Shard3" />
+			<property name="4" value="Shard4" />
+			<property name="5" value="Shard5" />
+			<property name="6" value="Shard6" />
+			<property name="7" value="Shard7" />
+			<property name="8" value="Shard8" />
+			<property name="9" value="Shard9" />
+			<property name="10" value="Shard10" />
+			<property name="11" value="Shard11" />
+			<property name="12" value="Shard12" />
+		</property>
+		<drop event="Harvest" name="rawDiamond" count="1,3" tool_category="harvestingTools" />
+		<drop event="Harvest" name="rockSmall" count="25" tool_category="harvestingTools" />
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="destroyedStone" count="1" prob="0.1" stick_chance="0.5" />
+	</block>
 	<block id="1495" name="glassandCeramicsStation">
 		<property name="Class" value="Forge" />
 		<property name="Material" value="Mstone_scrap" />
@@ -18984,21 +19014,22 @@
 		<property name="Class" value="Gore" />
 		<property name="CreativeMode" value="Dev" />
 		<property name="Material" value="organic" />
+		<property name="MaxDamage" value="350" />
 		<property name="Shape" value="ModelEntity" />
 		<property name="Model" value="Entities/Gore/gore_block1_Prefab" />
 		<property name="ImposterDontBlock" value="true" />
-		<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
+		<property name="Collide" value="melee,bullet,arrow,rocket" />
 		<property name="Place" value="TowardsPlacerInverted" />
-		<property name="IsTerrainDecoration" value="true" />
 		<property name="Tag" value="Gore" />
-		<property name="FallDamage" value="true" />
-		<property name="LootList" value="1" />
-		<property name="DowngradeBlock" value="goreBlock1BonesPrefab" />
-		<drop event="Harvest" name="femur" count="1,3" tool_category="Butcher" />
-		<drop event="Harvest" name="rottingFlesh" count="2" tool_category="Butcher" />
-		<drop event="Harvest" name="rottingFlesh" count="1" />
-		<drop event="Harvest" name="femur" count="1" />
+		<property name="IsTerrainDecoration" value="true" />
+		<property name="FallDamage" value="false" />
+		<property name="LootList" value="71" />
+		<drop event="Harvest" name="rottingFlesh" count="1,3" prob="1" tool_category="Butcher" />
+		<drop event="Harvest" name="femur" count="1,2" prob="0.4" tool_category="Butcher" />
+		<drop event="Harvest" name="animalFat" count="1,2" prob="0.33" tool_category="Butcher" />
+		<drop event="Harvest" name="femur" count="1,2" prob="1" tool_category="Butcher" />
 		<drop event="Destroy" count="0" />
+		<property name="DroppedEntityClass" value="EvisceratedRemains" />
 	</block>
 	<block id="1506" name="SpawnerBanditSoldier">
 		<property name="Class" value="PrefabSpawner, Mods" />
@@ -19035,6 +19066,69 @@
 		<property name="Model" value="Entities/Trees/Prefabs/Stump" />
 		<property name="group" value="BanditBoss" />
 		<property name="NumberToSpawn" value="1" />
+	</block>
+	<block id="1599" name="npcFollowerRangedCorpse">
+		<property name="Class" value="Gore" />
+		<property name="CreativeMode" value="Dev" />
+		<property name="Material" value="organic" />
+		<property name="MaxDamage" value="350" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="Entities/Gore/gore_block1_Prefab" />
+		<property name="ImposterDontBlock" value="true" />
+		<property name="Collide" value="melee,bullet,arrow,rocket" />
+		<property name="Place" value="TowardsPlacerInverted" />
+		<property name="Tag" value="Gore" />
+		<property name="IsTerrainDecoration" value="true" />
+		<property name="FallDamage" value="false" />
+		<property name="LootList" value="72" />
+		<drop event="Harvest" name="rottingFlesh" count="1,3" prob="1" tool_category="Butcher" />
+		<drop event="Harvest" name="femur" count="1,2" prob="0.4" tool_category="Butcher" />
+		<drop event="Harvest" name="animalFat" count="1,2" prob="0.33" tool_category="Butcher" />
+		<drop event="Harvest" name="femur" count="1,2" prob="1" tool_category="Butcher" />
+		<drop event="Destroy" count="0" />
+		<property name="DroppedEntityClass" value="EvisceratedRemains" />
+	</block>
+	<block id="1600" name="npcBanditBossCorpse">
+		<property name="Class" value="Gore" />
+		<property name="CreativeMode" value="Dev" />
+		<property name="Material" value="organic" />
+		<property name="MaxDamage" value="350" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="Entities/Gore/gore_block1_Prefab" />
+		<property name="ImposterDontBlock" value="true" />
+		<property name="Collide" value="melee,bullet,arrow,rocket" />
+		<property name="Place" value="TowardsPlacerInverted" />
+		<property name="Tag" value="Gore" />
+		<property name="IsTerrainDecoration" value="true" />
+		<property name="FallDamage" value="false" />
+		<property name="LootList" value="73" />
+		<drop event="Harvest" name="rottingFlesh" count="1,3" prob="1" tool_category="Butcher" />
+		<drop event="Harvest" name="femur" count="1,2" prob="0.4" tool_category="Butcher" />
+		<drop event="Harvest" name="animalFat" count="1,2" prob="0.33" tool_category="Butcher" />
+		<drop event="Harvest" name="femur" count="1,2" prob="1" tool_category="Butcher" />
+		<drop event="Destroy" count="0" />
+		<property name="DroppedEntityClass" value="EvisceratedRemains" />
+	</block>
+	<block id="1601" name="npcPlasmaBossCorpse">
+		<property name="Class" value="Gore" />
+		<property name="CreativeMode" value="Dev" />
+		<property name="Material" value="organic" />
+		<property name="MaxDamage" value="350" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="Entities/Gore/gore_block1_Prefab" />
+		<property name="ImposterDontBlock" value="true" />
+		<property name="Collide" value="melee,bullet,arrow,rocket" />
+		<property name="Place" value="TowardsPlacerInverted" />
+		<property name="Tag" value="Gore" />
+		<property name="IsTerrainDecoration" value="true" />
+		<property name="FallDamage" value="false" />
+		<property name="LootList" value="132" />
+		<drop event="Harvest" name="rottingFlesh" count="1,3" prob="1" tool_category="Butcher" />
+		<drop event="Harvest" name="femur" count="1,2" prob="0.4" tool_category="Butcher" />
+		<drop event="Harvest" name="animalFat" count="1,2" prob="0.33" tool_category="Butcher" />
+		<drop event="Harvest" name="femur" count="1,2" prob="1" tool_category="Butcher" />
+		<drop event="Destroy" count="0" />
+		<property name="DroppedEntityClass" value="EvisceratedRemains" />
 	</block>
 	<!-- toys -->
 	<block id="1486" name="kennyBlock">

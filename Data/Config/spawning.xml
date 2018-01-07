@@ -36,11 +36,6 @@
 		<spawn maxcount="1" respawndelay="3" time="Any" entitygroup="AnimalsPlains" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="AnimalHyenasLow" spawnDeadChance="0" />
 	</biome>
-	<biome name="wasteland">
-		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
-		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
-		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
-	</biome>
 	<biome name="snow">
 		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="SnowZombies" />
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
@@ -952,6 +947,11 @@
 	<biome name="desert">
 		<spawn maxcount="3" respawndelay="4" time="Any" entitygroup="AnimalsAllDesert" spawnDeadChance="0" />
 	</biome>
+	<biome name="radiated">
+		<spawn maxcount="1" respawndelay="4" time="Day" entitygroup="ZombiesRad" />
+		<spawn maxcount="1" respawndelay="4" time="Night" entitygroup="ZombiesRadNight" />
+		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="RadBoss" />
+	</biome>
 	<biome name="burnt_forest">
 		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="ZombiesBurntForest" />
 		<spawn maxcount="2" respawndelay="4" time="Any" entitygroup="AnimalHyenas" />
@@ -961,5 +961,11 @@
 		<spawn maxcount="1" respawndelay="4" time="Day" entitygroup="ZombiesRad" />
 		<spawn maxcount="1" respawndelay="4" time="Night" entitygroup="ZombiesRadNight" />
 		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="RadBoss" />
+	</biome>
+	<biome name="wasteland">
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
+		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
+		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="BanditPlasma" />
 	</biome>
 </spawning>

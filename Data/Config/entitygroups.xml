@@ -14208,15 +14208,17 @@
 		<entity name="Beastmaster" prob="0.01" />
 	</entitygroup>
 	<entitygroup name="RadBoss">
-		<entity name="RadBoss" prob="0.2" />
+		<entity name="spiderBoss" prob="0.2" />
+		<entity name="RadBoss" prob="0.3" />
 		<entity name="RadHyena" prob="0.4" />
 		<entity name="scorpionRad" prob="0.4" />
-		<entity name="Beastmaster" prob="0.03" />
+		<entity name="Beastmaster" prob="0.05" />
 	</entitygroup>
 	<entitygroup name="RadBossOld">
-		<entity name="RadBossOld" prob="0.3" />
+		<entity name="RadBoss" prob="0.3" />
 		<entity name="RadHyena" prob="0.4" />
 		<entity name="scorpionRad" prob="0.4" />
+		<entity name="spiderBoss" prob="0.05" />
 		<entity name="Beastmaster" prob="0.03" />
 	</entitygroup>
 	<entitygroup name="ZombiesRadNight">
@@ -14229,6 +14231,7 @@
 		<entity name="RadBoss" prob="0.2" />
 		<entity name="WallCrusher" prob="0.1" />
 		<entity name="RezBoss" prob="0.1" />
+		<entity name="spiderBoss" prob="0.1" />
 		<entity name="Parasite" prob="0.1" />
 		<entity name="Beastmaster" prob="0.1" />
 		<entity name="zombieMaleHazmat" prob="0.15" />
@@ -14352,6 +14355,11 @@
 		<entity name="npcBanditLeader" />
 		<entity name="banditLeaderMP7" />
 		<entity name="banditLeaderMP5" />
+	</entitygroup>
+	<entitygroup name="BanditPlasma">
+		<entity name="banditPlasmaBoss" prob="0.1" />
+		<entity name="banditFemaleDragonMagnum" prob="0.5" />
+		<entity name="banditMaleDragonRifle" prob="0.4" />
 	</entitygroup>
 	<entitygroup name="MinerZeds">
 		<entity name="minerWorm" />

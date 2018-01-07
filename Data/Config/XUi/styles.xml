@@ -32,6 +32,19 @@
 		<style_entry name="pickup_click" value="/Crafting/craft_take_item" />
 		<style_entry name="place_click" value="/Crafting/craft_place_item" />
 		<style_entry name="remove_waypoint" value="/UI/ui_waypoint_delete" />
+		<style_entry name="slotbgleft" value="@file:Mods\SDX\Textures\slotbgleft.png" />
+		<style_entry name="slotbgright" value="@file:Mods\SDX\Textures\slotbgright.png" />
+		<style_entry name="vehicle" value="@file:Mods\SDX\Textures\uivehicle.png" />
+		<style_entry name="power" value="@file:Mods\SDX\Textures\uipower.png" />
+		<style_entry name="active" value="@file:Mods\SDX\Textures\uiactive.png" />
+		<style_entry name="quest" value="@file:Mods\SDX\Textures\uiquest.png" />
+		<style_entry name="objective" value="@file:Mods\SDX\Textures\uiobj.png" />
+		<style_entry name="stats" value="@file:Mods\SDX\Textures\uistats.png" />
+		<style_entry name="time" value="@file:Mods\SDX\Textures\uitime.png" />
+		<style_entry name="compass" value="@file:Mods\SDX\Textures\uicompass.png" />
+		<style_entry name="exocompass" value="@file:Mods\SDX\Textures\exocompass.png" />
+		<style_entry name="exotoolbelt" value="@file:Mods\SDX\Textures\exotoolbelt.png" />
+		<style_entry name="toolbeltwires" value="@file:Mods\SDX\Textures\toolbeltwires.png" />
 	</global>
 	<style type="label">
 		<style_entry name="color" value="[labelColor]" />
@@ -397,7 +410,7 @@
 		<style_entry name="color" value="[beige]" />
 	</style>
 	<style name="compass.window" type="window">
-		<style_entry name="pos" value="-200,-9" />
+		<style_entry name="pos" value="-200,-5" />
 		<style_entry name="size" value="400,43" />
 		<style_entry name="anchor" value="CenterTop" />
 	</style>
@@ -449,5 +462,29 @@
 		<style_entry name="invalid_sprite" value="ui_game_symbol_x" />
 		<style_entry name="width" value="603" />
 		<style_entry name="height" value="400" />
+	</style>
+	<style name="toolbelt">
+		<style_entry name="select_color" value="[beige]" />
+		<style_entry name="press_color" value="[limeGreen]" />
+		<style_entry name="final_pressed_color" value="[lightGrey]" />
+		<style_entry name="background_color" value="[transparent]" />
+		<style_entry name="highlight_color" value="[hoverColor]" />
+		<style_entry name="holding_color" value="255,150,1,255" />
+		<style_entry name="width" value="66" />
+		<style_entry name="height" value="66" />
+		<style_entry name="hover_icon_grow" value="1.5" />
+		<style_entry name="on_press" value="true" />
+		<style_entry name="sound_volume" value="0.75" />
+		<style_entry name="pickup_sound" value="[pickup_click]" />
+		<style_entry name="place_sound" value="[place_click]" />
+	</style>
+	<style name="time.window.compass.texture" type="texture">
+		<style_entry name="depth" value="8" />
+		<style_entry name="height" value="23" />
+		<style_entry name="width" value="300" />
+		<style_entry name="pos" value="9999,9999" />
+		<style_entry name="color" value="[iconColor]" />
+		<style_entry name="tooltip" value="CHARACTER" />
+		<style_entry name="texture" value="Textures/UI/ui_game_compass" />
 	</style>
 </styles>

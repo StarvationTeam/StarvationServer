@@ -8233,7 +8233,7 @@
 		<property name="CustomIcon" value="ui_game_symbol_bladeBat" />
 		<property name="Material" value="wood" />
 		<property name="HoldType" value="2" />
-		<property name="RepairTools" value="wood" />
+		<property name="RepairTools" value="repairKit" />
 		<property name="Degradation" value="150" param1="true" />
 		<property name="FuelValue" value="40" />
 		<property name="SoundDestroy" value="wooddestroy1" />
@@ -12144,6 +12144,131 @@
 		</property>
 		<property name="EconomicValue" value="10" />
 	</item>
+	<item id="1051" name="handPlasma">
+		<property name="Extends" value="handMaster" />
+		<property name="CreativeMode" value="None" />
+		<property name="Degradation" value="99999" param1="true" />
+		<property class="Action0">
+			<property name="Range" value="1.75" />
+			<property name="DamageEntity" value="20" />
+			<property name="DamageBlock" value="250" />
+			<property name="Buff" value="bleeding,infection,stunned" />
+			<property name="Buff_chance" value="0.2,0.2,0.4" />
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Vomit" />
+			<property name="Delay" value="0.35" />
+			<property name="Range" value="200" />
+			<property name="Auto_fire" value="true" />
+			<property name="Infinite_ammo" value="true" />
+			<property name="Magazine_items" value="plasmaShotProjectile" />
+			<property name="Rays_spread" value="0.5" />
+			<property name="Reload_time" value="2" />
+			<property name="Bullet_icon" value="uzi" />
+			<property name="Sound_warning" value="plasmaWarn" />
+			<property name="Sound_start" value="plasmaShot" />
+			<property name="Sound_repeat" value="" />
+			<property name="Sound_end" value="" />
+			<property name="Sound_empty" value="" />
+			<property name="Sound_reload" value="" />
+		</property>
+	</item>
+	<item id="1050" name="plasmaShotProjectile">
+		<property name="Meshfile" value="#particles?ErekiBall2" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="1500" />
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Projectile" />
+			<property name="DamageEntity" value="5" />
+			<property name="DamageBlock" value="500" />
+			<property name="Velocity" value="40" />
+			<property name="FlyTime" value="1.2" />
+			<property name="LifeTime" value="8" />
+			<property name="CollisionRadius" value="0.95" />
+			<property name="Explosion.BlockDamage" value="0" />
+			<!-- damage for blocks in the center of the explosion -->
+			<property name="Explosion.EntityDamage" value="0" />
+			<!-- damage for entities in the center of the explosion -->
+			<property name="Explosion.ParticleIndex" value="0" />
+			<!-- which prefab/particle is used -->
+			<property name="Explosion.RadiusBlocks" value="0" />
+			<!-- damage radius for blocks -->
+			<property name="Explosion.RadiusEntities" value="0" />
+			<!-- damage radius for entities -->
+			<property name="Explosion.DamageBonus.cloth" value="30" />
+			<property name="Explosion.DamageBonus.wood" value="50" />
+		</property>
+		<property name="Group" value="Ammo/Weapons" />
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="3,16" />
+			<property name="ApplyBuff" value="1, 1" param1="plasmaImpact" />
+		</property>
+	</item>
+	<item id="1052" name="handSpiderBoss">
+		<property name="Extends" value="handMaster" />
+		<property name="CreativeMode" value="None" />
+		<property name="Degradation" value="99999" param1="true" />
+		<property class="Action0">
+			<property name="Delay" value="0.8" />
+			<property name="Range" value="2.75" />
+			<property name="DamageEntity" value="30" />
+			<property name="DamageBlock" value="80" />
+			<property name="Buff" value="bleeding,infection,stunned,radiation1,spiderPoisoning" />
+			<property name="Buff_chance" value="0.8,0.3,0.4,1.0,0.3" />
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Vomit" />
+			<property name="Delay" value="0.35" />
+			<property name="Range" value="200" />
+			<property name="Auto_fire" value="true" />
+			<property name="Infinite_ammo" value="true" />
+			<property name="Magazine_items" value="webShotProjectile" />
+			<property name="Rays_spread" value="0.5" />
+			<property name="Reload_time" value="2" />
+			<property name="Bullet_icon" value="uzi" />
+			<property name="Sound_warning" value="webWarn" />
+			<property name="Sound_start" value="webShot" />
+			<property name="Sound_repeat" value="" />
+			<property name="Sound_end" value="" />
+			<property name="Sound_empty" value="" />
+			<property name="Sound_reload" value="" />
+		</property>
+	</item>
+	<item id="1053" name="webShotProjectile">
+		<property name="Meshfile" value="#particles?greenDust" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="1500" />
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Projectile" />
+			<property name="DamageEntity" value="15" />
+			<property name="DamageBlock" value="10" />
+			<property name="Velocity" value="20" />
+			<property name="FlyTime" value="0.50" />
+			<property name="LifeTime" value="4" />
+			<property name="CollisionRadius" value="0.5" />
+			<property name="Explosion.BlockDamage" value="0" />
+			<!-- damage for blocks in the center of the explosion -->
+			<property name="Explosion.EntityDamage" value="0" />
+			<!-- damage for entities in the center of the explosion -->
+			<property name="Explosion.ParticleIndex" value="0" />
+			<!-- which prefab/particle is used -->
+			<property name="Explosion.RadiusBlocks" value="0" />
+			<!-- damage radius for blocks -->
+			<property name="Explosion.RadiusEntities" value="0" />
+			<!-- damage radius for entities -->
+			<property name="Explosion.DamageBonus.cloth" value="30" />
+			<property name="Explosion.DamageBonus.wood" value="50" />
+		</property>
+		<property name="Group" value="Ammo/Weapons" />
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="10,15" />
+			<property name="ApplyBuff" value="0.2, 0.3" param1="webbed" />
+		</property>
+	</item>
 	<item id="308" name="handPoliceZombie">
 		<property name="Extends" value="handMaster" />
 		<property name="CreativeMode" value="Dev" />
@@ -14124,6 +14249,130 @@
 		<!-- Param2 is the decay rate. 50 means that a 600 quality glad will allow for 12 uses -->
 		<property class="ActiveBuff">
 			<property name="Buff" value="GlandCool" param1="Cooling" param2="50" />
+		</property>
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="1054" name="plasmaGun">
+		<property name="Class" value="ItemClassAttachments, Mods" />
+		<property name="Meshfile" value="#morteWeapons?pulserifle" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="6" />
+		<property name="RepairTools" value="repairKit" />
+		<property name="Degradation" value="1500" param1="true" />
+		<property name="DegradationBreaksAfter" value="false" />
+		<property name="SoundJammed" value="Weapons/weapon_jam" />
+		<property name="Weight" value="0" />
+		<property name="EconomicValue" value="10000" />
+		<property name="CrosshairOnAim" value="true" />
+		<property name="CrosshairUpAfterShot" value="false" />
+		<property class="Parts">
+			<property name="Stock" value="plasmaGun_stock" />
+			<property name="Receiver" value="plasmaGun_receiver" />
+			<property name="Barrel" value="plasmaGun_barrel" />
+			<property name="Pump" value="plasmaGun_parts" />
+		</property>
+		<property class="Action0">
+			<property name="Class" value="VomitPower, Mods" />
+			<property name="Delay" value="0.35" />
+			<property name="Range" value="200" />
+			<property name="Auto_fire" value="true" />
+			<property name="Infinite_ammo" value="true" />
+			<property name="Magazine_items" value="plasmaShotProjectile" />
+			<property name="Rays_spread" value="0.095" />
+			<property name="Reload_time" value="2" />
+			<property name="Bullet_icon" value="uzi" />
+			<property name="Sound_warning" value="plasmaWarn" />
+			<property name="Sound_start" value="plasmaShot" />
+			<property name="Sound_repeat" value="" />
+			<property name="Sound_end" value="" />
+			<property name="Sound_empty" value="" />
+			<property name="Sound_reload" value="" />
+			<!-- requires having a special buff -->
+			<property name="Require" value="exoGun" />
+			<property name="RequireText" value="You need to wear a powered Exoskeleton to use this weapon" />
+			<!-- will consume 1 power unit everytime the trigger is pressed -->
+			<property name="Powered" value="0.1" />
+		</property>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="ZoomAt, Mods" />
+			<property name="Zoom_max_out" value="40" />
+			<property name="Zoom_max_in" value="40" />
+		</property>
+		<property name="Group" value="Ammo/Weapons" />
+		<property class="Preview">
+			<property name="Zoom" value="2" />
+			<property name="Pos" value="-0.20,-0.40" />
+			<property name="Rot" value="0,-45,0" />
+		</property>
+		<property name="ActionSkillGroup" value="Rifles" />
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
+		<property name="RepairExpMultiplier" value="10.8" />
+		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
+	</item>
+	<item id="1055" name="plasmaGun_barrel">
+		<property name="Extends" value="partsMaster" />
+		<property name="DescriptionKey" value="partsFlameThrowerGroupDesc" />
+		<property name="PartType" value="Barrel" />
+		<property name="EconomicValue" value="2500" />
+		<property name="Weight" value="85" />
+		<property class="Attributes">
+			<property name="EntityDamage" value="5, 15" />
+			<property name="DegradationMax" value="3000,8000" />
+		</property>
+	</item>
+	<item id="1056" name="plasmaGun_receiver">
+		<property name="Extends" value="partsMaster" />
+		<property name="DescriptionKey" value="partsFlameThrowerGroupDesc" />
+		<property name="PartType" value="Receiver" />
+		<property name="EconomicValue" value="2500" />
+		<property name="Weight" value="75" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="3000,8000" />
+		</property>
+	</item>
+	<item id="1057" name="plasmaGun_parts">
+		<property name="Extends" value="partsMaster" />
+		<property name="DescriptionKey" value="partsFlameThrowerGroupDesc" />
+		<property name="PartType" value="Pump" />
+		<property name="CustomIcon" value="partsAuger_parts" />
+		<property name="EconomicValue" value="2500" />
+		<property name="Weight" value="85" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="3000,8000" />
+		</property>
+	</item>
+	<item id="1058" name="plasmaGun_stock">
+		<property name="Extends" value="partsMaster" />
+		<property name="DescriptionKey" value="partsFlameThrowerGroupDesc" />
+		<property name="PartType" value="Stock" />
+		<property name="Weight" value="120" />
+		<property name="EconomicValue" value="2500" />
+		<property class="Attributes">
+			<property name="DegradationRate" value="10,10" />
+			<property name="DegradationMax" value="3000,8000" />
+		</property>
+	</item>
+	<item id="1059" name="radSpiderHeart">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="Mmetal_weak" />
+		<property name="Weight" value="5" />
+		<property name="Stacknumber" value="1" />
+		<property name="SellableToTrader" value="false" />
+		<property name="HoldType" value="45" />
+		<property name="DropScale" value="3" />
+		<property name="EconomicValue" value="25" />
+		<property name="EconomicBundleSize" value="5" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="3,1" />
+		</property>
+		<!-- Active buff, will be applied when middle mouse button is pressed -->
+		<!-- Param1 is the upgrade name. -->
+		<!-- Param2 is the decay rate. 50 means that a 600 quality glad will allow for 12 uses -->
+		<property class="ActiveBuff">
+			<property name="Buff" value="GlandShield" param1="Shield" param2="50" />
 		</property>
 		<property name="Group" value="Resources" />
 	</item>
@@ -17572,6 +17821,43 @@
 			<property name="BlockDamage" value="2,6" />
 			<property name="Accuracy" value="1,1" />
 			<property name="FalloffRange" value="90,95" />
+			<property name="DegradationMax" value="9998,9999" />
+			<property name="DegradationRate" value="1,1" />
+		</property>
+	</item>
+	<item id="1060" name="npcPlasma">
+		<property name="Meshfile" value="#morteWeapons?pulserifle" />
+		<property name="Material" value="metal" />
+		<property name="RepairTools" value="weaponRepairKit" />
+		<property name="HoldType" value="48" />
+		<property name="CreativeMode" value="Dev" />
+		<property name="Candrop" value="false" />
+		<property name="CustomIcon" value="ui_game_symbol_unused" />
+		<property name="DegradationBreaksAfter" value="false" />
+		<property name="Degradation" value="99999" param1="true" />
+		<property name="SoundJammed" value="Weapons/weapon_jam" />
+		<property class="Action0">
+			<property name="Class" value="Launcher" />
+			<property name="Delay" value="5" />
+			<property name="Crosshair_min_distance" value="29" />
+			<property name="Crosshair_max_distance" value="34" />
+			<property name="Magazine_size" value="1" />
+			<property name="Magazine_items" value="plasmaShotProjectile" />
+			<property name="Rays_spread" value="0.095" />
+			<property name="Reload_time" value="5" />
+			<property name="Infinite_ammo" value="true" />
+			<property name="Bullet_icon" value="uzi" />
+			<property name="Sound_start" value="plasmaShot" />
+			<property name="Sound_repeat" value="" />
+			<property name="Sound_end" value="" />
+			<property name="Sound_empty" value="plasmaWarn" />
+			<property name="Sound_reload" value="plasmaWarn" />
+			<property name="Particles_muzzle_fire" value="" />
+			<property name="Particles_muzzle_smoke" value="nozzlesmoke_m136" />
+		</property>
+		<property class="Attributes">
+			<property name="EntityDamage" value="40,60" />
+			<property name="BlockDamage" value="400,600" />
 			<property name="DegradationMax" value="9998,9999" />
 			<property name="DegradationRate" value="1,1" />
 		</property>

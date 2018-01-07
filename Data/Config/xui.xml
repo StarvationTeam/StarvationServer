@@ -64,12 +64,20 @@
 			<window name="itemInfoPanel" />
 			<window name="emptyInfoPanel" />
 			<window name="windowBackpack" />
+			<window name="windowTime" />
+			<window name="HUDPower" />
+			<window name="HUDLeftStatBars" anchor="LeftBottom" />
 		</window_group>
 		<window_group name="dragAndDrop" actionSet="false">
 			<window name="dragAndDropItemStack" />
 		</window_group>
 		<window_group name="compass" actionSet="false">
 			<window name="windowCompass" />
+			<window name="windowTime" />
+			<window name="HUDPower" />
+			<window name="HUDLeftStatBars" anchor="LeftBottom" />
+			<window name="EXOToolbelt" anchor="CenterBottom" />
+			<window name="EXOCompass" anchor="CenterTop" />
 		</window_group>
 		<window_group name="toolTip" actionSet="false">
 			<window name="toolTip" />
@@ -86,7 +94,7 @@
 		</window_group>
 		<window_group name="toolbelt" actionSet="false">
 			<window name="windowToolbelt" anchor="CenterBottom" />
-			<window name="HUDLeftStatBars" anchor="LeftBottom" />
+			<window name="HUDVehicle" anchor="CenterBottom" />
 			<window name="HUDRightStatBars" anchor="RightBottom" />
 			<window name="windowQuestTracker" anchor="RightTop" />
 		</window_group>

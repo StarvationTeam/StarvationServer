@@ -3452,6 +3452,93 @@
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1" />
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
 	</entity_class>
+	<entity_class name="abominableRange" extends="SDXTemplate">
+		<property name="Mesh" value="#Snowman?Snowman_X" />
+		<property name="AvatarController" value="AnimationSDXM, Mods" />
+		<property name="LootListOnDeath" value="61" />
+		<property name="MaxHealth" value="900" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.8" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="1.1" />
+		<property name="PanicSpeed" value="0.6" />
+		<property name="AnimationIdle" value="Idle" />
+		<property name="AnimationMainAttack" value="Attack" />
+		<property name="AnimationSecondAttack" value="Attack2" />
+		<property name="AnimationSpecialAttack" value="Toss" />
+		<property name="AnimationJump" value="Jump" />
+		<property name="AnimationPain" value="Pain" />
+		<property name="AnimationDeath" value="Death" />
+		<property name="AnimationRun" value="Run" />
+		<property name="AnimationWalk" value="Walk" />
+		<property name="SoundRandom" value="AbominableRandom" />
+		<property name="SoundAlert" value="AbominableAlert" />
+		<property name="SoundAttack" value="AbominableAttack" />
+		<property name="SoundDeath" value="AbominableDie" />
+		<property name="SoundHurt" value="AbominableHurt" />
+		<property name="SoundSense" value="AbominableSense" />
+		<property name="HeadBoost" value="0.0" />
+		<property name="BodyNerf" value="0.0" />
+		<property name="RightHandJointName" value="RightHand" />
+		<property name="HandItem" value="handPlasma" />
+		<property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+		<property name="AITask-5" value="ApproachSpot" />
+		<property name="AITask-6" value="Wander" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="10" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="15" />
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="7" />
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="4" />
+		<drop event="Destroy" name="glandYeti" tool_category="Butcher" count="1" prob=".01" />
+	</entity_class>
+	<entity_class name="spiderBoss" extends="SDXTemplate">
+		<property name="Mesh" value="#RadSpider?RadSpider" />
+		<property name="MeshScale" value="2.0,2.0" />
+		<property name="AvatarController" value="AnimationSDXM, Mods" />
+		<property name="LootListOnDeath" value="61" />
+		<property name="MaxHealth" value="3500" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.8" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="1.1" />
+		<property name="PanicSpeed" value="0.6" />
+		<property name="AnimationIdle" value="Idle1" />
+		<property name="AnimationMainAttack" value="Attack" />
+		<property name="AnimationSecondAttack" value="Attack2" />
+		<property name="AnimationSpecialAttack" value="Toss" />
+		<property name="AnimationJump" value="Jump" />
+		<property name="AnimationPain" value="Pain" />
+		<property name="AnimationDeath" value="Death" />
+		<property name="AnimationRun" value="Run" />
+		<property name="AnimationWalk" value="Walk" />
+		<property name="SoundRandom" value="aSpiderRandom" />
+		<property name="SoundAlert" value="aSpiderAlert" />
+		<property name="SoundHurt" value="aSpiderHurt" />
+		<property name="SoundDeath" value="aSpiderDeath" />
+		<property name="SoundAttack" value="aSpiderAttack" />
+		<property name="SoundSense" value="aSpiderAlert" />
+		<property name="HeadBoost" value="0.0" />
+		<property name="BodyNerf" value="0.0" />
+		<property name="RightHandJointName" value="ProjectileJoint" />
+		<property name="HandItem" value="handSpiderBoss" />
+		<property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+		<property name="AITask-5" value="ApproachSpot" />
+		<property name="AITask-6" value="Wander" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="10" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="15" />
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="7" />
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="4" />
+		<drop event="Destroy" name="radSpiderHeart" tool_category="Butcher" count="1" prob=".01" />
+	</entity_class>
 	<entity_class name="survivorParent">
 		<!-- Mesh and class properties -->
 		<property name="Mesh" value="#survivorsa16?TeenGirl" />
@@ -5332,7 +5419,7 @@
 		<property name="ModelType" value="NpcUMA" />
 		<property name="HasRagdoll" value="true" />
 		<property name="Prefab" value="NPC" />
-		<property name="Class" value="EntityBandit" />
+		<property name="Class" value="EntityBanditSDX, Mods" />
 		<property name="Parent" value="Players" />
 		<property name="PhysicsBody" value="Player" />
 		<property name="Archetype" value="BanditMelee" />
@@ -5361,7 +5448,7 @@
 		<property name="SoundHurt" value="malehatepain" />
 		<property name="SoundDeath" value="malehatedeath" />
 		<property name="SoundAttack" value="malehateattack" />
-		<property name="TimeStayAfterDeath" value="15" />
+		<property name="TimeStayAfterDeath" value="1" />
 		<property name="LootListOnDeath" value="71" />
 		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
 		<property name="CorpseBlockChance" value="1" />
@@ -5403,61 +5490,89 @@
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="npcPistol,npc9mmBullet" />
 		<property name="ApproachSpeed" value="1" />
 		<property name="AIPackages" value="Bandit Basic, Bandit Ranged" />
-		<property name="LootListOnDeath" value="71" />
-		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
+		<property name="LootListOnDeath" value="72" />
+		<property name="CorpseBlock" value="npcFollowerRangedCorpse" />
 	</entity_class>
 	<entity_class name="banditFemaleDreadMagnum" extends="npcBanditFemaleMelee">
 		<property name="Archetype" value="BanditFemaleWar" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="npcMagnum,npc44MagBullet" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="npcMagnum,npc44MagBullet" />
 		<property name="AIPackages" value="Bandit Basic, Bandit Ranged" />
-		<property name="LootListOnDeath" value="71" />
-		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
+		<property name="LootListOnDeath" value="72" />
+		<property name="CorpseBlock" value="npcFollowerRangedCorpse" />
 	</entity_class>
 	<entity_class name="banditFemaleDreadSniper" extends="npcBanditFemaleMelee">
 		<property name="Archetype" value="BanditFemaleDread" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditSniperRifle,762mmRifleBanditBullet" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditSniperRifle,762mmRifleBanditBullet" />
 		<property name="AIPackages" value="Bandit Basic, Bandit Ranged" />
-		<property name="LootListOnDeath" value="71" />
-		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
+		<property name="LootListOnDeath" value="72" />
+		<property name="CorpseBlock" value="npcFollowerRangedCorpse" />
 	</entity_class>
 	<entity_class name="banditMaleDreadRifle" extends="npcBanditMelee">
 		<property name="Archetype" value="BanditRanged" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditHuntingRifle,762mmRifleBanditBullet" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditHuntingRifle,762mmRifleBanditBullet" />
 		<property name="AIPackages" value="Bandit Basic, Bandit Ranged" />
-		<property name="LootListOnDeath" value="71" />
-		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
+		<property name="LootListOnDeath" value="72" />
+		<property name="CorpseBlock" value="npcFollowerRangedCorpse" />
 	</entity_class>
 	<entity_class name="banditMaleDreadMp5" extends="npcBanditMelee">
 		<property name="Archetype" value="BanditRanged" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditMP5,10mmBanditBullet" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditMP5,10mmBanditBullet" />
 		<property name="AIPackages" value="Bandit Basic, Bandit Ranged" />
-		<property name="LootListOnDeath" value="71" />
-		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
+		<property name="LootListOnDeath" value="72" />
+		<property name="CorpseBlock" value="npcFollowerRangedCorpse" />
 	</entity_class>
 	<entity_class name="npcBanditLeader" extends="npcBanditRanged">
 		<property name="Archetype" value="BanditLeader" />
+		<property name="MaxHealth" value="600" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="npcAK47,npc762mmBullet" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="npcAK47,npc762mmBullet" />
-		<property name="LootListOnDeath" value="72" />
-		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
+		<property name="LootListOnDeath" value="73" />
+		<property name="CorpseBlock" value="npcBanditBossCorpse" />
 	</entity_class>
 	<entity_class name="banditLeaderMP7" extends="npcBanditRanged">
 		<property name="Archetype" value="BanditDreadLeader" />
+		<property name="MaxHealth" value="600" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="npcMP7,10mmBanditBullet" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="npcMP7,10mmBanditBullet" />
-		<property name="LootListOnDeath" value="72" />
-		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
+		<property name="LootListOnDeath" value="73" />
+		<property name="CorpseBlock" value="npcBanditBossCorpse" />
 	</entity_class>
 	<entity_class name="banditLeaderMP5" extends="npcBanditRanged">
 		<property name="Archetype" value="BanditWarLeader" />
+		<property name="MaxHealth" value="600" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditMP5,10mmBanditBullet" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditMP5,10mmBanditBullet" />
-		<property name="LootListOnDeath" value="72" />
-		<property name="CorpseBlock" value="npcFollowerMeleeCorpse" />
+		<property name="LootListOnDeath" value="73" />
+		<property name="CorpseBlock" value="npcBanditBossCorpse" />
+	</entity_class>
+	<entity_class name="banditPlasmaBoss" extends="npcBanditRanged">
+		<property name="Archetype" value="BanditDragonLeader" />
+		<property name="MaxHealth" value="3500" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="npcPlasma" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="npcPlasma" />
+		<property name="LootListOnDeath" value="132" />
+		<property name="CorpseBlock" value="npcPlasmaBossCorpse" />
+		<property name="CorpseBlockChance" value="1" />
+	</entity_class>
+	<entity_class name="banditFemaleDragonMagnum" extends="npcBanditFemaleMelee">
+		<property name="Archetype" value="BanditFemaleDragon" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="npcMagnum" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="npcMagnum" />
+		<property name="AIPackages" value="Bandit Basic, Bandit Ranged" />
+		<property name="LootListOnDeath" value="71" />
+		<property name="CorpseBlock" value="npcFollowerRangedCorpse" />
+	</entity_class>
+	<entity_class name="banditMaleDragonRifle" extends="npcBanditMelee">
+		<property name="Archetype" value="BanditMaleDragon" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditHuntingRifle" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditHuntingRifle" />
+		<property name="AIPackages" value="Bandit Basic, Bandit Ranged" />
+		<property name="LootListOnDeath" value="71" />
+		<property name="CorpseBlock" value="npcFollowerRangedCorpse" />
 	</entity_class>
 	<entity_class name="zombieBoeTeste">
 		<property name="Class" value="EntityZedBlockKiller, Mods" />

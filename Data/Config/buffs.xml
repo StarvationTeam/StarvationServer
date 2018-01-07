@@ -329,6 +329,18 @@
 	<buff id="freezingStomp" duration="60" stack="extend" type="staminaup" icon="ui_game_symbol_freeze" name_key="freezingStomp" description_key="freezingStompDesc" tooltip_key="freezingStompToolTip">
 		<modify id="1" stat="coretemp" modifyValue="-50" />
 	</buff>
+	<buff id="webbed" mutex="stunCooldown" duration="3" actions="increment(@wellness, -0.5, 0, 0, 1)" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_web" name_key="webbed" description_key="You've been webbed" tooltip_key="Webbed">
+		<modify id="0" stat="speedmodifier" mulValue="0.0" />
+	</buff>
+	<buff id="plasmaImpact" stack="extend" mutex="GlandShield" duration="1" type="Drowning" actions="attach(ParticleEffects/p_electric_shock, @impact);damage(100,1,0,0)" castsound="electric_fence_impact" onexpired="plasmaEffect" name_key="plasmaImpact">
+		<modify id="0" stat="speedmodifier" mulValue="0.5" />
+	</buff>
+	<buff id="plasmaEffect" stack="discard" mutex="GlandShield" duration="10" type="speedmodifier" actions="attach(ParticleEffects/p_electric_shock, @impact);damage(5,1,0,0)" icon="ui_game_symbol_electric_shock" name_key="plasmaEffect" description_key="You suffered a huge energy impact">
+		<modify id="0" stat="speedmodifier" mulValue="0.5" />
+	</buff>
+	<!-- <buff id="plasmaImpact" stack="stack" stacklimit="3" mutex="GlandShield" duration="1" type="Drowning" actions="damage(100,1,0,0)" castsound="electric_fence_impact" onexpired="plasmaEffect" icon="ui_game_symbol_electric_shock" name_key="plasmaImpact" description_key="Plasma Hit">
+		<modify id="0" stat="stamina" amount="-1" rate="1" />
+	</buff> -->
 	<!-- SCURVY DISEASE -->
 	<!-- You get 1 scurvy level every hour -->
 	<buff id="MetabolizeScurvy" mutex="fruity" buffif="+full &gt; 0" duration="0" actions="increment(scurvyLevel, 1, 100t, 0, 0)" name_key="MetabolizeScurvy" />
@@ -545,20 +557,24 @@
 		<modify id="0" stat="speedmodifier" mulValue="0.5" />
 	</buff>
 	<!-- Speed Boost by Parasite Gland -->
-	<buff id="GlandSpeed" duration="10" type="speedmodifier" actions="attach(#effects?LightningField, Graphics, 10);increment(addiction, 11, 0, 0, 1)" icon="ui_game_symbol_speedboost" castsound="inject" name_key="GlandSpeed" description_key="Your reflexes are incredibly enhanced." tooltip_key="Speed Boost">
+	<buff id="GlandSpeed" duration="10" type="speedmodifier" actions="attach(#effects?LightningField, @impact, 10);increment(addiction, 11, 0, 0, 1)" icon="ui_game_symbol_speedboost" castsound="inject" name_key="GlandSpeed" description_key="Your reflexes are incredibly enhanced." tooltip_key="Speed Boost">
 		<modify id="1" stat="speedmodifier" mulValue="2.5" />
 	</buff>
 	<!-- Health Regen by WallCrusher Gland -->
-	<buff id="GlandRegen" duration="15" type="healthup" ffcheck="true" actions="attach(#effects?Fog, Graphics, 15);increment(addiction, 10, 0, 0, 1)" icon="ui_game_symbol_regen" castsound="inject" name_key="GlandRegen" description_key="You release a cloud of the mysterious Wall Crusher gas, and feel suprisingly healthy." tooltip_key="Health Boost">
+	<buff id="GlandRegen" duration="15" type="healthup" ffcheck="true" actions="attach(#effects?Fog, @impact, 15);increment(addiction, 10, 0, 0, 1)" icon="ui_game_symbol_regen" castsound="inject" name_key="GlandRegen" description_key="You release a cloud of the mysterious Wall Crusher gas, and feel suprisingly healthy." tooltip_key="Health Boost">
 		<modify id="1" stat="health" amount="30" rate="1" />
 	</buff>
 	<!-- Ressurect Players by Rezzer Gland -->
-	<buff id="GlandRezz" duration="10" ffcheck="true" actions="attach(ParticleEffects/p_electric_shock, Graphics, 10);increment(addiction, 12, 0, 0, 1)" icon="ui_game_symbol_rezz" castsound="inject" name_key="GlandRezz" description_key="You release an extream electrical discharge, capable of restarting the heart of the fallen." tooltip_key="Rezz Charge">
-		<modify id="1" stat="health" amount="1" rate="1" />
+	<buff id="GlandRezz" duration="10" ffcheck="true" actions="attach(ParticleEffects/p_electric_shock, @impact, 10);increment(addiction, 12, 0, 0, 1)" icon="ui_game_symbol_rezz" castsound="inject" name_key="GlandRezz" description_key="You release an extream electrical discharge, capable of restarting the heart of the fallen." tooltip_key="Rezz Charge">
+		<modify id="1" stat="health" amount="1" rate="5" />
 	</buff>
 	<!-- Cooling Down Effect by Yeti Gland -->
 	<buff id="GlandCool" duration="15" stack="extend" actions="attach(ParticleEffects/p_breath, Origin/CameraNode, 0, firstperson);increment(addiction, 10, 0, 0, 1)" icon="ui_game_symbol_freeze" castsound="inject" name_key="GlandCool" description_key="You release a burst of refreshing cold air" tooltip_key="Cooling Air">
 		<modify id="1" stat="coretemp" modifyValue="-50" />
+	</buff>
+	<!-- Resistence to electricity -->
+	<buff id="GlandShield" duration="15" stack="extend" actions="attach(#particles?shield, @impact, 15);increment(addiction, 5, 0, 0, 1)" icon="ui_game_symbol_shield" castsound="inject" name_key="GlandShield" description_key="You create a protective field, granting imunity to energy attacks" tooltip_key="Electrical Shield">
+		<modify id="1" stat="health" amount="-1" rate="5" />
 	</buff>
 	<buff id="radDesolation" duration="1" onexpired="radiation1" icon="ui_game_symbol_stunned" name_key="radDesolation" description_key="radDesolationDesc" tooltip_key="criticalBluntTooltip" castsound="Buffs/critical_blunt">
 		<modify id="0" stat="health" amount="-150" rate="1" />

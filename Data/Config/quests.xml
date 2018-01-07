@@ -824,7 +824,6 @@
 			<requirement type="Holding" id="steampunkRevolver" />
 			<requirement type="Holding" id="gunPistol" />
 			<requirement type="Holding" id="gun44Magnum" />
-			<requirement type="Holding" id="gunNail" />
 		</requirement>
 		<reward type="SkillPoints" value="1" />
 		<reward type="Quest" id="Q_WPI2" />
@@ -836,7 +835,6 @@
 			<requirement type="Holding" id="steampunkRevolver" />
 			<requirement type="Holding" id="gunPistol" />
 			<requirement type="Holding" id="gun44Magnum" />
-			<requirement type="Holding" id="nailgun" />
 		</requirement>
 		<reward type="SkillPoints" value="3" />
 		<reward type="Quest" id="Q_WPI3" />
@@ -848,7 +846,6 @@
 			<requirement type="Holding" id="steampunkRevolver" />
 			<requirement type="Holding" id="gunPistol" />
 			<requirement type="Holding" id="gun44Magnum" />
-			<requirement type="Holding" id="nailgun" />
 		</requirement>
 		<reward type="SkillPoints" value="5" />
 		<reward type="Quest" id="Q_WPI4" />
@@ -865,7 +862,6 @@
 			<requirement type="Holding" id="steampunkRevolver" />
 			<requirement type="Holding" id="gunPistol" />
 			<requirement type="Holding" id="gun44Magnum" />
-			<requirement type="Holding" id="nailgun" />
 		</requirement>
 		<reward type="SkillPoints" value="10" />
 		<reward type="Skill" id="Pistols" value="5" />
@@ -887,7 +883,6 @@
 			<requirement type="Holding" id="steampunkRevolver" />
 			<requirement type="Holding" id="gunPistol" />
 			<requirement type="Holding" id="gun44Magnum" />
-			<requirement type="Holding" id="nailgun" />
 		</requirement>
 		<reward type="SkillPoints" value="20" />
 		<reward type="Item" id="gun44Magnum" value="500" />

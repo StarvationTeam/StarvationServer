@@ -1773,8 +1773,7 @@
 		<item group="books" />
 		<item name="oldCash" count="10,35" prob="0.1" />
 		<item group="rareOres" prob="0.05" />
-		<item group="revolver+ammo" prob="0.02" count="1" />
-		<item group="weaponsBasicGuns+ammo" prob="0.001" count="1" />
+		<item group="weaponsBasicGuns+ammo" prob="0.1" count="1" />
 	</lootcontainer>
 	<lootcontainer id="14" count="0,2" size="4,2" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="baseTemplate">
 		<item group="books" prob="0.1" />
@@ -1858,6 +1857,7 @@
 		<item group="mp7kit" prob="0.03" count="1" />
 		<item name="oreScanner" prob="0.01" count="1" />
 		<item name="donkeyItem" prob="0.005" count="1" />
+		<item group="weaponsBasicGuns+ammo" prob="0.1" count="1" />
 	</lootcontainer>
 	<lootcontainer id="35" count="0,2" size="4,3" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="baseTemplate">
 		<item name="scrapPlastics" count="1,6" prob="2" />
@@ -1904,14 +1904,14 @@
 		<item group="sportingGoods" prob="1" />
 		<item group="revolver+ammo" prob="0.02" />
 		<item group="attachments" prob="0.01" />
-		<item group="weaponsBasicGuns+ammo" prob="0.001" />
-		<item group="weaponsMilitaryGuns+ammo" prob="0.0001" />
+		<item group="weaponsBasicGuns+ammo" prob="0.01" />
+		<item group="weaponsMilitaryGuns+ammo" prob="0.001" />
 		<item group="specialParts" prob="0.1" />
 	</lootcontainer>
 	<lootcontainer id="40" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
 		<item group="militaryAmmo" prob="1" />
 		<item group="militaryArmor" prob="0.1" />
-		<item group="weaponsBasicGuns+ammo" prob="0.09" />
+		<item group="weaponsBasicGuns+ammo" prob="0.15" />
 		<item group="military" prob="0.06" />
 		<item group="attachments" prob="0.01" />
 	</lootcontainer>
@@ -1999,6 +1999,7 @@
 		<item group="attachments" prob="0.09" />
 		<item group="revolver+ammo" prob="0.03" />
 		<item group="weaponsBasicGuns+ammo" prob="0.01" />
+		<item group="weaponsLongShotgun+ammo" prob="0.001" />
 		<item group="weaponsMilitaryGuns+ammo" prob="0.005" />
 		<item group="weaponsCommonParts" prob="0.25" count="1" />
 		<item group="weaponsHuntingRifleParts" prob="0.2" count="1" />
@@ -2688,5 +2689,11 @@
 		<item group="treasureMaps" count="1" prob="0.09" />
 		<item group="specialGuns" count="1" prob="0.03" />
 		<item group="weaponsMilitaryGuns+ammo" prob="0.05" />
+	</lootcontainer>
+	<!-- lootcontainer 132 plasma boss -->
+	<lootcontainer id="132" count="2,4" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="exoArmor" prob="0.5" />
+		<item group="gems" prob="0.3" count="1" />
+		<item name="plasmaGun" count="1" prob="0.2" />
 	</lootcontainer>
 </lootcontainers>
