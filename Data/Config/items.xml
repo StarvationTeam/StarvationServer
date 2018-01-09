@@ -12152,8 +12152,8 @@
 			<property name="Range" value="1.75" />
 			<property name="DamageEntity" value="35" />
 			<property name="DamageBlock" value="150" />
-			<property name="Buff" value="bleeding,infection,stunned" />
-			<property name="Buff_chance" value="0.2,0.2,0.4" />
+			<property name="Buff" value="bleeding,stunned" />
+			<property name="Buff_chance" value="0.2,0.4" />
 		</property>
 		<property class="Action1">
 			<property name="Class" value="Vomit" />
@@ -12438,8 +12438,8 @@
 			<property name="Range" value="1.75" />
 			<property name="DamageEntity" value="20" />
 			<property name="DamageBlock" value="5" />
-			<property name="Buff" value="bleeding,infection,stunned" />
-			<property name="Buff_chance" value="0.2,0.2,0.4" />
+			<property name="Buff" value="bleeding,stunned" />
+			<property name="Buff_chance" value="0.2,0.4" />
 		</property>
 		<property class="Action1">
 			<property name="Class" value="Vomit" />
