@@ -3539,6 +3539,121 @@
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="4" />
 		<drop event="Destroy" name="radSpiderHeart" tool_category="Butcher" count="1" prob=".01" />
 	</entity_class>
+	<entity_class name="sheBandit" extends="SDXTemplate">
+		<property name="Mesh" value="#BanditEve?BanditEve" />
+		<!-- <property name="Class" value="EntityAnimalSDX, Mods" /> -->
+		<property name="AvatarController" value="AnimationSDXM, Mods" />
+		<property name="Parent" value="Animals" />
+		<property name="Faction" value="animals" />
+		<property name="LootListOnDeath" value="72" />
+		<property name="MaxHealth" value="600" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
+		<property name="PanicSpeed" value="0.6" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.5" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="AnimationIdle" value="Idle" />
+		<property name="AnimationMainAttack" value="Firing" />
+		<property name="AnimationSecondAttack" value="Smash" />
+		<property name="AnimationPain" value="Hit" />
+		<property name="AnimationDeath" value="Die" />
+		<property name="AnimationRun" value="Run" />
+		<property name="AnimationWalk" value="Walk" />
+		<property name="AnimationJump" value="Jump" />
+		<property name="AnimationSpecialAttack" value="Firing" />
+		<property name="SoundRandom" value="Player_Female/player2LandHard" />
+		<property name="SoundAlert" value="Player_Female/player2jump" />
+		<property name="SoundSense" value="Player_Female/player2stamina" />
+		<property name="SoundHurt" value="Player_Female/player2painlg" />
+		<property name="SoundDeath" value="Player_Female/player2death" />
+		<property name="SoundAttack" value="Player_Female/player2painsm" />
+		<property name="HeadBoost" value="0.0" />
+		<property name="BodyNerf" value="0.0" />
+		<property name="RightHandJointName" value="Muzzle" />
+		<property name="HandItem" value="handMP7" />
+		<property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="3" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40" />
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25" />
+		<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30" />
+		<property name="AITask-7" value="ApproachSpot" />
+		<property name="AITask-8" value="Wander" />
+		<property name="AITarget-1" value="SetAsTargetIfHurt" />
+		<property name="AITarget-2" value="BlockingTargetTask" />
+		<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="8" />
+		<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" />
+		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombie" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="10" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="15" />
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="7" />
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="4" />
+		<drop event="Destroy" name="glandYeti" tool_category="Butcher" count="1" prob=".01" />
+	</entity_class>
+	<entity_class name="sheBandit1" extends="sheBandit">
+		<property name="MeshScale" value="1.2,0.2" />
+		<property name="MaxHealth" value="700" />
+	</entity_class>
+	<entity_class name="sheBandit2" extends="sheBandit">
+		<property name="MeshScale" value="1.4,0.4" />
+		<property name="MaxHealth" value="800" />
+		<property name="LootListOnDeath" value="73" />
+	</entity_class>
+	<entity_class name="plasmaBoss" extends="SDXTemplate">
+		<property name="Mesh" value="#BanditBoss?BanditBoss" />
+		<!-- <property name="Class" value="EntityAnimalSDX, Mods" /> -->
+		<property name="AvatarController" value="AnimationSDXM, Mods" />
+		<property name="Parent" value="Animals" />
+		<property name="Faction" value="animals" />
+		<property name="LootListOnDeath" value="132" />
+		<property name="MaxHealth" value="3000" />
+		<property name="MaxTurnSpeed" value="230" />
+		<property name="MaxViewAngle" value="270" />
+		<property name="PanicSpeed" value="0.6" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.5" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="AnimationIdle" value="Idle" />
+		<property name="AnimationMainAttack" value="Firing" />
+		<property name="AnimationSecondAttack" value="Smash" />
+		<property name="AnimationPain" value="Hit" />
+		<property name="AnimationDeath" value="Die" />
+		<property name="AnimationRun" value="Run" />
+		<property name="AnimationWalk" value="Walk" />
+		<property name="AnimationJump" value="Jump" />
+		<property name="AnimationSpecialAttack" value="Firing" />
+		<property name="SoundRandom" value="malehateroam" />
+		<property name="SoundAlert" value="malehatealert" />
+		<property name="SoundSense" value="malehatesense" />
+		<property name="SoundHurt" value="malehatepain" />
+		<property name="SoundDeath" value="malehatedeath" />
+		<property name="SoundAttack" value="malehateattack" />
+		<property name="HeadBoost" value="0.0" />
+		<property name="BodyNerf" value="0.0" />
+		<property name="RightHandJointName" value="Muzzle" />
+		<property name="HandItem" value="handPlasma" />
+		<property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="3" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40" />
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25" />
+		<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30" />
+		<property name="AITask-7" value="ApproachSpot" />
+		<property name="AITask-8" value="Wander" />
+		<property name="AITarget-1" value="SetAsTargetIfHurt" />
+		<property name="AITarget-2" value="BlockingTargetTask" />
+		<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="8" />
+		<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" />
+		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombie" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="10" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="15" />
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="7" />
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="4" />
+		<drop event="Destroy" name="glandYeti" tool_category="Butcher" count="1" prob=".01" />
+	</entity_class>
 	<entity_class name="survivorParent">
 		<!-- Mesh and class properties -->
 		<property name="Mesh" value="#survivorsa16?TeenGirl" />
@@ -5419,7 +5534,7 @@
 		<property name="ModelType" value="NpcUMA" />
 		<property name="HasRagdoll" value="true" />
 		<property name="Prefab" value="NPC" />
-		<property name="Class" value="EntityBanditSDX, Mods" />
+		<property name="Class" value="EntityBandit" />
 		<property name="Parent" value="Players" />
 		<property name="PhysicsBody" value="Player" />
 		<property name="Archetype" value="BanditMelee" />

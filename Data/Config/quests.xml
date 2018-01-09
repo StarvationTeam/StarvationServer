@@ -1042,7 +1042,7 @@
 			<requirement type="Holding" id="minigun" />
 		</requirement>
 		<reward type="SkillPoints" value="10" />
-		<reward type="Recipe" id="ScopePSG" />
+		<reward type="Item" id="ScopePSG" />
 		<reward type="Quest" id="Q_WRI5" />
 	</quest>
 	<quest id="Q_WRI5" group_name="Rifles Training" name="Rifles 5/5" subtitle="Deadshot" description="Need a real challenging task to prove my skills now." icon="ui_game_symbol_rifle" repeatable="false" category_key="challenge" offer="They are strong. But you have a sleeping bag." difficulty="hard">

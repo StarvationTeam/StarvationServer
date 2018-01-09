@@ -12150,14 +12150,14 @@
 		<property name="Degradation" value="99999" param1="true" />
 		<property class="Action0">
 			<property name="Range" value="1.75" />
-			<property name="DamageEntity" value="20" />
-			<property name="DamageBlock" value="250" />
+			<property name="DamageEntity" value="35" />
+			<property name="DamageBlock" value="150" />
 			<property name="Buff" value="bleeding,infection,stunned" />
 			<property name="Buff_chance" value="0.2,0.2,0.4" />
 		</property>
 		<property class="Action1">
 			<property name="Class" value="Vomit" />
-			<property name="Delay" value="0.35" />
+			<property name="Delay" value="0.192" />
 			<property name="Range" value="200" />
 			<property name="Auto_fire" value="true" />
 			<property name="Infinite_ammo" value="true" />
@@ -12166,7 +12166,7 @@
 			<property name="Reload_time" value="2" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_warning" value="plasmaWarn" />
-			<property name="Sound_start" value="plasmaShot" />
+			<property name="Sound_start" value="plasmaMulti" />
 			<property name="Sound_repeat" value="" />
 			<property name="Sound_end" value="" />
 			<property name="Sound_empty" value="" />
@@ -12429,6 +12429,68 @@
 		<property name="Extends" value="projectileZombieVomit" />
 		<property name="CreativeMode" value="Dev" />
 		<property name="Meshfile" value="#RadSpider?SpiderVomit" />
+	</item>
+	<item id="1061" name="handMP7">
+		<property name="Extends" value="handMaster" />
+		<property name="CreativeMode" value="None" />
+		<property name="Degradation" value="99999" param1="true" />
+		<property class="Action0">
+			<property name="Range" value="1.75" />
+			<property name="DamageEntity" value="20" />
+			<property name="DamageBlock" value="5" />
+			<property name="Buff" value="bleeding,infection,stunned" />
+			<property name="Buff_chance" value="0.2,0.2,0.4" />
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Vomit" />
+			<property name="Delay" value="0.05" />
+			<property name="Range" value="200" />
+			<property name="Auto_fire" value="true" />
+			<property name="Infinite_ammo" value="true" />
+			<property name="Magazine_items" value="projectileBullet" />
+			<property name="Rays_spread" value="0.3" />
+			<property name="Reload_time" value="0.05" />
+			<property name="Bullet_icon" value="uzi" />
+			<property name="Sound_warning" value="" />
+			<property name="Sound_start" value="mp7Hand" />
+			<property name="Sound_repeat" value="" />
+			<property name="Sound_end" value="" />
+			<property name="Sound_empty" value="" />
+			<property name="Sound_reload" value="" />
+		</property>
+	</item>
+	<item id="1062" name="projectileBullet">
+		<property name="Meshfile" value="#particles?traceBullet" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="1500" />
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Projectile" />
+			<property name="DamageEntity" value="20" />
+			<property name="DamageBlock" value="5" />
+			<property name="Velocity" value="70" />
+			<property name="FlyTime" value="1" />
+			<property name="LifeTime" value="8" />
+			<property name="CollisionRadius" value="0.5" />
+			<property name="Explosion.BlockDamage" value="0" />
+			<!-- damage for blocks in the center of the explosion -->
+			<property name="Explosion.EntityDamage" value="0" />
+			<!-- damage for entities in the center of the explosion -->
+			<property name="Explosion.ParticleIndex" value="0" />
+			<!-- which prefab/particle is used -->
+			<property name="Explosion.RadiusBlocks" value="0" />
+			<!-- damage radius for blocks -->
+			<property name="Explosion.RadiusEntities" value="0" />
+			<!-- damage radius for entities -->
+			<property name="Explosion.DamageBonus.cloth" value="30" />
+			<property name="Explosion.DamageBonus.wood" value="50" />
+		</property>
+		<property name="Group" value="Ammo/Weapons" />
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="20,25" />
+			<property name="ApplyBuff" value="1, 1" param1="banditBonus" />
+		</property>
 	</item>
 	<!-- SEEDS -->
 	<item id="319" name="appleSeed">

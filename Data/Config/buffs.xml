@@ -463,8 +463,8 @@
 	<buff id="sanityNormal" duration="2" actions="increment(sanity, -1, 1, 0, 1)" name_key="sanityNormal" />
 	<buff id="sanityMedium" duration="2" actions="increment(sanity, -3, 1, 0, 1)" name_key="sanityMedium" />
 	<buff id="sanityBig" duration="2" actions="increment(sanity, -50, 1, 0, 1)" name_key="sanityBig" />
-	<buff id="resetsanity" name_key="resetsanity" buffif="sanity less 0" debuffif="sanity gequal 0" duration="0" actions="min(sanity, 0)" />
-	<buff id="maxsanity" name_key="maxsanity" buffif="sanity gequal 150" debuffif="sanity less 150" duration="0" actions="max(sanity, 150)" />
+	<buff id="resetsanity" name_key="resetsanity" buffif="sanity less 0" debuffif="sanity gequal 0" duration="0" actions="setvar(sanity,0);min(sanity, 0)" />
+	<buff id="maxsanity" name_key="maxsanity" buffif="sanity gequal 150" debuffif="sanity less 150" duration="0" actions="setvar(sanity,149);max(sanity, 150)" />
 	<!-- STARVATION -->
 	<buff id="bite" mutex="infectedBite,rabies" duration="9000" onexpired="infectedBite" type="sickness" icon="ui_game_symbol_bite" name_key="bite" description_key="biteDesc" tooltip_key="biteTooltip" cures="firstAid" />
 	<buff id="infectedBite" duration="9000" actions="debuff(bite)" onexpired="rabies" type="sickness" icon="ui_game_symbol_rabies1" name_key="infectedBite" description_key="infectedBiteDesc" tooltip_key="infectedBiteTooltip" cures="foodHoney,antibiotics,herbalAntibiotics">
