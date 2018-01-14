@@ -1160,7 +1160,6 @@
 		<item name="canStock" />
 		<item name="canTuna" />
 		<item name="canPears" />
-		<item name="foodHoney" />
 		<item name="cornMeal" />
 	</lootgroup>
 	<lootgroup name="seeds">
@@ -1870,13 +1869,13 @@
 		<item name="canEmpty" count="1,2" prob="5" />
 		<item group="rottenFood" prob="1" />
 		<item group="sportingGoods" count="1,2" prob="5" />
-		<item name="foodHoney" />
 		<item group="medicine" />
 		<item group="seeds" prob="0.5" />
 		<item name="egg" count="1,2" prob=".5" />
 		<item name="feather" count="1,8" prob=".5" />
 		<item name="mushrooms" count="1,4" prob="1" />
-		<item name="foodHoney" count="1,2" prob="4" />
+		<item name="foodHoney" prob=".5" />
+		<item name="beeQueen" prob=".3" />
 	</lootcontainer>
 	<lootcontainer id="36" count="0,2" size="4,3" sound_open="UseActions/open_suitcase" sound_close="UseActions/close_suitcase" loot_quality_template="baseTemplate">
 		<item name="bottledWater" count="1,2" prob="0.15" />

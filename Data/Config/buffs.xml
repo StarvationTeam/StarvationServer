@@ -75,11 +75,11 @@
 	<buff id="steroids" duration="3000" actions="addimmunity(sickness)" icon="ui_game_symbol_pills" name_key="steroids" description_key="steroidsDesc" tooltip_key="steroidsTooltip" />
 	<buff id="cured" duration="3000" stack="reset" icon="ui_game_symbol_pills" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip" />
 	<buff id="smelly" duration="30" smell="largeSmell" icon="ui_game_symbol_dysentery" name_key="smelly" description_key="smellyDesc" tooltip_key="smellyTooltip" />
-	<buff id="infection" mutex="cured,infection1,infection2,infection3,infection4" duration="9000" onexpired="infection1" type="sickness" icon="ui_game_symbol_infection" name_key="infection" description_key="infectionDesc" tooltip_key="infectionTooltip" cures="foodHoney,antibiotics,herbalAntibiotics"></buff>
-	<buff id="infection1" duration="9000" actions="debuff(infection)" onexpired="infection2" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
+	<buff id="infection" mutex="cured,infection1,infection2,infection3,infection4" duration="1000" onexpired="infection1" type="sickness" icon="ui_game_symbol_infection" name_key="infection" description_key="infectionDesc" tooltip_key="infectionTooltip" cures="foodHoney,antibiotics,herbalAntibiotics"></buff>
+	<buff id="infection1" duration="10000" actions="debuff(infection)" onexpired="infection2" type="sickness" icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
 		<modify id="0" stat="stamina" amount="-0.3" rate="1" />
 	</buff>
-	<buff id="infection2" duration="9000" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1)" onexpired="infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
+	<buff id="infection2" duration="10000" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1)" onexpired="infection3" type="sickness" icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
 		<modify id="0" stat="stamina" amount="-1" rate="1" />
 	</buff>
 	<buff id="infection3" duration="3000" actions="damage(25,800t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1);debuff(infection2)" onexpired="infection4" type="sickness" icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">
@@ -273,11 +273,19 @@
 	<buff id="coolByAirCon" duration="0" stack="discard" buffif="-heatSource gequal 1" debuffif="-heatSource less 1" type="coretemp" icon="ui_game_symbol_cool" name_key="coolByAirCon" description_key="coolByAirConDesc" tooltip_key="coolByAirConTooltip">
 		<modify id="0" stat="coretemp" modifyValue="-30" />
 	</buff>
+	<!-- this buff, while on, will prevent the player to get stung by bees -->
+	<buff id="beeSuit" duration="0" name_key="beeSuit" description_key="beeSuitDesc" icon="ui_game_symbol_beesuit" />
+	<buff id="royalJellyStaminaBoost" duration="200" stack="extend" type="staminaup" icon="ui_game_symbol_pills" name_key="royalJellyBoost" description_key="royalJellyBoostDesc">
+		<modify id="0" stat="stamina" amount="4" rate="2" />
+	</buff>
+	<buff id="beesBreadBuff" duration="180" stack="extend" type="healthup" icon="ui_game_symbol_pills" name_key="beesBreadBuffBuffName" description_key="beesBreadBuffDesc">
+		<modify id="1" stat="health" amount="0.54" rate="1" />
+	</buff>
 	<buff id="flies" duration="30" stack="discard" actions="attach(#FliesParticle10?FliesParticle10, Origin/CameraNode, 0, firstperson);increment(sanity, -0.5, 1, 30, 0)" icon="ui_game_symbol_fly" description_key="" />
 	<buff id="bees" duration="30" stack="discard" mutex="cannotBreath,drowning" actions="attach(#BeesParticle?BeesParticle, Origin/CameraNode, 0, firstperson);increment(sanity, -0.5, 1, 30, 0)" onexpired="stung" icon="ui_game_symbol_bees" description_key="">
 		<modify id="1" stat="health" amount="-0.5" rate="2" />
 	</buff>
-	<buff id="stung" duration="1500" actions="increment(@sanity, -0.1, 0, 0, 1)" type="sickness" icon="ui_game_symbol_stung" name_key="stung" description_key="stungDesc" tooltip_key="stungToolTip">
+	<buff id="stung" mutex="beeSuit" duration="1500" actions="increment(@sanity, -0.1, 0, 0, 1)" type="sickness" icon="ui_game_symbol_stung" name_key="stung" description_key="stungDesc" tooltip_key="stungToolTip">
 		<modify id="2" stat="stamina" amount="-1" rate="5" />
 		<modify id="3" stat="health" amount="-0.5" rate="10" />
 	</buff>

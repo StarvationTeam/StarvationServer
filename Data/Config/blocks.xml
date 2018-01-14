@@ -15396,6 +15396,61 @@
 		<drop event="Destroy" name="scrapIron" count="3,6" />
 		<drop event="Destroy" count="0" />
 	</block>
+	<block id="1602" name="beeHive">
+		<property name="Class" value="BeeHive, Mods" />
+		<property name="Material" value="wood_regular" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#BeeHive?BeeHivePrefab" />
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
+		<property name="CanPickup" value="true" />
+		<property name="IsTerrainDecoration" value="true" />
+		<property name="LootList" value="128" />
+		<property name="TakeDelay" value="10" />
+		<!-- operation interval in game ticks -->
+		<!-- it will do this tick while there are missing "parts" -->
+		<!-- so it will be faster to create a swarm or produce a new queen -->
+		<property name="TickRate" value="200" />
+		<!-- when all parts are present it will actually slow down -->
+		<!-- but steadly produce honey (4 pices a day for 60 minutes days) -->
+		<property name="TickRateHoney" value="6000" />
+		<property name="debug" value="false" />
+		<property name="QueenName" value="beeQueen" />
+		<property name="SwarmName" value="bees" />
+		<property class="Products">
+			<!-- productus to produce and chance -->
+			<property name="rawHoneycomb" value="100" />
+			<property name="rawPropolis" value="30" />
+			<property name="rawRoyalJelly" value="15" />
+			<property name="rawBeesBread" value="50" />
+		</property>
+		<property name="flowersNames" value="plantedGoldenrod3Harvest,plantedChrysanthemum3Harvest" />
+		<property name="DecayRate" value="0" />
+		<property name="BuffsWhenActivate" value="bees" />
+		<property name="BuffsChance" value="0.60" />
+		<drop event="Destroy" count="0" />
+	</block>
+	<block id="1603" name="beesWaxCandle">
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#CandleBeesWax?CandleBeesWaxPrefab" />
+		<property name="CustomIcon" value="candleTable" />
+		<property name="Collide" value="melee,bullet,arrow,rocket" />
+		<property name="IsDecoration" value="true" />
+		<property name="StabilitySupport" value="false" />
+		<!-- build restriction -->
+		<property name="CreativeMode" value="Player" />
+		<property name="Class" value="Torch" />
+		<property name="Material" value="organic" />
+		<property name="MaxDamage" value="1" />
+		<property name="Place" value="TowardsPlacerInverted" />
+		<property name="OnlySimpleRotations" value="true" />
+		<property name="CanPickup" value="true" param1="waxCandle" />
+		<property name="HeatMapStrength" value="1" />
+		<property name="HeatMapTime" value="1200" />
+		<property name="HeatMapFrequency" value="15" />
+		<drop event="Destroy" name="waxCandle" count="1" />
+		<property name="Group" value="Building" />
+		<property name="DescriptionKey" value="torchGroupDesc" />
+	</block>
 	<block id="1598" name="randomGem">
 		<property name="Class" value="Randomizer, Mods" />
 		<property name="Material" value="Msteel" />

@@ -5052,7 +5052,7 @@
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_painkillers" />
-			<property name="Debuff" value="infection,infection1,infection2,infection3,dysentery,dysentery2,flu,flu2,infectedBite" />
+			<property name="Debuff" value="infection,infection1,infection2,dysentery,dysentery2,flu,flu2,infectedBite" />
 		</property>
 		<property class="Action1">
 			<property name="Class" value="Eat" />
@@ -5063,7 +5063,7 @@
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_painkillers" />
-			<property name="Debuff" value="infection,infection1,infection2,infection3,dysentery,dysentery2,flu,flu2,infectedBite" />
+			<property name="Debuff" value="infection,infection1,infection2,dysentery,dysentery2,flu,flu2,infectedBite" />
 		</property>
 		<property name="ActionSkillGroup" value="Medicine" />
 		<property name="CraftingSkillGroup" value="craftSkillScience" />
@@ -7636,6 +7636,376 @@
 	<item id="4095" name="placeHolder">
 		<property name="Extends" value="clubMaster" />
 	</item>
+	<!-- BEEHIVE -->
+	<item id="1047" name="beeQueen">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="1" />
+		<property name="Group" value="Resources" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
+	</item>
+	<item id="1048" name="bees">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="1" />
+		<property name="Group" value="Resources" />
+		<property name="CraftingSkillGroup" value="craftSkillArmor" />
+	</item>
+	<item id="1063" name="beeKeepingBoots">
+		<!-- armorMasterHazMatArmor -->
+		<property name="Insulation" value="6" />
+		<property name="Waterproof" value="0.2" />
+		<property name="Encumbrance" value="0.03" />
+		<property name="CustomIcon" value="hazmatBoots" />
+		<!--<property name="CustomIconTint" value="227,206,164" />-->
+		<property name="CustomIconTint" value="220,206,168" />
+		<property name="Material" value="mRubber" />
+		<property name="RepairTools" value="rubber" />
+		<property name="DegradationBreaksAfter" value="false" />
+		<property name="Weight" value="5" />
+		<property name="EquipSlot" value="Feet" />
+		<property name="HoldType" value="45" />
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<!-- Armor Set Properties -->
+		<property name="ArmorSet" value="beeSuit" />
+		<property name="SetNum" value="5" />
+		<property name="SetBuff" value="beeSuit" />
+		<property class="Attributes">
+			<property name="ConcussiveProtection" value="0.1, 0.3" />
+			<property name="PunctureProtection" value="0.05, 0.2" />
+			<property name="FireProtection" value="0.05, 0.2" />
+			<property name="RadiationProtection" value="0.9, 0.99" />
+			<property name="DegradationMax" value="40,600" />
+		</property>
+		<property class="UMA">
+			<property name="Mesh" value="armor_hazmat_feet" />
+			<property name="Overlay0" value="armor_hazmat_boots" />
+			<property name="Overlay0Tint" value="220,206,168" />
+			<property name="Overlay1" value="tshirt" />
+			<property name="Overlay1Tint" value="255,255,255" />
+			<property name="Layer" value="0" />
+			<property name="UISlot" value="Footwear" />
+		</property>
+		<property name="DescriptionKey" value="beeKeepingGroupDesc" />
+		<property name="Group" value="Clothing" />
+		<property name="ActionSkillGroup" value="Clothing/Armor" />
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
+		<property name="RepairExpMultiplier" value="10.8" />
+		<property name="EconomicValue" value="700" />
+	</item>
+	<item id="1064" name="beeKeepingPants">
+		<property name="Extends" value="beeKeepingBoots" />
+		<property name="CustomIcon" value="hazmatPants" />
+		<property name="CustomIconTint" value="220,206,168" />
+		<property name="Weight" value="8" />
+		<property name="FuelValue" value="20" />
+		<property name="EquipSlot" value="Legs" />
+		<property class="UMA">
+			<property name="Mesh" value="armor_hazmat_legs" />
+			<property name="Overlay0" value="armor_hazmat_pants" />
+			<property name="Overlay0Tint" value="220,206,168" />
+			<property name="Layer" value="3" />
+			<property name="UISlot" value="LegArmor" />
+		</property>
+		<property name="EconomicValue" value="400" />
+	</item>
+	<item id="1065" name="beeKeepingShirt">
+		<property name="Extends" value="beeKeepingBoots" />
+		<property name="CustomIcon" value="hazmatShirt" />
+		<property name="CustomIconTint" value="220,206,168" />
+		<property name="Weight" value="8" />
+		<property name="FuelValue" value="20" />
+		<property name="EquipSlot" value="Chest" />
+		<property class="UMA">
+			<property name="Mesh" value="armor_hazmat_chest" />
+			<property name="Overlay0" value="armor_hazmat_chest" />
+			<property name="Overlay0Tint" value="220,206,168" />
+			<property name="Layer" value="2" />
+			<property name="UISlot" value="ChestArmor" />
+		</property>
+		<property name="EconomicValue" value="400" />
+	</item>
+	<item id="1066" name="beeKeepingGloves">
+		<property name="Extends" value="beeKeepingBoots" />
+		<property name="CustomIcon" value="hazmatGloves" />
+		<property name="CustomIconTint" value="220,206,168" />
+		<property name="Weight" value="2" />
+		<property name="FuelValue" value="20" />
+		<property name="EquipSlot" value="Hands" />
+		<property class="UMA">
+			<property name="Mesh" value="armor_hazmat_hands" />
+			<property name="Overlay0" value="armor_hazmat_gloves" />
+			<property name="Overlay0Tint" value="220,206,168" />
+			<property name="Layer" value="0" />
+			<property name="UISlot" value="Gloves" />
+		</property>
+		<property name="EconomicValue" value="400" />
+	</item>
+	<item id="1067" name="beeKeepingMask">
+		<property name="Extends" value="beeKeepingBoots" />
+		<property name="CustomIcon" value="hazmatMask" />
+		<property name="CustomIconTint" value="220,206,168" />
+		<property name="Weight" value="4" />
+		<property name="FuelValue" value="20" />
+		<property name="EquipSlot" value="Head" />
+		<property class="UMA">
+			<property name="Mesh" value="armor_hazmat_head" />
+			<!-- <property name="Overlay0" value="armor_hazmat_hood" /> -->
+			<property name="Overlay0" value="armor_cloth_hood" />
+			<property name="Overlay0Tint" value="220,206,168" />
+			<property name="Layer" value="middle" />
+			<property name="UISlot" value="Headgear,xFace,xEyewear" />
+			<property name="UISlot" value="Headgear" />
+			<property name="Mask0" value="Head" param1="base" />
+			<property name="Mask1" value="Head" param1="inner" />
+			<property name="Mask2" value="Face" param1="base" />
+			<property name="Mask3" value="Face" param1="inner" />
+			<property name="Mask4" value="Face" param1="middle" />
+			<property name="Mask5" value="Face" param1="outer" />
+			<property name="Mask6" value="Head" param1="base" />
+			<property name="Mask7" value="Eyes" param1="base" />
+			<property name="Mask8" value="Eyes" param1="inner" />
+			<property name="Mask9" value="Eyes" param1="middle" />
+			<property name="ShowAltHair" value="true" />
+		</property>
+		<property name="EconomicValue" value="400" />
+	</item>
+	<item id="1068" name="waxCandle">
+		<property name="Class" value="ItemClassTorch" />
+		<property name="CustomIcon" value="candleTable" />
+		<property name="Meshfile" value="Items/Tools/candlePrefab" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="12" />
+		<property name="Stacknumber" value="50" />
+		<property name="FuelValue" value="16" />
+		<property name="EconomicValue" value="24" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="beesWaxCandle" />
+		</property>
+		<property name="Group" value="Basics,Decor/Miscellaneous" />
+	</item>
+	<item id="1049" name="rawHoneycomb">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="50" />
+		<property name="EconomicValue" value="12" />
+		<property name="EconomicBundleSize" value="5" />
+		<property name="CraftingIngredientTime" value="5" />
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1069" name="rawPropolis">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="50" />
+		<property name="EconomicValue" value="12" />
+		<property name="EconomicBundleSize" value="5" />
+		<property name="CraftingIngredientTime" value="5" />
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1070" name="rawRoyalJelly">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="50" />
+		<property name="EconomicValue" value="12" />
+		<property name="EconomicBundleSize" value="5" />
+		<property name="CraftingIngredientTime" value="5" />
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1071" name="rawBeesBread">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="50" />
+		<property name="EconomicValue" value="12" />
+		<property name="EconomicBundleSize" value="5" />
+		<property name="CraftingIngredientTime" value="5" />
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1072" name="honeycomb">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="80" />
+		<property name="HoldType" value="3" />
+		<property name="Stacknumber" value="50" />
+		<property name="foodSpoilImmune" value="100" />
+		<property class="Action0">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="5" />
+			<property name="Gain_food" value="10" />
+			<property name="Gain_water" value="0" />
+			<property name="Sound_start" value="player_eating" />
+		</property>
+		<property name="CraftingIngredientTime" value="15" />
+		<property name="Group" value="Food/Cooking" />
+	</item>
+	<item id="1073" name="royalJelly">
+		<property name="Meshfile" value="Items/Food/honeyPrefab" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="80" />
+		<property name="HoldType" value="3" />
+		<property name="foodSpoilImmune" value="90" />
+		<property name="Stacknumber" value="50" />
+		<property class="Action0">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="5" />
+			<property name="Gain_water" value="0" />
+			<property name="Sound_start" value="player_drinking" />
+			<property name="Create_item" value="emptyJar" />
+		</property>
+		<property name="CraftingIngredientTime" value="15" />
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1074" name="propolis">
+		<property name="Meshfile" value="Items/Food/honeyPrefab" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="80" />
+		<property name="HoldType" value="3" />
+		<property name="Stacknumber" value="50" />
+		<property name="foodSpoilImmune" value="90" />
+		<property class="Action0">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="5" />
+			<property name="Gain_water" value="0" />
+			<property name="Sound_start" value="player_drinking" />
+			<property name="Create_item" value="emptyJar" />
+		</property>
+		<property name="CraftingIngredientTime" value="15" />
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1075" name="beeswax">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="organic" />
+		<property name="FuelValue" value="5" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="50" />
+		<property name="EconomicValue" value="24" />
+		<property name="CraftingIngredientTime" value="15" />
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1076" name="beesBread">
+		<property name="Meshfile" value="Items/Health/painkillersPrefab" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="60" />
+		<property name="HoldType" value="16" />
+		<property name="Stacknumber" value="50" />
+		<property name="foodSpoilImmune" value="95" />
+		<property class="Action0">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="0" />
+			<property name="Sound_start" value="player_eating" />
+			<property name="Buff" value="beesBreadBuff" />
+			<property name="Debuff" value="stung" />
+		</property>
+		<property name="CraftingIngredientTime" value="15" />
+		<property name="Group" value="Food/Cooking" />
+	</item>
+	<item id="1077" name="royalJellyCapsules">
+		<property name="Meshfile" value="Items/Health/painkillersPrefab" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="90" />
+		<property name="HoldType" value="16" />
+		<property name="Stacknumber" value="50" />
+		<property class="Action0">
+			<property name="Class" value="UseOther" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="10" />
+			<property name="Gain_stamina" value="10" />
+			<property name="Gain_wellness" value="15" />
+			<property name="Sound_start" value="player_painkillers" />
+			<property name="Buff" value="royalJellyStaminaBoost" />
+			<property name="Debuff" value="bees,stung" />
+		</property>
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1078" name="propolisSerum">
+		<property name="Meshfile" value="Items/Food/honeyPrefab" />
+		<property name="EconomicValue" value="80" />
+		<property name="Material" value="glass" />
+		<property name="HoldType" value="3" />
+		<property name="Stacknumber" value="10" />
+		<property class="Action0">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Buff" value="eatFood_4_Trigger" />
+			<property name="Gain_water" value="0" />
+			<property name="Gain_wellness" value="0.8" />
+			<property name="Sound_start" value="player_drinking" />
+			<property name="Debuff" value="infection,infection1,infection2,dysentery,dysentery2,flu,flu2,infectedBite" />
+			<property name="Create_item" value="emptyJar" />
+		</property>
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1079" name="honeyButter">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Material" value="organic" />
+		<property name="EconomicValue" value="80" />
+		<property name="HoldType" value="3" />
+		<property name="Stacknumber" value="10" />
+		<property class="Action0">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_water" value="0" />
+			<property name="Gain_wellness" value="0.8" />
+			<property name="Sound_start" value="player_ointment" />
+			<property name="Debuff" value="infectedBite,stung" />
+			<property name="Create_item" value="emptyJar" />
+		</property>
+		<property name="Group" value="Science" />
+	</item>
+	<item id="1080" name="honeyMead">
+		<property name="Meshfile" value="Items/Food/bottledBeerPrefab" />
+		<property name="Material" value="glass" />
+		<property name="HoldType" value="3" />
+		<property name="Weight" value="10" />
+		<property name="Stacknumber" value="15" />
+		<property name="EconomicValue" value="48" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_stamina" value="20" />
+			<property name="Gain_food" value="0" />
+			<property name="Gain_water" value="-5" />
+			<property name="Gain_wellness" value="-0.5" />
+			<property name="Sound_start" value="player_drinking" />
+			<property name="Buff" value="DrinkGrainAlcohol,extinguishFireBuff" />
+			<property name="Create_item" value="emptyJar" />
+		</property>
+		<property name="Group" value="Chemicals" />
+	</item>
+	<!-- BEEHIVE -->
 	<item id="958" name="mold">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -16312,7 +16682,8 @@
 		<property name="Group" value="Clothing" />
 		<property class="UMA">
 			<property name="Mesh" value="clothes_leather_duster" />
-			<property name="Overlay0" value="gear_kevlar_helmet" />
+			<!-- <property name="Overlay0" value="gear_kevlar_helmet" /> -->
+			<property name="Overlay0" value="armor_kevlar_vest" />
 			<property name="Layer" value="3" />
 			<property name="UISlot" value="Jacket" />
 		</property>
@@ -16459,7 +16830,7 @@
 		<property name="Group" value="Clothing" />
 		<property class="UMA">
 			<property name="Mesh" value="clothes_denim_pants" />
-			<property name="Overlay0" value="gear_kevlar_helmet" />
+			<property name="Overlay0" value="armor_kevlar_legarmor" />
 			<property name="Layer" value="0" />
 			<property name="UISlot" value="Pants" />
 		</property>
@@ -16477,34 +16848,36 @@
 		<property name="CustomIconTint" value="232f21" />
 		<property class="UMA">
 			<property name="Overlay0Tint" value="232f21" />
+			<property name="Overlay0" value="armor_kevlar_boots" />
 		</property>
 	</item>
 	<item id="814" name="steelCamoLegArmor">
 		<property name="Extends" value="steelLegArmor" />
 		<property name="CustomIconTint" value="232f21" />
 		<property class="UMA">
-			<property name="Overlay0Tint" value="232f21" />
+			<!-- <property name="Overlay0Tint" value="232f21" /> -->
+			<property name="Overlay0" value="armor_kevlar_legarmor" />
 		</property>
 	</item>
 	<item id="815" name="steelCamoChestArmor">
 		<property name="Extends" value="steelChestArmor" />
 		<property name="CustomIconTint" value="232f21" />
 		<property class="UMA">
-			<property name="Overlay0Tint" value="232f21" />
+			<property name="Overlay0" value="armor_kevlar_legarmor" />
 		</property>
 	</item>
 	<item id="816" name="steelCamoHelmet">
 		<property name="Extends" value="steelHelmet" />
 		<property name="CustomIconTint" value="232f21" />
 		<property class="UMA">
-			<property name="Overlay0Tint" value="232f21" />
+			<property name="Overlay0" value="gear_kevlar_helmet" />
 		</property>
 	</item>
 	<item id="817" name="steelCamoGloves">
 		<property name="Extends" value="steelGloves" />
 		<property name="CustomIconTint" value="232f21" />
 		<property class="UMA">
-			<property name="Overlay0Tint" value="232f21" />
+			<property name="Overlay0" value="armor_kevlar_gloves" />
 		</property>
 	</item>
 	<item id="818" name="smithHammer">

@@ -88,7 +88,7 @@
 			<panel width="52" height="52" name="item" visible="false" pivot="right" disableautobackground="true" pos="30,0">
 				<sprite depth="3" pos="2,-2" name="Background" atlas="ItemIconAtlas" sprite="sdx-buff" height="70" width="70" flip="Horizontally" />
 				<sprite depth="4" name="Icon" atlas="ItemIconAtlas" size="36,32" pos="37,-37" pivot="center" color="[transparent]" />
-				<label depth="6" name="TextContent" pos="9999,9999" font_size="28" color="[white]" justify="center" height="30" pivot="center" />
+				<label depth="6" name="TextContent" pos="70,-23" font_size="28" color="[white]" height="30" />
 			</panel>
 		</rect>
 	</window>
