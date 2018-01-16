@@ -18114,7 +18114,7 @@
 			<property name="Sound_reload" value="Weapons/Ranged/SniperRifle/sniperrifle_reload" />
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi" />
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-			<property name="DamageBonus.head" value="9" />
+			<property name="DamageBonus.head" value="0.5" />
 			<property name="DamageBonus.wood" value="5" />
 			<property name="DamageBonus.earth" value=".2" />
 			<property name="DamageBonus.glass" value="25" />

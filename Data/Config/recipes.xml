@@ -1967,21 +1967,21 @@
 		<ingredient name="nail" count="30" />
 		<ingredient name="wood" count="200" />
 	</recipe>
-	<recipe name="foodHoney" count="1" craft_area="kitchenWorkbench" craft_tool="cookingWare">
+	<recipe name="foodHoney" count="1" craft_area="kitchenWorkbench">
 		<ingredient name="rawHoneycomb" count="2" />
 		<ingredient name="emptyJar" count="1" />
 	</recipe>
-	<recipe name="honeycomb" count="2" craft_area="kitchenWorkbench" craft_tool="cookingWare">
+	<recipe name="honeycomb" count="2" craft_area="kitchenWorkbench">
 		<ingredient name="rawHoneycomb" count="1" />
 	</recipe>
-	<recipe name="royalJelly" count="1" craft_area="kitchenWorkbench" craft_tool="cookingWare">
+	<recipe name="royalJelly" count="1" craft_area="bigOven" craft_tool="cookingWare">
 		<ingredient name="rawRoyalJelly" count="4" />
 		<ingredient name="emptyJar" count="1" />
 	</recipe>
-	<recipe name="beeswax" count="1" craft_area="kitchenWorkbench" craft_tool="cookingWare">
+	<recipe name="beeswax" count="1" craft_area="bigOven" craft_tool="cookingWare">
 		<ingredient name="rawHoneycomb" count="3" />
 	</recipe>
-	<recipe name="beesBread" count="1" craft_area="kitchenWorkbench" craft_tool="cookingWare">
+	<recipe name="beesBread" count="1" craft_area="kitchenWorkbench">
 		<ingredient name="rawBeesBread" count="4" />
 	</recipe>
 	<recipe name="royalJellyCapsules" count="5" craft_area="scienceStation" craft_tool="medicalSet">
@@ -2002,7 +2002,7 @@
 		<ingredient name="beesBread" count="1" />
 		<ingredient name="appleJuice" count="1" />
 	</recipe>
-	<recipe name="waxCandle" count="1" craft_area="kitchenWorkbench" craft_tool="cookingWare">
+	<recipe name="waxCandle" count="1" craft_area="bigOven" craft_tool="cookingWare">
 		<ingredient name="beeswax" count="3" />
 		<ingredient name="cloth" count="1" />
 	</recipe>
