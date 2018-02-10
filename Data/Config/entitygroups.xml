@@ -14119,6 +14119,7 @@
 		<entity name="zombieFatCopFeralRadiated" prob="1.431" />
 	</entitygroup>
 	<entitygroup name="AnimalsWinter">
+		<entity name="invisibleAnimalEnemy" prob="6" />
 		<entity name="abominable" prob="0.16" />
 		<entity name="animalWolf" prob="0.16" />
 		<entity name="cougarAlbino" prob="0.16" />
