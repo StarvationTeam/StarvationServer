@@ -14118,6 +14118,15 @@
 		<entity name="animalZombieDog" />
 		<entity name="zombieFatCopFeralRadiated" prob="1.431" />
 	</entitygroup>
+	<entitygroup name="AnimalsWinter">
+		<entity name="abominable" prob="0.16" />
+		<entity name="animalWolf" prob="0.16" />
+		<entity name="cougarAlbino" prob="0.16" />
+		<entity name="dogAlbino" prob="0.15" />
+		<entity name="tigerAlbino" prob="0.15" />
+		<entity name="animalDireWolf" prob="0.15" />
+		<entity name="abominableBoss" prob="0.07" />
+	</entitygroup>
 	<entitygroup name="AnimalsPlains">
 		<entity name="rhino" prob="0.02" />
 		<entity name="spider" prob="0.01" />

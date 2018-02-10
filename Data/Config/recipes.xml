@@ -1974,11 +1974,11 @@
 	<recipe name="honeycomb" count="2" craft_area="kitchenWorkbench">
 		<ingredient name="rawHoneycomb" count="1" />
 	</recipe>
-	<recipe name="royalJelly" count="1" craft_area="bigOven" craft_tool="cookingWare">
+	<recipe name="royalJelly" count="1" craft_area="kitchenWorkbench">
 		<ingredient name="rawRoyalJelly" count="4" />
 		<ingredient name="emptyJar" count="1" />
 	</recipe>
-	<recipe name="beeswax" count="1" craft_area="bigOven" craft_tool="cookingWare">
+	<recipe name="beeswax" count="1" craft_area="kitchenWorkbench" craft_tool="blender">
 		<ingredient name="rawHoneycomb" count="3" />
 	</recipe>
 	<recipe name="beesBread" count="1" craft_area="kitchenWorkbench">
@@ -1992,7 +1992,7 @@
 		<ingredient name="rawPropolis" count="3" />
 		<ingredient name="emptyJar" count="1" />
 	</recipe>
-	<recipe name="honeyButter" count="5" craft_area="scienceStation">
+	<recipe name="honeyButter" count="5" craft_area="kitchenWorkbench" craft_tool="mixer">
 		<ingredient name="foodHoney" count="1" />
 		<ingredient name="beeswax" count="1" />
 		<ingredient name="emptyJar" count="1" />
@@ -2002,7 +2002,7 @@
 		<ingredient name="beesBread" count="1" />
 		<ingredient name="appleJuice" count="1" />
 	</recipe>
-	<recipe name="waxCandle" count="1" craft_area="bigOven" craft_tool="cookingWare">
+	<recipe name="waxCandle" count="1" craft_area="scienceStation">
 		<ingredient name="beeswax" count="3" />
 		<ingredient name="cloth" count="1" />
 	</recipe>
@@ -2877,14 +2877,17 @@
 	</recipe>
 	<recipe name="AnimalFeed" count="10" scrapable="False">
 		<ingredient name="hayBaleBlock" count="1" />
+		<ingredient name="cornMeal" count="2" />
 		<ingredient name="sunflowerOil" count="1" />
 	</recipe>
-	<recipe name="AnimalFeed" count="5" scrapable="False">
-		<ingredient name="wheat" count="1" />
-		<ingredient name="sunflowerOil" count="1" />
-	</recipe>
-	<recipe name="AnimalFeed" count="15" scrapable="False">
+	<recipe name="AnimalFeed" count="10" scrapable="False">
 		<ingredient name="yuccaFibers" count="10" />
+		<ingredient name="wheat" count="2" />
+		<ingredient name="sunflowerOil" count="1" />
+	</recipe>
+	<recipe name="AnimalFeed" count="10" scrapable="False">
+		<ingredient name="yuccaFibers" count="10" />
+		<ingredient name="cornMeal" count="2" />
 		<ingredient name="sunflowerOil" count="1" />
 	</recipe>
 	<!-- HUSBANDRY -->

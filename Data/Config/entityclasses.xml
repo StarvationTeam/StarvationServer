@@ -1738,6 +1738,12 @@
 		<property name="ModelType" value="Standard" />
 		<property name="Prefab" value="NPC" />
 		<property name="Class" value="EntityAnimalHal, Mods" />
+		<!-- Snow level that can dmg the animal -->
+		<property name="SnowDmg" value="0" />
+		<!-- Chance to dmg the animal once the threshold is reached -->
+		<property name="ChanceToDmg" value="60" />
+		<!-- amount of dmg delt -->
+		<property name="DmgValue" value="30" />
 		<property name="Parent" value="Animals" />
 		<property name="AvatarController" value="GameObjectAnimalAnimationSDX, Mods" />
 		<property name="Weight" value="70" />
@@ -1795,8 +1801,7 @@
 		<property name="IsEnemyEntity" value="false" />
 		<property name="ExperienceGain" value="1500" />
 		<!-- For harvesting -->
-		<drop event="Harvest" name="rawMeat" count="2" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rawMeat" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="3" prob=".5" />
@@ -2033,8 +2038,7 @@
 		<property name="ExperienceGain" value="2000" />
 		<property name="DeadBodyHitPoints" value="300" />
 		<!-- For harvesting -->
-		<drop event="Harvest" name="rawMeat" count="2" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rawMeat" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" prob=".5" />
@@ -2049,8 +2053,7 @@
 		<property name="MeshScale" value="1.1,1.1" />
 		<property name="MaxHealth" value="600" />
 		<property name="ExperienceGain" value="3000" />
-		<drop event="Harvest" name="rawMeat" count="2" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rawMeat" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="3" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" prob=".5" />
@@ -2093,8 +2096,7 @@
 		<property name="PhysicsBody" value="zombieDog" />
 		<property name="DeadBodyHitPoints" value="350" />
 		<!-- For harvesting -->
-		<drop event="Harvest" name="rawMeat" count="2" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rawMeat" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" prob=".5" />
@@ -2180,7 +2182,6 @@
 		<!-- For harvesting -->
 		<!-- For harvesting -->
 		<drop event="Harvest" name="rawMeat" count="1" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="1" prob=".5" />
@@ -2193,7 +2194,6 @@
 		<property name="Mesh" value="#hyena?Hyena1" />
 		<!-- For harvesting -->
 		<drop event="Harvest" name="rawMeat" count="1" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="1" prob=".5" />
@@ -2212,8 +2212,7 @@
 		<property name="NightApproachSpeed" value="1.8" />
 		<property name="MaxHealth" value="1500" />
 		<property name="ExperienceGain" value="3000" />
-		<drop event="Harvest" name="rawMeat" count="3" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rawMeat" count="1" />
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4" />
@@ -2249,8 +2248,7 @@
 		<property name="SoundDeath" value="tigerDeath" />
 		<property name="SoundAttack" value="tigerAttack" />
 		<!-- For harvesting -->
-		<drop event="Harvest" name="rawMeat" count="2" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rawMeat" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="3" prob=".5" />
@@ -2264,8 +2262,7 @@
 		<property name="Mesh" value="#tiger?TigerBrown" />
 		<drop event="Destroy" name="tigerItem" tool_category="Butcher" count="1" prob=".05" />
 		<!-- For harvesting -->
-		<drop event="Harvest" name="rawMeat" count="2" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rawMeat" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="3" prob=".5" />
@@ -2279,8 +2276,7 @@
 		<property name="Mesh" value="#tiger?TigerAlbino" />
 		<property name="MaxHealth" value="1500" />
 		<property name="ExperienceGain" value="4000" />
-		<drop event="Harvest" name="rawMeat" count="3" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" />
+		<drop event="Harvest" name="rawMeat" count="1" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="7" />
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4" prob=".5" />
@@ -4322,6 +4318,12 @@
 		<property name="IsEntityAnimal" value="true" />
 		<property name="PhysicsBody" value="Stag" />
 		<property name="Class" value="EntityAnimalTameMorte, Mods" />
+		<!-- Snow level that can dmg the animal -->
+		<property name="SnowDmg" value="0.2" />
+		<!-- Chance to dmg the animal once the threshold is reached -->
+		<property name="ChanceToDmg" value="60" />
+		<!-- amount of dmg delt -->
+		<property name="DmgValue" value="5" />
 		<!-- AI properties -->
 		<property name="AITask-1" value="Wander" />
 		<property name="AITask-2" value="RunawayWhenHurt" />
@@ -4364,7 +4366,7 @@
 		<property name="PregnancyTime" value="12000" />
 		<property name="WanderTime" value="180" />
 		<property name="MatingTime" value="1500" />
-		<property name="MaxAnimalsInArea" value="15" />
+		<property name="MaxAnimalsInArea" value="10" />
 		<property name="MaxAnimalsAreaCheck" value="40" />
 		<property name="MaxMatingAreaCheck" value="10" />
 		<!-- custom properties -->
@@ -4376,6 +4378,7 @@
 		<property name="PanicSpeed" value="1.2" />
 		<property name="PhysicsBody" value="pig" />
 		<property name="ExperienceGain" value="500" />
+		<property name="LootListAlive" value="110" />
 		<!-- For harvesting -->
 		<drop event="Harvest" name="rawMeat" count="2" />
 		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="1" prob=".5" />
@@ -4467,6 +4470,12 @@
 		<property name="SoundHurt" value="sheepMee" />
 		<property name="SoundDeath" value="sheepHurt" />
 		<property name="SoundRandom" value="sheepMee" />
+		<!-- Snow level that can dmg the animal -->
+		<property name="SnowDmg" value="0.4" />
+		<!-- Chance to dmg the animal once the threshold is reached -->
+		<property name="ChanceToDmg" value="50" />
+		<!-- amount of dmg delt -->
+		<property name="DmgValue" value="5" />
 		<!-- custom properties -->
 		<property name="isMale" value="false" />
 		<property name="entityMale" value="animalRam" />
@@ -4661,13 +4670,36 @@
 	</entity_class>
 	<entity_class name="zombieBearPet">
 		<!-- Mesh and class properties -->
-		<property name="Mesh" value="Animals/Bear/animalBearStandardRagdoll" />
-		<property name="ModelType" value="Standard" />
-		<property name="MeshScale" value="0.8,0.8" />
 		<property name="Prefab" value="NPC" />
 		<property name="Class" value="EntityDogMorte, Mods" />
 		<property name="Parent" value="Animals" />
-		<property name="AvatarController" value="GameObjectAnimalAnimationSDX, Mods" />
+		<property name="AvatarController" value="AvatarAnimalController" />
+		<property name="ModelType" value="Standard" />
+		<property name="HasRagdoll" value="true" />
+		<property name="HasDeathAnim" value="true" />
+		<property name="RootMotion" value="true" />
+		<property name="RagdollOnDeathChance" value=".5" />
+		<property name="PhysicsBody" value="bear" />
+		<property name="Mesh" value="Animals/Bear/animalBearStandardRagdoll" />
+		<property name="ReplaceMaterial0" value="Materials/UMAFur_ZombieBear" />
+		<property class="MechanimAttackTriggers">
+			<property name="state0" value="AttackTrigger" />
+		</property>
+		<property class="MechanimAttackStates">
+			<property name="state0" value="Base Layer.Attack" />
+		</property>
+		<property class="MechanimPainTriggers">
+			<property name="state0" value="PainTrigger" />
+		</property>
+		<property class="MechanimPainStates">
+			<property name="state0" value="Base Layer.Pain" />
+		</property>
+		<property class="MechanimDeathTriggers">
+			<property name="state0" value="DeathTrigger" />
+		</property>
+		<property class="MechanimDeathStates">
+			<property name="state0" value="Base Layer.Death" />
+		</property>
 		<property name="Weight" value="300" />
 		<property name="RotateToGround" value="true" />
 		<property name="IsEntityAnimal" value="true" />

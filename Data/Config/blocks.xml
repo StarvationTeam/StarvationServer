@@ -911,6 +911,12 @@
 		<property name="PlantGrowing.FertileLevel" value="1" />
 		<property name="PlantGrowing.IsRandom" value="false" />
 		<property name="HarvestOverdamage" value="false" />
+		<property name="ChanceToKillPlant" value="60" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="SnowToKillPlant" value="0.4" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToStopGrowth" value="0.15" />
+		<!-- Snow level to stop plant growth -->
 		<drop event="Destroy" count="0" />
 		<property name="Group" value="Food/Cooking" />
 		<property name="DescriptionKey" value="plantsBlockGroupDesc" />
@@ -935,6 +941,12 @@
 		<property name="PlantGrowing.FertileLevel" value="1" />
 		<property name="CropsGrown.BonusHarvestDivisor" value="9" />
 		<property name="HarvestOverdamage" value="false" />
+		<property name="ChanceToKillPlant" value="60" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="SnowToKillPlant" value="0.4" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToStopGrowth" value="0.15" />
+		<!-- Snow level to stop plant growth -->
 		<drop event="Destroy" count="0" />
 		<property name="DescriptionKey" value="plantsBlockGroupDesc" />
 	</block>
@@ -15413,6 +15425,8 @@
 		<!-- when all parts are present it will actually slow down -->
 		<!-- but steadly produce honey (4 pices a day for 60 minutes days) -->
 		<property name="TickRateHoney" value="6000" />
+		<!-- snow value that makes the bees "hibernate" and stop producing -->
+		<property name="SnowToStop" value="0.1" />
 		<property name="debug" value="false" />
 		<property name="QueenName" value="beeQueen" />
 		<property name="SwarmName" value="bees" />
@@ -15940,6 +15954,8 @@
 		<property name="animalSound" value="chickenSound" />
 		<!-- when there are animals, this sound will be emitted at day break - optional -->
 		<property name="wakeUpSound" value="rosterSound" />
+		<!-- snow value that makes the bees "hibernate" and stop producing -->
+		<property name="SnowToStop" value="0.1" />
 		<property name="Shape" value="ModelEntity" />
 		<property name="Model" value="#animalCoops?ChickenHousePrefab" />
 		<property name="LootList" value="87" />
@@ -15963,6 +15979,8 @@
 		<property name="animalSound" value="rabbitSound" />
 		<property name="wakeUpSound" value="" />
 		<property name="Model" value="#animalCoops?rabitCagePrefab" />
+		<!-- snow value that makes the bees "hibernate" and stop producing -->
+		<property name="SnowToStop" value="0.2" />
 	</block>
 	<block id="109" name="BoxTrap">
 		<!-- triggered trap -->
@@ -16640,6 +16658,9 @@
 		<property name="isPowered" value="true" />
 		<property name="soundOn" value="none" />
 		<property name="CanPickup" value="true" />
+		<property name="HeatMapStrength" value="1" />
+		<property name="HeatMapTime" value="1200" />
+		<property name="HeatMapFrequency" value="15" />
 		<property class="RepairItems">
 			<property name="electronicParts" value="1" />
 			<property name="scrapIron" value="1" />
@@ -16723,6 +16744,12 @@
 		<property name="PlantGrowing.IsRandom" value="false" />
 		<property name="FallOver" value="false" />
 		<property name="doDamage" value="true" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.15" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.5" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="60" />
 		<drop event="Destroy" name="" count="0" />
 	</block>
 	<block id="139" name="plantedBananaPalm">
@@ -16795,6 +16822,12 @@
 		<property name="PlantGrowing.GrowthRate" value="90" />
 		<property name="PlantGrowing.FertileLevel" value="5" />
 		<property name="PlantGrowing.IsRandom" value="false" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.15" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.4" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="60" />
 		<property name="FallOver" value="false" />
 		<drop event="Destroy" name="" count="0" />
 	</block>
@@ -16817,6 +16850,12 @@
 		<property name="PlantGrowing.GrowthRate" value="80" />
 		<property name="PlantGrowing.FertileLevel" value="5" />
 		<property name="PlantGrowing.IsRandom" value="false" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.15" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.4" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="60" />
 		<property name="FallOver" value="false" />
 		<drop event="Destroy" name="" count="0" />
 	</block>
@@ -16826,6 +16865,12 @@
 		<property name="Model" value="#strawberry?StrawberryPrefab" />
 		<property name="PlantGrowing.Next" value="strawberryPlant" />
 		<property name="PlantGrowing.GrowthRate" value="80" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.15" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.3" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="90" />
 	</block>
 	<block id="449" name="plantedCarrot">
 		<property name="Extends" value="plantedPaprika" />
@@ -16849,6 +16894,12 @@
 		<property name="PlantGrowing.Next" value="garlicPlant" />
 		<property name="PlantGrowing.GrowthRate" value="95" />
 		<property name="ModelOffset" value="0,-0.04,0" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.25" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.6" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="50" />
 	</block>
 	<block id="452" name="plantedSugarcane">
 		<property name="Extends" value="plantedPaprika" />
@@ -16864,6 +16915,12 @@
 		<property name="Model" value="#onion?onionPrefabSmall" />
 		<property name="PlantGrowing.Next" value="onionPlant" />
 		<property name="PlantGrowing.GrowthRate" value="95" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.25" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.6" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="50" />
 	</block>
 	<block id="454" name="plantedSalad">
 		<property name="Extends" value="plantedPaprika" />
@@ -16897,6 +16954,12 @@
 		<property name="CreativeMode" value="Dev" />
 		<property name="PlantGrowing.Next" value="sunflower" />
 		<property name="PlantGrowing.GrowthRate" value="75" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.10" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.2" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="90" />
 	</block>
 	<block id="458" name="plantedWheat">
 		<property name="Extends" value="plantedPaprika" />
@@ -16934,6 +16997,8 @@
 		<drop event="Harvest" name="wood" count="100" prob="1" />
 		<drop event="Harvest" name="wood" count="50" prob=".5" />
 		<drop event="Destroy" name="wood" count="50" prob="1" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.2" />
 	</block>
 	<block id="460" name="smallBananaPalm">
 		<property name="CreativeMode" value="Dev" />
@@ -16955,6 +17020,8 @@
 		<property name="UpwardsCount" value="1" />
 		<property name="IsPlant" value="true" />
 		<property name="ParticleOnDeath" value="treeGib_burnt" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.2" />
 		<!-- uses dummy texture id from opaque atlas -->
 		<property name="FallOver" value="false" />
 		<drop event="Harvest" name="wood" count="100" prob="1" />
@@ -17059,6 +17126,12 @@
 		<property name="PlantGrowing.GrowthRate" value="40" />
 		<property name="PlantGrowing.FertileLevel" value="1" />
 		<property name="PlantGrowing.IsRandom" value="false" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.15" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.4" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="60" />
 		<property name="FallOver" value="false" />
 		<drop event="Harvest" name="hempFibres" count="10" />
 		<drop event="Destroy" name="hempFibres" count="5" />
@@ -17218,11 +17291,23 @@
 		<!-- <drop event="Destroy" name="" count="0"/> -->
 		<drop event="Destroy" name="yuccaFibers" count="2,6" />
 		<property name="CropsGrown.BonusHarvestDivisor" value="9" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.15" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.4" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="60" />
 	</block>
 	<block id="953" name="tomatoPlant">
 		<property name="Extends" value="plantMaster" />
 		<property name="Model" value="#TomatoMaturePlant1?TomatoMaturePlant1Prefab" />
 		<property name="ModelOffset" value="0,-0.1,0" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.1" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.25" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="90" />
 		<drop event="Harvest" name="tomato" count="1" />
 	</block>
 	<block id="954" name="paprikaPlant">
@@ -17233,6 +17318,12 @@
 	<block id="955" name="strawberryPlant">
 		<property name="Extends" value="plantMaster" />
 		<property name="Model" value="#strawberry?StrawberryPrefab1" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.1" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.2" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="90" />
 		<drop event="Harvest" name="strawberry" count="2" />
 		<property name="CropsGrown.BonusHarvestDivisor" value="7" />
 	</block>
@@ -17254,6 +17345,12 @@
 		<drop event="Harvest" name="garlic" count="1" />
 		<property name="CropsGrown.BonusHarvestDivisor" value="16" />
 		<property name="ModelOffset" value="0,-0.005,0" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.25" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.6" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="40" />
 	</block>
 	<block id="959" name="sugarcanePlant">
 		<property name="Extends" value="plantMaster" />
@@ -17267,6 +17364,12 @@
 	<block id="960" name="onionPlant">
 		<property name="Extends" value="plantMaster" />
 		<property name="Model" value="#onion?onionPrefab" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.25" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.6" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="40" />
 		<drop event="Harvest" name="onion" count="1" />
 		<property name="CropsGrown.BonusHarvestDivisor" value="16" />
 	</block>
@@ -17296,6 +17399,12 @@
 		<property name="Extends" value="plantMaster" />
 		<property name="Model" value="#sunflower?sunflower" />
 		<property name="RotationAllowed" value="pivotOnFloor" />
+		<!-- Snow level to stop plant growth -->
+		<property name="SnowToStopGrowth" value="0.1" />
+		<!-- Snow level that can kill a plant -->
+		<property name="SnowToKillPlant" value="0.2" />
+		<!-- Chance to kill a plant once the threshold is reached -->
+		<property name="ChanceToKillPlant" value="90" />
 		<drop event="Harvest" name="sunflowerSeed" count="4" />
 		<property name="CropsGrown.BonusHarvestDivisor" value="8" />
 	</block>
@@ -18292,7 +18401,7 @@
 	</block>
 	<block id="1148" name="cntStorageFarmIcy">
 		<property name="CustomIcon" value="cntStorageFarm" />
-		<property name="Class" value="SecureLootMorte, Mods" />
+		<property name="Class" value="UpgradeRatedSecureLoot, Mods" />
 		<property name="LootList" value="10" />
 		<property name="Material" value="wood+wood" />
 		<property name="Shape" value="ModelEntity" />
@@ -18303,7 +18412,7 @@
 			<property name="wood" value="20" />
 		</property>
 		<property name="UpgradeRated.ToBlock" value="cntStorageFarm" />
-		<property name="UpgradeRated.Rate" value="15" />
+		<property name="UpgradeRated.Rate" value="10" />
 		<property name="DowngradeBlock" value="cntStorageFarmInsecure" />
 		<drop event="Destroy" count="0" />
 		<property name="Group" value="Building" />
@@ -18713,7 +18822,7 @@
 		<drop event="Destroy" name="forgestone" count="1" tool_category="Disassemble" />
 	</block>
 	<block id="984" name="workingTv">
-		<property name="Class" value="TV, mods" />
+		<property name="Class" value="TV, Mods" />
 		<property name="WireOffset" value="0,0,0.5" />
 		<property name="RequiredPower" value="25" />
 		<property name="Material" value="metal" />

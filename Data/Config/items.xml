@@ -1196,7 +1196,7 @@
 			<property name="Crosshair_min_distance" value="15" />
 			<property name="Crosshair_max_distance" value="18" />
 			<property name="Magazine_size" value="15" />
-			<property name="Magazine_items" value="nail" />
+			<property name="Magazine_items" value="nail,NoAmmo" />
 			<property name="Rays_spread" value="0.043" />
 			<property name="Instantiate_on_load" value="false" />
 			<property name="Reload_time" value="2" />
@@ -1246,7 +1246,7 @@
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="200" />
 			<property name="Single_magazine_usage" value="false" />
-			<property name="Magazine_items" value="gasCan" />
+			<property name="Magazine_items" value="gasCan,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Bullet_material" value="metal" />
@@ -1295,7 +1295,7 @@
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="200" />
 			<property name="Single_magazine_usage" value="false" />
-			<property name="Magazine_items" value="gasCan" />
+			<property name="Magazine_items" value="gasCan,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Bullet_material" value="metal" />
@@ -1385,7 +1385,7 @@
 			<property name="Crosshair_min_distance" value="30" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="1" />
-			<property name="Magazine_items" value="arrow,ironArrow,steelArrow" />
+			<property name="Magazine_items" value="arrow,ironArrow,steelArrow,NoAmmo" />
 			<property name="Rays_spread" value="0.017" />
 			<property name="Reload_time" value="0.9" />
 			<property name="Bullet_icon" value="uzi" />
@@ -1436,7 +1436,7 @@
 			<property name="Crosshair_min_distance" value="30" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="1" />
-			<property name="Magazine_items" value="ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt" />
+			<property name="Magazine_items" value="ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt,NoAmmo" />
 			<property name="Rays_spread" value="0.012" />
 			<property name="Reload_time" value="2" />
 			<property name="Bullet_icon" value="uzi" />
@@ -1484,7 +1484,7 @@
 			<property name="Crosshair_min_distance" value="30" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="1" />
-			<property name="Magazine_items" value="arrow,ironArrow,steelArrow,flamingArrow" />
+			<property name="Magazine_items" value="arrow,ironArrow,steelArrow,flamingArrow,NoAmmo" />
 			<property name="Rays_spread" value="0.011" />
 			<property name="Reload_time" value="0.9" />
 			<property name="Bullet_icon" value="uzi" />
@@ -7840,7 +7840,7 @@
 		<property name="HoldType" value="3" />
 		<property name="Stacknumber" value="50" />
 		<property name="foodSpoilImmune" value="100" />
-		<property class="Action0">
+		<property class="Action1">
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
@@ -7859,7 +7859,7 @@
 		<property name="HoldType" value="3" />
 		<property name="foodSpoilImmune" value="90" />
 		<property name="Stacknumber" value="50" />
-		<property class="Action0">
+		<property class="Action1">
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
@@ -7879,7 +7879,7 @@
 		<property name="HoldType" value="3" />
 		<property name="Stacknumber" value="50" />
 		<property name="foodSpoilImmune" value="90" />
-		<property class="Action0">
+		<property class="Action1">
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
@@ -7910,7 +7910,7 @@
 		<property name="HoldType" value="16" />
 		<property name="Stacknumber" value="50" />
 		<property name="foodSpoilImmune" value="95" />
-		<property class="Action0">
+		<property class="Action1">
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
@@ -7949,7 +7949,7 @@
 		<property name="Material" value="glass" />
 		<property name="HoldType" value="3" />
 		<property name="Stacknumber" value="10" />
-		<property class="Action0">
+		<property class="Action1">
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
@@ -7971,7 +7971,7 @@
 		<property name="EconomicValue" value="80" />
 		<property name="HoldType" value="3" />
 		<property name="Stacknumber" value="10" />
-		<property class="Action0">
+		<property class="Action1">
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
@@ -8131,7 +8131,7 @@
 		<property name="CustomIcon" value="ui_game_symbol_brassHinge" />
 		<property name="DescriptionKey" value="brassHingeDesc" />
 		<property name="Material" value="brass" />
-		<property name="Weight" value="1" />
+		<property name="Weight" value="3" />
 	</item>
 	<item id="869" name="brassKnuckles">
 		<property name="Extends" value="itemMaster" />
@@ -8152,7 +8152,7 @@
 		<property name="CustomIcon" value="ui_game_symbol_brassCowBell" />
 		<property name="DescriptionKey" value="brassCowBellDesc" />
 		<property name="Material" value="brass" />
-		<property name="Weight" value="2" />
+		<property name="Weight" value="3" />
 	</item>
 	<!-- Stone  -->
 	<item id="872" name="stonePlate">
@@ -8224,35 +8224,35 @@
 		<property name="CustomIcon" value="ui_game_symbol_paperPlayingCards" />
 		<property name="DescriptionKey" value="paperPlayingCardsDesc" />
 		<property name="Material" value="paper" />
-		<property name="Weight" value="3" />
+		<property name="Weight" value="10" />
 	</item>
 	<item id="882" name="paperNews">
 		<property name="Extends" value="itemMaster" />
 		<property name="CustomIcon" value="ui_game_symbol_paperNews" />
 		<property name="DescriptionKey" value="paperNewsDesc" />
 		<property name="Material" value="paper" />
-		<property name="Weight" value="5" />
+		<property name="Weight" value="100" />
 	</item>
 	<item id="883" name="paperToilet">
 		<property name="Extends" value="itemMaster" />
 		<property name="CustomIcon" value="ui_game_symbol_paperToilet" />
 		<property name="DescriptionKey" value="paperToiletDesc" />
 		<property name="Material" value="paper" />
-		<property name="Weight" value="4" />
+		<property name="Weight" value="25" />
 	</item>
 	<item id="884" name="paperGoggles">
 		<property name="Extends" value="itemMaster" />
 		<property name="CustomIcon" value="ui_game_symbol_paperGoggles" />
 		<property name="DescriptionKey" value="paperGogglesDesc" />
 		<property name="Material" value="paper" />
-		<property name="Weight" value="3" />
+		<property name="Weight" value="10" />
 	</item>
 	<item id="885" name="paperMatches">
 		<property name="Extends" value="itemMaster" />
 		<property name="Material" value="paper" />
 		<property name="CustomIcon" value="ui_game_symbol_paperMatches" />
 		<property name="DescriptionKey" value="paperMatchesDesc" />
-		<property name="Weight" value="3" />
+		<property name="Weight" value="5" />
 	</item>
 	<!-- Cloth  -->
 	<item id="886" name="clothTeddyBear">
@@ -8475,7 +8475,7 @@
 		<property name="CustomIcon" value="ui_game_symbol_rubberDoll" />
 		<property name="DescriptionKey" value="rubberDollDesc" />
 		<property name="Material" value="Mrubber" />
-		<property name="Weight" value="2" />
+		<property name="Weight" value="4" />
 	</item>
 	<item id="930" name="rubberDuck">
 		<property name="Extends" value="itemMaster" />
@@ -8489,7 +8489,7 @@
 		<property name="CustomIcon" value="ui_game_symbol_rubberChicken" />
 		<property name="DescriptionKey" value="rubberChickenDesc" />
 		<property name="Material" value="Mrubber" />
-		<property name="Weight" value="2" />
+		<property name="Weight" value="6" />
 	</item>
 	<item id="936" name="rubberBands">
 		<property name="Extends" value="itemMaster" />
@@ -8502,7 +8502,7 @@
 		<property name="Extends" value="itemMaster" />
 		<property name="Material" value="Mrubber" />
 		<property name="CustomIcon" value="ui_game_symbol_rubberOldRainBoot" />
-		<property name="Weight" value="3" />
+		<property name="Weight" value="8" />
 	</item>
 	<!-- Steel  -->
 	<item id="938" name="steelHinge">
@@ -9056,6 +9056,20 @@
 		<property name="Group" value="Resources,Food/Cooking" />
 	</item>
 	<!-- STARVATION WEAPON BOOKS START -->
+	<item id="1081" name="NoAmmo">
+		<property name="CreativeMode" value="None" />
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="CustomIcon" value="Unload" />
+		<property name="Material" value="lead" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="250" />
+		<property name="Group" value="Ammo/Weapons" />
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="0" />
+			<property name="BlockDamage" value="0" />
+		</property>
+	</item>
 	<item id="58" name="powerWeaponsBook">
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
@@ -9473,7 +9487,7 @@
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="30" />
 			<!-- Default value, can be modified -->
-			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL" />
+			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL,NoAmmo" />
 			<property name="Reload_time" value="4.1" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="Weapons/Ranged/AK47/ak47_fire_start" />
@@ -9590,7 +9604,7 @@
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="30" />
 			<!-- Default value, can be modified -->
-			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL" />
+			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL,NoAmmo" />
 			<property name="Reload_time" value="4.1" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="Weapons/Ranged/AK47/ak47_fire_start" />
@@ -9670,7 +9684,7 @@
 			<property name="Crosshair_min_distance" value="5" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="30" />
-			<property name="Magazine_items" value="44MagBullet" />
+			<property name="Magazine_items" value="44MagBullet,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Reload_time" value="4.1" />
@@ -9780,7 +9794,7 @@
 			<property name="Crosshair_min_distance" value="5" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="30" />
-			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL" />
+			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL,NoAmmo" />
 			<property name="Reload_time" value="3.9" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="Weapons/Ranged/AK47/ak47_fire_start" />
@@ -9895,7 +9909,7 @@
 			<property name="Crosshair_min_distance" value="5" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="100" />
-			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL" />
+			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL,NoAmmo" />
 			<property name="Reload_time" value="4.1" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="mg_fire_start" />
@@ -10007,7 +10021,7 @@
 			<property name="Delay" value="0.34" />
 			<property name="Magazine_size" value="6" />
 			<property name="Auto_fire" value="true" />
-			<property name="Magazine_items" value="9mmBullet" />
+			<property name="Magazine_items" value="9mmBullet,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Reload_time" value="4" />
@@ -10122,7 +10136,7 @@
 			<property name="Delay" value="0.34" />
 			<property name="Auto_fire" value="true" />
 			<property name="Magazine_size" value="6" />
-			<property name="Magazine_items" value="44MagBullet" />
+			<property name="Magazine_items" value="44MagBullet,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Reload_time" value="4" />
@@ -10227,7 +10241,7 @@
 			<property name="Crosshair_min_distance" value="30" />
 			<property name="Crosshair_max_distance" value="50" />
 			<property name="Magazine_size" value="2" />
-			<property name="Magazine_items" value="blunderbussAmmo" />
+			<property name="Magazine_items" value="blunderbussAmmo,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="10" />
 			<property name="Magazine_item_ray_spreads" value="0.6" />
 			<property name="Reload_time" value="3.9" />
@@ -10293,7 +10307,7 @@
 			<property name="Auto_fire" value="true" />
 			<property name="Range" value="200" />
 			<property name="Magazine_size" value="1" />
-			<property name="Magazine_items" value="ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt" />
+			<property name="Magazine_items" value="ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt,NoAmmo" />
 			<property name="Reload_time" value="2" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="Weapons/Ranged/Bows/Crossbow/crossbow_fire" />
@@ -10734,7 +10748,7 @@
 			<property name="Crosshair_min_distance" value="5" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="30" />
-			<property name="Magazine_items" value="44MagBullet" />
+			<property name="Magazine_items" value="44MagBullet,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Reload_time" value="3.1" />
@@ -11379,7 +11393,7 @@
 			<property name="Delay" value="0.3" />
 			<property name="Auto_fire" value="true" />
 			<property name="Magazine_size" value="15" />
-			<property name="Magazine_items" value="9mmBullet" />
+			<property name="Magazine_items" value="9mmBullet,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Reload_time" value="2" />
@@ -11441,7 +11455,7 @@
 			<property name="Delay" value="0.34" />
 			<property name="Auto_fire" value="true" />
 			<property name="Magazine_size" value="6" />
-			<property name="Magazine_items" value="44MagBullet" />
+			<property name="Magazine_items" value="44MagBullet,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Reload_time" value="4" />
@@ -11505,7 +11519,7 @@
 			<property name="Crosshair_min_distance" value="30" />
 			<property name="Crosshair_max_distance" value="50" />
 			<property name="Magazine_size" value="8" />
-			<property name="Magazine_items" value="shotgunShell" />
+			<property name="Magazine_items" value="shotgunShell,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="9" />
 			<property name="Magazine_item_ray_spreads" value="0.9" />
 			<property name="Reload_time" value="2.6" />
@@ -11571,7 +11585,7 @@
 			<property name="Crosshair_min_distance" value="30" />
 			<property name="Crosshair_max_distance" value="50" />
 			<property name="Magazine_size" value="8" />
-			<property name="Magazine_items" value="shotgunShell, shotgunSlug" />
+			<property name="Magazine_items" value="shotgunShell, shotgunSlug,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="8, 1" />
 			<property name="Magazine_item_ray_spreads" value="0.75, 0.25" />
 			<property name="Reload_time" value="2.6" />
@@ -11637,7 +11651,7 @@
 			<property name="Crosshair_min_distance" value="5" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="30" />
-			<property name="Magazine_items" value="10mmBullet" />
+			<property name="Magazine_items" value="10mmBullet,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Reload_time" value="4.1" />
@@ -11708,7 +11722,7 @@
 			<property name="Crosshair_min_distance" value="5" />
 			<property name="Crosshair_max_distance" value="30" />
 			<property name="Magazine_size" value="30" />
-			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL" />
+			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL,NoAmmo" />
 			<property name="Reload_time" value="3.9" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="Weapons/Ranged/AK47/ak47_fire_start" />
@@ -11777,7 +11791,7 @@
 			<property name="Crosshair_min_distance" value="30" />
 			<property name="Crosshair_max_distance" value="100" />
 			<property name="Magazine_size" value="1" />
-			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL" />
+			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL,NoAmmo" />
 			<property name="Reload_time" value="2.66" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="Weapons/Ranged/Hunting_Rifle/hunting_rifle_fire" />
@@ -11846,7 +11860,7 @@
 			<property name="DamageEntity" value="15" />
 			<property name="DamageBlock" value="2" />
 			<property name="Magazine_size" value="5" />
-			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL" />
+			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL,NoAmmo" />
 			<property name="Reload_time" value="2.5" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="PSG_fire" />
@@ -11975,7 +11989,7 @@
 			<property name="DamageEntity" value="15" />
 			<property name="DamageBlock" value="2" />
 			<property name="Magazine_size" value="5" />
-			<property name="Magazine_items" value="50cal" />
+			<property name="Magazine_items" value="50cal,NoAmmo" />
 			<property name="Reload_time" value="2" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="KSR_fire" />
@@ -12102,7 +12116,7 @@
 			<property name="Delay" value="0.3" />
 			<property name="Auto_fire" value="true" />
 			<property name="Magazine_size" value="9" />
-			<property name="Magazine_items" value="44MagBullet" />
+			<property name="Magazine_items" value="44MagBullet,NoAmmo" />
 			<property name="Magazine_item_ray_counts" value="1" />
 			<property name="Magazine_item_ray_spreads" value="0" />
 			<property name="Reload_time" value="2" />
@@ -12265,7 +12279,7 @@
 			<property name="Crosshair_min_distance" value="30" />
 			<property name="Crosshair_max_distance" value="100" />
 			<property name="Magazine_size" value="5" />
-			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL" />
+			<property name="Magazine_items" value="762mmBullet, 762mmBulletPL,NoAmmo" />
 			<property name="Reload_time" value="2.66" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="PSG_fire" />
@@ -14035,7 +14049,6 @@
 	</item>
 	<item id="530" name="zombieBearItem">
 		<property name="Extends" value="dogMaleItem" />
-		<property name="Meshfile" value="Animals/Bear/zombieBearRagdoll" />
 		<property class="Action1">
 			<property name="entityToSpawn" value="zombieBearPet" />
 		</property>
@@ -17327,6 +17340,7 @@
 			<property name="Gain_health" value="0" />
 			<property name="Gain_food" value="30" />
 			<property name="Gain_water" value="-10" />
+			<property name="Gain_wellness" value="0.2" />
 			<property name="Buff" value="eatFood_8_Trigger" />
 			<property name="Sound_start" value="UseActions/player_eating" />
 			<property name="Create_item" value="canEmpty" />

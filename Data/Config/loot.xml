@@ -634,12 +634,14 @@
 		<item name="rubberDoll" />
 		<item name="rubberDuck" />
 		<item name="rubberChicken" />
-		<item name="rubberBands" />
+		<item name="rubberBands" count="1,3" />
 		<item name="steelSpoon" />
 		<item name="steelBracelet" />
 		<item name="steelButterKnife" />
 		<item name="steelSpoon" />
 		<item name="steelFork" />
+		<item name="brassKnuckles" />
+		<item name="brassMonkey" />
 	</lootgroup>
 	<lootgroup name="questChallenge" count="1">
 		<item name="qc_silenceofthelambs" count="1" />

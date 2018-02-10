@@ -793,4 +793,12 @@
 			</rect>
 		</rect>
 	</ingredient_rowForge1>
+	<!-- 
+	<spawnbutton>
+		<rect name="name" depth="depth|3" pos="pos|0,0" width="width|118" height="height|24" enabled_font_color="enabled_font_color|[labelColor]" disabled_font_color="disabled_font_color|[disabledLabelColor]" controller="SimpleButton">
+			<sprite depth="1" name="border" sprite="menu_empty2px" pos="0,Round(-height/2,0)|-16" color="[black]" type="sliced" fillcenter="false" pivot="pivot|left" />
+			<button name="clickable" sprite="menu_empty" pos="0,Round(-height/2,0)|-16" defaultcolor="[mediumGrey]" hoversprite="ui_game_select_row" hovercolor="[white]" type="sliced" hoverscale="1.0" pivot="pivot|left" />
+			<label depth="2" name="btnLabel" width="118" height="24" pos="2,Round(-height/2,0)|-16" justify="center" effect="none" pivot="pivot|left" font_size="24"/>
+		</rect>
+	</spawnbutton> -->
 </controls>
