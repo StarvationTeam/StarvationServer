@@ -2424,6 +2424,63 @@
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2" />
 		<drop event="Destroy" name="snakeItem" tool_category="Butcher" count="1" prob=".2" />
 	</entity_class>
+	<entity_class name="animalZombieCrow_X" extends="SDXTemplate">
+		<property name="Class" value="EntityVulture" />
+		<property name="EntityType" value="Zombie" />
+		<property name="AvatarController" value="EntityFlyFlock, Mods" />
+		<property name="ModelType" value="Standard" />
+		<property name="HasRagdoll" value="false" />
+		<property name="PhysicsBody" value="vulture" />
+		<property name="Mesh" value="#Crow?Crow_X" />
+		<!-- Licensed Model owned by Xyth  -->
+		<property name="HandItem" value="handAnimalCrow" />
+		<property name="MaxHealth" value="50" />
+		<property name="Immunity" value="sickness;disease;bleeding;wellness" />
+		<property name="AnimationIdle" value="CrowIdle" />
+		<property name="AnimationMainAttack" value="CrowFlap" />
+		<property name="AnimationPain" value="CrowIdle" />
+		<property name="AnimationDeath" value="CrowDead" />
+		<property name="AnimationRun" value="CrowSoar" />
+		<property name="AnimationWalk" value="CrowFlap" />
+		<property name="WanderSpeed" value="0.75" />
+		<property name="PanicSpeed" value="2.0" />
+		<property name="ApproachSpeed" value="1.3" />
+		<property name="MaxTurnSpeed" value="180" />
+		<property name="SightRange" value="500" />
+		<!-- distance in m -->
+		<property name="SightScale" value="-5,270" />
+		<property name="MaxViewAngle" value="180" />
+		<property class="MechanimAttackTriggers">
+			<property name="state0" value="AttackTrigger" />
+		</property>
+		<property class="MechanimAttackStates">
+			<property name="state0" value="Attack" />
+		</property>
+		<property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="Territorial" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityNPC" param2="30" />
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25" />
+		<property name="AITask-6" value="ApproachSpot" />
+		<property name="AITask-7" value="Wander" />
+		<property name="AITarget-1" value="SetAsTargetIfHurt" />
+		<property name="AITarget-2" value="BlockingTargetTask" />
+		<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="8" />
+		<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntitySurvivor" />
+		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityNPC" />
+		<property name="SoundRandom" value="CrowRandom" />
+		<property name="SoundRandomTime" value="10.0" />
+		<property name="SoundAlert" value="CrowRandom" />
+		<property name="SoundHurt" value="CrowRandom" />
+		<property name="SoundDeath" value="CrowRandom" />
+		<property name="SoundAttack" value="CrowRandom" />
+		<property name="SoundSense" value="CrowRandom" />
+		<property name="SoundGiveUp" value="CrowRandom" />
+		<property name="ExperienceGain" value="500" />
+		<property name="DeadBodyHitPoints" value="50" />
+		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
+		<drop event="Harvest" name="feather" tool_category="Butcher" count="20" />
+	</entity_class>
 	<entity_class name="TalkingHead">
 		<!-- This one decides for scoring -->
 		<property name="EntityType" value="Player" />

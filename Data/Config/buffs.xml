@@ -550,6 +550,24 @@
 	<buff id="addrad" name_key="addrad" duration="1" actions="increment(radlevel, 5, 0, 0, 1)" description_key="addrad" tooltip_key="addrad" icon="ui_game_symbol_resetrad" />
 	<!-- this buff, while on, will prevent the player to get sick from radiation -->
 	<buff id="radSuit" duration="9000" name_key="radSuit" debuffif="radlevel greater 0" description_key="radSuitDesc" tooltip_key="radSuitDesc" icon="ui_game_symbol_hazmat" />
+	<buff id="winter0" duration="1" stack="reset" actions="debuff(winter1);debuff(winter2);debuff(winter3);debuff(winter4);debuff(winter5)" type="coretemp">
+		<modify id="0" stat="coretemp" modifyValue="-1" />
+	</buff>
+	<buff id="winter1" duration="0" stack="reset" actions="debuff(winter0);debuff(winter2);debuff(winter3);debuff(winter4);debuff(winter5)" type="coretemp">
+		<modify id="0" stat="coretemp" modifyValue="-8" />
+	</buff>
+	<buff id="winter2" duration="0" stack="reset" actions="debuff(winter0);debuff(winter1);debuff(winter3);debuff(winter4);debuff(winter5)" type="coretemp">
+		<modify id="0" stat="coretemp" modifyValue="-10" />
+	</buff>
+	<buff id="winter3" duration="0" stack="reset" actions="debuff(winter0);debuff(winter1);debuff(winter2);debuff(winter4);debuff(winter5)" type="coretemp">
+		<modify id="0" stat="coretemp" modifyValue="-30" />
+	</buff>
+	<buff id="winter4" duration="0" stack="reset" actions="debuff(winter0);debuff(winter1);debuff(winter2);debuff(winter3);debuff(winter5)" type="coretemp">
+		<modify id="0" stat="coretemp" modifyValue="-50" />
+	</buff>
+	<buff id="winter5" duration="0" stack="reset" actions="debuff(winter0);debuff(winter1);debuff(winter2);debuff(winter3);debuff(winter4)" type="coretemp">
+		<modify id="0" stat="coretemp" modifyValue="-100" />
+	</buff>
 	<!-- RAD MOD -->
 	<!-- this buff, while on, will prevent the player to get sick from radiation -->
 	<!-- it also decreases power in time, until it reaches 0 -->

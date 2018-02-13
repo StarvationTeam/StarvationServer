@@ -12528,6 +12528,18 @@
 		</property>
 		<property name="EconomicValue" value="10" />
 	</item>
+	<item id="1082" name="handAnimalCrow">
+		<property name="Extends" value="handMaster" />
+		<property name="CreativeMode" value="None" />
+		<property name="HoldType" value="35" />
+		<property class="Action0">
+			<property name="Delay" value="0.7" />
+			<property name="DamageEntity" value="5" />
+			<property name="DamageBlock" value="5" />
+			<property name="Buff" value="bleeding" />
+			<property name="Buff_chance" value="0.1" />
+		</property>
+	</item>
 	<item id="1051" name="handPlasma">
 		<property name="Extends" value="handMaster" />
 		<property name="CreativeMode" value="None" />
